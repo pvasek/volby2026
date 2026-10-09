@@ -1,0 +1,882 @@
+{
+ "cislo": 6,
+ "nazev": "Liberec otevřený lidem a Piráti",
+ "zkratka": "LOL a Piráti",
+ "slozeni": "Strana zelených + Česká pirátská strana (+ nestraníci na jejich nominaci). Značka „Liberec otevřený lidem“ (LOL) je místní uskupení kolem Zelených a nezávislých, které bylo v letech 2022–2026 v opozici; Piráti byli ve vládnoucí koalici.",
+ "web": "https://2znacky1cil.cz/",
+ "program_url": "https://2znacky1cil.cz/program-pro-liberec-2026/",
+ "program_local": "data/raw/programy/lol_pirati/program_lol_pirati_2026.md",
+ "shrnuti": "Společná kandidátka opozičního uskupení Liberec otevřený lidem (Zelení a nezávislí, ve volbách 2022 třetí s 13,3 % a šesti mandáty) a Pirátů (6,3 %, dva mandáty, v koalici se SLK a ANO). Vede ji náměstek pro bydlení Jan Hruška (Piráti). Rozsáhlý program klade důraz na městské a dostupné bydlení, MHD, chůzi a cyklistiku, transparentnost zakázek, školství, zeleň a klimatickou odolnost a na rovnoměrné investice do čtvrtí.",
+ "zamereni": [
+  "dostupné a městské bydlení",
+  "transparentnost a kontrola zakázek",
+  "MHD, chodci a cyklisté",
+  "školství a psychologická pomoc dětem",
+  "zeleň a klimatická odolnost",
+  "investice do čtvrtí"
+ ],
+ "zkusenost_skore": 70,
+ "zkusenost_zduvodneni": "V první pětce jsou současný náměstek primátora (Hruška), bývalá náměstkyně primátora a hejtmana a radní (Kocumová) a bývalý radní a předseda finančního výboru (Šedlbauer). Tři z pěti lídrů jsou zastupiteli 7 až 20 let. LOL ale posledních osm let působil v opozici a Piráti byli v koalici jen menšinovým partnerem.",
+ "temata_pct": {
+  "doprava_parkovani": 15,
+  "bydleni": 10,
+  "rozvoj_uzemni_plan_vystavba": 6,
+  "zivotni_prostredi_zelen": 11,
+  "socialni_zdravotnictvi_seniori": 7,
+  "skolstvi_deti_rodina": 9,
+  "kultura_sport_volny_cas": 17,
+  "bezpecnost_poradek": 5,
+  "finance_hospodareni_dane": 3,
+  "sprava_transparentnost_digitalizace": 10,
+  "ekonomika_podnikani_cestovni_ruch": 2,
+  "ostatni": 5
+ },
+ "program_body": [
+  {
+   "tema": "bydleni",
+   "bod": "Postavit 220 městských bytů (150 na Papírovém náměstí, 70 Na Žižkově v Rochlici) a opravou historických domů (např. bývalý hostinec firmy Liebieg, dům v Ruprechticích) získat dalších 90 bytů",
+   "konkretni": true
+  },
+  {
+   "tema": "bydleni",
+   "bod": "Nepřipustit prodej městských pozemků určených pro bydlení; hledat pozemky pro družstevní a městské bydlení; po developerech chtít podíl bytů s regulovaným nájmem a občanskou vybavenost (školka, ordinace)",
+   "konkretni": true
+  },
+  {
+   "tema": "bydleni",
+   "bod": "Pokračovat v Liberecké nájemní agentuře a programu Dobrá adresa (kontroly ubytoven), posílit počet domovníků v městských domech, zřídit krizové byty pro oběti domácího násilí a zjednodušit přidělování bytů",
+   "konkretni": true
+  },
+  {
+   "tema": "sprava_transparentnost_digitalizace",
+   "bod": "Zveřejňovat všechny smlouvy a zakázky „na jedno kliknutí“, mapu investic s cenami a nechat nezávisle posuzovat projektovou přípravu velkých staveb",
+   "konkretni": true
+  },
+  {
+   "tema": "sprava_transparentnost_digitalizace",
+   "bod": "Pokračovat v participativním rozpočtu 10 mil. Kč ročně, projednávat investice s veřejností už ve fázi záměru a za 4 roky uspořádat alespoň jedno občanské shromáždění",
+   "konkretni": true
+  },
+  {
+   "tema": "sprava_transparentnost_digitalizace",
+   "bod": "Jedna mobilní aplikace města (hlášení závad se sledováním vyřízení, online rezervace na úřad) a AI asistent na webu města",
+   "konkretni": true
+  },
+  {
+   "tema": "finance_hospodareni_dane",
+   "bod": "Zastavit růst dluhu – úvěry jen na investice s vysokou návratností nebo zákonem vynucené investice či dotační spoluúčast",
+   "konkretni": false
+  },
+  {
+   "tema": "rozvoj_uzemni_plan_vystavba",
+   "bod": "Rozdělovat čtvrtím 100 mil. Kč ročně podle podnětů místních komisí a participativního rozpočtu; rozvíjet lokální centra (Luna na Kunratické, Horizont na Františkově, Ostašov)",
+   "konkretni": true
+  },
+  {
+   "tema": "doprava_parkovani",
+   "bod": "Jízdné zdarma pro děti do 15 let, levnější krátkodobá jízdenka, splátky ročního kuponu; nové autobusy bez reklamy přes okna",
+   "konkretni": true
+  },
+  {
+   "tema": "doprava_parkovani",
+   "bod": "Doplnit okružní linky (aby se nemuselo jezdit přes Fügnerku), zavést mikrobusy na objednání pro okrajové čtvrti a víc nočních spojů",
+   "konkretni": true
+  },
+  {
+   "tema": "doprava_parkovani",
+   "bod": "Oddělené cyklopruhy při rekonstrukcích ulic (např. třída 1. máje), cyklostezka z centra do Rochlice, obousměrná jízda kol v jednosměrkách, sdílená elektrokola i na sídlištích",
+   "konkretni": true
+  },
+  {
+   "tema": "doprava_parkovani",
+   "bod": "Parkování na sídlištích řešit podle chystané celoměstské koncepce na míru (jednosměrky, šikmá stání, družstevní parkovací domy); parkovací dům u nádraží pro dojíždějící; koordinovat uzavírky a u klíčových staveb odměňovat dřívější dokončení",
+   "konkretni": false
+  },
+  {
+   "tema": "doprava_parkovani",
+   "bod": "Zklidňovat centrum podle Plánu udržitelné mobility, budovat chybějící přechody u škol a zastávek, odstraňovat bariéry",
+   "konkretni": false
+  },
+  {
+   "tema": "zivotni_prostredi_zelen",
+   "bod": "Revitalizovat Nisu za fotbalovým stadionem podle návrhu spolku Živá Nisa (říční park s meandry) a vybudovat promenádu kolem celé Harcovské přehrady",
+   "konkretni": true
+  },
+  {
+   "tema": "zivotni_prostredi_zelen",
+   "bod": "Kácet jen v nezbytných případech s předchozím oznámením, rozšiřovat zeleň v ulicích a na sídlištích; obnovit Cvičák a ruprechtický lesík; manuál a varování pro vlny veder",
+   "konkretni": false
+  },
+  {
+   "tema": "zivotni_prostredi_zelen",
+   "bod": "Usilovat o městskou kompostárnu, modernizovat svoz a zvýšit třídění (hlavně bioodpadu), zastřešená stanoviště kontejnerů; fotovoltaika na městských budovách směrem k energetické soběstačnosti",
+   "konkretni": false
+  },
+  {
+   "tema": "rozvoj_uzemni_plan_vystavba",
+   "bod": "Obnovit terminál Fügnerova na základě architektonické soutěže a odkrýt Harcovský potok; omezit reklamní smog (billboardy, plakáty na lampách)",
+   "konkretni": true
+  },
+  {
+   "tema": "ostatni",
+   "bod": "Zřídit přírodní hřbitov a nové či zprovozněné veřejné toalety (např. u cyklostezky v Barvířské)",
+   "konkretni": true
+  },
+  {
+   "tema": "bezpecnost_poradek",
+   "bod": "Více asistentů prevence kriminality, osvětlení tmavých míst, přenosné kamery pro strážníky, radary hlavně u škol; na Fügnerce stálá dvoučlenná hlídka a služebna (podle lídra)",
+   "konkretni": true
+  },
+  {
+   "tema": "skolstvi_deti_rodina",
+   "bod": "Vyčlenit 10 mil. Kč na školní psychology a sociální pracovníky; hledat ředitele škol celostátně a ulehčit jim od administrativy; „školní ulice“ a kiss & ride u škol",
+   "konkretni": true
+  },
+  {
+   "tema": "skolstvi_deti_rodina",
+   "bod": "Volné kapacity školek nabídnout pro děti od 2 let i na několik dní v týdnu; podpora dětí se speciálními potřebami podle finského/norského modelu",
+   "konkretni": true
+  },
+  {
+   "tema": "kultura_sport_volny_cas",
+   "bod": "Dokončit rekonstrukci skateparku, postavit pumptracky v Horním Hanychově a Ruprechticích, otevřít školní hřiště veřejnosti; sportovní dotace hlavně na děti a mládež bez privilegií pro vybrané kluby",
+   "konkretni": true
+  },
+  {
+   "tema": "kultura_sport_volny_cas",
+   "bod": "Udržet třísouborové divadlo a vyjednat vyšší příspěvek kraje (dnes město 170 mil. Kč ročně, kraj 7 mil.); zachovat kino Varšava a Anifilm; zámek využít pro ZUŠ a Dům animace; městská zkušebna pro kapely",
+   "konkretni": true
+  },
+  {
+   "tema": "kultura_sport_volny_cas",
+   "bod": "Podpořit prodej stadionu U Nisy FC Slovan Liberec se zárukami, že klub o stadion nepřijde (vyjádření lídra); Vápenka zůstane koupalištěm",
+   "konkretni": true
+  },
+  {
+   "tema": "socialni_zdravotnictvi_seniori",
+   "bod": "Zřídit azylový dům, podporovat terénní a odlehčovací služby, prevenci bezdomovectví a duševní zdraví; hledat cesty, jak přilákat praktické lékaře a pediatry",
+   "konkretni": false
+  }
+ ],
+ "hodnoceni": {
+  "silne_stranky": [
+   "Nejpodrobnější program s řadou měřitelných závazků (220 + 90 bytů, 100 mil. Kč ročně čtvrtím, 10 mil. na školní psychology, 10 mil. participativní rozpočet, konkrétní lokality pumptracků a cyklostezek).",
+   "Kandidátka spojuje zkušenost z vedení města (náměstek pro bydlení Hruška, bývalí radní Kocumová a Šedlbauer) s dlouholetou opoziční kontrolou zakázek (Felcman, Kocumová).",
+   "Odborníci ve svých tématech: právník pro územní plánování, profesor chemie, přírodovědkyně, olympionička.",
+   "LOL dlouhodobě a důsledně kritizoval rizikové zakázky (bazén). Později je prověřovala policie, na což uskupení samo upozorňuje."
+  ],
+  "slabe_stranky_rizika": [
+   "Řada slibů je nákladná (jízdné zdarma do 15 let, levnější jízdné, nové autobusy, stovky bytů, 100 mil. Kč ročně čtvrtím, kompostárna), ale program je vedle závazku „konec bezhlavého zadlužování“ finančně nevyčísluje.",
+   "Piráti byli celé období 2022–2026 v radniční koalici, v níž byli obviněni dva náměstci (Židek, Šolc). Role „hlídacího psa“ tak u nich působí méně přesvědčivě než u opozičního LOL.",
+   "Kandidátka spojuje koaliční a opoziční subjekt; po volbách nemusí mít jednotný přístup k dosavadním partnerům.",
+   "Parkování na sídlištích odkládá až na výsledky chystané koncepce a nabízí jen obecné nástroje; část bodů v kultuře a sociální oblasti je deklaratorní („živé centrum“, „podpora spolků“).",
+   "Oponenti LOL podle jeho vlastních slov dlouhodobě vyčítají, že „umí jen kritizovat a bořit“."
+  ],
+  "kontroverze": [
+   {
+    "text": "Piráti (náměstek Hruška) seděli v letech 2022–2026 v radě města, v jejímž funkčním období policie obvinila z korupce náměstky Petra Židka (ODS, 2024) a Jiřího Šolce (za ANO, 2025). Dnešní spojenec Jindřich Felcman (LOL) v roce 2025 kritizoval, že „nikdo z radních nikdy proti návrhům Jiřího Šolce nebo Petra Židka nevystoupil“.",
+    "zdroj": "s18"
+   },
+   {
+    "text": "Zuzanu Kocumovou odvolalo zastupitelstvo Libereckého kraje v roce 2014 z funkce statutární náměstkyně hejtmana na návrh SLK, které jí vytklo „selhání v řízení resortu zdravotnictví“ a absenci týmové spolupráce. Kocumová to přičítala sporům o miliardový tendr na autobusovou dopravu (s22).",
+    "zdroj": "s21"
+   },
+   {
+    "text": "LOL jako opozice tvrdě kritizoval rekonstrukci bazénu jako „nejdražší projekt rekonstrukce bazénu v Česku v historii“ (Felcman). Tendr na stavbu později prověřovala policie v kauze bývalého náměstka Židka.",
+    "zdroj": "s32"
+   }
+  ]
+ },
+ "povolebni_signaly": "Jan Hruška v anketě ČTK (14. 9. 2026) uvedl, že budou spolupracovat s demokratickými stranami, se kterými najdou programovou shodu, a nepůjdou do koalice s extremisty ani s lidmi spojenými s korupčními kauzami (s35). ANO výslovně nevyloučil. Uskupení deklaruje ochotu „podílet se na férovém hospodaření na liberecké radnici“ (s4) a cílí zhruba na 20 % hlasů, tedy na součet výsledků LOL a Pirátů z roku 2022 (s40).",
+ "kandidati": [
+  {
+   "poradi": 1,
+   "jmeno": "Mgr. Jan Hruška",
+   "vek": 40,
+   "povolani_dle_listiny": "odborník na dostupné bydlení, autor Liberecké nájemní agentury, náměstek primátora, reklamní textař a sběratel historických pohlednic Liberce",
+   "prislusnost": "Piráti (navržen Piráty)",
+   "shrnuti": "Liberečan, profesí reklamní textař (copywriter), u Pirátů od roku 2018. Od roku 2022 je zastupitelem a neuvolněným náměstkem primátora pro městské bydlení a místní Agendu 21. Spustil Libereckou nájemní agenturu, domovníky v městských domech a kontroly ubytoven (Dobrá adresa); jeho prioritami jsou školství, bydlení a promenáda kolem přehrady.",
+   "politicka_kariera": [
+    {
+     "funkce": "člen České pirátské strany",
+     "od": 2018,
+     "do": null,
+     "zdroj": "s9"
+    },
+    {
+     "funkce": "zastupitel SML (lídr Pirátů)",
+     "od": 2022,
+     "do": null,
+     "zdroj": "volby_gov"
+    },
+    {
+     "funkce": "neuvolněný náměstek primátora pro městské bydlení a místní Agendu 21 (člen rady města)",
+     "od": 2022,
+     "do": null,
+     "zdroj": "s14"
+    },
+    {
+     "funkce": "kandidát Pirátů do ZLK (2020, 2024) a do Sněmovny (2025) – nezvolen",
+     "od": 2020,
+     "do": 2025,
+     "zdroj": "volby_gov"
+    }
+   ],
+   "roky_v_politice": 4,
+   "zkusenost_skore": 60,
+   "soucasna_prace": "Neuvolněný (neplacený na plný úvazek) náměstek primátora; vedle toho podle kandidátních listin copywriter, tedy reklamní textař.",
+   "posledni_nepoliticka_prace": {
+    "co": "copywriter / online marketér",
+    "kdy": "souběžně (podle kandidátních listin 2022–2025)"
+   },
+   "pozitivni": [
+    {
+     "text": "Podle ČTK splnila městská nájemní agentura minimální cíl, pronajmout 20 bytů, už v prvním roce; nájem v nich je v průměru o 20 % pod tržním. Počet městských bytů (1023) v posledních letech mírně roste.",
+     "zdroj": "s11"
+    },
+    {
+     "text": "Po kauze jablonecké ubytovny Neptun zahájil v dubnu 2026 koordinované kontroly libereckých ubytoven (hasiči, hygiena, policie, stavební úřad) v rámci projektu Dobrá adresa.",
+     "zdroj": "s12"
+    },
+    {
+     "text": "Domovníci v městských domech podle jeho vlastních údajů snížili počet stížností o 90 %. Prosadil i projekt nového skateparku.",
+     "zdroj": "s9"
+    }
+   ],
+   "negativni": [
+    {
+     "text": "Jako člen rady města v letech 2022–2026 nesl spoluodpovědnost za vládu koalice, v níž byli obviněni dva náměstci. Jeho dnešní partner Felcman (LOL) v květnu 2025 kritizoval, že proti návrhům obviněných náměstků „nikdo z radních nikdy nevystoupil“.",
+     "zdroj": "s18"
+    },
+    {
+     "text": "Opozice včetně dnešního spojence Felcmana dlouhodobě označovala tempo výstavby městských bytů, které spadá do Hruškovy gesce, za nedostatečné; podle Felcmana by město na svých pozemcích mohlo postavit nejméně 1000 bytů.",
+     "zdroj": "s11"
+    }
+   ],
+   "nejiste": "Nepodařilo se ověřit, zda vedle funkce neuvolněného náměstka nyní reálně pracuje jako copywriter a pro koho. O činnosti před vstupem do politiky (léta v Praze) jsou jen kusé údaje."
+  },
+  {
+   "poradi": 2,
+   "jmeno": "Bc. Zuzana Kocumová",
+   "vek": 47,
+   "povolani_dle_listiny": "sportovkyně, mistryně světa a Evropy ve Spartan Race, účastnice ZOH v Naganu, členka výboru pro rozvoj a zastupitelka města Liberec",
+   "prislusnost": "BEZPP (nestraník, navržena Stranou zelených)",
+   "shrnuti": "Bývalá reprezentantka v běhu na lyžích (ZOH Nagano 1998), později mistryně světa a Evropy v překážkových bězích a televizní komentátorka. Zastupitelkou Liberce je od roku 2006, byla náměstkyní primátora, statutární náměstkyní hejtmana pro zdravotnictví a radní města. Prošla Unií pro sport a zdraví a hnutím Změna, od roku 2018 působí jako nestraník v LOL.",
+   "politicka_kariera": [
+    {
+     "funkce": "zastupitelka SML (USZ, Změna, LOL)",
+     "od": 2006,
+     "do": null,
+     "zdroj": "s19"
+    },
+    {
+     "funkce": "náměstkyně primátora pro sport, dopravu a cestovní ruch (odvolána po podpoře primátora Korytáře)",
+     "od": 2010,
+     "do": 2011,
+     "zdroj": "s19"
+    },
+    {
+     "funkce": "předsedkyně představenstva Sportovní areál Ještěd, a.s. (odvolána 10/2011)",
+     "od": 2010,
+     "do": 2011,
+     "zdroj": "s19"
+    },
+    {
+     "funkce": "krajská zastupitelka Libereckého kraje (Změna pro LK)",
+     "od": 2012,
+     "do": 2020,
+     "zdroj": "s20"
+    },
+    {
+     "funkce": "statutární náměstkyně hejtmana pro zdravotnictví a sport (odvolána 25. 11. 2014)",
+     "od": 2012,
+     "do": 2014,
+     "zdroj": "s21"
+    },
+    {
+     "funkce": "neuvolněná radní SML",
+     "od": 2014,
+     "do": 2018,
+     "zdroj": "s19"
+    },
+    {
+     "funkce": "místopředsedkyně výboru pro rozvoj a životní prostředí ZM",
+     "od": 2018,
+     "do": null,
+     "zdroj": "s20"
+    },
+    {
+     "funkce": "členka USZ (2006–2008) a hnutí Změna (2012–2017)",
+     "od": 2006,
+     "do": 2017,
+     "zdroj": "s19"
+    }
+   ],
+   "roky_v_politice": 20,
+   "zkusenost_skore": 80,
+   "soucasna_prace": "Neuvolněná zastupitelka; sportovkyně (překážkové běhy). V roce 2022 uváděla rodičovskou dovolenou, dříve působila jako spolukomentátorka ČT.",
+   "posledni_nepoliticka_prace": {
+    "co": "sportovní komentátorka ČT, dříve učitelka na SOŠ a gymnáziu Na Bojišti",
+    "kdy": "neznámé (komentování se podle Wikipedie věnovala znovu od 2016)"
+   },
+   "pozitivni": [
+    {
+     "text": "Olympionička (Nagano 1998), juniorská mistryně světa 1999 a mistryně světa i Evropy ve Spartan Race (2015–2017).",
+     "zdroj": "s19"
+    },
+    {
+     "text": "Podle medailonu kandidátky prosadila v radě kraje výměnu politiků ve vedení nemocnic za transparentní výběrová řízení a nastartovala projekt Centra urgentní medicíny.",
+     "zdroj": "s2"
+    },
+    {
+     "text": "Jako náměstkyně hejtmana prosazovala, aby vedení nemocnic vzešlo z otevřených výběrových řízení s minimálním vlivem politiků.",
+     "zdroj": "s21"
+    }
+   ],
+   "negativni": [
+    {
+     "text": "V roce 2014 ji krajské zastupitelstvo na návrh SLK odvolalo z funkce statutární náměstkyně hejtmana (35 z 39 platných hlasů). SLK jí vytklo nekoncepční řízení zdravotnictví, rozpory v klíčových investicích a absenci týmové spolupráce; ona to přičítala své kritice tendru na autobusovou dopravu (s22).",
+     "zdroj": "s21"
+    },
+    {
+     "text": "V roce 2011 byla odvolána z čela představenstva Sportovního areálu Ještěd kvůli nedodržení splátkového kalendáře; sama v tom viděla reakci na svou podporu primátora Korytáře.",
+     "zdroj": "s19"
+    },
+    {
+     "text": "Opakovaně měnila politické zázemí: Unie pro sport a zdraví → hnutí Změna (odešla 2017 kvůli nesouhlasu s předsedou Korytářem) → Tak jo!/LOL → nominace Zelených.",
+     "zdroj": "s19"
+    }
+   ],
+   "nejiste": "Neověřeno, čím se aktuálně živí mimo zastupitelský mandát. Projekt Centra urgentní medicíny uvádí jen kampaň a nebyl nezávisle doložen."
+  },
+  {
+   "poradi": 3,
+   "jmeno": "Mgr. Jindřich Felcman Ph.D.",
+   "vek": 42,
+   "povolani_dle_listiny": "právník se zaměřením na územní plánování a veřejné stavební právo, zastupitel města Liberec",
+   "prislusnost": "Strana zelených (navržen Zelenými)",
+   "shrnuti": "Právník (MU Brno) s doktorátem z urbanismu a územního plánování (ČVUT), který se živí pořizováním územních plánů a poradenstvím ve stavebním právu. Zastupitelem je od května 2019 (jako náhradník) a předsedá klubu LOL. Je nejhlasitějším opozičním kritikem velkých zakázek, zejména rekonstrukce bazénu.",
+   "politicka_kariera": [
+    {
+     "funkce": "zastupitel SML (nastoupil jako náhradník za Změnu pro Liberec, od 2022 za LOL)",
+     "od": 2019,
+     "do": null,
+     "zdroj": "s15"
+    },
+    {
+     "funkce": "člen výboru pro územní plánování a dopravu ZM",
+     "od": 2019,
+     "do": null,
+     "zdroj": "s30"
+    },
+    {
+     "funkce": "předseda zastupitelského klubu LOL",
+     "od": 2022,
+     "do": null,
+     "zdroj": "s7"
+    },
+    {
+     "funkce": "kandidát Zelených/Změny do ZLK (2016, 2024) a do Sněmovny (2017, 2021) – nezvolen",
+     "od": 2016,
+     "do": 2024,
+     "zdroj": "volby_gov"
+    }
+   ],
+   "roky_v_politice": 7,
+   "zkusenost_skore": 50,
+   "soucasna_prace": "Civilní práce: právník – pořizování a zpracování územních plánů, konzultace ve veřejném stavebním právu; neuvolněný opoziční zastupitel.",
+   "posledni_nepoliticka_prace": {
+    "co": "právník / zpracovatel územních plánů",
+    "kdy": "souběžně dosud"
+   },
+   "pozitivni": [
+    {
+     "text": "Odborník na územní plánování (Mgr. práv, Ph.D. z ČVUT), sedm let ve výboru pro územní plánování a dopravu.",
+     "zdroj": "s30"
+    },
+    {
+     "text": "Upozorňoval, že rekonstrukce bazénu je „nejdražší projekt rekonstrukce bazénu v Česku v historii“, a navrhoval etapizaci. Tendr později prověřovala policie v kauze náměstka Židka.",
+     "zdroj": "s32"
+    },
+    {
+     "text": "Podle LOL se mu s kolegy podařilo zabránit manipulacím s tendrem na bazén, prosadit levnější projekt tramvaje do Rochlice a zabránit nevýhodnému prodeji pozemků na Tálinské. Jde o tvrzení uskupení.",
+     "zdroj": "s4"
+    }
+   ],
+   "negativni": [
+    {
+     "text": "Ve svém textu pro Deník Referendum (kde je uveden jako kandidát LOL a Pirátů) ostře útočí na soupeře, například propagaci starosty Vratislavic Pohanky označil za „poněkud falešnou“ a ANO za kariéristy. Jde o kampaňový text, ne nezávislou analýzu.",
+     "zdroj": "s33"
+    },
+    {
+     "text": "Oponenti podle LOL uskupení dlouhodobě nálepkují jako „bořiče“, kteří umí jen kritizovat; Felcman je tváří této opoziční role.",
+     "zdroj": "s4"
+    }
+   ],
+   "nejiste": "Neověřeno, pro které obce nebo firmy zpracovává územní plány, a tedy ani případné střety zájmů. ČT24 v roce 2023 zmínila Felcmana jako spolupředsedu libereckých Zelených, zdroj se ale nepodařilo stáhnout."
+  },
+  {
+   "poradi": 4,
+   "jmeno": "RNDr. Jiřina Macháčková Ph.D.",
+   "vek": 54,
+   "povolani_dle_listiny": "přírodovědkyně, řešitelka projektů v oblasti životního prostředí, lektorka, členka poradních uskupení města Liberec pro životní prostředí, dobrovolnice",
+   "prislusnost": "Piráti (navržena Piráty)",
+   "shrnuti": "Přírodovědkyně specializovaná na sanační geologii a antropogenní znečištění, lektorka a skautská vedoucí. Za Piráty od roku 2022 opakovaně kandiduje. Jako nečlenka zastupitelstva působí v komisi pro 100 klimaticky neutrálních měst a ve výboru pro rozvoj.",
+   "politicka_kariera": [
+    {
+     "funkce": "členka České pirátské strany; kandidátka do ZM Liberec (2022), ZLK (2024) a Sněmovny (2025) – nezvolena",
+     "od": 2022,
+     "do": null,
+     "zdroj": "volby_gov"
+    },
+    {
+     "funkce": "členka komise pro 100 klimaticky neutrálních měst a výboru pro rozvoj (nominace Pirátů, jako nečlenka ZM)",
+     "od": 2022,
+     "do": null,
+     "zdroj": "s10"
+    }
+   ],
+   "roky_v_politice": 0,
+   "zkusenost_skore": 15,
+   "soucasna_prace": "Civilní práce: přírodovědkyně, řešitelka projektů v oblasti životního prostředí, lektorka.",
+   "posledni_nepoliticka_prace": {
+    "co": "odborná a vědecko-výzkumná práce v ochraně životního prostředí (sanační geologie)",
+    "kdy": "souběžně dosud"
+   },
+   "pozitivni": [
+    {
+     "text": "Dlouholetá odborná a výzkumná praxe v ochraně životního prostředí se specializací na sanační geologii; v radničních orgánech se věnuje klimatickým tématům.",
+     "zdroj": "s10"
+    },
+    {
+     "text": "Ve sněmovních volbách 2025 získala z 6. místa kandidátky Pirátů 1890 preferenčních hlasů.",
+     "zdroj": "volby_gov"
+    }
+   ],
+   "negativni": [],
+   "nejiste": "Nebyly nalezeny žádné mediální výstupy o její práci. Zaměstnavatel ani konkrétní projekty nebyly ověřeny a přesné datum vstupu k Pirátům není známo."
+  },
+  {
+   "poradi": 5,
+   "jmeno": "prof. Ing. Josef Šedlbauer Ph.D.",
+   "vek": 57,
+   "povolani_dle_listiny": "vysokoškolský učitel, předseda správní rady Společnosti pro Jizerské hory, zastupitel města Liberec",
+   "prislusnost": "Strana zelených (navržen Zelenými)",
+   "shrnuti": "Profesor fyzikální chemie a vedoucí katedry chemie na TUL, člen Strany zelených od roku 2008 a její krajský předseda od roku 2014. Zastupitelem Liberce je od roku 2010; v letech 2014–2018 byl radním za Změnu a v letech 2016–2020 krajským zastupitelem. Předsedá finančnímu výboru a v letech 2020–2024 zasedal v představenstvu nemocniční společnosti Ústeckého kraje.",
+   "politicka_kariera": [
+    {
+     "funkce": "člen Strany zelených (předseda ZO Liberec od 2010, krajský předseda od 2014)",
+     "od": 2008,
+     "do": null,
+     "zdroj": "s24"
+    },
+    {
+     "funkce": "zastupitel SML (Změna pro Liberec, od 2022 LOL)",
+     "od": 2010,
+     "do": null,
+     "zdroj": "s25"
+    },
+    {
+     "funkce": "neuvolněný radní SML",
+     "od": 2014,
+     "do": 2018,
+     "zdroj": "s24"
+    },
+    {
+     "funkce": "zastupitel Libereckého kraje (Změna pro LK)",
+     "od": 2016,
+     "do": 2020,
+     "zdroj": "s24"
+    },
+    {
+     "funkce": "předseda finančního výboru ZM Liberec",
+     "od": 2018,
+     "do": null,
+     "zdroj": "s25"
+    },
+    {
+     "funkce": "člen dozorčí rady Dopravního podniku měst Liberce a Jablonce n. N.",
+     "od": 2018,
+     "do": 2019,
+     "zdroj": "s26"
+    },
+    {
+     "funkce": "člen představenstva Krajská zdravotní, a.s. (nemocnice Ústeckého kraje)",
+     "od": 2020,
+     "do": 2024,
+     "zdroj": "s26"
+    }
+   ],
+   "roky_v_politice": 16,
+   "zkusenost_skore": 75,
+   "soucasna_prace": "Civilní práce: profesor a vedoucí katedry chemie Fakulty přírodovědně-humanitní a pedagogické TUL; neuvolněný zastupitel a předseda finančního výboru.",
+   "posledni_nepoliticka_prace": {
+    "co": "vysokoškolský učitel a vědec, TUL (od 1997)",
+    "kdy": "souběžně dosud"
+   },
+   "pozitivni": [
+    {
+     "text": "Profesor fyzikální chemie (VUT Brno 2010), na TUL působí od roku 1997 a vede katedru chemie.",
+     "zdroj": "s24"
+    },
+    {
+     "text": "Dlouholetý předseda finančního výboru zastupitelstva (od 2018), který zná rozpočet města zevnitř.",
+     "zdroj": "s25"
+    },
+    {
+     "text": "Podle medailonu LOL pomohl za nouzového stavu rozjet výrobu filtračních materiálů a v kraji prosadil podporu projektů na zadržování vody v krajině. Jde o tvrzení uskupení.",
+     "zdroj": "s27"
+    }
+   ],
+   "negativni": [
+    {
+     "text": "Období 2014–2018, kdy byl radním za Změnu v koalici s ANO, provázely velké spory (ČRo, s39). V roce 2018 Změna veřejně usilovala o odvolání primátora Batthyányho a Šedlbauer jeho chování na radách označil za „otřesné“.",
+     "zdroj": "s29"
+    },
+    {
+     "text": "Působil v dozorčí radě dopravního podniku jen necelý rok (5/2018–4/2019) a v roce 2020 s uskupením Pro KRAJinu neuspěl v krajských volbách.",
+     "zdroj": "s26"
+    }
+   ],
+   "nejiste": "Nepodařilo se ověřit důvody jeho odchodu z dozorčí rady DPMLJ v dubnu 2019 (titulek Blesku o jeho „odvolání“ nebyl dohledán v plném znění) ani kdo ho nominoval do představenstva Krajské zdravotní (Ústecký kraj)."
+  }
+ ],
+ "zdroje": [
+  {
+   "id": "volby_gov",
+   "url": "https://www.volby.cz/",
+   "nazev": "ČSÚ – historie kandidatur 2014–2025 (zpracovaný výtah)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/processed/historie_kandidatu.json",
+   "obsah": "Oficiální údaje o kandidaturách a zvolení kandidátů."
+  },
+  {
+   "id": "csu_2026",
+   "url": "https://www.volby.cz/",
+   "nazev": "ČSÚ – kandidátní listiny KV 2026 Liberec",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/processed/kandidati_2026.json",
+   "obsah": "Oficiální kandidátní listina Liberec otevřený lidem a Piráti."
+  },
+  {
+   "id": "s1",
+   "url": "https://2znacky1cil.cz/program-pro-liberec-2026/",
+   "nazev": "Piráti a Liberec otevřený lidem – Program pro Liberec 2026",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/programy/lol_pirati/2znacky1cil_program-pro-liberec-2026.html",
+   "obsah": "Úplný volební program; textový výtah v program_lol_pirati_2026.md."
+  },
+  {
+   "id": "s2",
+   "url": "https://2znacky1cil.cz/",
+   "nazev": "Piráti a Liberec otevřený lidem – kampaňový web",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/programy/lol_pirati/2znacky1cil_home.html",
+   "obsah": "Hlavní sdělení kampaně, medailony Hrušky a Kocumové."
+  },
+  {
+   "id": "s3",
+   "url": "https://www.liberecotevrenylidem.cz/",
+   "nazev": "Liberec otevřený lidem – web uskupení",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/programy/lol_pirati/lol_web_home.html",
+   "obsah": "Opoziční činnost 2022–2026 a ohlášení společné kandidatury."
+  },
+  {
+   "id": "s4",
+   "url": "https://www.liberecotevrenylidem.cz/l/liberec-otevreny-lidem-a-pirati-kandiduji-v-liberci-spolecne-lidrem-bude-jan-hruska-a-z-liberce-chce-udelat-nejlepsi-mesto-pro-zivot-v-cesku/",
+   "nazev": "LOL – Liberec otevřený lidem a Piráti kandidují v Liberci společně (28. 4. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/programy/lol_pirati/lol_clanek_spolecna_kandidatka.html",
+   "obsah": "Tisková zpráva s citacemi Hrušky, Kocumové a Felcmana."
+  },
+  {
+   "id": "s5",
+   "url": "https://www.liberecotevrenylidem.cz/nase-prace/",
+   "nazev": "LOL – Naše práce",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/programy/lol_pirati/lol_nase_prace.html",
+   "obsah": "Přehled opozičních výstupů LOL (pozemek pro bývalého poslance ANO, sportovní dotace, zámek)."
+  },
+  {
+   "id": "s6",
+   "url": "https://programydovoleb.cz/volby/komunalni-volby/176/strana/163964",
+   "nazev": "Programy do voleb – Liberec otevřený lidem a Piráti",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/programy/lol_pirati/programydovoleb_strana_163964.html",
+   "obsah": "Složení kandidátky (Piráti + Zelení) a odkaz na program."
+  },
+  {
+   "id": "s7",
+   "url": "https://www.novinky.cz/clanek/volby-komunalni-v-liberci-pujdou-spolecne-do-voleb-pirati-a-liberec-otevreny-lidem-40576031",
+   "nazev": "Novinky – V Liberci půjdou společně do voleb Piráti a Liberec otevřený lidem (30. 4. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/novinky_spolecna_kandidatka.html",
+   "obsah": "Ohlášení kandidátky, Felcman jako předseda klubu LoL, výsledky 2022."
+  },
+  {
+   "id": "s8",
+   "url": "https://www.novinky.cz/clanek/volby-komunalni-predvolebni-rosady-v-liberci-top-09-kandiduje-samostatne-pirati-se-spoji-s-lol-40575223",
+   "nazev": "Novinky – Předvolební rošády v Liberci (24. 4. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/liberecka9/novinky_rosady_top09_samostatne.html",
+   "obsah": "Kontext koalice SLK–ANO–Piráti a spojení Pirátů s LoL."
+  },
+  {
+   "id": "s9",
+   "url": "https://liberec.pirati.cz/lide/mgr-jan-hruska/",
+   "nazev": "Piráti Liberec – profil Jana Hrušky",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/pirati_hruska_profil.html",
+   "obsah": "Vlastní medailon: nájemní agentura, domovníci, Dobrá adresa, Piráti od 2018."
+  },
+  {
+   "id": "s10",
+   "url": "https://liberec.pirati.cz/lide/rndr-jirina-machackova-phd/",
+   "nazev": "Piráti Liberec – profil Jiřiny Macháčkové",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/pirati_machackova_profil.html",
+   "obsah": "Odbornost (sanační geologie), členství v komisi a výboru."
+  },
+  {
+   "id": "s11",
+   "url": "https://liberecka.drbna.cz/spolecnost/38814-bytu-ve-vlastnictvi-liberce-v-poslednich-letech-mirne-pribyva.html",
+   "nazev": "Liberecká Drbna/ČTK – Bytů ve vlastnictví Liberce v posledních letech mírně přibývá (23. 3. 2025)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/drbna_byty_pribyva.html",
+   "obsah": "Bytová politika, nájemní agentura, kritika opozice (Felcman)."
+  },
+  {
+   "id": "s12",
+   "url": "https://romea.cz/cz/domaci/liberec-zacal-kontrolovat-ubytovny-reaguje-na-varovani-z-pripadu-jablonecke-ubytovny-neptun",
+   "nazev": "Romea.cz/ČTK – Liberec začal kontrolovat ubytovny (21. 4. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/romea_kontroly_ubytoven.html",
+   "obsah": "Kontroly ubytoven v projektu Dobrá adresa, citace Hrušky."
+  },
+  {
+   "id": "s13",
+   "url": "https://liberecky.denik.cz/volby-2022-komunalni/koalice-v-liberci-smlouvu-podepsalo-vitezne-uskupeni-s-ano-ods-a-piraty-20221014.html",
+   "nazev": "Liberecký deník – Koaliční smlouva je podepsaná (14. 10. 2022)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/denik_koalice_2022.html",
+   "obsah": "Vznik koalice 2022 včetně Pirátů a gesce Hrušky."
+  },
+  {
+   "id": "s14",
+   "url": "https://liberecky.denik.cz/",
+   "nazev": "Liberecký deník – nové vedení Liberce 2022",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/denik_vedeni_2022.html",
+   "obsah": "Volba rady a náměstků 2022, Hruška neuvolněný náměstek."
+  },
+  {
+   "id": "s15",
+   "url": "https://cs.wikipedia.org/wiki/Zastupitelstvo_m%C4%9Bsta_Liberec",
+   "nazev": "Wikipedie – Zastupitelstvo města Liberec",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+   "obsah": "Seznamy zastupitelů a rad 2010–2026 (Felcman od 23. 5. 2019)."
+  },
+  {
+   "id": "s16",
+   "url": "https://www.ceskenoviny.cz/",
+   "nazev": "ČTK – Koalice v Liberci bude kvůli obvinění Židka bez ODS (15. 4. 2024)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/ctk_koalice_bez_ods_2024.html",
+   "obsah": "Korupční kauza Židek, pokračování koalice SLK–ANO–Piráti, výzva LOL."
+  },
+  {
+   "id": "s17",
+   "url": "https://www.ceskenoviny.cz/",
+   "nazev": "ČTK – Zastupitelé Liberce odvolali Šolce z funkce náměstka (19. 5. 2025)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/ctk_solc_odvolan_2025.html",
+   "obsah": "Odvolání Šolce, kritika koalice od Felcmana."
+  },
+  {
+   "id": "s18",
+   "url": "https://liberec.rozhlas.cz/",
+   "nazev": "ČRo Liberec – Šolc odvolán, opozice chtěla obměnit celou radu (20. 5. 2025)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/crol_solc_odvolan_rada_2025.html",
+   "obsah": "Felcman: nikdo z radních nevystoupil proti návrhům Šolce a Židka."
+  },
+  {
+   "id": "s19",
+   "url": "https://cs.wikipedia.org/wiki/Zuzana_Kocumov%C3%A1",
+   "nazev": "Wikipedie – Zuzana Kocumová",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/wiki_zuzana_kocumova.html",
+   "obsah": "Sportovní a politická kariéra, odvolání 2011 a 2014, změny stranické příslušnosti."
+  },
+  {
+   "id": "s20",
+   "url": "https://www.hlidacstatu.cz/Osoba/Funkce/zuzana-kocumova",
+   "nazev": "Hlídač státu – Zuzana Kocumová, funkce",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/hlidacstatu_kocumova_funkce.html",
+   "obsah": "Přehled funkcí a kandidatur 2006–2020."
+  },
+  {
+   "id": "s21",
+   "url": "https://www.kraj-lbc.cz/aktuality/case:detailPdf/itemId:510821/cgId:15623",
+   "nazev": "Liberecký kraj – Zastupitelstvo odvolalo statutární náměstkyni hejtmana (25. 11. 2014)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/kraj_lbc_odvolani_kocumove_2014.pdf",
+   "obsah": "Výsledek hlasování a odůvodnění klubu SLK."
+  },
+  {
+   "id": "s22",
+   "url": "https://eurozpravy.cz/",
+   "nazev": "EuroZprávy – Rozhádaný Liberec. Koalice v kraji se rozpadla (25. 11. 2014)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/eurozpravy_rozhadany_liberec.html",
+   "obsah": "Reakce Kocumové na odvolání (spory o dopravní tendr)."
+  },
+  {
+   "id": "s23",
+   "url": "https://www.liberecotevrenylidem.cz/zuzana-kocumova/",
+   "nazev": "LOL – medailon Zuzany Kocumové (2022)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/lol_zuzana_kocumova.html",
+   "obsah": "Vlastní prezentace a kritika městských projektů."
+  },
+  {
+   "id": "s24",
+   "url": "https://cs.wikipedia.org/wiki/Josef_%C5%A0edlbauer",
+   "nazev": "Wikipedie – Josef Šedlbauer",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/wiki_josef_sedlbauer.html",
+   "obsah": "Akademická dráha, členství v SZ, mandáty ve městě a kraji."
+  },
+  {
+   "id": "s25",
+   "url": "https://www.hlidacstatu.cz/Osoba/Funkce/josef-sedlbauer",
+   "nazev": "Hlídač státu – Josef Šedlbauer, funkce",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/hlidacstatu_sedlbauer_funkce.html",
+   "obsah": "Mandáty, radní 2014–2018, předseda finančního výboru od 2018."
+  },
+  {
+   "id": "s26",
+   "url": "https://www.hlidacstatu.cz/Osoba/Vazby/josef-sedlbauer",
+   "nazev": "Hlídač státu – Josef Šedlbauer, vazby",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/hlidacstatu_sedlbauer_vazby.html",
+   "obsah": "DR DPMLJ 2018–2019, představenstvo Krajské zdravotní 2020–2024."
+  },
+  {
+   "id": "s27",
+   "url": "https://www.liberecotevrenylidem.cz/josef-sedlbauer/",
+   "nazev": "LOL – medailon Josefa Šedlbauera (2022)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/lol_josef_sedlbauer.html",
+   "obsah": "Vlastní prezentace a funkce."
+  },
+  {
+   "id": "s28",
+   "url": "https://liberecka.drbna.cz/zpravy/politika/23128-nove-uskupeni-pro-krajinu-vede-josef-sedlbauer-planuje-kampan-za-vic-nez-milion.html",
+   "nazev": "Liberecká Drbna – Nové uskupení Pro KRAJinu vede Josef Šedlbauer (16. 6. 2020)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/drbna_pro_krajinu_sedlbauer.html",
+   "obsah": "Krajská kandidatura 2020 a priority."
+  },
+  {
+   "id": "s29",
+   "url": "https://liberecky.denik.cz/",
+   "nazev": "Liberecký deník – Změna chce, aby primátor Batthyány skončil (6. 2. 2018)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/denik_zmena_chce_odvolat_batthyanyho.html",
+   "obsah": "Spory v radě 2014–2018, citace Šedlbauera."
+  },
+  {
+   "id": "s30",
+   "url": "https://www.hlidacstatu.cz/Osoba/Funkce/jindrich-felcman",
+   "nazev": "Hlídač státu – Jindřich Felcman, funkce",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/hlidacstatu_felcman_funkce.html",
+   "obsah": "Zastupitel od 2019, výbor pro ÚP a dopravu, vzdělání."
+  },
+  {
+   "id": "s31",
+   "url": "https://www.liberecotevrenylidem.cz/jindrich-felcman/",
+   "nazev": "LOL – medailon Jindřicha Felcmana (2022)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/lol_jindrich_felcman.html",
+   "obsah": "Profese (územní plánování), postoj k bydlení."
+  },
+  {
+   "id": "s32",
+   "url": "https://archiweb.cz/n/home/liberec-vypise-stavebni-zakazku-za-vice-nez-miliardu-na-opravu-bazenu",
+   "nazev": "Archiweb/ČTK – Liberec vypíše stavební zakázku za více než miliardu na opravu bazénu",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/archiweb_bazen_tendr.html",
+   "obsah": "Kritika rekonstrukce bazénu opozicí, citace Felcmana."
+  },
+  {
+   "id": "s33",
+   "url": "https://denikreferendum.cz/",
+   "nazev": "Deník Referendum – Jindřich Felcman: komentář k volbám v Liberci (2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/denikreferendum_felcman_2026.html",
+   "obsah": "Autorský text kandidáta o korupčních kauzách a soupeřích."
+  },
+  {
+   "id": "s34",
+   "url": "https://liberec.rozhlas.cz/",
+   "nazev": "ČRo Liberec – Komunální volby 2026, speciál z Liberce (1. 10. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/crol_special_liberec_2026.html",
+   "obsah": "Odpovědi Hrušky na uzavírky, parkování a prodej stadionu."
+  },
+  {
+   "id": "s35",
+   "url": "https://liberecky.denik.cz/zpravy-region/v-liberci-chteji-volebni-lidri-investovat-do-dopravy-bytu-ci-verejneho-prostoru/",
+   "nazev": "Liberecký deník/ČTK – anketa lídrů (14. 9. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/denik_anketa_lidri_investice.html",
+   "obsah": "Priority, zadlužení, povolební spolupráce a parkování podle lídrů."
+  },
+  {
+   "id": "s36",
+   "url": "https://liberecky.denik.cz/",
+   "nazev": "Liberecký deník – Fügnerova: odpovědi lídrů",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/denik_fugnerka_lidri.html",
+   "obsah": "Hruškův návrh stálé hlídky a odkrytí Harcovského potoka."
+  },
+  {
+   "id": "s37",
+   "url": "https://www.novinky.cz/clanek/volby-komunalni-do-cela-liberce-chce-kontroverzni-politicka-i-neznami-kandidati-40591579",
+   "nazev": "Novinky – Do čela Liberce chce kontroverzní politička i neznámí kandidáti (6. 8. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/novinky_do_cela_liberce_2026-08-06.html",
+   "obsah": "Přehled kandidátek a lídrů."
+  },
+  {
+   "id": "s38",
+   "url": "https://liberecka.drbna.cz/zpravy/politika/42419-do-voleb-v-liberci-postavi-spolecnou-kandidatku-koalicni-pirati-a-opozicni-lol.html",
+   "nazev": "Liberecká Drbna/ČTK – Společnou kandidátku postaví koaliční Piráti a opoziční LOL (25. 4. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/drbna_spolecna_kandidatka_pirati_lol.html",
+   "obsah": "LOL složené ze Zelených a nezávislých; stav koalice."
+  },
+  {
+   "id": "s39",
+   "url": "https://liberec.rozhlas.cz/",
+   "nazev": "ČRo Liberec – koalice 2018",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/crol_koalice_2018.html",
+   "obsah": "Spory koalice Změny a ANO 2014–2018."
+  },
+  {
+   "id": "s40",
+   "url": "https://liberecka.drbna.cz/zpravy/politika/42456-lidrem-spolecne-kandidatky-piratu-a-lol-v-liberci-bude-namestek-primatora-hruska.html",
+   "nazev": "Liberecká Drbna/ČTK – Lídrem společné kandidátky Pirátů a LOL bude Hruška (29. 4. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/lol_pirati/drbna_lidr_hruska.html",
+   "obsah": "Volební cíl ~20 %, Kocumová nezávislá, Felcman (Zelení)."
+  }
+ ]
+}

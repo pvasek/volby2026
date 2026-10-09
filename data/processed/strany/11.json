@@ -1,0 +1,946 @@
+{
+ "cislo": 11,
+ "nazev": "Starostové pro Liberecký kraj",
+ "zkratka": "SLK",
+ "slozeni": "Samostatná kandidátka hnutí Starostové pro Liberecký kraj (SLK); část kandidátů jsou nestraníci (BEZPP) navržení SLK, např. Tereza Pokorná a David Václavík. Na rozdíl od roku 2022 už bez TOP 09 a KDU-ČSL (ty kandidují jako LIBERECKÁ 9).",
+ "web": "https://starostoveproliberec.cz/",
+ "program_url": "https://starostoveproliberec.cz/program.md",
+ "program_local": "data/raw/programy/slk/program_2026.md",
+ "shrnuti": "Regionální hnutí, které Liberec vede od roku 2018 s primátorem Jaroslavem Zámečníkem; ten po dvou obdobích pozici primátora neobhajuje a kandiduje jako dvojka za novým lídrem Lukášem Hájkem. Program (9 kapitol, 158 bodů) chce navázat na dosavadní investice: opravy ulic, MHD zdarma pro děti do 15 let, nonstop městskou policii na Fügnerově, městské byty, lanovku na Ještěd a modernizaci řízení úřadu včetně AI.",
+ "zamereni": [
+  "kontinuita vedení města",
+  "doprava a opravy ulic",
+  "školství",
+  "veřejný prostor a zeleň",
+  "kultura",
+  "digitalizace úřadu"
+ ],
+ "zkusenost_skore": 80,
+ "zkusenost_zduvodneni": "SLK je od roku 2018 nejsilnější stranou radniční koalice a obsazuje post primátora i náměstků (architektura a doprava, kultura a školství). Lídr Hájek má ale za sebou jen jedno období jako řadový zastupitel; zkušenost nese hlavně dvojka Zámečník a náměstci Janďourek a Langr.",
+ "temata_pct": {
+  "doprava_parkovani": 13,
+  "bydleni": 4,
+  "rozvoj_uzemni_plan_vystavba": 8,
+  "zivotni_prostredi_zelen": 16,
+  "socialni_zdravotnictvi_seniori": 5,
+  "skolstvi_deti_rodina": 15,
+  "kultura_sport_volny_cas": 16,
+  "bezpecnost_poradek": 5,
+  "finance_hospodareni_dane": 6,
+  "sprava_transparentnost_digitalizace": 8,
+  "ekonomika_podnikani_cestovni_ruch": 1,
+  "ostatni": 3
+ },
+ "program_body": [
+  {
+   "tema": "doprava_parkovani",
+   "bod": "Opravit dalších 60 ulic (např. Milady Horákové, Valdštejnská, Baltská, Švermova) a postavit nové chodníky (Puškinova, Uralská, Vyhlídková, Hejnická, Ostašovská).",
+   "konkretni": true
+  },
+  {
+   "tema": "doprava_parkovani",
+   "bod": "MHD zdarma pro děti do 15 let; noční spoje i na okraj města a případně do Jablonce.",
+   "konkretni": true
+  },
+  {
+   "tema": "doprava_parkovani",
+   "bod": "Nová lanovka na Ještěd do roku 2030; podle lídra Hájka by ji mohl zaplatit prodej stadionu U Nisy majiteli FC Slovan.",
+   "konkretni": true
+  },
+  {
+   "tema": "doprava_parkovani",
+   "bod": "Začít stavět parkovací dům u Papírového náměstí a připravit parkovací dům u nádraží; přidat parkovací místa na sídlištích, omezit dlouhodobé parkování dodávek.",
+   "konkretni": true
+  },
+  {
+   "tema": "doprava_parkovani",
+   "bod": "Zrychlit klíčové stavby vyšší platbou stavebním firmám za dřívější dokončení; termíny a sankce ve výběrových řízeních.",
+   "konkretni": false
+  },
+  {
+   "tema": "doprava_parkovani",
+   "bod": "Oddělené cyklostezky v ulicích 1. máje a Milady Horákové, cykloboxy, elektrokola ve sdíleném systému a pravidla pro koloběžky.",
+   "konkretni": true
+  },
+  {
+   "tema": "bezpecnost_poradek",
+   "bod": "Stálá hlídka městské policie na terminálu Fügnerova (24/7, se zázemím pro policejní psy), odstranění keřů a nová výsadba.",
+   "konkretni": true
+  },
+  {
+   "tema": "bezpecnost_poradek",
+   "bod": "Zavřít herny a kasina na celém území města; chytré kamery hlásící rvačky městské policii.",
+   "konkretni": true
+  },
+  {
+   "tema": "bydleni",
+   "bod": "Zahájit výstavbu 150 městských bytů na Papírovém náměstí a 70 bytů Na Žižkově; byty pro klíčové profese a potřebné.",
+   "konkretni": true
+  },
+  {
+   "tema": "socialni_zdravotnictvi_seniori",
+   "bod": "Zvýšit rozpočet na sociální služby z 12 na nejméně 16 mil. Kč ročně a Fond zdraví a prevence z 1 na 2 mil. Kč; usilovat o azylový dům / noclehárnu.",
+   "konkretni": true
+  },
+  {
+   "tema": "skolstvi_deti_rodina",
+   "bod": "Rekonstruovat ZŠ Kaplického, ZŠ U Soudu, MŠ Rolnička a MŠ Kytička.",
+   "konkretni": true
+  },
+  {
+   "tema": "skolstvi_deti_rodina",
+   "bod": "Sloučit školy do 180 dětí pod jednoho ředitele (podle nového zákona), nerušit školy při poklesu žáků, sdílení psychologů a speciálních pedagogů.",
+   "konkretni": true
+  },
+  {
+   "tema": "kultura_sport_volny_cas",
+   "bod": "Otevřít školní hřiště veřejnosti po výuce, o víkendech a prázdninách.",
+   "konkretni": true
+  },
+  {
+   "tema": "kultura_sport_volny_cas",
+   "bod": "Jednat o prodeji stadionu U Nisy klubu FC Slovan; zrekonstruovaný bazén má provozovat městská společnost; připravit opravu Svijanské arény.",
+   "konkretni": true
+  },
+  {
+   "tema": "kultura_sport_volny_cas",
+   "bod": "Upravit interiér zámku pro ZUŠ, Dům animace a Anifilm; připravit rekonstrukci zázemí Divadla F. X. Šaldy; navýšit podporu nezávislé kultury ze 4 na 6 mil. Kč.",
+   "konkretni": true
+  },
+  {
+   "tema": "zivotni_prostredi_zelen",
+   "bod": "Vysadit nejméně 1 000 stromů (u hřišť, cest, cyklostezek), navýšit Ekofond na 2 mil. Kč ročně, zřídit samostatného náměstka pro životní prostředí.",
+   "konkretni": true
+  },
+  {
+   "tema": "zivotni_prostredi_zelen",
+   "bod": "Kompostárna v Chotyni, městská opravna s re-use centrem, senzory naplnění kontejnerů.",
+   "konkretni": true
+  },
+  {
+   "tema": "rozvoj_uzemni_plan_vystavba",
+   "bod": "Městské terasy nad Lucemburskou, dokončení úprav okolí Veseckého rybníka a přehrady, revitalizace sídlišť po menších etapách.",
+   "konkretni": true
+  },
+  {
+   "tema": "rozvoj_uzemni_plan_vystavba",
+   "bod": "Redukovat vizuální smog, prosazovat architektonické soutěže u důležitých investic, další veřejná WC (např. Tržní náměstí).",
+   "konkretni": false
+  },
+  {
+   "tema": "finance_hospodareni_dane",
+   "bod": "Investovat do roku 2030 přes 3 mld. Kč z rozpočtu; dluh řídit tak, aby jeho podíl na příjmech nepřekročil úroveň roku 2026; analýza nákladů a přínosů u všech investic a 10letý investiční plán.",
+   "konkretni": true
+  },
+  {
+   "tema": "finance_hospodareni_dane",
+   "bod": "Zvýšit daň z nemovitosti pro dlouhodobě neobydlené a chátrající domy; jízdné a poplatky měnit jen podle inflace a nákladů.",
+   "konkretni": true
+  },
+  {
+   "tema": "sprava_transparentnost_digitalizace",
+   "bod": "Pozice AI ambasadora, AI hackathon, AI asistent na webu města, online mapa investičních projektů.",
+   "konkretni": true
+  },
+  {
+   "tema": "sprava_transparentnost_digitalizace",
+   "bod": "Primátor a vedení zveřejní předem pracovní kalendář; materiály pro zastupitele dva týdny předem; posílení místních komisí online portálem.",
+   "konkretni": true
+  },
+  {
+   "tema": "ostatni",
+   "bod": "Partnerství s ukrajinskou Vinnycí, užší spolupráce s Jabloncem a TUL; hřbitov pro domácí mazlíčky.",
+   "konkretni": true
+  }
+ ],
+ "hodnoceni": {
+  "silne_stranky": [
+   "Nejpodrobnější program s řadou konkrétních, měřitelných závazků (čísla, názvy ulic a škol) a se zveřejněným vlastním vyhodnocením minulých slibů včetně nesplněných (s_slk_web).",
+   "Osm let ve vedení města: podle ČTK/Deníku Liberec za poslední 4 roky proinvestoval přes 3 mld. Kč a zároveň snížil úvěrový dluh z cca 2 mld. (před 10 lety) na 1,05 mld. Kč ke konci 2025 (s_denik_dluhy).",
+   "Hotové projekty, na které se mohou odvolat: Nová Pastýřská, odstranění buněk u autobusového nádraží a odbavovací hala v Uranu, opravy zhruba 60 ulic (s_denik_doprava, s_denik_sliby).",
+   "Jasné povolební vymezení: vylučují spolupráci s SPD a PRO (s_anketa)."
+  ],
+  "slabe_stranky_rizika": [
+   "Řada bodů je formulována vágně („prověříme“, „podpoříme“, „budeme usilovat“) bez termínu a ceny (s_slk_prog).",
+   "Financování lanovky prodejem stadionu je podmíněné jednáním s klubem a odhadem ceny, který není hotový (s_crol, s_anketa).",
+   "Výše dluhu je sporná: opozice (J. Baxa, LOL) tvrdí, že při započtení ručení za úvěry dopravního podniku (cca 568 mil. Kč) a plánovaných úvěrů dluh poroste na více než 3–4 mld. Kč; Deník uvádí 10 586 Kč dluhu na obyvatele, nejvíce mezi okresními městy kraje (s_nl_dluh, s_denik_dluhy).",
+   "Lídr Hájek je veřejně málo známý; kritici (Náš Liberec, glosa Deníku) zpochybňují, zda skutečně povede město, když Zámečník chce dál řídit finance (s_nl_lidr, s_denik_glosa).",
+   "Pomalé tempo některých slibů: tramvaj do Rochlice, převzetí spalovny, kompostárna v Londýnské ulici či systém občanských členů hodnoticích komisí se nepovedly (s_denik_zam, s_slk_web)."
+  ],
+  "kontroverze": [
+   {
+    "text": "Za vedení primátora Zámečníka (SLK) policie v dubnu 2024 zasáhla na radnici; obviněn byl náměstek Petr Židek (tehdy ODS) a v dubnu 2025 náměstek Jiří Šolc (nestraník zvolený za ANO). Nikdo z SLK obviněn není; koalice vypověděla smlouvu ODS a Šolce odvolala. Opozice LOL viní primátora z manažerského selhání, návrh na jeho odvolání nebyl v dubnu 2024 ani zařazen na program.",
+    "zdroj": "s_ctk_2024"
+   },
+   {
+    "text": "Podle LOL a serveru Náš Liberec šlo o systémový problém, ne jen individuální selhání; primátor to odmítá (‚nic nenasvědčuje tomu, že by šlo o cokoli jiného než individuální selhání‘).",
+    "zdroj": "s_nl_neodvolan"
+   },
+   {
+    "text": "Náměstek Janďourek v roce 2024 hlasoval pro záměr prodeje pozemku firmě March 21, v níž má asi 5% podíl, aniž by nahlásil střet zájmů; na zastupitelstvu se omluvil.",
+    "zdroj": "s_nl_jand_stret"
+   },
+   {
+    "text": "Kancelář architektury města (KAM) spojená s náměstkem Janďourkem čelí kritice koaličního ANO i opozice (zpoždění projektů, revitalizace sídlišť); Piráti ji naopak hodnotí jako zlom k lepšímu.",
+    "zdroj": "s_nl_kam"
+   },
+   {
+    "text": "Úprava dvou záhonů se dvěma stromy a 12 dřevěnými kostkami na Fügnerově stála podle Našeho Liberce 1,21 mil. Kč vč. DPH.",
+    "zdroj": "s_nl_fug"
+   },
+   {
+    "text": "Před volbami z SLK odešel starosta Vratislavic Lukáš Pohanka (nejvíce preferenčních hlasů v Liberci v letech 2018 i 2022) kvůli ztrátě důvěry v nové vedení místního klubu; kandiduje za Lepší Liberec.",
+    "zdroj": "s_denik_pohanka"
+   }
+  ]
+ },
+ "povolebni_signaly": "Lídr Hájek vylučuje jakoukoli přímou či nepřímou spolupráci s SPD a PRO; s ostatními subjekty jsou připraveni jednat (anketa ČTK, s_anketa). Dosavadní partneři ANO a Piráti nejsou vyloučeni. Spekulace o předvolební dohodě SLK–ANO (výměna postů Zámečník–Lenert) uvádí jen Náš Liberec bez ověřitelného zdroje (s_nl_zam_neobh).",
+ "kandidati": [
+  {
+   "poradi": 1,
+   "jmeno": "Mgr. Lukáš Hájek, M.A., Ph.D.",
+   "vek": 35,
+   "povolani_dle_listiny": "vysokoškolský učitel, zastupitel města",
+   "prislusnost": "SLK (navrhující strana SLK)",
+   "shrnuti": "Politolog, kandidát na primátora. Od roku 2022 zastupitel Liberce a předseda klubu SLK, od 2024 předseda místního klubu SLK. Dříve analytik České televize, nyní odborný asistent na Univerzitě Karlově.",
+   "politicka_kariera": [
+    {
+     "funkce": "člen hnutí Starostové pro Liberecký kraj",
+     "od": 2022,
+     "do": null,
+     "zdroj": "s_hajek_cv"
+    },
+    {
+     "funkce": "zastupitel SML (zvolen z 8. místa, 8 516 hlasů)",
+     "od": 2022,
+     "do": null,
+     "zdroj": "volby_gov"
+    },
+    {
+     "funkce": "předseda zastupitelského klubu SLK v Liberci",
+     "od": 2022,
+     "do": null,
+     "zdroj": "s_hajek_cv"
+    },
+    {
+     "funkce": "předseda Komise pro místní Agendu 21",
+     "od": 2022,
+     "do": null,
+     "zdroj": "s_nov_zam"
+    },
+    {
+     "funkce": "předseda místního klubu SLK Liberec",
+     "od": 2024,
+     "do": null,
+     "zdroj": "s_nov_zam"
+    }
+   ],
+   "roky_v_politice": 4,
+   "zkusenost_skore": 40,
+   "soucasna_prace": "Odborný asistent (politologie) na Univerzitě Karlově od 2021; souběžně neuvolněný zastupitel.",
+   "posledni_nepoliticka_prace": {
+    "co": "odborný asistent na Univerzitě Karlově (dříve analytik ČT 2017–2020, České priority 2020–2021)",
+    "kdy": "souběžně dosud"
+   },
+   "pozitivni": [
+    {
+     "text": "Vzdělání v ČR i v zahraničí (UK, MU, Universität Mannheim, Ph.D. z politologie 2020) a praxe politického analytika ČT.",
+     "zdroj": "s_hajek_cv"
+    },
+    {
+     "text": "Podporu mu veřejně vyjádřili mj. čestný občan Jan Šolc, režisérka Kateřina Dušková či zakladatel Lasvitu Leon Jakimič (kampaňový web).",
+     "zdroj": "s_slk_web"
+    },
+    {
+     "text": "Podle Novinek ho místní klub SLK zvolil lídrem jednomyslně a Zámečník ho na roli rok připravoval.",
+     "zdroj": "s_nov_zam"
+    },
+    {
+     "text": "Program prezentuje s vyčíslením (oprava 60 ulic, MHD pro děti zdarma, lanovka z prodeje stadionu) a odmítá slibovat parkovací domy na sídlištích jako nereálné.",
+     "zdroj": "s_crol"
+    }
+   ],
+   "negativni": [
+    {
+     "text": "Server Náš Liberec ho opakovaně označuje za ‚neviditelného‘ zastupitele, který se na jednáních zastupitelstva čtyři roky téměř neprojevoval.",
+     "zdroj": "s_nl_lidr"
+    },
+    {
+     "text": "V dubnu 2024 jako předseda klubu navrhl přerušení diskuse, když opozice chtěla projednat odvolání primátora po korupčním zásahu (podle Našeho Liberce).",
+     "zdroj": "s_nl_neodvolan"
+    },
+    {
+     "text": "Odmítl odpovídat serveru Náš Liberec s tím, že ho nechce legitimizovat (2024).",
+     "zdroj": "s_nl_kam"
+    },
+    {
+     "text": "Glosa Deníku ho popisuje jako ‚vcelku příjemného, byť poněkud sterilního‘ lídra; Náš Liberec zpochybnil jeho účast na krajské delegaci na Ukrajinu jako předvolební PR (cestu hradila ukrajinská strana, schválila ji rada města).",
+     "zdroj": "s_nl_ukr"
+    }
+   ],
+   "nejiste": "V ARES je od 2017 vedeno živnostenské oprávnění na jméno Mgr. Lukáš Hájek (IČO 06270875) – shoda osoby i rozsah činnosti neověřeny. Hlídač státu uvádí jeho dary politickým stranám 47 400 Kč (2 strany) – příjemci neověřeni."
+  },
+  {
+   "poradi": 2,
+   "jmeno": "Ing. Jaroslav Zámečník, CSc.",
+   "vek": 60,
+   "povolani_dle_listiny": "primátor města Liberec",
+   "prislusnost": "SLK (navrhující strana SLK)",
+   "shrnuti": "Primátor Liberce od listopadu 2018, předtím dlouholetý tajemník/jednatel Euroregionu Nisa. V letech 1991–2013 člen ODS (zastupitel města 1994–1998, krajský radní 2000–2004), od 2017 člen SLK. Post primátora neobhajuje, chce ve vedení města dál řídit finance.",
+   "politicka_kariera": [
+    {
+     "funkce": "člen ODS",
+     "od": 1991,
+     "do": 2013,
+     "zdroj": "s_wiki_zam"
+    },
+    {
+     "funkce": "zastupitel SML (za ODS)",
+     "od": 1994,
+     "do": 1998,
+     "zdroj": "s_wiki_zam"
+    },
+    {
+     "funkce": "krajský zastupitel a radní Libereckého kraje (kultura, památky, sport, cestovní ruch; za ODS)",
+     "od": 2000,
+     "do": 2004,
+     "zdroj": "s_wiki_zam"
+    },
+    {
+     "funkce": "zastupitel SML (za SLK, 2014 jako nestraník)",
+     "od": 2014,
+     "do": null,
+     "zdroj": "volby_gov"
+    },
+    {
+     "funkce": "člen hnutí SLK",
+     "od": 2017,
+     "do": null,
+     "zdroj": "s_wiki_zam"
+    },
+    {
+     "funkce": "primátor SML (gesce ekonomika)",
+     "od": 2018,
+     "do": null,
+     "zdroj": "s_wiki_zast"
+    }
+   ],
+   "roky_v_politice": 20,
+   "zkusenost_skore": 90,
+   "soucasna_prace": "Uvolněný primátor; podle kandidátních listin 2020 a 2024 souběžně jednatel Euroregionu Nisa.",
+   "posledni_nepoliticka_prace": {
+    "co": "tajemník / jednatel Euroregionu Nisa (ředitel liberecké kanceláře)",
+    "kdy": "1992–2018 (s přestávkou 2000–2004), podle listiny 2024 funkci jednatele vykonává souběžně"
+   },
+   "pozitivni": [
+    {
+     "text": "Za jeho vedení město snížilo úvěrový dluh z cca 2 mld. Kč na 1,05 mld. Kč (konec 2025) a přitom za čtyři roky investovalo přes 3 mld. Kč (ČTK/Deník).",
+     "zdroj": "s_denik_dluhy"
+    },
+    {
+     "text": "V roce 2017 obdržel polské státní vyznamenání Stříbrný kříž za zásluhy za přeshraniční spolupráci.",
+     "zdroj": "s_wiki_zam"
+    },
+    {
+     "text": "Podle vlastního medailonku získal v roce 2022 ocenění Svazu měst a obcí ‚Nejlepší primátor‘.",
+     "zdroj": "s_slk_kand"
+    },
+    {
+     "text": "V bilančním rozhovoru otevřeně přiznává nepovedené projekty (tramvaj do Rochlice, spalovna, zdlouhavá rekonstrukce Uranu).",
+     "zdroj": "s_denik_zam"
+    },
+    {
+     "text": "V letech 2018 i 2022 dovedl SLK k vítězství v komunálních volbách (10 825 a 9 125 hlasů).",
+     "zdroj": "volby_gov"
+    }
+   ],
+   "negativni": [
+    {
+     "text": "Za jeho primátorování byli v korupční kauze obviněni dva jeho náměstci (Židek 2024, Šolc 2025); opozice LOL ho viní z manažerského selhání, on sám politickou odpovědnost odmítá a hovoří o individuálním selhání. On sám obviněn není.",
+     "zdroj": "s_ctk_2024"
+    },
+    {
+     "text": "Opoziční zastupitel Jaromír Baxa (LOL) mu vyčítá, že na sociálních sítích prezentuje nižší dluh, než uvádějí materiály, které sám předložil zastupitelstvu (1,15 mld. Kč úvěrů + ručení za DPMLJ 568 mil. Kč).",
+     "zdroj": "s_nl_dluh"
+    },
+    {
+     "text": "Kritici z opozice i koalice ho podle Našeho Liberce považují za slabého primátora závislého na hejtmanovi Půtovi (převod zoo a botanické zahrady na kraj, autobusové nádraží).",
+     "zdroj": "s_nl_zam_neobh"
+    },
+    {
+     "text": "Připouští, že měl ‚více věřit vlastnímu instinktu při výběru lidí, se kterými spolupracoval‘.",
+     "zdroj": "s_denik_zam"
+    }
+   ],
+   "nejiste": "Zda by v případě úspěchu zůstal v radě (chce gesci financí) a jakou funkci by zastával, není dohodnuto. Spekulace Našeho Liberce o předvolební dohodě s ANO neověřeny."
+  },
+  {
+   "poradi": 3,
+   "jmeno": "Ing. Tereza Pokorná",
+   "vek": 45,
+   "povolani_dle_listiny": "krajinná inženýrka, ekolog",
+   "prislusnost": "BEZPP (navrhující strana SLK)",
+   "shrnuti": "Nestranice, nová tvář bez předchozí kandidatury v datech ČSÚ 2014–2025. Podle medailonku SLK pracuje v Agentuře ochrany přírody a krajiny ČR, věnuje se vodě v krajině; stála u zrodu první lesní mateřské školky v Liberci a předsedá radě rodičů Montessori školy.",
+   "politicka_kariera": [],
+   "roky_v_politice": 0,
+   "zkusenost_skore": 15,
+   "soucasna_prace": "Podle medailonku SLK zaměstnankyně Agentury ochrany přírody a krajiny ČR (obnova mokřadů a potoků, ochrana ohrožených druhů).",
+   "posledni_nepoliticka_prace": {
+    "co": "Agentura ochrany přírody a krajiny ČR",
+    "kdy": "souběžně dosud"
+   },
+   "pozitivni": [
+    {
+     "text": "Odbornost v krajinářství a vodním hospodářství; zkušenosti s projektovými rozpočty, dotacemi a koncepcemi (vlastní medailonek).",
+     "zdroj": "s_slk_kand"
+    },
+    {
+     "text": "Komunitní aktivity: spoluzaložení první lesní MŠ v Liberci, předsedkyně rady rodičů Montessori školy (vlastní medailonek).",
+     "zdroj": "s_slk_kand"
+    }
+   ],
+   "negativni": [],
+   "nejiste": "Zápis Komise Rady Libereckého kraje pro adaptaci na změnu klimatu (2023) uvádí jako tajemnici Ing. Terezu Pokornou, která připravovala dotační program na retenci vody – pravděpodobně jde o tutéž osobu (dřívější působení na krajském úřadě?), neověřeno. V médiích se o ní nepodařilo nic dohledat; v ARES existuje živnostník stejného jména (IČO 88035042), shoda neověřena."
+  },
+  {
+   "poradi": 4,
+   "jmeno": "Ing. arch. Ing. Jiří Janďourek",
+   "vek": 51,
+   "povolani_dle_listiny": "náměstek primátora pro architekturu, veřejný prostor a dopravní stavby",
+   "prislusnost": "SLK (navrhující strana SLK)",
+   "shrnuti": "Architekt a hudebník, spoluzakladatel ateliéru ATAKARCHITEKTI. Vedl Kancelář architektury města (od 2019) a od 2022 je uvolněným náměstkem pro architekturu, veřejný prostor a dopravní stavby. Výrazná a polarizující postava: spojován s proměnou ulic a veřejného prostoru i s kritikou za průtahy a náklady.",
+   "politicka_kariera": [
+    {
+     "funkce": "kandidát SLK do ZM Liberec (nezvolen)",
+     "od": 2014,
+     "do": 2018,
+     "zdroj": "volby_gov"
+    },
+    {
+     "funkce": "zastupitel SML (zvolen ze 7. místa, 8 767 hlasů)",
+     "od": 2022,
+     "do": null,
+     "zdroj": "volby_gov"
+    },
+    {
+     "funkce": "náměstek primátora pro architekturu, veřejný prostor a dopravní stavby",
+     "od": 2022,
+     "do": null,
+     "zdroj": "s_denik_vedeni"
+    }
+   ],
+   "roky_v_politice": 4,
+   "zkusenost_skore": 60,
+   "soucasna_prace": "Uvolněný náměstek primátora. Podle Hlídače státu byl statutárem a společníkem ATAKARCHITEKTI s.r.o. do 24. 8. 2026; menšinový podíl (cca 5 %) ve firmě March 21 s.r.o. (vlastník objektu Střelnice).",
+   "posledni_nepoliticka_prace": {
+    "co": "vedoucí Kanceláře architektury města (úřednická pozice na magistrátu), architekt v ateliéru ATAKARCHITEKTI, vysokoškolský pedagog",
+    "kdy": "do 2022"
+   },
+   "pozitivni": [
+    {
+     "text": "Piráti (Jan Hruška) hodnotí vznik KAM pod jeho vedením jako zlom: návrat liberecké žuly, promenáda u přehrady, plánování rozvoje s architekty.",
+     "zdroj": "s_nl_kam"
+    },
+    {
+     "text": "Odstranění provizorních buněk u autobusového nádraží a odbavovací hala v Uranu; balík opatření pro Fügnerovu (služebna, odstranění stání taxi, krajinářské úpravy).",
+     "zdroj": "s_denik_sliby"
+    },
+    {
+     "text": "Glosa Deníku uvádí, že ‚opravuje ve městě chodníky a ulice tak, jako nikdo jiný před ním‘ (byť s nevolí obyvatel kvůli uzavírkám).",
+     "zdroj": "s_denik_glosa"
+    }
+   ],
+   "negativni": [
+    {
+     "text": "V roce 2024 nenahlásil střet zájmů při hlasování o záměru prodeje pozemku firmě March 21, v níž má podíl; po upozornění se omluvil.",
+     "zdroj": "s_nl_jand_stret"
+    },
+    {
+     "text": "Náš Liberec upozornil, že v March 21 je jeho obchodním partnerem podnikatel Jan Šuma, dříve spojený s libereckou ODS a skupinou SYNER; Janďourek se k tomu nevyjádřil.",
+     "zdroj": "s_nl_jand_ods"
+    },
+    {
+     "text": "Předsedkyně klubu koaličního ANO Jarka Kašpar (2024): ‚nedrží termíny ani dohody‘; opoziční Jindřich Felcman (LOL) kritizuje nízkou efektivitu KAM a nedotažené revitalizace sídlišť.",
+     "zdroj": "s_nl_kam"
+    },
+    {
+     "text": "Opravy Vítězné ulice, kde znatelně ubylo parkovacích míst, patřily k nejkritizovanějším stavbám období (ČTK/Deník).",
+     "zdroj": "s_denik_doprava"
+    },
+    {
+     "text": "Záhony se dvěma stromy a 12 kostkami na Fügnerově za 1,21 mil. Kč, které propagoval (Náš Liberec).",
+     "zdroj": "s_nl_fug"
+    }
+   ],
+   "nejiste": "Přesné období vedení KAM (Náš Liberec uvádí KAM od 1. 7. 2019 a jeho následné vedení až do 2022) a obchodní vztahy ATAKARCHITEKTI s městem Liberec: v registru smluv jsou smlouvy s obvodem Vratislavice nad Nisou (2023–2024, desítky tisíc Kč) a s jinými městy; zakázky od SML nenalezeny."
+  },
+  {
+   "poradi": 5,
+   "jmeno": "doc. PhDr. David Václavík, Ph.D.",
+   "vek": 51,
+   "povolani_dle_listiny": "vysokoškolský učitel",
+   "prislusnost": "BEZPP (navrhující strana SLK)",
+   "shrnuti": "Religionista, docent a od 2015 vedoucí katedry filozofie FP TUL, šéfredaktor časopisu Religio. Dlouholetý komunální politik: krajský zastupitel 2000–2004, zastupitel města 2002–2018 a radní 2010–2014. Do zastupitelstva se vrací po osmi letech, zaměřuje se na školství.",
+   "politicka_kariera": [
+    {
+     "funkce": "krajský zastupitel Libereckého kraje",
+     "od": 2000,
+     "do": 2004,
+     "zdroj": "s_wiki_vac"
+    },
+    {
+     "funkce": "zastupitel SML",
+     "od": 2002,
+     "do": 2018,
+     "zdroj": "s_wiki_vac"
+    },
+    {
+     "funkce": "člen Strany zelených",
+     "od": 2005,
+     "do": 2010,
+     "zdroj": "s_wiki_vac"
+    },
+    {
+     "funkce": "radní SML (nezávislý)",
+     "od": 2010,
+     "do": 2014,
+     "zdroj": "s_wiki_zast"
+    },
+    {
+     "funkce": "zastupitel SML za SLK (zvolen 2014)",
+     "od": 2014,
+     "do": 2018,
+     "zdroj": "volby_gov"
+    },
+    {
+     "funkce": "kandidát SLK (31. místo, nezvolen)",
+     "od": 2022,
+     "do": 2022,
+     "zdroj": "volby_gov"
+    }
+   ],
+   "roky_v_politice": 18,
+   "zkusenost_skore": 70,
+   "soucasna_prace": "Vysokoškolský pedagog na Technické univerzitě v Liberci (vedoucí katedry filozofie FP TUL).",
+   "posledni_nepoliticka_prace": {
+    "co": "pedagog TUL (od 1998), dříve i Ústav religionistiky FF MU",
+    "kdy": "souběžně dosud"
+   },
+   "pozitivni": [
+    {
+     "text": "Odborná kariéra: 8 monografií a přes 40 studií, předseda České společnosti pro religionistiku 2008–2015, šéfredaktor časopisu Religio od 2022.",
+     "zdroj": "s_wiki_vac"
+    },
+    {
+     "text": "Režisérka Divadla F. X. Šaldy Kateřina Dušková ho na webu SLK oceňuje jako člověka, jemuž ‚kultura v našem městě není lhostejná‘.",
+     "zdroj": "s_slk_web"
+    }
+   ],
+   "negativni": [
+    {
+     "text": "Podle textu publikovaného na Našem Liberci (2019) působil v orgánech Dopravního podniku měst Liberce a Jablonce (dozorčí rada 2009–2011, představenstvo 2011–2018) v období, kdy podnik uzavíral kritizované smlouvy s BusLine; autor textu to klade za vinu všem tehdejším členům orgánů kromě zástupců Změny.",
+     "zdroj": "s_nl_dp2019"
+    },
+    {
+     "text": "Náš Liberec (2014) mu vyčítal roli v odvolání vedení Změny pro Liberec v roce 2011 a uniklou facebookovou komunikaci s Jiřím Kittnerem (ODS).",
+     "zdroj": "s_nl_vac14"
+    }
+   ],
+   "nejiste": "Hlídač státu uvádí jeho angažmá ve 2 soukromých firmách (bez obchodů se státem) – nezjišťováno. Přesné funkce v DPMLJ převzaty jen z textu na Našem Liberci, v obchodním rejstříku neověřeno."
+  }
+ ],
+ "zdroje": [
+  {
+   "id": "volby_gov",
+   "url": "https://www.volby.gov.cz/",
+   "nazev": "ČSÚ – výsledky a kandidátní listiny 2014–2025 (zpracováno)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/processed/historie_kandidatu.json",
+   "obsah": "Kandidatury a zvolení kandidátů v komunálních, krajských a sněmovních volbách 2014–2025."
+  },
+  {
+   "id": "s_csu_2026",
+   "url": "https://www.volby.gov.cz/",
+   "nazev": "ČSÚ – kandidátní listiny KV 2026 Liberec",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/processed/kandidati_2026.json",
+   "obsah": "Oficiální kandidátka SLK (věk, povolání, příslušnost)."
+  },
+  {
+   "id": "s_slk_prog",
+   "url": "https://starostoveproliberec.cz/program.md",
+   "nazev": "SLK: Volební program 2026 (9 kapitol, 158 bodů)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/programy/slk/program_2026.md",
+   "obsah": "Úplný text volebního programu SLK pro Liberec."
+  },
+  {
+   "id": "s_slk_web",
+   "url": "https://starostoveproliberec.cz/",
+   "nazev": "Kampaňový web SLK Liberec",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/programy/slk/starostoveproliberec_home.html",
+   "obsah": "Hlavní priority, vlastní vyhodnocení slibů 2022 (splněno/částečně/nesplněno), kandidátka, podporovatelé."
+  },
+  {
+   "id": "s_slk_kand",
+   "url": "https://starostoveproliberec.cz/kandidatka.md",
+   "nazev": "SLK: kandidátka s medailonky",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/kandidatka_medailonky.md",
+   "obsah": "Vlastní medailonky 39 kandidátů SLK."
+  },
+  {
+   "id": "s_hajek_cv",
+   "url": "https://starostoveproliberec.cz/zivotopis.html",
+   "nazev": "Životopis Lukáše Hájka",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/hajek_zivotopis_starostoveproliberec.html",
+   "obsah": "Vzdělání, profesní a politická dráha L. Hájka."
+  },
+  {
+   "id": "s_slk_tz",
+   "url": "https://www.starostoveprolibereckykraj.cz/o-nas/media/zpravy-slk/lidri-slk-pro-komunalni-volby-2026/",
+   "nazev": "SLK: Starostové představili lídry kandidátek (8. 4. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/slkweb_o-nas_media_zpravy-slk_lidri-slk-pro-komunalni-volby-2026.html",
+   "obsah": "Hájek lídrem v Liberci, heslo Se Starosty bez starostí."
+  },
+  {
+   "id": "s_slk_klub",
+   "url": "https://www.starostoveprolibereckykraj.cz/o-nas/mistni-kluby/mistni-klub-slk-liberec/",
+   "nazev": "SLK: Místní klub Liberec",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/slkweb_mistni-klub-slk-liberec.html",
+   "obsah": "Předseda L. Hájek, místopředseda M. Moc, odkaz na web."
+  },
+  {
+   "id": "s_pdv",
+   "url": "https://programydovoleb.cz/volby/komunalni-volby/176/strana/163887",
+   "nazev": "Programy do voleb – SLK Liberec 2026",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/programy/slk/programydovoleb_slk_liberec.html",
+   "obsah": "Kandidátka a odkaz na program."
+  },
+  {
+   "id": "s_crol",
+   "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-special-z-liberce-9646377",
+   "nazev": "ČRo Liberec: Komunální volby 2026 – speciál z Liberce",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/crol_special_liberec_2026.html",
+   "obsah": "Odpovědi lídrů (Hájek) na uzavírky, parkování na sídlištích a prodej stadionu."
+  },
+  {
+   "id": "s_anketa",
+   "url": "https://liberecky.denik.cz/zpravy-region/v-liberci-chteji-volebni-lidri-investovat-do-dopravy-bytu-ci-verejneho-prostoru/",
+   "nazev": "Deník/ČTK: V Liberci chtějí volební lídři investovat do dopravy, bytů či veřejného prostoru (14. 9. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/denik_lidri_investovat_ctk_anketa.html",
+   "obsah": "Anketa lídrů: priority, financování, koalice, parkování."
+  },
+  {
+   "id": "s_denik_fug",
+   "url": "https://liberecky.denik.cz/komunalni-volby/co-s-ostudou-liberce-volebni-lidri-rikaji-jak-chteji-zmenit-fugnerku/",
+   "nazev": "Deník: Co s ostudou Liberce – lídři o Fügnerce",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/denik_fugnerka_lidri.html",
+   "obsah": "Hájkův plán pro Fügnerovu (24/7 policie, terénní práce, úklid)."
+  },
+  {
+   "id": "s_denik_sliby",
+   "url": "https://liberecky.denik.cz/komunalni-volby/liberec-sliby-zmeny-komunalni-volby-zari-2026/",
+   "nazev": "Deník: Fügnerka se mění, Papírák čeká – bilance slibů",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/denik_sliby_bilance.html",
+   "obsah": "Bilance Fügnerovy, autobusového nádraží a Uranu (citace Zámečníka a Janďourka)."
+  },
+  {
+   "id": "s_denik_glosa",
+   "url": "https://liberecky.denik.cz/komunalni-volby/glosa-kdo-bude-ridit-liberec-hledejte-muze-v-tricku-a-s-rukama-v-kapsach/",
+   "nazev": "Deník: Glosa o kampani",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/denik_glosa_kampan.html",
+   "obsah": "Komentář k lídrům a kampani (Hájek, Janďourek)."
+  },
+  {
+   "id": "s_denik_kdo",
+   "url": "https://liberecky.denik.cz/komunalni-volby/kdo-chce-vladnout-liberci-ostrileni-matadori-i-kuriozity-zname-jmena/",
+   "nazev": "Deník: Kdo chce vládnout Liberci?",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/denik_kdo_chce_vladnout.html",
+   "obsah": "Přehled kandidátek a lídrů 2026."
+  },
+  {
+   "id": "s_denik_zam",
+   "url": "https://liberecky.denik.cz/zpravy-region/primator-zamecnik-liberec-volby/",
+   "nazev": "Deník: Tramvaj do Rochlice se nám nepovedla, ohlíží se končící primátor (17. 8. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/denik_primator_zamecnik_volby.html",
+   "obsah": "Bilanční rozhovor se Zámečníkem (zčásti za paywallem)."
+  },
+  {
+   "id": "s_denik_pohanka",
+   "url": "https://liberecky.denik.cz/zpravy-region/starosta-libereckych-vratislavic-pohanka-vystoupil-z-hnuti-slk/",
+   "nazev": "Deník/ČTK: Pohanka vystoupil z hnutí SLK",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/denik_pohanka_vystoupil_slk.html",
+   "obsah": "Odchod starosty Vratislavic z SLK a stav koalice."
+  },
+  {
+   "id": "s_denik_doprava",
+   "url": "https://liberecky.denik.cz/zpravy-region/parkovani-silnice-i-drazsi-mhd-jak-se-za-ctyri-roky-zmenila-doprava-v-liberci/",
+   "nazev": "Deník/ČTK: Jak se za čtyři roky změnila doprava v Liberci",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/denik_doprava_za_ctyri_roky.html",
+   "obsah": "350 nových parkovacích míst, ~60 opravených ulic, Vítězná ulice, Nová Pastýřská."
+  },
+  {
+   "id": "s_denik_dluhy",
+   "url": "https://liberecky.denik.cz/zpravy-region/dluhy-liberec-bazen-rekonstrukce/",
+   "nazev": "Deník/ČTK: Každý Liberečan dluží přes 10 tisíc korun",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/denik_dluhy_bazen.html",
+   "obsah": "Investice 3 mld. Kč za 4 roky, dluh 1,05 mld. Kč, ručení za DPMLJ."
+  },
+  {
+   "id": "s_denik_vedeni",
+   "url": "https://liberecky.denik.cz/zpravy-region/liberec-volby-vedeni-zastupitele/",
+   "nazev": "Deník: Liberec má nové zastupitele, primátorem opět Zámečník (2022)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/denik_vedeni_2022.html",
+   "obsah": "Složení vedení města 2022 (Janďourek, Langr, Lenert...)."
+  },
+  {
+   "id": "s_ctk_2024",
+   "url": "https://www.ceskenoviny.cz/zpravy/2505968",
+   "nazev": "ČTK: Koalice v Liberci bude kvůli obvinění Židka bez ODS (15. 4. 2024)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/ctk_koalice_bez_ods_2024.html",
+   "obsah": "Vypovězení koalice ODS, postoj primátora (individuální selhání), kritika LOL."
+  },
+  {
+   "id": "s_denik_solc",
+   "url": "https://liberecky.denik.cz/zpravy-region/korupcni-kauza-liberec-namestek-solc/",
+   "nazev": "Deník/ČTK: K odvolání Šolce bude nejspíš mimořádné zastupitelstvo (2025)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/ano/denik_korupcni_kauza_solc.html",
+   "obsah": "Obvinění náměstka Šolce (ANO), souvislost s kauzou Židek."
+  },
+  {
+   "id": "s_nov_zam",
+   "url": "https://www.novinky.cz/clanek/domaci-zpravy-liberecky-kraj-zamecnik-uz-nebude-kandidovat-na-pozici-libereckeho-primatora-40551223",
+   "nazev": "Novinky: Zámečník už nebude kandidovat na pozici primátora (1. 12. 2025)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/novinky_zamecnik_nebude_kandidovat.html",
+   "obsah": "Nominace Hájka, jeho životopis a funkce."
+  },
+  {
+   "id": "s_drbna_hajek",
+   "url": "https://liberecka.drbna.cz/politika/901839-kampan-me-prekvapila-rika-kandidat-starostu-na-primatora-liberce-lukas-hajek.html",
+   "nazev": "Liberecká Drbna: Kampaň mě překvapila (PR článek SLK, 5. 10. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/drbna_hajek_kampan_me_prekvapila.html",
+   "obsah": "Placený rozhovor s Hájkem (dluh, investice mimo centrum)."
+  },
+  {
+   "id": "s_wiki_zam",
+   "url": "https://cs.wikipedia.org/wiki/Jaroslav_Z%C3%A1me%C4%8Dn%C3%ADk",
+   "nazev": "Wikipedie: Jaroslav Zámečník",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/wiki_zamecnik.html",
+   "obsah": "Životopis a politická kariéra (ODS 1991–2013, kraj 2000–2004, SLK)."
+  },
+  {
+   "id": "s_wiki_zast",
+   "url": "https://cs.wikipedia.org/wiki/Zastupitelstvo_m%C4%9Bsta_Liberec",
+   "nazev": "Wikipedie: Zastupitelstvo města Liberec",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+   "obsah": "Složení rad města 2010–2026 včetně kompetencí."
+  },
+  {
+   "id": "s_wiki_vac",
+   "url": "https://cs.wikipedia.org/wiki/David_V%C3%A1clav%C3%ADk",
+   "nazev": "Wikipedie: David Václavík",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/wiki_david_vaclavik.html",
+   "obsah": "Akademická dráha a politické funkce 2000–2018."
+  },
+  {
+   "id": "s_hl_hajek",
+   "url": "https://www.hlidacstatu.cz/osoba/lukas-hajek-23",
+   "nazev": "Hlídač státu: Lukáš Hájek (*1991)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/hlidac_hajek.html",
+   "obsah": "Funkce zastupitele, sponzoring stran, 1 soukromá firma."
+  },
+  {
+   "id": "s_hl_zam",
+   "url": "https://www.hlidacstatu.cz/osoba/jaroslav-zamecnik",
+   "nazev": "Hlídač státu: Jaroslav Zámečník (*1966)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/hlidac_jaroslav-zamecnik.html",
+   "obsah": "Profil politika."
+  },
+  {
+   "id": "s_hl_jand",
+   "url": "https://www.hlidacstatu.cz/osoba/jiri-jandourek-3",
+   "nazev": "Hlídač státu: Jiří Janďourek (*1975)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/hlidac_jiri-jandourek-3.html",
+   "obsah": "ATAKARCHITEKTI s.r.o. (2016–24. 8. 2026), dary SLK 30 000 Kč."
+  },
+  {
+   "id": "s_hl_atak",
+   "url": "https://www.hlidacstatu.cz/HledatSmlouvy?Q=ico:47782781",
+   "nazev": "Hlídač státu: smlouvy ATAKARCHITEKTI s.r.o.",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/hlidac_smlouvy_atakarchitekti.html",
+   "obsah": "Veřejné smlouvy ateliéru (Nová Paka, Mnichovo Hradiště, Vratislavice n. N. aj.)."
+  },
+  {
+   "id": "s_hl_vac",
+   "url": "https://www.hlidacstatu.cz/osoba/david-vaclavik",
+   "nazev": "Hlídač státu: David Václavík (*1975)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/hlidac_david-vaclavik.html",
+   "obsah": "Funkce zastupitele/radního, vazba na DPMLJ."
+  },
+  {
+   "id": "s_ares_hajek",
+   "url": "https://ares.gov.cz/",
+   "nazev": "ARES: vyhledání Lukáš Hájek (Liberec)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/ares_hajek.json",
+   "obsah": "Živnostník Mgr. Lukáš Hájek, IČO 06270875, od 2017."
+  },
+  {
+   "id": "s_ares_jand",
+   "url": "https://ares.gov.cz/",
+   "nazev": "ARES: vyhledání Jiří Janďourek",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/ares_jandourek.json",
+   "obsah": "Živnostník Jiří Janďourek, IČO 72714859, od 2002 (architektonické činnosti)."
+  },
+  {
+   "id": "s_kraj_pokorna",
+   "url": "https://kraj-lbc.cz/getFile/case:show/id:562368",
+   "nazev": "Liberecký kraj: zápis Komise pro adaptaci na změnu klimatu (2023)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/kraj_komise_adaptace_2023_pokorna.pdf",
+   "obsah": "Ing. Tereza Pokorná jako tajemnice komise a autorka návrhu dotačního programu 8.6."
+  },
+  {
+   "id": "s_nl_lidr",
+   "url": "https://nasliberec.cz/2026/06/03/volby-26-jaroslav-zamecnik-uz-primatorem-nebude-lidrem-starostu-je-zcela-neviditelny-zastupitel/",
+   "nazev": "Náš Liberec: Zámečník už primátorem nebude, lídrem je ‚neviditelný zastupitel‘ (3. 6. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_zamecnik_uz_nebude_lidr_neviditelny.html",
+   "obsah": "Kritický článek ke kandidátce SLK (server výrazně kritický k SLK)."
+  },
+  {
+   "id": "s_nl_zam_neobh",
+   "url": "https://nasliberec.cz/2025/12/01/jaroslav-zamecnik-nebude-obhajovat-primatorsky-post/",
+   "nazev": "Náš Liberec: Zámečník nebude obhajovat primátorský post (1. 12. 2025)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_zamecnik_nebude_obhajovat.html",
+   "obsah": "Kritika Zámečníka (vazba na kraj), spekulace o dohodě s ANO."
+  },
+  {
+   "id": "s_nl_ukr",
+   "url": "https://nasliberec.cz/2026/07/20/predvolebni-pr-nebo-skutecna-pomoc-napadene-zemi-lidr-starostu-na-primatora-jel-na-ukrajinu/",
+   "nazev": "Náš Liberec: Předvolební PR nebo pomoc? Lídr Starostů jel na Ukrajinu (20. 7. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_hajek_ukrajina.html",
+   "obsah": "Cesta Hájka s krajskou delegací do Vinnycji, vyjádření Hájka a mluvčích."
+  },
+  {
+   "id": "s_nl_11",
+   "url": "https://nasliberec.cz/2026/08/22/za-novymi-jmeny-i-lidry-same-zname-tvare-v-liberci-jde-do-voleb-11-stran/",
+   "nazev": "Náš Liberec: V Liberci jde do voleb 11 uskupení (22. 8. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_11_stran.html",
+   "obsah": "Přehled kandidátek a lídrů."
+  },
+  {
+   "id": "s_nl_kam",
+   "url": "https://nasliberec.cz/2024/07/02/kancelar-architektury-je-spatne-vedena-namestkem-jandourkem-tvrdi-cast-zastupitelu/",
+   "nazev": "Náš Liberec: Kancelář architektury je špatně vedena náměstkem Janďourkem, tvrdí část zastupitelů (2024)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_kancelar_architektury_jandourek.html",
+   "obsah": "Hodnocení KAM kluby: Piráti pozitivně, ANO, LOL a SPD kriticky; Hájek a Janďourek odmítli odpovědět."
+  },
+  {
+   "id": "s_nl_jand_ods",
+   "url": "https://nasliberec.cz/2024/09/16/mel-byt-hrazi-proti-korupci-dnes-namestek-jandourek-ze-starostu-podnika-s-matadory-liberecke-ods/",
+   "nazev": "Náš Liberec: Janďourek podniká s matadory liberecké ODS (2024)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_jandourek_podnika_ods.html",
+   "obsah": "Podíl Janďourkových v March21 s.r.o. (Střelnice) s J. Šumou."
+  },
+  {
+   "id": "s_nl_jand_stret",
+   "url": "https://nasliberec.cz/2024/11/06/namestek-jandourek-nepriznal-stret-zajmu/",
+   "nazev": "Náš Liberec: Náměstek Janďourek nepřiznal střet zájmů (2024)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_jandourek_stret_zajmu.html",
+   "obsah": "Hlasování o prodeji pozemku March 21, omluva Janďourka (cca 5% podíl)."
+  },
+  {
+   "id": "s_nl_fug",
+   "url": "https://nasliberec.cz/2026/08/12/dvanact-kostek-na-fugnerce-se-dvema-stromky-a-zahony-staly-mesto-12-milionu-korun/",
+   "nazev": "Náš Liberec: Dvanáct kostek na Fügnerce stálo 1,2 milionu (2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_fugnerka_12_milionu.html",
+   "obsah": "Rozpočet úpravy záhonů na Fügnerově (1,21 mil. Kč)."
+  },
+  {
+   "id": "s_nl_bazen",
+   "url": "https://nasliberec.cz/2026/08/21/rekonstrukci-bazenu-kterou-vysetruje-policie-podpori-dotace-dotace-205-milionu/",
+   "nazev": "Náš Liberec: Rekonstrukci bazénu, kterou vyšetřuje policie, podpoří dotace 205 milionů (2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_bazen_vysetruje_policie.html",
+   "obsah": "Bazén jako součást vyšetřované kauzy, role vedení města."
+  },
+  {
+   "id": "s_nl_neodvolan",
+   "url": "https://nasliberec.cz/2024/04/26/primator-odvolan-nebyl-podrzela-ho-ods-i-spd/",
+   "nazev": "Náš Liberec: Primátor odvolán nebyl (26. 4. 2024)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_primator_neodvolan_2024.html",
+   "obsah": "Neúspěšný návrh LOL na odvolání primátora, procesní návrh Hájka."
+  },
+  {
+   "id": "s_nl_dluh",
+   "url": "https://nasliberec.cz/2026/10/06/obri-dluh-liberce-primator-caruje-s-cisly-opozice-tvrdi-ze-normalne-lze-volicum/",
+   "nazev": "Náš Liberec: Obří dluh Liberce – spor o čísla (6. 10. 2026)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_obri_dluh_primator.html",
+   "obsah": "Rozpor mezi prezentací dluhu primátorem a materiály zastupitelstva, kritika J. Baxy."
+  },
+  {
+   "id": "s_nl_dp2019",
+   "url": "https://nasliberec.cz/2019/06/14/kdo-vsechno-mohl-zabranit-tunelovani-dopravniho-podniku/",
+   "nazev": "Náš Liberec: Kdo všechno mohl zabránit tunelování dopravního podniku? (2019)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_tunelovani_dp_2019.html",
+   "obsah": "Výčet členů orgánů DPMLJ v období smluv s BusLine (včetně D. Václavíka)."
+  },
+  {
+   "id": "s_nl_vac14",
+   "url": "https://nasliberec.cz/2014/02/25/predvolebni-prozreni-davida-vaclavika/",
+   "nazev": "Náš Liberec: Předvolební prozření Davida Václavíka (2014)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_vaclavik_prozreni_2014.html",
+   "obsah": "Kritický komentář k roli Václavíka (Liberec občanům) při odvolání Změny 2011."
+  },
+  {
+   "id": "s_nl_vac14b",
+   "url": "https://nasliberec.cz/2014/09/15/lidr-musi-byt-osobnost-aneb-pan-radni-vaclavik-nam-pise/",
+   "nazev": "Náš Liberec: Pan radní Václavík nám píše (2014)",
+   "datum_stazeni": "2026-10-08",
+   "local": "data/raw/profily/slk/nasliberec_vaclavik_radni_2014.html",
+   "obsah": "Unikly e-mail Václavíka ke komunikaci SLK s Naším Libercem."
+  }
+ ]
+}

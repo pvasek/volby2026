@@ -1,0 +1,535 @@
+[
+ {
+  "id": "zony",
+  "tema": "Doprava",
+  "text": "Na sídlištích by se měly zavést rezidentní (modré) parkovací zóny.",
+  "postoje": {
+   "1": {
+    "p": 1,
+    "proc": "Zavést rezidentní parkování zvýhodňující obyvatele s trvalým pobytem."
+   },
+   "2": {
+    "p": 0.5,
+    "proc": "Modré zóny na sídlištích až po navýšení kapacity parkování."
+   },
+   "3": {
+    "p": -1,
+    "proc": "Odmítá modré zóny na sídlištích jako „zpoplatnění nedostatku“."
+   },
+   "4": {
+    "p": -0.5,
+    "proc": "Placené zóny na sídlištích zatím neplánuje, koncepce parkování až do konce 2027."
+   },
+   "6": {
+    "p": 0,
+    "proc": "Zóny jen se souhlasem místních, parkování podle celoměstské koncepce."
+   },
+   "8": {
+    "p": 0.5,
+    "proc": "Zóny rezidentního či placeného stání nařízením obce (odpověď ČRo)."
+   },
+   "9": {
+    "p": -0.5,
+    "proc": "Placené zóny spíše jen v centru."
+   },
+   "10": {
+    "p": 0,
+    "proc": "Rezidentní parkování s předností pro obyvatele, plošné placené zóny ale nepovažuje za optimální."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "okruh",
+  "tema": "Doprava",
+  "text": "Město by mělo dostavět vnitřní městský okruh a silnice k průmyslovým zónám.",
+  "postoje": {
+   "2": {
+    "p": 1,
+    "proc": "Přímé napojení průmyslové zóny Sever na I/35, tlačit na kraj kvůli zóně Jih."
+   },
+   "4": {
+    "p": 1,
+    "proc": "Dostavět vnitřní okruh a silnice k průmyslovým zónám Sever a Jih."
+   },
+   "5": {
+    "p": 1,
+    "proc": "Prověřit projekty a začít realizovat vnitřní městský okruh."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "centrum",
+  "tema": "Doprava",
+  "text": "Centrum by se mělo zklidnit a omezit v něm průjezd aut.",
+  "postoje": {
+   "5": {
+    "p": -1,
+    "proc": "Centrum ponechat průjezdné."
+   },
+   "6": {
+    "p": 1,
+    "proc": "Zklidňovat centrum podle Plánu udržitelné mobility."
+   },
+   "9": {
+    "p": 0,
+    "proc": "Zklidnit dopravu jen tam, kde to nepřesune problém jinam."
+   },
+   "10": {
+    "p": -0.5,
+    "proc": "Nesnižovat počet parkovacích míst v centru bez náhrady."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "cyklo",
+  "tema": "Doprava",
+  "text": "V hlavních ulicích by měly vzniknout oddělené cyklostezky, i když uberou místo autům.",
+  "postoje": {
+   "2": {
+    "p": 0,
+    "proc": "Místo cyklopruhů na rušných silnicích stavět oddělené cyklostezky mimo ně."
+   },
+   "5": {
+    "p": -1,
+    "proc": "Cyklisty směrovat na cyklostezky místo vyhrazených pruhů v ulicích."
+   },
+   "6": {
+    "p": 1,
+    "proc": "Oddělené cyklopruhy při rekonstrukcích ulic (např. 1. máje)."
+   },
+   "11": {
+    "p": 1,
+    "proc": "Oddělené cyklostezky v ulicích 1. máje a Milady Horákové."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "mhd",
+  "tema": "Doprava",
+  "text": "MHD by měla být zdarma pro děti do 15 let.",
+  "postoje": {
+   "4": {
+    "p": 1,
+    "proc": "MHD zdarma pro děti do 15 let."
+   },
+   "6": {
+    "p": 1,
+    "proc": "Jízdné zdarma pro děti do 15 let."
+   },
+   "11": {
+    "p": 1,
+    "proc": "MHD zdarma pro děti do 15 let."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "lanovka",
+  "tema": "Investice",
+  "text": "Nová lanovka na Ještěd by měla být pro město prioritou.",
+  "postoje": {
+   "2": {
+    "p": 0.5,
+    "proc": "Lanovku chce, ale ne předraženou a ne jen z peněz města (test racionality)."
+   },
+   "4": {
+    "p": 1,
+    "proc": "Urychlit stavbu lanovky, ideálně se soukromým investorem."
+   },
+   "11": {
+    "p": 1,
+    "proc": "Nová lanovka na Ještěd do roku 2030."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "stadion",
+  "tema": "Investice",
+  "text": "Město by mělo prodat stadion U Nisy klubu FC Slovan (se zárukou sportovního využití).",
+  "postoje": {
+   "1": {
+    "p": 1,
+    "proc": "Prodat stadion klubu se smluvními zárukami a za cenu podle posudku."
+   },
+   "3": {
+    "p": 0,
+    "proc": "O prodeji jednat se všemi stranami, v programu není."
+   },
+   "4": {
+    "p": 0.5,
+    "proc": "Prodej zvážit, pokud bude zajištěno užívání pro fotbal a předkupní právo města."
+   },
+   "5": {
+    "p": 0.5,
+    "proc": "Prodej podpořit s podmínkami (peníze na halu, veřejné parkoviště)."
+   },
+   "6": {
+    "p": 0.5,
+    "proc": "Lídr: podpořit prodej se zárukami, že klub o stadion nepřijde."
+   },
+   "8": {
+    "p": 0,
+    "proc": "Prodat jen za cenu obvyklou, veřejné vlastnictví považuje za legitimní."
+   },
+   "9": {
+    "p": 0.5,
+    "proc": "Prodej jen s podmínkami (sportovní využití, výnos do dalších sportovišť)."
+   },
+   "10": {
+    "p": 0.5,
+    "proc": "Prodej jen za tržní cenu podle posudku a s garancí sportovního využití."
+   },
+   "11": {
+    "p": 1,
+    "proc": "Jednat o prodeji klubu, z výnosu by podle lídra mohla být lanovka."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "vapenka",
+  "tema": "Investice",
+  "text": "Město by mělo koupit nebo pronajmout koupaliště Vápenka a obnovit ho.",
+  "postoje": {
+   "4": {
+    "p": -1,
+    "proc": "Vápenku nevykupovat, postavit nové koupaliště u Home Credit Areny."
+   },
+   "5": {
+    "p": -0.5,
+    "proc": "Postavit bazén s koupalištěm u Home Credit Areny."
+   },
+   "6": {
+    "p": 0.5,
+    "proc": "Lídr: Vápenka zůstane koupalištěm."
+   },
+   "8": {
+    "p": 1,
+    "proc": "Řešit koupi nebo pronájem Vápenky a její rekonstrukci."
+   },
+   "10": {
+    "p": -0.5,
+    "proc": "Nové městské koupaliště v areálu Vesec."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "dluh",
+  "tema": "Finance",
+  "text": "Město by si nemělo dál půjčovat, i kdyby muselo odložit investice.",
+  "postoje": {
+   "1": {
+    "p": 1,
+    "proc": "Odmítnout další zadlužování města."
+   },
+   "2": {
+    "p": 1,
+    "proc": "Zastavit růst dluhu, některé plánované akce odložit či zrušit."
+   },
+   "4": {
+    "p": 1,
+    "proc": "Nezadlužovat město více."
+   },
+   "5": {
+    "p": 1,
+    "proc": "Nezvyšovat zadlužení, dotace jen po analýze provozních nákladů."
+   },
+   "6": {
+    "p": 0.5,
+    "proc": "Zastavit růst dluhu, úvěry jen na návratné nebo vynucené investice."
+   },
+   "9": {
+    "p": 0.5,
+    "proc": "Upřednostnit levná řešení před drahými projekty."
+   },
+   "10": {
+    "p": 0,
+    "proc": "Zadlužení jen u smysluplných dlouhodobých investic."
+   },
+   "11": {
+    "p": -0.5,
+    "proc": "Investovat do 2030 přes 3 mld. Kč, dluh držet v poměru k příjmům na úrovni 2026."
+   }
+  },
+  "hlasovani": [
+   {
+    "id": "LBC-ZM-2024-10-31-9",
+    "smer": -1
+   }
+  ]
+ },
+ {
+  "id": "dan",
+  "tema": "Finance",
+  "text": "Daň z nemovitosti by se neměla zvyšovat.",
+  "postoje": {
+   "4": {
+    "p": 1,
+    "proc": "Nezvyšovat daň z nemovitosti."
+   },
+   "5": {
+    "p": 0.5,
+    "proc": "Přehodnotit výši daně z nemovitosti."
+   },
+   "11": {
+    "p": -0.5,
+    "proc": "Zvýšit daň z nemovitosti pro dlouhodobě neobydlené a chátrající domy."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "developeri",
+  "tema": "Rozvoj",
+  "text": "Developeři by měli městu přispívat na školky, silnice a další infrastrukturu.",
+  "postoje": {
+   "5": {
+    "p": -1,
+    "proc": "Zrušit nebo změnit netransparentní požadavky na příspěvky investorů."
+   },
+   "6": {
+    "p": 1,
+    "proc": "Po developerech chtít podíl bytů s regulovaným nájmem a občanskou vybavenost."
+   },
+   "8": {
+    "p": 1,
+    "proc": "U velkých projektů požadovat řešení dopravy, chodníků, zeleně, škol a služeb."
+   },
+   "10": {
+    "p": -1,
+    "proc": "Zrušit nebo výrazně upravit příspěvky investorů na infrastrukturu („výpalné“)."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "investori",
+  "tema": "Rozvoj",
+  "text": "Město by mělo finančně podporovat příchod velkých firem (investiční příspěvky).",
+  "postoje": {
+   "4": {
+    "p": 0.5,
+    "proc": "Hledat nového velkého zaměstnavatele z oblasti průmyslu 4.0."
+   }
+  },
+  "hlasovani": [
+   {
+    "id": "LBC-ZM-2023-06-29-34",
+    "smer": 1
+   },
+   {
+    "id": "LBC-ZM-2024-06-27-48",
+    "smer": 1
+   }
+  ]
+ },
+ {
+  "id": "byty",
+  "tema": "Bydlení",
+  "text": "Město by mělo samo stavět nové městské byty.",
+  "postoje": {
+   "2": {
+    "p": 1,
+    "proc": "Zvýšit počet městských bytů, rozšířit nájemní agenturu."
+   },
+   "4": {
+    "p": 1,
+    "proc": "Zvýšit počet městských bytů a zřídit městské bytové družstvo."
+   },
+   "6": {
+    "p": 1,
+    "proc": "Postavit 220 městských bytů a opravou domů získat dalších 90."
+   },
+   "8": {
+    "p": 1,
+    "proc": "Podporovat výstavbu dostupného městského a sociálního bydlení."
+   },
+   "9": {
+    "p": 0.5,
+    "proc": "Podpořit výstavbu nových bytů, bez čísel a harmonogramu."
+   },
+   "10": {
+    "p": 1,
+    "proc": "Dlouhodobý program systematické výstavby městských bytů."
+   },
+   "11": {
+    "p": 1,
+    "proc": "Zahájit výstavbu 150 bytů na Papírovém náměstí a 70 Na Žižkově."
+   }
+  },
+  "hlasovani": [
+   {
+    "id": "LBC-ZM-2023-09-07-29",
+    "smer": 1
+   },
+   {
+    "id": "LBC-ZM-2025-10-30-6",
+    "smer": 1
+   }
+  ]
+ },
+ {
+  "id": "fugnerka",
+  "tema": "Bezpečnost",
+  "text": "Na terminálu Fügnerova by měla být nonstop služebna nebo stálá hlídka městské policie.",
+  "postoje": {
+   "1": {
+    "p": 0.5,
+    "proc": "Více strážníků v ulicích a u terminálu Fügnerova."
+   },
+   "2": {
+    "p": 1,
+    "proc": "Obnovit služebnu městské policie na terminálu Fügnerova."
+   },
+   "4": {
+    "p": 1,
+    "proc": "Nonstop služebna městské policie na terminálu po rekonstrukci."
+   },
+   "5": {
+    "p": 0.5,
+    "proc": "Městská policie viditelná v terénu."
+   },
+   "6": {
+    "p": 1,
+    "proc": "Lídr: na Fügnerce stálá dvoučlenná hlídka a služebna."
+   },
+   "8": {
+    "p": 0.5,
+    "proc": "Lepší osvětlení a dohled v okolí terminálu."
+   },
+   "9": {
+    "p": 0.5,
+    "proc": "Více strážníků v problémových lokalitách."
+   },
+   "11": {
+    "p": 1,
+    "proc": "Stálá hlídka městské policie 24/7 na terminálu."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "hazard",
+  "tema": "Bezpečnost",
+  "text": "Herny a kasina by měly být v Liberci úplně zakázané.",
+  "postoje": {
+   "11": {
+    "p": 1,
+    "proc": "Zavřít herny a kasina na celém území města."
+   }
+  },
+  "hlasovani": [
+   {
+    "id": "LBC-ZM-2016-12-15-23",
+    "smer": 1
+   },
+   {
+    "id": "LBC-ZM-2018-03-29-29",
+    "smer": 1
+   }
+  ]
+ },
+ {
+  "id": "ohnostroje",
+  "tema": "Bezpečnost",
+  "text": "Odpalování ohňostrojů by mělo být ve městě zakázané.",
+  "postoje": {},
+  "hlasovani": [
+   {
+    "id": "LBC-ZM-2026-02-26-5",
+    "smer": 1
+   }
+  ]
+ },
+ {
+  "id": "bezdomovci",
+  "tema": "Sociální",
+  "text": "Město by mělo zřídit azylový dům nebo celoroční zařízení pro lidi bez domova.",
+  "postoje": {
+   "5": {
+    "p": 1,
+    "proc": "Celoroční „stacionář“ pro lidi bez domova, podmíněný střízlivostí."
+   },
+   "6": {
+    "p": 1,
+    "proc": "Zřídit azylový dům, prevence bezdomovectví."
+   },
+   "11": {
+    "p": 1,
+    "proc": "Usilovat o azylový dům nebo noclehárnu."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "desegregace",
+  "tema": "Sociální",
+  "text": "Město by mělo aktivně řešit sociálně vyloučené lokality a segregaci ve školách.",
+  "postoje": {
+   "2": {
+    "p": 0.5,
+    "proc": "Terénní asistence pro děti ze znevýhodněných rodin."
+   }
+  },
+  "hlasovani": [
+   {
+    "id": "LBC-ZM-2025-12-11-30",
+    "smer": 1
+   }
+  ]
+ },
+ {
+  "id": "divadlo",
+  "tema": "Kultura",
+  "text": "Město by mělo udržet třísouborové Divadlo F. X. Šaldy (činohra, opera, balet).",
+  "postoje": {
+   "2": {
+    "p": 1,
+    "proc": "Zachovat třísouborové divadlo a vyjednat vyšší podíl kraje."
+   },
+   "6": {
+    "p": 1,
+    "proc": "Udržet třísouborové divadlo, vyjednat vyšší příspěvek kraje."
+   },
+   "11": {
+    "p": 0.5,
+    "proc": "Připravit rekonstrukci zázemí divadla."
+   }
+  },
+  "hlasovani": []
+ },
+ {
+  "id": "participace",
+  "tema": "Správa",
+  "text": "O části rozpočtu by měli přímo rozhodovat obyvatelé čtvrtí (participativní rozpočet, místní komise).",
+  "postoje": {
+   "2": {
+    "p": 1,
+    "proc": "Posílit pravomoci místních komisí, o poldru v Machníně místní referendum."
+   },
+   "6": {
+    "p": 1,
+    "proc": "Participativní rozpočet 10 mil. Kč ročně a 100 mil. Kč čtvrtím podle místních komisí."
+   },
+   "8": {
+    "p": 0.5,
+    "proc": "U významných investic umožnit obyvatelům včasné vyjádření."
+   },
+   "9": {
+    "p": 0.5,
+    "proc": "Rozhodovat o investicích podle potřeb jednotlivých čtvrtí."
+   },
+   "11": {
+    "p": 0.5,
+    "proc": "Posílit místní komise online portálem."
+   }
+  },
+  "hlasovani": []
+ }
+]

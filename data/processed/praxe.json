@@ -1,0 +1,380 @@
+{
+ "1|1": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 30,
+  "kariera": "ekolog, zaměstnavatel neověřen",
+  "index": 52
+ },
+ "1|2": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 22,
+  "kariera": "stavební technik, 29 let",
+  "index": 27
+ },
+ "1|3": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 25,
+  "kariera": "úředník, terénní koordinátor, technik; od 2020 důchodce",
+  "index": 30
+ },
+ "1|4": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 32,
+  "kariera": "stavební technik, podnikatel",
+  "index": 54
+ },
+ "1|5": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 30,
+  "kariera": "podnikatelka v gastronomii, dříve provozní",
+  "index": 35
+ },
+ "2|1": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 55,
+  "kariera": "jednatel a technický ředitel výrobní firmy METALO, jednatel dalších firem",
+  "index": 60
+ },
+ "2|2": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 52,
+  "kariera": "ředitel regionální kanceláře CzechInvestu",
+  "index": 74
+ },
+ "2|3": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 58,
+  "kariera": "dirigent, 18 let šéf opery Divadla F. X. Šaldy",
+  "index": 63
+ },
+ "2|4": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 38,
+  "kariera": "instrumentářka na operačním sále KNL",
+  "index": 43
+ },
+ "2|5": {
+  "vzdelani_body": 8,
+  "vzdelani": "studuje VŠ",
+  "kariera_body": 5,
+  "kariera": "student TUL",
+  "index": 13
+ },
+ "3|1": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 30,
+  "kariera": "manažerka bytového poradenství, seniorská ombudsmanka; nyní stranická funkce",
+  "index": 35
+ },
+ "3|2": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 42,
+  "kariera": "auditor (další informace chybí)",
+  "index": 64
+ },
+ "3|3": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 15,
+  "kariera": "vedoucí marketingu strany; civilní práce neznámá",
+  "index": 20
+ },
+ "3|4": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 32,
+  "kariera": "IT specialista, programátor; důchodce",
+  "index": 54
+ },
+ "3|5": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 35,
+  "kariera": "pedagožka",
+  "index": 57
+ },
+ "4|1": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 40,
+  "kariera": "vedoucí útvaru v Centru pro regionální rozvoj, dříve magistrát a ministerstva",
+  "index": 62
+ },
+ "4|2": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 35,
+  "kariera": "vedoucí oddělení územního plánování magistrátu (do 2022)",
+  "index": 40
+ },
+ "4|3": {
+  "vzdelani_body": 24,
+  "vzdelani": "magisterské / inženýrské + další titul",
+  "kariera_body": 45,
+  "kariera": "podnikatel v realitách a odhadce nemovitostí, firmy od 2007",
+  "index": 69
+ },
+ "4|4": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 50,
+  "kariera": "daňový poradce, OSVČ od 1992",
+  "index": 72
+ },
+ "4|5": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 28,
+  "kariera": "vedoucí pracovník TSML, jednatel malé firmy; 29 let",
+  "index": 33
+ },
+ "5|1": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 38,
+  "kariera": "živnostník, projektant elektro",
+  "index": 43
+ },
+ "5|2": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 40,
+  "kariera": "podnikatelka, ekonomka, jednatelka společnosti (neověřeno)",
+  "index": 45
+ },
+ "5|3": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 35,
+  "kariera": "manažer obchodu, OSVČ v energetice a stavebnictví; důchodce",
+  "index": 40
+ },
+ "5|4": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 35,
+  "kariera": "učitelka ZŠ",
+  "index": 40
+ },
+ "5|5": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 38,
+  "kariera": "podnikatel v IT",
+  "index": 43
+ },
+ "6|1": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 30,
+  "kariera": "copywriter, online marketér",
+  "index": 52
+ },
+ "6|2": {
+  "vzdelani_body": 15,
+  "vzdelani": "bakalářské",
+  "kariera_body": 45,
+  "kariera": "olympionička, mistryně světa, komentátorka ČT, dříve učitelka",
+  "index": 60
+ },
+ "6|3": {
+  "vzdelani_body": 27,
+  "vzdelani": "doktorát (Ph.D./CSc.)",
+  "kariera_body": 45,
+  "kariera": "právník, pořizování územních plánů",
+  "index": 72
+ },
+ "6|4": {
+  "vzdelani_body": 27,
+  "vzdelani": "doktorát (Ph.D./CSc.)",
+  "kariera_body": 42,
+  "kariera": "přírodovědkyně, výzkum a projekty v ochraně životního prostředí",
+  "index": 69
+ },
+ "6|5": {
+  "vzdelani_body": 30,
+  "vzdelani": "profesor",
+  "kariera_body": 68,
+  "kariera": "profesor a vedoucí katedry chemie TUL",
+  "index": 98
+ },
+ "7|1": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 0,
+  "kariera": "nezaměstnaný, 19 let",
+  "index": 5
+ },
+ "7|2": {
+  "vzdelani_body": 8,
+  "vzdelani": "studuje VŠ",
+  "kariera_body": 3,
+  "kariera": "student",
+  "index": 11
+ },
+ "7|3": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 32,
+  "kariera": "účetní",
+  "index": 37
+ },
+ "7|4": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 42,
+  "kariera": "projektový manažer, dříve manažer odboru v ČD Telematice",
+  "index": 47
+ },
+ "8|1": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 42,
+  "kariera": "právnička",
+  "index": 64
+ },
+ "8|2": {
+  "vzdelani_body": 8,
+  "vzdelani": "studuje VŠ",
+  "kariera_body": 3,
+  "kariera": "student TUL",
+  "index": 11
+ },
+ "8|3": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 12,
+  "kariera": "recepční, 22 let",
+  "index": 17
+ },
+ "8|4": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 25,
+  "kariera": "podnikatelka, obor neuveden",
+  "index": 30
+ },
+ "8|5": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 10,
+  "kariera": "důchodce, předchozí práce neznámá",
+  "index": 15
+ },
+ "9|1": {
+  "vzdelani_body": 15,
+  "vzdelani": "bakalářské",
+  "kariera_body": 32,
+  "kariera": "sociální pracovnice, vedoucí pracovnice ve veřejné správě",
+  "index": 47
+ },
+ "9|2": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 15,
+  "kariera": "od 2008 starosta obvodu; předchozí civilní práce neznámá",
+  "index": 20
+ },
+ "9|3": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 38,
+  "kariera": "vedoucí oddělení magistrátu, dříve projektový manažer",
+  "index": 60
+ },
+ "9|4": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 32,
+  "kariera": "projektový manažer, předseda krajského svazu házené",
+  "index": 37
+ },
+ "9|5": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 45,
+  "kariera": "stavební inženýr, projektant",
+  "index": 67
+ },
+ "10|1": {
+  "vzdelani_body": 24,
+  "vzdelani": "magisterské / inženýrské + další titul",
+  "kariera_body": 65,
+  "kariera": "generální ředitel Krajské nemocnice Liberec (2011–13), ředitel DPMLJ, ředitel sportovní firmy",
+  "index": 89
+ },
+ "10|2": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 38,
+  "kariera": "oblastní manažer realitní kanceláře",
+  "index": 43
+ },
+ "10|3": {
+  "vzdelani_body": 5,
+  "vzdelani": "bez titulu na listině",
+  "kariera_body": 20,
+  "kariera": "asistentka krajské radní (politický aparát), dříve koordinátorka v sociální oblasti",
+  "index": 25
+ },
+ "10|4": {
+  "vzdelani_body": 24,
+  "vzdelani": "magisterské / inženýrské + další titul",
+  "kariera_body": 45,
+  "kariera": "vrchní sestra (Senevida, dříve urologie KNL)",
+  "index": 69
+ },
+ "10|5": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 45,
+  "kariera": "projektant a podnikatel, prezident florbalového klubu",
+  "index": 67
+ },
+ "11|1": {
+  "vzdelani_body": 27,
+  "vzdelani": "doktorát (Ph.D./CSc.)",
+  "kariera_body": 42,
+  "kariera": "odborný asistent na Univerzitě Karlově, dříve analytik ČT",
+  "index": 69
+ },
+ "11|2": {
+  "vzdelani_body": 27,
+  "vzdelani": "doktorát (Ph.D./CSc.)",
+  "kariera_body": 55,
+  "kariera": "25 let tajemník a jednatel Euroregionu Nisa",
+  "index": 82
+ },
+ "11|3": {
+  "vzdelani_body": 22,
+  "vzdelani": "magisterské / inženýrské",
+  "kariera_body": 38,
+  "kariera": "odbornice Agentury ochrany přírody a krajiny",
+  "index": 60
+ },
+ "11|4": {
+  "vzdelani_body": 24,
+  "vzdelani": "magisterské / inženýrské + další titul",
+  "kariera_body": 55,
+  "kariera": "architekt, spoluzakladatel ateliéru ATAKARCHITEKTI, vedoucí Kanceláře architektury města",
+  "index": 79
+ },
+ "11|5": {
+  "vzdelani_body": 29,
+  "vzdelani": "docent",
+  "kariera_body": 60,
+  "kariera": "docent a vedoucí katedry filozofie TUL",
+  "index": 89
+ }
+}

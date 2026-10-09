@@ -1,0 +1,12 @@
+# Kopie originálních zdrojů se do repozitáře neukládají (autorská práva, velikost).
+# Stáhnete je skriptem: python scripts/fetch_sources.py  (seznam URL a otisků: data/sources_manifest.json)
+data/raw/**
+!data/raw/**/
+!data/raw/**/SOURCES.md
+!data/raw/hlasovani/downloads.json
+!data/raw/hlasovani/podklady_index.json
+*.part
+# 69 MB – v repozitáři je zabalené jako hlasovani_long.csv.gz
+data/processed/hlasovani_long.csv
+_site/
+__pycache__/

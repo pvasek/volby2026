@@ -1,0 +1,545 @@
+{
+  "cislo": 1,
+  "nazev": "Svoboda a přímá demokracie (SPD)",
+  "zkratka": "SPD",
+  "slozeni": "SPD (kandidátku podává samotné SPD); na kandidátce jsou i členové Trikolory (např. č. 5 Z. Spudichová, č. 14 F. Petrík, č. 15 K. Hradecký) a nestraníci (BEZPP). Trikolora vlastní kandidátku nepostavila a SPD podpořila.",
+  "web": "https://spd.cz/liberecky-kraj/",
+  "program_url": "https://www.facebook.com/photo/?fbid=1489959343170542&set=pb.100064694708885.-2207520000",
+  "program_local": "data/raw/programy/spd/README_program.md",
+  "shrnuti": "Liberecká organizace celostátně vládního hnutí SPD, která v roce 2022 získala 10,01 % a 4 mandáty a celé období strávila v opozici. Kandidátku vede zastupitel Tomáš Paleček, na třetím místě je bývalý náměstek primátora Milan Šír (dříve ČSSD). Veřejně dostupné body se týkají hlavně dopravy a parkování, bezpečnosti (více strážníků) a hospodaření bez dalšího zadlužení; ucelený program je zveřejněn jen jako obrázek na Facebooku, který se nepodařilo stáhnout.",
+  "zamereni": [
+    "bezpečnost a městská policie",
+    "parkování a parkovací domy",
+    "koordinace oprav silnic",
+    "hospodaření bez dluhů",
+    "prodej stadionu U Nisy"
+  ],
+  "zkusenost_skore": 45,
+  "zkusenost_zduvodneni": "Klub SPD má za sebou jedno opoziční období v zastupitelstvu (4 mandáty 2022–2026), v exekutivě města hnutí nebylo; dlouhou zkušenost včetně funkce náměstka (2006–2010, tehdy za ČSSD) má jen trojka Milan Šír.",
+  "temata_pct": {
+    "doprava_parkovani": 46,
+    "bydleni": 0,
+    "rozvoj_uzemni_plan_vystavba": 0,
+    "zivotni_prostredi_zelen": 0,
+    "socialni_zdravotnictvi_seniori": 0,
+    "skolstvi_deti_rodina": 0,
+    "kultura_sport_volny_cas": 0,
+    "bezpecnost_poradek": 15,
+    "finance_hospodareni_dane": 31,
+    "sprava_transparentnost_digitalizace": 8,
+    "ekonomika_podnikani_cestovni_ruch": 0,
+    "ostatni": 0
+  },
+  "program_body": [
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Zavést jednotný digitální plánovač staveb a sladit opravy města, kraje, ŘSD a správců sítí do jednoho harmonogramu, aby se neuzavíraly souběžně objízdné trasy.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Na hlavních tazích prosazovat dvousměnný provoz, víkendovou a noční práci, aby uzavírky trvaly co nejkratší dobu.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Stavět hromadné patrové či polozapuštěné parkovací domy přímo na sídlištích, kde to dovolí územní podmínky.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Zavést rezidentní parkování zvýhodňující obyvatele s trvalým pobytem v dané lokalitě.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "„Masivně“ budovat záchytná parkoviště P+R na okrajích města s návazností na posílenou MHD (bez uvedení míst a nákladů).",
+      "konkretni": false
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Dát přednost opravám běžných komunikací na okrajích města před nákladnými projekty typu přestavby Tržního náměstí (výrok M. Šíra na mítinku).",
+      "konkretni": false
+    },
+    {
+      "tema": "bezpecnost_poradek",
+      "bod": "Zvýšit počet strážníků městské policie v ulicích, u terminálu MHD (Fügnerova), v parcích a na sídlištích (první bod letáku podle reportáže).",
+      "konkretni": true
+    },
+    {
+      "tema": "bezpecnost_poradek",
+      "bod": "Řešit nepořádek a chování lidí bez domova/„nepřizpůsobivých“ v centru (bez konkrétního opatření).",
+      "konkretni": false
+    },
+    {
+      "tema": "finance_hospodareni_dane",
+      "bod": "Odmítnout další zadlužování města; peníze získávat z evropských a státních fondů.",
+      "konkretni": true
+    },
+    {
+      "tema": "finance_hospodareni_dane",
+      "bod": "Prioritizovat všechny výdaje a přísně posuzovat následné provozní náklady investic; „říct dost“ nereálným projektům.",
+      "konkretni": false
+    },
+    {
+      "tema": "finance_hospodareni_dane",
+      "bod": "Prodat stadion U Nisy prvoligovému klubu se smluvními zárukami zachování fotbalového a sportovního využití a za cenu podle znaleckého posudku.",
+      "konkretni": true
+    },
+    {
+      "tema": "sprava_transparentnost_digitalizace",
+      "bod": "„Zprůhlednit hospodaření Liberce“ (bez popisu nástrojů).",
+      "konkretni": false
+    }
+  ],
+  "hodnoceni": {
+    "silne_stranky": [
+      "V zastupitelstvu obhajuje 4 mandáty a v roce 2022 získala 10,01 % (čtvrté místo) – má zavedený klub a voličskou základnu.",
+      "Trojka Milan Šír má dlouholetou zkušenost se správou města (zastupitel 2002–2014, náměstek primátora 2006–2010, krajský zastupitel 2008–2012).",
+      "K dopravě a parkování předložila v médiích relativně konkrétní návrhy (digitální plánovač staveb, noční směny, parkovací domy, rezidentní parkování).",
+      "Deklarovaně odmítá další zadlužování města."
+    ],
+    "slabe_stranky_rizika": [
+      "Ucelený komunální program není veřejně dostupný v textové podobě (jen obrázek na Facebooku); programové body jsou rekonstruovány z mediálních odpovědí, a proto jsou silně ovlivněny tím, na co se novináři ptali.",
+      "Kombinace slibů (masivní výstavba P+R a parkovacích domů, více strážníků) a zároveň odmítnutí jakéhokoli zadlužení není finančně vyčíslena.",
+      "Kampaň se částečně opírá o celostátní témata (migrace, vládní politika, energetika) – na liberecké akci byl hlavním řečníkem místopředseda R. Fiala.",
+      "Lídr Svatopluk Holata (lídr 2022) na kandidátce 2026 chybí; z 2022 zvolených kandidují znovu Šír, Paleček a Fejtek (č. 8).",
+      "Hlavní favorit voleb (Starostové pro Liberecký kraj) předem vyloučil jakoukoli spolupráci s SPD, což omezuje koaliční potenciál."
+    ],
+    "kontroverze": [
+      {
+        "text": "Lídr Starostů pro Liberecký kraj Lukáš Hájek vyloučil přímou i nepřímou spolupráci s SPD a PRO s odůvodněním, že jejich politika „cíleně pracuje s vyvoláváním strachu a nenávisti ve společnosti“.",
+        "zdroj": "denik_anketa"
+      },
+      {
+        "text": "Na předvolebním mítinku SPD v Liberci místopředseda hnutí Radim Fiala označil odsouzení Tomáše Čermáka (5,5 roku za výroky na Facebooku) za „jednoznačně politický proces“; lídr T. Paleček v projevu uvedl, že se na náměstí „nepřizpůsobiví občané válejí doslova a do písmene“.",
+        "zdroj": "novarepublika_mitink"
+      },
+      {
+        "text": "Brněnský představitel strany GEN Tomáš Řepa v souvislosti s libereckými koaličními jednáními označil PRO a SPD za „politické extremisty“, se kterými odmítá spolupracovat (hodnocení politického konkurenta).",
+        "zdroj": "novinky_gen_pro"
+      }
+    ]
+  },
+  "povolebni_signaly": "T. Paleček (anketa ČTK): SPD bude spolupracovat se všemi demokratickými stranami, které sdílejí její program (rozvoj, odpovědné hospodaření, bezpečnost), a dopředu se nevymezuje vůči nikomu. Naopak SLK (L. Hájek) spolupráci s SPD výslovně vylučuje; L9 (Z. Chmelík) a LOL+Piráti (J. Hruška) odmítají spolupráci s „extremisty“ bez jmenování; ANO (T. Rec) nevylučuje nikoho. (zdroj: denik_anketa)",
+  "kandidati": [
+    {
+      "poradi": 1,
+      "jmeno": "Ing. Tomáš Paleček",
+      "vek": 60,
+      "povolani_dle_listiny": "ekolog, člen zastupitelstva SML",
+      "prislusnost": "SPD (v roce 2022 a ještě v dubnu 2024 vedený jako BEZPP)",
+      "shrnuti": "Zastupitel města Liberec od roku 2022, zvolený jako nestraník z 3. místa kandidátky SPD; nyní člen SPD a lídr kandidátky. V zastupitelstvu byl v opozici, působil ve výboru pro rozvoj a v komisi dozorčí rady Technických služeb města Liberce.",
+      "politicka_kariera": [
+        {
+          "funkce": "zastupitel SML (zvolen za SPD jako BEZPP)",
+          "od": 2022,
+          "do": null,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "člen výboru pro rozvoj ZM Liberec a komise DR Technických služeb města Liberce",
+          "od": 2022,
+          "do": null,
+          "zdroj": "liberec_palecek"
+        },
+        {
+          "funkce": "kandidát krajských voleb za SPD a Trikoloru (č. 50, nezvolen)",
+          "od": 2024,
+          "do": 2024,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "člen SPD (podle kandidátní listiny 2026)",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_kl2026"
+        }
+      ],
+      "roky_v_politice": 4,
+      "zkusenost_skore": 35,
+      "soucasna_prace": "Opoziční (neuvolněný) zastupitel; civilní profese podle listiny ekolog – zaměstnavatel se nepodařilo ověřit.",
+      "posledni_nepoliticka_prace": {
+        "co": "ekolog – specialista (dle kandidátních listin 2022 a 2026)",
+        "kdy": "pravděpodobně souběžně dosud (neověřeno)"
+      },
+      "pozitivni": [
+        {
+          "text": "V roce 2022 získal 3 119 preferenčních hlasů a byl zvolen; v opozici pracoval ve výboru pro rozvoj a v komisi dozorčí rady městských Technických služeb.",
+          "zdroj": "volby_gov,liberec_palecek"
+        },
+        {
+          "text": "K uzavírkám a parkování předložil konkrétní návrhy (digitální plánovač staveb, noční a víkendové směny, parkovací domy na sídlištích).",
+          "zdroj": "crol_special"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "Na mítinku SPD použil zobecňující rétoriku o „nepřizpůsobivých občanech, kteří se tu válejí“ (podle reportáže webu Nová republika).",
+          "zdroj": "novarepublika_mitink"
+        }
+      ],
+      "nejiste": "Konkrétní civilní zaměstnavatel a pracovní náplň („ekolog“) neověřeny; datum vstupu do SPD neznámé (2024 ještě BEZPP). Hlídač státu eviduje jeho mandát až od 2025 (zřejmě chyba v datech, ČSÚ potvrzuje zvolení 2022)."
+    },
+    {
+      "poradi": 2,
+      "jmeno": "Nikolas Neuman",
+      "vek": 29,
+      "povolani_dle_listiny": "stavební technik",
+      "prislusnost": "SPD",
+      "shrnuti": "Mladý člen SPD, který opakovaně kandiduje (komunální 2022, krajské 2024, sněmovní 2025), dosud bez mandátu. Veřejně dostupné informace o jeho činnosti jsou minimální.",
+      "politicka_kariera": [
+        {
+          "funkce": "kandidát do ZM Liberec za SPD (č. 5, 3 037 hlasů, nezvolen)",
+          "od": 2022,
+          "do": 2022,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "kandidát krajských voleb za SPD a Trikoloru (č. 42, nezvolen)",
+          "od": 2024,
+          "do": 2024,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "kandidát do Poslanecké sněmovny za SPD, Liberecký kraj (č. 13, 427 preferenčních hlasů, nezvolen)",
+          "od": 2025,
+          "do": 2025,
+          "zdroj": "volby_gov"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 5,
+      "soucasna_prace": "Stavební technik (dle kandidátní listiny); zaměstnavatel neověřen.",
+      "posledni_nepoliticka_prace": {
+        "co": "stavební technik",
+        "kdy": "souběžně dosud (dle listiny)"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Žádné mediální zmínky, veřejné funkce ani pracovní historie se nepodařilo dohledat (vyhledávání bez výsledků)."
+    },
+    {
+      "poradi": 3,
+      "jmeno": "Milan Šír",
+      "vek": 69,
+      "povolani_dle_listiny": "člen zastupitelstva SML",
+      "prislusnost": "SPD",
+      "shrnuti": "Nejzkušenější komunální politik kandidátky: za ČSSD zastupitel Liberce 2002–2014, radní a náměstek primátora 2006–2010 (bezpečnost) a krajský zastupitel 2008–2012. Po letech neúspěšných kandidatur za ČSSD přešel k SPD, za kterou je od roku 2022 znovu zastupitelem.",
+      "politicka_kariera": [
+        {
+          "funkce": "zastupitel SML za ČSSD",
+          "od": 2002,
+          "do": 2014,
+          "zdroj": "hlidac_sir"
+        },
+        {
+          "funkce": "radní a náměstek primátora Liberce (mj. pro bezpečnost)",
+          "od": 2006,
+          "do": 2010,
+          "zdroj": "hlidac_sir,denik_sir_2007"
+        },
+        {
+          "funkce": "krajský zastupitel Libereckého kraje za ČSSD",
+          "od": 2008,
+          "do": 2012,
+          "zdroj": "hlidac_sir"
+        },
+        {
+          "funkce": "neúspěšný kandidát ČSSD (krajské 2016, komunální 2018, krajské 2020, sněmovní 2021)",
+          "od": 2016,
+          "do": 2021,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "zastupitel SML za SPD (opozice)",
+          "od": 2022,
+          "do": null,
+          "zdroj": "volby_gov,wiki_zast"
+        }
+      ],
+      "roky_v_politice": 16,
+      "zkusenost_skore": 70,
+      "soucasna_prace": "Opoziční zastupitel; v dřívějších kandidaturách uváděl povolání úředník, terénní koordinátor, technik, v letech 2020–2021 důchodce.",
+      "posledni_nepoliticka_prace": {
+        "co": "terénní koordinátor (dle kandidátní listiny 2018); dříve úředník",
+        "kdy": "do cca 2018–2020 (od 2020 uváděn jako důchodce)"
+      },
+      "pozitivni": [
+        {
+          "text": "Jako náměstek pro bezpečnost v roce 2007 po veřejné debatě prosazoval etický kodex městské policie, který měl bránit extremistům v působení u strážníků; exministr vnitra Jan Ruml ho tehdy ocenil jako politika, který „umí držet slovo“.",
+          "zdroj": "denik_sir_2007"
+        },
+        {
+          "text": "Dlouhá praxe v samosprávě města i kraje (radní, náměstek, krajský zastupitel).",
+          "zdroj": "hlidac_sir"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "Změna strany: do roku 2021 kandidoval za ČSSD, od roku 2022 za SPD.",
+          "zdroj": "volby_gov"
+        },
+        {
+          "text": "Kritický web Náš Liberec v roce 2012 uvedl, že pro něj bylo po volbách 2010 v rámci dělení moci vytvořeno nové místo náměstka v Technických službách města Liberce (tvrzení webu, nezávisle neověřeno).",
+          "zdroj": "nasliberec_cssd_2012"
+        }
+      ],
+      "nejiste": "Hlídač státu ho uvádí s angažmá v Technických službách města Liberce, Silnicích LK a Krajské nemocnici Liberec (pravděpodobně dozorčí orgány), konkrétní funkce a období nebyly ověřeny. Hlídač uvádí současný mandát „od 2025“ – v rozporu s ČSÚ (zvolen 2022)."
+    },
+    {
+      "poradi": 4,
+      "jmeno": "Ing. Jiří Rejnart",
+      "vek": 73,
+      "povolani_dle_listiny": "stavební technik",
+      "prislusnost": "SPD",
+      "shrnuti": "Člen SPD, v roce 2018 kandidoval do zastupitelstva Liberce za ANO (č. 17, nezvolen). Na mítinku SPD byl představen jako podnikatel; další veřejné informace chybí.",
+      "politicka_kariera": [
+        {
+          "funkce": "kandidát do ZM Liberec za ANO 2011 (č. 17, 6 532 hlasů, nezvolen)",
+          "od": 2018,
+          "do": 2018,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "člen SPD (podle kandidátní listiny 2026)",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_kl2026"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 5,
+      "soucasna_prace": "Stavební technik (listina 2026); v roce 2018 uváděl „podnikatel“.",
+      "posledni_nepoliticka_prace": {
+        "co": "stavební technik / podnikatel",
+        "kdy": "souběžně dosud (dle listiny)"
+      },
+      "pozitivni": [],
+      "negativni": [
+        {
+          "text": "Změna politické strany: v roce 2018 kandidoval za ANO, nyní je členem SPD.",
+          "zdroj": "volby_gov,csu_kl2026"
+        }
+      ],
+      "nejiste": "Podnikatelská činnost a firmy (obchodní rejstřík) neověřeny; mediální zmínky nenalezeny."
+    },
+    {
+      "poradi": 5,
+      "jmeno": "Zuzana Spudichová",
+      "vek": 50,
+      "povolani_dle_listiny": "podnikatelka - gastronomie",
+      "prislusnost": "Trikolora (navržena SPD)",
+      "shrnuti": "Zástupkyně Trikolory v čele kandidátky SPD; v roce 2022 vedla vlastní kandidátku Trikolory a Soukromníků (1,7 %, bez mandátu). Dříve kandidovala za ODS (2014, 2016).",
+      "politicka_kariera": [
+        {
+          "funkce": "kandidátka do ZM Liberec za ODS (č. 16, nezvolena)",
+          "od": 2014,
+          "do": 2014,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "kandidátka krajských voleb za ODS (č. 25)",
+          "od": 2016,
+          "do": 2016,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "kandidátka krajských voleb za Trikoloru (č. 2)",
+          "od": 2020,
+          "do": 2020,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "lídryně kandidátky Trikolora a Soukromníci do ZM Liberec (1,70 %, 0 mandátů)",
+          "od": 2022,
+          "do": 2022,
+          "zdroj": "volby_gov,csu_kv2022"
+        },
+        {
+          "funkce": "kandidátka krajských voleb za SPD a Trikoloru (č. 6)",
+          "od": 2024,
+          "do": 2024,
+          "zdroj": "volby_gov"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 8,
+      "soucasna_prace": "Podnikatelka v gastronomii (dle listiny).",
+      "posledni_nepoliticka_prace": {
+        "co": "podnikání v gastronomii (dříve servírka, provozní v pohostinství)",
+        "kdy": "souběžně dosud (dle listiny)"
+      },
+      "pozitivni": [],
+      "negativni": [
+        {
+          "text": "Změna politické příslušnosti: do roku 2016 kandidovala za ODS, od roku 2020 za Trikoloru.",
+          "zdroj": "volby_gov"
+        }
+      ],
+      "nejiste": "Případná stranická funkce v Trikoloře a podnikatelské subjekty neověřeny; mediální zmínky nenalezeny."
+    }
+  ],
+  "zdroje": [
+    {
+      "id": "volby_gov",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ volby.cz – historie kandidatur 2014–2025 (zpracováno)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/historie_kandidatu.json",
+      "obsah": "Dřívější kandidatury a zvolení (komunální, krajské, sněmovní) podle oficiálních dat ČSÚ."
+    },
+    {
+      "id": "csu_kl2026",
+      "url": "https://www.volby.cz/opendata/opendata.htm",
+      "nazev": "ČSÚ – registrované kandidátní listiny KV 2026, Liberec",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/kandidati_2026.json",
+      "obsah": "Oficiální kandidátní listiny 2026 (věk, povolání, příslušnost, navrhující strana); surová data data/raw/volby_gov/kv2026/reg/csv_od/kvrk.csv."
+    },
+    {
+      "id": "csu_kv2022",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – výsledky KV 2022 Liberec (zpracováno)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/kandidati_2022.json",
+      "obsah": "Kandidátky a výsledky komunálních voleb 2022 v Liberci."
+    },
+    {
+      "id": "kz2024_mesto",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – výsledky krajských voleb 2024 v krajských městech",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/pruzkumy/kz2024_vysledky_krajmesta.xml",
+      "obsah": "Výsledky KZ 2024 ve městě Liberec a v Libereckém kraji (názvy stran z data/raw/volby_gov/kz2024/reg/csv/kzrkl.csv)."
+    },
+    {
+      "id": "crol_special",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-special-z-liberce-9646377",
+      "nazev": "ČRo Liberec: Komunální volby 2026 – speciál z Liberce (1. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_special_liberec_2026.html",
+      "obsah": "Neupravené odpovědi všech 11 subjektů na 3 otázky (uzavírky, parkování na sídlištích, prodej stadionu U Nisy)."
+    },
+    {
+      "id": "crol_debaty",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-debaty-s-lidry-stran-a-hnuti-ktere-kandiduji-do-9647563",
+      "nazev": "ČRo Liberec: Debaty s lídry (7. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_debaty_lidri_2026.html",
+      "obsah": "Přehled tří rozhlasových debat lídrů (pouze audio, obsah debat nepřepsán)."
+    },
+    {
+      "id": "denik_11",
+      "url": "https://liberecky.denik.cz/komunalni-volby/o-liberec-se-utka-11-kandidatek-podivejte-se-kdo-je-povede-do-voleb/",
+      "nazev": "Liberecký deník/ČTK: O Liberec se utká 11 kandidátek",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_11_kandidatek.html",
+      "obsah": "Přehled kandidátek a lídrů; Trikolora podpořila SPD; ČSA a DSZ kandidují poprvé."
+    },
+    {
+      "id": "denik_kdo",
+      "url": "https://liberecky.denik.cz/komunalni-volby/kdo-chce-vladnout-liberci-ostrileni-matadori-i-kuriozity-zname-jmena/",
+      "nazev": "Liberecký deník: Kdo chce vládnout Liberci? Ostřílení matadoři i kuriozity",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_kdo_chce_vladnout.html",
+      "obsah": "Profesní složení kandidátek, lídři, glosa o kandidátce ČSA."
+    },
+    {
+      "id": "denik_anketa",
+      "url": "https://liberecky.denik.cz/zpravy-region/v-liberci-chteji-volebni-lidri-investovat-do-dopravy-bytu-ci-verejneho-prostoru/",
+      "nazev": "Liberecký deník/ČTK: V Liberci chtějí volební lídři investovat do dopravy, bytů či veřejného prostoru (14. 9. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/spd/denik_ctk_anketa_lidri_2026.html",
+      "obsah": "Anketa ČTK s lídry 7 subjektů se zastupiteli: priority, zadlužení, povolební spolupráce, parkování."
+    },
+    {
+      "id": "pdv_spd",
+      "url": "https://programydovoleb.cz/volby/komunalni-volby/176/strana/164869",
+      "nazev": "Programy do voleb: SPD Liberec 2026",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/spd/programydovoleb_strana_164869.html",
+      "obsah": "Kandidátka; jako volební program odkazuje na obrázek na Facebooku (vloženo 14. 9. 2026)."
+    },
+    {
+      "id": "spd_program_stav",
+      "url": "https://www.facebook.com/photo/?fbid=1489959343170542&set=pb.100064694708885.-2207520000",
+      "nazev": "Volební program SPD Liberec (Facebook) – nedostupný",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/spd/README_program.md",
+      "obsah": "Záznam o tom, že program je jen jako obrázek na Facebooku a bez přihlášení se nepodařilo stáhnout."
+    },
+    {
+      "id": "crol_debata2",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-debaty-s-lidry-stran-a-hnuti-ktere-kandiduji-do-9647563/2",
+      "nazev": "ČRo Liberec: Debata L9, LOL+Piráti, Lepší Liberec, SPD (7. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/spd/crol_debata2_spd.html",
+      "obsah": "Anotace debaty s T. Palečkem (bydlení, doprava, parkování); jen audio."
+    },
+    {
+      "id": "novarepublika_mitink",
+      "url": "https://www.novarepublika.cz/2026/09/za-vysloveni-nazoru-dostal-pet-a-pul-roku",
+      "nazev": "Nová republika: Za vyslovení názoru dostal pět a půl roku (reportáž z mítinku SPD v Liberci, září 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/spd/novarepublika_akce_spd_liberec_2026.html",
+      "obsah": "Reportáž proSPD laděného webu z mítinku na nám. Dr. E. Beneše: leták (bezpečnost, strážníci), projevy Palečka a Šíra, R. Fiala o kauze T. Čermáka."
+    },
+    {
+      "id": "liberec_palecek",
+      "url": "https://web.archive.org/web/20240417065208/https://www.liberec.cz/cz/radnice/dalsi-organy-mesta/zastupitelstvo-mesta-liberec/clenove-zastupitelstva/ing-tomas-palecek/",
+      "nazev": "Statutární město Liberec: profil zastupitele Ing. Tomáš Paleček (archiv 17. 4. 2024)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/spd/liberec_cz_palecek_archive.html",
+      "obsah": "Volební strana SPD, klub SPD, příslušnost BEZPP (2024), výbor pro rozvoj, komise DR Technických služeb."
+    },
+    {
+      "id": "hlidac_sir",
+      "url": "https://www.hlidacstatu.cz/osoba/funkce/milan-sir-3",
+      "nazev": "Hlídač státu: Milan Šír (*1957) – přehled funkcí",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/spd/hlidacstatu_milan_sir_funkce.html",
+      "obsah": "Zastupitel SML 2002–2014, radní a náměstek primátora 2006–2010, krajský zastupitel 2008–2012, kandidatury za ČSSD 2002–2021."
+    },
+    {
+      "id": "hlidac_sir_vazby",
+      "url": "https://www.hlidacstatu.cz/osoba/milan-sir-3",
+      "nazev": "Hlídač státu: Milan Šír – vazby na firmy",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/spd/hlidacstatu_milan_sir.html",
+      "obsah": "Angažmá (nyní či v posledních 5 letech) v Technických službách města Liberce, Silnicích LK, Krajské nemocnici Liberec aj.; dary politické straně."
+    },
+    {
+      "id": "denik_sir_2007",
+      "url": "https://liberecky.denik.cz/zpravy-region/0609-kodex/",
+      "nazev": "Liberecký deník (2007): Etický kodex strážníků bude za rok",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/spd/denik_sir_kodex_2007.html",
+      "obsah": "Náměstek pro bezpečnost M. Šír prosazuje etický kodex městské policie proti extremistům; ocenění J. Rumla a Člověka v tísni."
+    },
+    {
+      "id": "nasliberec_cssd_2012",
+      "url": "https://www.nasliberec.cz/2012/09/16/ceska-strana-socialne-demokraticka-cssd/",
+      "nazev": "Náš Liberec (2012): Česká strana sociálně demokratická (ČSSD)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/spd/nasliberec_cssd_2012.md",
+      "obsah": "Kritický profil liberecké ČSSD; uvádí, že pro M. Šíra bylo v TSML vytvořeno nové místo náměstka (text přes WebFetch)."
+    },
+    {
+      "id": "wiki_zast",
+      "url": "https://cs.wikipedia.org/wiki/Zastupitelstvo_m%C4%9Bsta_Liberec",
+      "nazev": "Wikipedie: Zastupitelstvo města Liberec",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+      "obsah": "Složení zastupitelstva 2010–2026; Šír zastupitel za ČSSD 2010–2014; SPD 4 mandáty 2022 (Holata, Šír, Paleček, Fejtek), opozice."
+    },
+    {
+      "id": "novinky_gen_pro",
+      "url": "https://www.novinky.cz/clanek/domaci-zpravy-liberecky-kraj-strana-byvaleho-politika-ano-zatrhla-svym-clenum-v-liberci-spolupraci-s-rajchlovci-40577695",
+      "nazev": "Novinky.cz: Strana bývalého politika ANO zatrhla svým členům v Liberci spolupráci s Rajchlovci (12. 5. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/pro/novinky_gen_zatrhl_rajchlovci_2026.html",
+      "obsah": "GEN odmítl spolupráci s PRO; brněnský zástupce GEN označil PRO a SPD za politické extremisty."
+    }
+  ]
+}

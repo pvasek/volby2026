@@ -1,0 +1,127 @@
+{
+  "pruzkumy": [],
+  "souvisejici_starsi_pruzkumy": [
+    {
+      "agentura": "Kantar CZ",
+      "zadavatel": "Česká televize",
+      "datum_terenu": "2024-08-06/2024-08-27",
+      "vzorek": 687,
+      "metoda": "výzkum volebního potenciálu (podíl voličů, kteří stranu zvažují; součet přesahuje 100 %)",
+      "uzemi": "Liberecký kraj (ne město)",
+      "volby": "krajské volby 2024",
+      "vysledky": {
+        "ANO": 37.5,
+        "Starostové pro Liberecký kraj": 37.0,
+        "SPOLU pro Liberecký kraj (ODS, TOP 09, KDU-ČSL)": 19.5,
+        "Piráti": 13.0,
+        "SPD a Trikolora": 12.5,
+        "SPOLU PRO Liberecký kraj (Svobodní, Soukromníci)": 11.5
+      },
+      "url": "https://liberecka.drbna.cz/politika/37001-nejvyssi-volebni-potencial-ma-v-libereckem-kraji-ano-tesne-nasledovane-starosty.html",
+      "local_file": "data/raw/pruzkumy/drbna_kantar_potencial_kraj_2024.html",
+      "poznamka": "Nejde o průzkum pro městské volby 2026 ani o volební model; jde o volební potenciál pro krajské volby 2024 v celém kraji. Uvedeno jen jako kontext."
+    },
+    {
+      "agentura": "SANEP",
+      "zadavatel": "SANEP (vlastní, exkluzivní internetový průzkum)",
+      "datum_terenu": "2022-03-01/2022-03-08",
+      "vzorek": "5 116 respondentů souhrnně za 13 krajských měst a Prahu (počet za Liberec neuveden)",
+      "metoda": "internetový panel, kvótní výběr, rozhodnutí voliči se 100% účastí",
+      "uzemi": "město Liberec",
+      "volby": "komunální volby 2022",
+      "vysledky": {
+        "Starostové pro Liberecký kraj": 31.7
+      },
+      "url": "https://zpravy.kurzy.cz/638909-sanep-volebni-preference-stran-hnuti-a-koalic-v-krajskych-mestech-cr/",
+      "local_file": "data/raw/pruzkumy/sanep_krajska_mesta_kurzy.html",
+      "poznamka": "Historický průzkum před volbami 2022; v textu je pro Liberec uvedeno jen číslo pro SLK (31,7 %), ostatní hodnoty jsou pouze v grafu (obrázek), který jsme nepřepisovali. Pro volby 2026 nemá vypovídací hodnotu."
+    }
+  ],
+  "proxy_vysledky": [
+    {
+      "volby": "Volby do Poslanecké sněmovny 2025 (3.–4. 10. 2025)",
+      "uzemi": "město Liberec (obec 563889)",
+      "ucast_pct": 68.32,
+      "vysledky": {
+        "ANO 2011": 30.58,
+        "SPOLU (ODS, KDU-ČSL, TOP 09)": 20.12,
+        "STAROSTOVÉ A NEZÁVISLÍ": 17.77,
+        "Česká pirátská strana": 10.58,
+        "Svoboda a př. demokracie (SPD)": 8.08,
+        "Motoristé sobě": 6.41,
+        "Stačilo!": 3.6,
+        "PŘÍSAHA občanské hnutí": 0.93,
+        "Hnutí Generace": 0.44,
+        "Česká republika na 1. místě!": 0.3,
+        "Rebelové web: re3elove.cz": 0.25,
+        "Česká suverenita soc. dem.": 0.16,
+        "Voluntia": 0.14,
+        "VÝZVA 2025": 0.13,
+        "Volt Česko": 0.13,
+        "Hnutí občanů a podnikatelů": 0.12,
+        "Levice": 0.07,
+        "Jasný Signál Nezávislých": 0.06,
+        "SMS – Stát Má Sloužit": 0.04
+      },
+      "url": "https://www.volby.cz/appdata/ps2025/odata/vysledky_krajmesta.xml",
+      "local_file": "data/raw/pruzkumy/ps2025_vysledky_krajmesta.xml",
+      "poznamka": "Názvy stran z číselníku data/raw/volby_gov/ps2025/reg/csv_od/psrkl.csv (zkratka 30 znaků). Celostátní volby – jiná nabídka stran než v komunálních volbách."
+    },
+    {
+      "volby": "Volby do Zastupitelstva Libereckého kraje 2024 (20.–21. 9. 2024)",
+      "uzemi": "město Liberec (obec 563889)",
+      "ucast_pct": 34.71,
+      "vysledky": {
+        "Starostové pro Liberecký kraj": 36.21,
+        "ANO 2011": 28.58,
+        "SPOLU pro LBK-ODS,TOP,KDU-ČSL": 7.86,
+        "Zelení pro kraj": 6.32,
+        "Česká pirátská strana": 5.01,
+        "SPD a Trikolora": 4.74,
+        "STAČILO!, koalice KSČM a ČSNS": 4.24,
+        "PŘÍSAHA občanské hnutí": 2.24,
+        "SPOLU PRO Liberecký kraj": 1.82,
+        "Právo Respekt Odbornost": 1.28,
+        "Sociální demokracie": 0.92,
+        "DSZ - ZA PRÁVA ZVÍŘAT": 0.38,
+        "LEPŠÍ ŽIVOT PRO LIDI a ND": 0.33
+      },
+      "url": "https://www.volby.cz/appdata/kz2024/odata/vysledky_krajmesta.xml",
+      "local_file": "data/raw/pruzkumy/kz2024_vysledky_krajmesta.xml",
+      "poznamka": "Názvy kandidátních listin z data/raw/volby_gov/kz2024/reg/csv_od/kzrkl.csv (Liberecký kraj). 'SPOLU PRO Liberecký kraj' = Svobodní a Soukromníci, ne koalice ODS/TOP 09/KDU-ČSL."
+    },
+    {
+      "volby": "Volby do Zastupitelstva města Liberec 2022 (23.–24. 9. 2022)",
+      "uzemi": "město Liberec (obec 563889)",
+      "ucast_pct": 40.85,
+      "vysledky": {
+        "Starostové pro Liberecký kraj společně s TOP 09 a KDU-ČSL": 28.21,
+        "ANO 2011": 26.22,
+        "Liberec otevřený lidem": 13.33,
+        "Svoboda a přímá demokracie (SPD)": 10.01,
+        "ODS společně se Sportovci": 9.79,
+        "Česká pirátská strana": 6.32,
+        "Právo Respekt Odbornost": 1.9,
+        "Trikolora a Soukromníci": 1.71,
+        "Komunistická strana Čech a Moravy a Podještědská levice": 1.27,
+        "Česká strana sociálně demokratická": 1.23
+      },
+      "mandaty": {
+        "Trikolora a Soukromníci": 0,
+        "ANO 2011": 11,
+        "Česká pirátská strana": 2,
+        "Starostové pro Liberecký kraj společně s TOP 09 a KDU-ČSL": 12,
+        "Liberec otevřený lidem": 6,
+        "ODS společně se Sportovci": 4,
+        "Právo Respekt Odbornost": 0,
+        "Komunistická strana Čech a Moravy a Podještědská levice": 0,
+        "Česká strana sociálně demokratická": 0,
+        "Svoboda a přímá demokracie (SPD)": 4
+      },
+      "url": "https://www.volby.cz/pls/kv2022/vysledky_obec?datumvoleb=20220923&cislo_obce=563889",
+      "local_file": "data/raw/pruzkumy/kv2022_vysledky_obec_563889.xml",
+      "poznamka": "Minulé komunální volby – výchozí stav. 39 mandátů."
+    }
+  ],
+  "poznamka": "K datu 2026-10-08 jsme nenašli žádný zveřejněný volební průzkum ani volební model pro komunální volby 2026 do Zastupitelstva statutárního města Liberec – ani od agentur (Median, STEM, NMS, Kantar, Ipsos, Phoenix Research, SANEP), ani na objednávku stran či médií (Liberecký deník, iDNES, Seznam Zprávy, ČRo Liberec, Liberecká Drbna, Náš Liberec, Deník Referendum). Hledáno webovým vyhledáváním (několik dotazů, 2026-10-08) a fulltextem na nasliberec.cz (data/raw/pruzkumy/nasliberec_hledani_pruzkum.html). Pole 'pruzkumy' je proto prázdné. Nejde o průzkum: anketa Libereckého deníku 'Starosto, vyřeš to!' (hlasování čtenářů o největší ostudě města, Fügnerova 73–74 %) a sociologický průzkum STEM/MARK pro město v rámci Místní agendy 21 (800 respondentů, problémy města, nikoli volební preference). Jako náhradní ukazatele uvádíme výsledky ve městě Liberec ve sněmovních volbách 2025, krajských volbách 2024 a komunálních volbách 2022; výsledky jiných typů voleb nelze přímo převádět na komunální volby (jiná nabídka kandidátek – např. Lepší Liberec, LIBE! či Liberecká 9 v nich nekandidovaly – a výrazně jiná účast)."
+}

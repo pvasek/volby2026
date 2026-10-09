@@ -1,0 +1,1053 @@
+<title>Volby Liberec 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: voter's handbook — sticky section nav, summary first (ballot-ordered table + theme heatmap), detail per list on demand. */
+:root {
+  --paper: #f3f5f7; --surface: #ffffff; --surface-2: #f8f9fb;
+  --ink: #16202c; --ink-2: #485365; --muted: #737d8c; --line: #dce1e7;
+  --accent: #5a3d9a; --accent-soft: #ece6f7;           /* razítko volební komise */
+  --seq: #1c5cab; --good: #0b7f0b; --bad: #c43535; --warn: #b07800;
+  --good-soft: #e3f3e3; --bad-soft: #fbe6e6; --abs-soft: #eef0f3;
+  --f-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --r: 6px; --navh: 50px;
+}
+@media (max-width: 700px) { :root { --navh: 94px } }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0f1216; --surface: #171b21; --surface-2: #1d222a;
+  --ink: #edf0f4; --ink-2: #b6bfcb; --muted: #8b95a3; --line: #2c333d;
+  --accent: #a68ee8; --accent-soft: #2a2343;
+  --seq: #5598e7; --good: #3cbf3c; --bad: #ec6b6b; --warn: #e0a634;
+  --good-soft: #17301a; --bad-soft: #3a1c1c; --abs-soft: #232830; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #0f1216; --surface: #171b21; --surface-2: #1d222a;
+  --ink: #edf0f4; --ink-2: #b6bfcb; --muted: #8b95a3; --line: #2c333d;
+  --accent: #a68ee8; --accent-soft: #2a2343;
+  --seq: #5598e7; --good: #3cbf3c; --bad: #ec6b6b; --warn: #e0a634;
+  --good-soft: #17301a; --bad-soft: #3a1c1c; --abs-soft: #232830; color-scheme: dark }
+
+* { box-sizing: border-box }
+[hidden] { display: none !important }
+body { background: var(--paper); color: var(--ink); font: 15px/1.55 var(--f-body); }
+a { color: var(--accent); text-underline-offset: 2px }
+a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px }
+h1, h2, h3, h4 { font-family: var(--f-display); text-wrap: balance; margin: 0; line-height: 1.15 }
+h2 { font-size: clamp(1.45rem, 2.6vw, 1.9rem); font-weight: 800; letter-spacing: -0.01em }
+h3 { font-size: 1.2rem; font-weight: 700 }
+h4 { font-size: 1rem; font-weight: 700 }
+p { margin: 0 }
+.lede { color: var(--ink-2); max-width: 68ch }
+.eyebrow { font: 500 .72rem/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+.num { font-family: var(--f-mono); font-variant-numeric: tabular-nums }
+.muted { color: var(--muted) } .small { font-size: .85rem }
+
+/* header */
+header.hero { padding-block: 36px 26px; border-bottom: 1px solid var(--line); background: var(--surface) }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 28px; align-items: end }
+.hero h1 { font-size: clamp(2rem, 5vw, 3.3rem); font-weight: 800; letter-spacing: -0.02em }
+.hero h1 span { color: var(--accent) }
+.hero .lede { margin-top: 12px }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden }
+.fact { background: var(--surface); padding: 12px 14px; display: grid; gap: 4px }
+.fact b { font: 700 1.35rem/1 var(--f-display) }
+.fact span { font-size: .78rem; color: var(--muted) }
+.stamp { display: inline-flex; gap: 8px; align-items: center; margin-top: 16px; padding: 6px 12px; border: 2px solid var(--accent); color: var(--accent); border-radius: 4px; font: 600 .8rem/1.2 var(--f-mono); letter-spacing: .04em; transform: rotate(-1.2deg) }
+
+nav.sec { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line) }
+nav.sec .wrap { display: flex; gap: 10px; align-items: center; padding-block: 8px }
+nav.sec .links { display: flex; gap: 4px; overflow-x: auto; flex: 1; min-width: 0; scrollbar-width: thin }
+.pf { position: relative; flex: none; display: flex; gap: 4px; align-items: center }
+.pf-btn { font: 600 .84rem/1 var(--f-body); padding: 8px 12px; border-radius: 999px; border: 1px solid var(--ink); background: var(--surface); color: var(--ink); cursor: pointer; display: inline-flex; gap: 7px; align-items: center; max-width: 52vw }
+.pf-btn span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.pf-btn svg { flex: none }
+.pf-btn.active { background: var(--accent); border-color: var(--accent); color: #fff }
+.pf-clear { font: 600 .9rem/1 var(--f-body); width: 30px; height: 30px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); cursor: pointer }
+.pf-pop { position: absolute; right: 0; top: calc(100% + 8px); width: min(310px, calc(100vw - 32px)); max-height: min(70vh, 560px); overflow-y: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); box-shadow: 0 10px 30px rgb(0 0 0 / .18); padding: 8px; display: grid; gap: 1px; z-index: 30 }
+.pf-pop p { font-size: .78rem; color: var(--muted); padding: 4px 6px 6px }
+.pf-pop label { display: flex; gap: 9px; align-items: center; padding: 6px; border-radius: 4px; cursor: pointer; font-size: .9rem }
+.pf-pop label:hover { background: var(--accent-soft) }
+.pf-pop input { accent-color: var(--accent); width: 16px; height: 16px; margin: 0 }
+.pf-pop .ballot { min-width: 22px; height: 22px; font-size: .72rem; border-width: 1px }
+.pf-actions { display: flex; justify-content: space-between; gap: 8px; border-top: 1px solid var(--line); margin-top: 6px; padding: 8px 4px 2px }
+.pf-actions button { font: 500 .84rem var(--f-body); background: none; border: 0; color: var(--accent); cursor: pointer; padding: 4px }
+.dim { opacity: .28 }
+.kbtn, .ktog { font: 600 .84rem/1 var(--f-body); padding: 8px 12px; border-radius: 999px; border: 1px solid var(--ink); background: var(--surface); color: var(--ink); cursor: pointer; display: inline-flex; gap: 7px; align-items: center; white-space: nowrap }
+.kbtn-n { font: 600 .72rem/1 var(--f-mono); color: var(--muted) }
+.ktog { border-color: var(--line); color: var(--ink-2) }
+.ktog i { width: 26px; height: 15px; border-radius: 999px; background: var(--line); position: relative; flex: none; transition: background .15s }
+.ktog i::after { content: ""; position: absolute; top: 2px; left: 2px; width: 11px; height: 11px; border-radius: 50%; background: var(--surface); transition: left .15s }
+.ktog[aria-checked="true"] { border-color: var(--accent); color: var(--accent) }
+.ktog[aria-checked="true"] i { background: var(--accent) } .ktog[aria-checked="true"] i::after { left: 13px }
+@media (max-width: 700px) { .kbtn-l { display: none } .kbtn, .ktog { padding: 8px 9px }
+  nav.sec .wrap { flex-wrap: wrap; row-gap: 6px } nav.sec .links { flex-basis: 100% } .pf { margin-left: auto } }
+.kbar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 10px 14px; border-radius: var(--r); background: var(--accent-soft); font-size: .88rem }
+.kbar .kb { font: 600 .84rem/1 var(--f-body); padding: 7px 11px; border-radius: 999px; border: 1px solid var(--accent); background: var(--surface); color: var(--accent); cursor: pointer }
+.kbar .kb.primary { background: var(--accent); color: #fff }
+.modal { position: fixed; inset: 0; z-index: 60; background: rgb(10 14 20 / .55); overflow-y: auto; padding: calc(env(safe-area-inset-top, 0px) + 16px) 12px 24px; display: grid; justify-items: center; align-items: start }
+.modal-box { background: var(--paper); color: var(--ink); width: min(1180px, 100%); border-radius: 10px; padding: 20px; display: grid; gap: 14px; box-shadow: 0 20px 60px rgb(0 0 0 / .35) }
+.modal-head { display: flex; justify-content: space-between; align-items: start; gap: 12px }
+.modal-x { font: 400 1.6rem/1 var(--f-body); width: 40px; height: 40px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; flex: none }
+.ktabs { display: flex; gap: 4px; flex-wrap: wrap; border-bottom: 1px solid var(--line) }
+.ktabs button { font: 600 .9rem/1 var(--f-body); padding: 10px 14px; border: 0; border-bottom: 3px solid transparent; background: none; color: var(--ink-2); cursor: pointer; margin-bottom: -1px }
+.ktabs button[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent) }
+.ktabs .num { font-size: .75rem; color: var(--muted); margin-left: 4px }
+.formulas li { line-height: 1.5 }
+.seg3 { grid-template-columns: repeat(3, minmax(0, 1fr)) }
+.vq { padding: 12px 14px; display: grid; gap: 8px; min-width: 0 }
+.vq .meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: .8rem; color: var(--muted) }
+.vq h4 { font-size: .95rem; line-height: 1.3 }
+.vme { display: inline-flex; gap: 4px; align-items: center; font-size: .82rem; color: var(--ink-2) }
+.vme button { font: 600 .78rem/1 var(--f-body); padding: 6px 9px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--ink-2); cursor: pointer }
+.vme button[aria-pressed="true"][data-u="1"] { background: var(--good); border-color: var(--good); color: #fff }
+.vme button[aria-pressed="true"][data-u="-1"] { background: var(--bad); border-color: var(--bad); color: #fff }
+.vm tr.me th.row { color: var(--accent); font-weight: 700 }
+.vm tr.me td.v.A { background: var(--good); color: #fff } .vm tr.me td.v.N { background: var(--bad); color: #fff }
+.shoda { display: grid; grid-template-columns: 3.2em 70px; gap: 6px; align-items: center }
+.vm th.row .ksh { display: inline-block; min-width: 3.6em; font: 600 .7rem var(--f-mono); color: var(--accent) }
+.cs-wrap { display: grid; gap: 8px; border-top: 1px solid var(--line); padding-top: 10px }
+.cs { display: grid; gap: 5px } .cs .eyebrow { text-transform: none; letter-spacing: 0; font: 600 .78rem/1.3 var(--f-body); color: var(--ink-2) }
+.stance-chip { font-size: .74rem; padding: 2px 7px; border-radius: 4px; background: var(--abs-soft); color: var(--ink-2); white-space: nowrap }
+.stance-chip.y { background: color-mix(in oklab, var(--seq) 16%, var(--surface)); color: var(--seq) }
+.stance-chip.n { background: var(--bad-soft); color: var(--bad) }
+#flows svg { width: 100%; height: auto; display: block }
+#flows .lk { fill-opacity: .72; cursor: pointer; transition: fill-opacity .15s }
+#flows .lk.none { fill-opacity: .22 }
+#flows.hl .lk { fill-opacity: .08 }
+#flows.hl .lk.on { fill-opacity: .9 }
+#flows .nd { fill: var(--ink); cursor: pointer } #flows .nd.none { fill: var(--muted) }
+#flows text { font: 500 11.5px var(--f-body); fill: var(--ink); paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round } #flows text.c { fill: var(--muted); font: 500 10.5px var(--f-mono) }
+#flows text.yr { font: 600 12px var(--f-mono); fill: var(--muted) }
+.kalk { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 400px); gap: 20px; align-items: start }
+.kalk-q { display: grid; gap: 10px; min-width: 0 }
+.kalk-res { position: sticky; top: 12px; max-height: calc(100vh - 40px); overflow-y: auto; padding: 16px; display: grid; gap: 12px; align-content: start }
+.q { padding: 14px 16px; display: grid; gap: 10px; min-width: 0 }
+.q.answered { border-color: color-mix(in oklab, var(--accent) 45%, var(--line)) }
+.q-head { display: flex; gap: 8px; align-items: center; justify-content: space-between }
+.q-text { font-weight: 600; font-size: 1rem; line-height: 1.4 }
+.seg { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: 6px; overflow: hidden }
+.seg button { font: 500 .8rem/1.15 var(--f-body); padding: 8px 4px; border: 0; background: var(--surface); color: var(--ink-2); cursor: pointer; min-height: 40px }
+.seg button + button { border-left: 1px solid var(--line) }
+.seg button:hover { background: var(--accent-soft); color: var(--ink) }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface) }
+.seg button[data-v="1"][aria-pressed="true"], .seg button[data-v="0.5"][aria-pressed="true"] { background: var(--seq); color: #fff }
+.seg button[data-v="-1"][aria-pressed="true"], .seg button[data-v="-0.5"][aria-pressed="true"] { background: var(--bad); color: #fff }
+.q-tools { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-size: .84rem; color: var(--ink-2) }
+.q-tools label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer }
+.q-tools input { accent-color: var(--accent); width: 16px; height: 16px; margin: 0 }
+.stances { display: grid; gap: 4px; margin-top: 4px }
+.stance { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px; align-items: start; font-size: .82rem }
+.stance .st { font: 600 .7rem/1 var(--f-mono); padding: 4px 6px; border-radius: 3px; white-space: nowrap; background: var(--abs-soft); color: var(--ink-2) }
+.stance .st.y { background: color-mix(in oklab, var(--seq) 16%, var(--surface)); color: var(--seq) }
+.stance .st.n { background: var(--bad-soft); color: var(--bad) }
+.stance .st.hit { outline: 2px solid var(--good); outline-offset: 1px }
+.stance .st.miss { outline: 2px dashed var(--bad); outline-offset: 1px }
+.rk { display: grid; gap: 6px }
+.rk-row { display: grid; grid-template-columns: minmax(0, 1fr) 100px 3.4em; gap: 8px; align-items: center; font-size: .84rem }
+.rk-row .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.rk-row .nm small { color: var(--muted) }
+.dv { position: relative; height: 12px; background: var(--abs-soft); border-radius: 3px }
+.dv::after { content: ""; position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--muted) }
+.dv i { position: absolute; top: 0; bottom: 0; border-radius: 2px }
+.dv i.pos { left: 50%; background: var(--seq) }
+.dv i.neg { right: 50%; background: var(--bad) }
+.kalk-res h4 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px }
+.kalk-res .btn-link { font: 500 .8rem var(--f-body); background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0 }
+.progress { height: 4px; background: var(--abs-soft); border-radius: 2px; overflow: hidden } .progress i { display: block; height: 100%; background: var(--accent) }
+@media (max-width: 900px) { .kalk { grid-template-columns: minmax(0, 1fr) } .kalk-res { position: static; max-height: none } .seg button { font-size: .74rem } }
+.empty-f { font-size: .88rem; color: var(--muted); padding: 14px 16px }
+nav.sec a { flex: none; padding: 5px 10px; border-radius: 999px; color: var(--ink-2); text-decoration: none; font-size: .86rem; font-weight: 500 }
+nav.sec a:hover { background: var(--accent-soft); color: var(--ink) }
+
+section.block { padding-block: 40px 8px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; scroll-margin-top: calc(var(--navh) + 6px) }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r) }
+.scroll { overflow-x: auto; min-width: 0 }
+.note { font-size: .82rem; color: var(--muted); max-width: 90ch }
+.callout { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 10px 14px; border-radius: 0 var(--r) var(--r) 0; font-size: .9rem }
+
+/* tables */
+table { border-collapse: collapse; width: 100% }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top }
+th { font: 600 .74rem/1.2 var(--f-mono); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); background: var(--surface-2); position: sticky; top: 0 }
+th.sortable { cursor: pointer; user-select: none } th.sortable:hover { color: var(--ink) }
+tr:last-child td { border-bottom: 0 }
+.ballot { display: inline-grid; place-items: center; min-width: 28px; height: 28px; padding: 0 4px; border: 1.5px solid var(--ink); border-radius: 4px; font: 600 .85rem/1 var(--f-mono) }
+.listname { font-weight: 600 } .listname small { display: block; font-weight: 400; color: var(--muted); font-size: .78rem }
+.score { display: grid; grid-template-columns: 2.4em 1fr; gap: 8px; align-items: center; min-width: 120px }
+.score .bar { height: 6px; background: var(--abs-soft); border-radius: 3px; overflow: hidden }
+.score .bar i { display: block; height: 100%; background: var(--accent); border-radius: 3px }
+.score.praxe .bar i { background: var(--seq) }
+.badges { display: flex; gap: 4px }
+.badge.praxe { background: color-mix(in oklab, var(--seq) 14%, var(--surface)); color: var(--seq) }
+.scatter-wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 300px); gap: 20px; align-items: center; padding: 16px 18px }
+.scatter svg { width: 100%; height: auto; display: block; overflow: visible }
+.scatter text { font: 500 11px var(--f-mono); fill: var(--muted) }
+.scatter .grid { stroke: var(--line); stroke-width: 1 }
+.scatter .dot rect { fill: var(--surface); stroke: var(--ink); stroke-width: 1.5 }
+.scatter .dot text { font: 600 11px var(--f-mono); fill: var(--ink); text-anchor: middle; dominant-baseline: central }
+.scatter .dot.dim { opacity: .2 }
+.scatter .pt { cursor: pointer } .scatter .pt circle { stroke: var(--surface); stroke-width: 1.5 }
+.scatter .pt.dim { opacity: .12 } .scatter .pt.hl circle { stroke: var(--ink); stroke-width: 2 }
+.scatter .pt text { font: 600 10px var(--f-body); fill: var(--ink); paint-order: stroke; stroke: var(--surface); stroke-width: 3px; pointer-events: none }
+.plegend { display: flex; flex-wrap: wrap; gap: 4px }
+.plegend button { font: 500 .76rem/1 var(--f-body); padding: 5px 8px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); cursor: pointer; display: inline-flex; gap: 6px; align-items: center }
+.plegend button i { width: 10px; height: 10px; border-radius: 50% } .plegend button[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink) } .plegend button.dim { opacity: .35 }
+@media (max-width: 760px) { .scatter-wrap { grid-template-columns: minmax(0, 1fr) } }
+.chips { display: flex; flex-wrap: wrap; gap: 4px }
+.chip { font-size: .76rem; padding: 2px 8px; border-radius: 999px; background: var(--abs-soft); color: var(--ink-2); white-space: nowrap }
+
+/* heatmap */
+.heat td, .heat th { padding: 0; border: 0 }
+.heat { border-collapse: separate; border-spacing: 2px; width: auto }
+.heat th.col { height: 128px; vertical-align: bottom; background: none; position: static }
+.heat th.col div { writing-mode: vertical-rl; transform: rotate(180deg); text-transform: none; letter-spacing: 0; font: 500 .78rem/1.1 var(--f-body); color: var(--ink-2); padding: 4px 0; white-space: nowrap; margin-inline: auto }
+.heat th.row { background: none; position: static; padding: 4px 10px 4px 0; text-transform: none; letter-spacing: 0; font: 500 .85rem/1.2 var(--f-body); color: var(--ink); white-space: nowrap }
+.heat td.cell { width: 52px; min-width: 44px; height: 34px; text-align: center; font: 500 .78rem/34px var(--f-mono); border-radius: 3px; cursor: default }
+.heat td.cell.na { background: var(--abs-soft); color: var(--muted) }
+
+/* bars */
+.bars { display: grid; gap: 6px }
+.barrow { display: grid; grid-template-columns: minmax(120px, 230px) minmax(0, 1fr) 4.2em; gap: 10px; align-items: center; font-size: .86rem }
+.barrow .lab { overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.barrow .track { height: 14px; position: relative }
+.barrow .track i { position: absolute; inset: 0 auto 0 0; background: var(--seq); border-radius: 0 4px 4px 0 }
+.barrow .track i.hl { background: var(--accent) }
+.barrow .val { text-align: right }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 16px }
+.card { padding: 16px 18px; display: grid; gap: 12px; align-content: start; min-width: 0 }
+
+/* list explorer */
+.picker { display: flex; flex-wrap: wrap; gap: 6px }
+.picker button { font: 500 .85rem/1 var(--f-body); padding: 7px 10px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center }
+.picker button .ballot { min-width: 20px; height: 20px; font-size: .72rem; border-width: 1px }
+.picker button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink) }
+.picker button[aria-pressed="true"] .ballot { border-color: var(--surface) }
+.party-head { display: grid; grid-template-columns: auto minmax(0, 1fr) minmax(170px, 260px); gap: 16px; align-items: start; padding: 18px }
+.party-head .ballot { min-width: 46px; height: 46px; font-size: 1.2rem; border-width: 2px }
+.party-body { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 0; border-top: 1px solid var(--line) }
+.party-body > div { padding: 18px; display: grid; gap: 14px; align-content: start; min-width: 0 }
+.party-body > div + div { border-left: 1px solid var(--line) }
+ul.clean { margin: 0; padding-left: 1.1em; display: grid; gap: 5px }
+ul.clean li::marker { color: var(--muted) }
+.pts { display: grid; gap: 10px }
+.pts h4 { font: 600 .74rem/1.2 var(--f-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--muted) }
+.vague { color: var(--muted); font-style: italic }
+.pc { display: grid; gap: 4px }
+.pc .plus::before { content: "+ "; color: var(--good); font-weight: 700 }
+.pc .minus::before { content: "– "; color: var(--bad); font-weight: 700 }
+sup.src a { font: 500 .68rem var(--f-mono); text-decoration: none; padding: 0 2px }
+
+.people { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 12px; padding: 18px; border-top: 1px solid var(--line); background: var(--surface-2) }
+.person { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; display: grid; gap: 10px; align-content: start; min-width: 0 }
+.person .top { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 10px; align-items: start }
+.person .pos { font: 700 1.1rem/1 var(--f-display); color: var(--muted); padding-top: 2px }
+.person .name { font-weight: 600; line-height: 1.25 }
+.person .meta { font-size: .8rem; color: var(--muted) }
+.badge { font: 600 .9rem/1 var(--f-mono); padding: 6px 7px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); text-align: center }
+.badge small { display: block; font: 500 .58rem/1.2 var(--f-mono); letter-spacing: .06em; color: var(--muted); margin-top: 3px }
+.kv { display: grid; grid-template-columns: 8.5em minmax(0, 1fr); gap: 3px 10px; font-size: .84rem }
+.kv dt { color: var(--muted) } .kv dd { margin: 0 }
+.timeline { display: flex; flex-wrap: wrap; gap: 4px }
+.tl { font: 500 .7rem/1.2 var(--f-mono); padding: 3px 6px; border-radius: 3px; border: 1px solid var(--line); color: var(--ink-2) }
+.tl.won { border-color: var(--accent); color: var(--accent); background: var(--accent-soft) }
+details.more li, .note, .kv dd, .person, .callout, .card p { overflow-wrap: anywhere }
+details.more summary { cursor: pointer; font-size: .82rem; color: var(--accent); font-weight: 500 }
+details.more[open] summary { margin-bottom: 8px }
+
+/* votes */
+.vm { border-collapse: separate; border-spacing: 2px; width: auto }
+.vm th, .vm td { padding: 0; border: 0; background: none; position: static }
+.vm th.row { padding: 0 10px 0 0; text-transform: none; letter-spacing: 0; font: 500 .82rem/26px var(--f-body); color: var(--ink); white-space: nowrap; text-align: left; position: sticky; left: 0; background: var(--surface); z-index: 1 }
+.vm th.row small { color: var(--muted); font-weight: 400 }
+@media (max-width: 600px) { .vm th.row small { display: none } .vm th.row .vn { display: inline-block; max-width: 118px; overflow: hidden; text-overflow: ellipsis; vertical-align: top } }
+.vm th.col { font: 500 .7rem/1 var(--f-mono); color: var(--muted); text-align: center; padding-bottom: 4px; letter-spacing: 0 }
+.vm th.col { cursor: help; border-bottom: 3px solid transparent !important; padding-bottom: 3px }
+.vm th.col.acc { border-bottom-color: var(--good) !important }
+.vm th.col.rej { border-bottom-color: var(--bad) !important }
+.vinfo { position: sticky; top: calc(env(safe-area-inset-top, 0px) + var(--navh)); z-index: 5; padding: 12px 16px; display: grid; gap: 6px; min-height: 64px; box-shadow: 0 4px 14px rgb(0 0 0 / .06) }
+.vinfo-head { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 14px; align-items: center }
+.vinfo-title { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 10px; align-items: center; min-width: 0 }
+.vinfo-foot { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center }
+.vnav { font: 600 1.2rem/1 var(--f-body); width: 36px; height: 36px; display: grid; place-items: center; padding: 0; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--ink); cursor: pointer; white-space: nowrap }
+.vnav:hover:not(:disabled) { background: var(--accent-soft) } .vnav:disabled { opacity: .35; cursor: default }
+.vnavs { display: flex; gap: 4px }
+@media (max-width: 600px) { .vinfo-head { grid-template-columns: minmax(0, 1fr); gap: 10px } }
+.vinfo h4 { font-size: 1rem }
+.vnum { font: 700 1rem/1 var(--f-mono); min-width: 34px; height: 34px; display: grid; place-items: center; border-radius: 4px; border: 1.5px solid var(--ink) }
+.vnum.acc { border-color: var(--good); color: var(--good) } .vnum.rej { border-color: var(--bad); color: var(--bad) }
+.vres { font: 600 .8rem/1 var(--f-body); padding: 6px 9px; border-radius: 4px; white-space: nowrap; background: var(--abs-soft) }
+.vres.acc { background: var(--good-soft); color: var(--good) } .vres.rej { background: var(--bad-soft); color: var(--bad) }
+#votes-matrix { position: relative }
+#votes-matrix table.vm { position: relative; z-index: 1 }
+.vband { position: absolute; z-index: 0; background: var(--accent-soft); border: 1px solid color-mix(in oklab, var(--accent) 35%, transparent); border-radius: 6px; pointer-events: none }
+.vm th.col.colhl { color: var(--accent); font-weight: 700 }
+.vm td[data-c] { cursor: pointer }
+.vm td.v { width: 26px; height: 26px; text-align: center; font: 600 .78rem/26px var(--f-mono); border-radius: 3px }
+.v.A { background: var(--good-soft); color: var(--good) }
+.v.N { background: var(--bad-soft); color: var(--bad) }
+.v.Z { background: var(--abs-soft); color: var(--warn) }
+.v.X { background: transparent; color: var(--muted); outline: 1px dashed var(--line); outline-offset: -1px }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: .8rem; color: var(--ink-2) }
+.legend span { display: inline-flex; gap: 6px; align-items: center }
+.legend .v { display: inline-block; width: 20px; height: 20px; text-align: center; font: 600 .72rem/20px var(--f-mono); border-radius: 3px }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; font-size: .85rem }
+select, input[type=search] { font: inherit; padding: 6px 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); color: var(--ink) }
+ol.votes { margin: 0; padding-left: 2.2em; display: grid; gap: 6px; font-size: .86rem }
+ol.votes li::marker { font-family: var(--f-mono); color: var(--muted) }
+
+.tip { position: fixed; pointer-events: none; z-index: 50; max-width: 320px; background: var(--ink); color: var(--surface); padding: 8px 10px; border-radius: 4px; font-size: .8rem; line-height: 1.35; box-shadow: 0 4px 16px rgb(0 0 0 / .2) }
+.steps { counter-reset: s; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)) }
+.steps > div { counter-increment: s; padding: 16px; display: grid; gap: 6px; align-content: start }
+.steps > div h4::before { content: counter(s) " · "; color: var(--accent); font-family: var(--f-mono) }
+footer { padding-block: 40px 60px; color: var(--muted); font-size: .82rem }
+
+@media (max-width: 860px) {
+  .hero-grid, .party-body { grid-template-columns: minmax(0, 1fr) }
+  .party-body > div + div { border-left: 0; border-top: 1px solid var(--line) }
+  .party-head { grid-template-columns: auto minmax(0, 1fr) }
+  .party-head .score-box { grid-column: 1 / -1 }
+  .barrow { grid-template-columns: minmax(90px, 130px) minmax(0, 1fr) 3.8em }
+  .facts { grid-template-columns: repeat(2, minmax(0, 1fr)) }
+}
+@media (prefers-reduced-motion: no-preference) { .barrow .track i, .score .bar i { transition: width .4s ease } }
+</style>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Zastupitelstvo statutárního města Liberec · komunální volby</p>
+      <h1>Volby Liberec <span>2026</span></h1>
+      <p class="lede">Přehled všech 11 kandidátek: co chtějí řešit, kdo je vede, jaké mají zkušenosti a jak jejich lidé dosud hlasovali. Každý údaj odkazuje na stažený zdroj.</p>
+      <p class="small muted" style="margin-top:8px">Osobní přehled sestavený pro vlastní potřebu autora. Nejde o oficiální ani stranický materiál.</p>
+      <div class="stamp">PÁ 9. 10. 14–22 h · SO 10. 10. 8–14 h</div>
+    </div>
+    <div class="facts" id="facts"></div>
+  </div>
+</header>
+<nav class="sec" aria-label="Sekce"><div class="wrap"><div class="links">
+  <a href="#prehled">Přehled</a><a href="#temata">Témata</a><a href="#kandidatky">Kandidátky</a>
+  <a href="#kandidati">Kandidáti</a><a href="#hlasovani">Hlasování</a><a href="#historie">Minulé volby</a><a href="#prebehlici">Toky</a><a href="#jak-volit">Jak volit</a><a href="#zdroje">Zdroje</a></div>
+  <div class="pf"><button type="button" class="kbtn" id="k-open" aria-haspopup="dialog"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><rect x="2.5" y="1.5" width="11" height="13" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 5h6M5 8h1M7.5 8h1M10 8h1M5 11h1M7.5 11h1M10 11h1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span class="kbtn-l">Kalkulačka</span><span class="kbtn-n" id="k-count"></span></button>
+    <button type="button" class="kbtn" id="kv-open" aria-haspopup="dialog" title="Jak byste hlasoval/a vy" hidden><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 8.5l3 3 8-8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M2.5 14.5h11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span class="kbtn-l">Hlasování</span><span class="kbtn-n" id="kv-count"></span></button>
+    <button type="button" class="ktog" id="k-toggle" role="switch" aria-checked="false" hidden title="Řadit tabulky podle vaší shody"><i></i><span class="kbtn-l">Moje shoda</span></button>
+    <button type="button" class="pf-clear" id="pf-clear" title="Zrušit filtr" aria-label="Zrušit filtr stran" hidden>×</button>
+    <button type="button" class="pf-btn" id="pf-btn" aria-haspopup="true" aria-expanded="false" aria-controls="pf-pop"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M1.5 2.5h13l-5 6v5l-3-1.5V8.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span id="pf-label">Všechny strany</span></button>
+    <div class="pf-pop" id="pf-pop" role="group" aria-label="Filtr stran" hidden></div></div>
+</div></nav>
+
+<main class="wrap">
+  <div id="wip" class="callout" style="margin-top:20px" hidden></div>
+  <section class="block" id="prehled">
+    <div><p class="eyebrow">Krok 1</p><h2>Přehled kandidátek</h2></div>
+    <p class="lede">Čísla odpovídají pořadí na hlasovacím lístku. Dvě skóre 0–100, obě jako průměr první pětky kandidátky. <b>Politika</b> měří zkušenost se správou města, kraje či státu. <b>Praxe</b> měří vzdělání a kariéru mimo politiku. Ani jedno neříká, zda je program dobrý. Kliknutím na záhlaví sloupce řadíte.</p>
+    <div class="panel scatter-wrap" id="scatter"></div>
+    <div class="panel scroll"><table id="t-overview"></table></div>
+    <p class="note" id="overview-note"></p>
+  </section>
+
+
+  <section class="block" id="temata">
+    <div><p class="eyebrow">Krok 3</p><h2>Čemu se věnují programy</h2></div>
+    <p class="lede">Programy jsme rozdělili do 12 společných témat. Číslo = podíl tématu v % = počet bodů programu v tématu / počet všech bodů × 100 (body jsou vypsané u každé kandidátky), řádek dává 100 %. Tmavší buňka = větší důraz.</p>
+    <div class="kbar" data-kbar></div>
+    <div class="panel scroll" style="padding:14px"><table class="heat" id="t-heat"></table></div>
+    <p class="note">Počítá se z bodů programu zobrazených v detailu kandidátky (8–25 bodů na kandidátku), ne z délky textu. U Asociálů jde o 5 satirických bodů.</p>
+  </section>
+
+
+  <section class="block" id="kandidatky">
+    <div><p class="eyebrow">Krok 4</p><h2>Kandidátky do detailu</h2></div>
+    <p class="lede">Program bez marketingu, silné a slabé stránky, kontroverze a profily prvních pěti kandidátů. Horní index [s3] vede na zdroj v seznamu pod kandidátkou.</p>
+    <div class="picker" id="picker" role="group" aria-label="Vyberte kandidátku"></div>
+    <div id="party" class="panel"></div>
+  </section>
+
+  <section class="block" id="kandidati">
+    <div><p class="eyebrow">Krok 5</p><h2>Lídři vedle sebe</h2></div>
+    <p class="lede">Prvních pět z každé kandidátky. Politika = zkušenost ve volených a výkonných funkcích. Praxe = vzdělání a kariéra mimo politiku. „Poslední civilní práce“ = kdy naposledy pracovali mimo placenou politickou funkci.</p>
+    <div class="panel scatter-wrap" id="pscatter"></div>
+    <div class="controls"><label for="f-list">Kandidátka</label><select id="f-list"><option value="">všechny</option></select>
+      <label for="f-q">Hledat</label><input id="f-q" type="search" placeholder="jméno, povolání…"></div>
+    <div class="panel scroll"><table id="t-people"></table></div>
+  </section>
+
+  <section class="block" id="hlasovani">
+    <div><p class="eyebrow">Krok 6</p><h2>Jak hlasovali v zastupitelstvu</h2></div>
+    <div id="votes-intro" class="lede"></div>
+    <div class="controls" id="votes-controls"></div>
+    <div class="legend"><span><i class="v A">A</i> pro</span><span><i class="v N">N</i> proti</span><span><i class="v Z">Z</i> zdržel se</span><span><i class="v X">·</i> nehlasoval / nepřítomen</span><span class="muted">prázdné = nebyl v té době zastupitelem</span><span><i style="display:inline-block;width:16px;border-bottom:3px solid var(--good)"></i> přijato</span><span><i style="display:inline-block;width:16px;border-bottom:3px solid var(--bad)"></i> nepřijato</span></div>
+    <div class="kbar" data-kvbar></div>
+    <div class="vinfo panel" id="vote-info" aria-live="polite"></div>
+    <div class="panel scroll" style="padding:12px" id="votes-matrix"></div>
+    <div id="votes-agg"></div>
+  </section>
+
+  <section class="block" id="historie">
+    <div><p class="eyebrow">Kontext</p><h2>Minulé volby a kdo vládl</h2></div>
+    <div class="grid2" id="past"></div>
+    <h3 style="margin:10px 0 0">Jiné volby v Liberci</h3>
+    <p class="small muted">Výsledky ve městě Liberec v posledních sněmovních a krajských volbách. Pro letošní komunální volby žádný průzkum nevyšel, toto je nejbližší ukazatel nálad. Kandidátky se ale liší (Lepší Liberec, LIBE! ani Liberecká 9 v nich nebyly).</p>
+    <div class="grid2" id="polls"></div>
+    <div id="coalitions"></div>
+    <div id="cases"></div>
+    <div id="campaign"></div>
+  </section>
+
+  <section class="block" id="prebehlici">
+    <div><p class="eyebrow">Kontext</p><h2>Toky mezi stranami</h2></div>
+    <p class="lede">Odkud přišli letošní kandidáti. Letošní kandidáti, kteří už dříve kandidovali do zastupitelstva Liberce: za koho kandidovali v letech 2014, 2018 a 2022 a za koho kandidují letos. Šířka proudu = počet lidí, barva = letošní kandidátka (barvy uzlů v posledním sloupci). Bledé proudy vedou z nebo do „nekandidoval“. Najetím na proud nebo uzel uvidíte jména, filtr stran zvýrazní letošní kandidátky.</p>
+    <div class="panel scroll" style="padding:12px 8px"><div id="flows" style="min-width:820px"></div></div>
+    <p class="lede" style="margin-top:8px">Z oficiálních kandidátních listin 2014–2025 (komunální, krajské a sněmovní volby): kandidáti z první patnáctky, kteří dříve kandidovali za jinou politickou rodinu. Koalice se počítají jako vlastní rodina.</p>
+    <div class="panel scroll"><table id="t-switch"></table></div>
+  </section>
+
+  <section class="block" id="jak-volit">
+    <div><p class="eyebrow">Praktické</p><h2>Jak volit</h2></div>
+    <div class="steps">
+      <div class="panel"><h4>Kdy a kde</h4><p>Pátek 9. 10. 14:00–22:00 a sobota 10. 10. 8:00–14:00 ve vaší okrskové místnosti. Vezměte si občanský průkaz nebo cestovní pas.</p></div>
+      <div class="panel"><h4>Jedna kandidátka</h4><p>Označíte křížkem jednu stranu. Dáváte hlas všem jejím kandidátům v pořadí, jak jsou na listině, nejvýše 39.</p></div>
+      <div class="panel"><h4>Jednotlivci napříč</h4><p>Můžete dát až 39 křížků konkrétním lidem z různých kandidátek. Víc křížků než 39 znamená neplatný hlas.</p></div>
+      <div class="panel"><h4>Kombinace</h4><p>Křížek u strany a navíc u lidí z jiných kandidátek. Lidé z jiných stran ubírají hlasy posledním kandidátům označené strany.</p></div>
+      <div class="panel"><h4>Kdo projde</h4><p>Do rozdělení mandátů postupují kandidátky s aspoň 5 % hlasů. Kandidát, který získá o 10 % víc hlasů, než je průměr na kandidáta jeho listiny, poskočí dopředu.</p></div>
+    </div>
+  </section>
+
+  <section class="block" id="zdroje">
+    <div><p class="eyebrow">Metodika</p><h2>Zdroje a metodika</h2></div>
+    <div class="grid2">
+      <div class="panel card"><h4>Oficiální data</h4>
+        <ul class="clean small">
+          <li>Kandidátní listiny 2026 a výsledky 2014, 2018, 2022: <a href="https://volby.gov.cz/opendata/opendata.htm">ČSÚ – otevřená data voleb</a> (registr k 2. 10. 2026, KODZASTUP 563889).</li>
+          <li>Dřívější kandidatury: krajské volby 2016/2020/2024 a sněmovní 2021/2025 (registry ČSÚ, Liberecký kraj). Shoda podle jména a roku narození (±1). U jmenovců může být vzácně chybná.</li>
+          <li>Stránka odkazuje jen na originální zdroje. Seznam všech 529 použitých souborů s URL, datem stažení a otiskem SHA-256 je v repozitáři (<span class="num">data/sources_manifest.json</span>). Skript <span class="num">scripts/fetch_sources.py</span> je umí znovu stáhnout a ověřit, že jde o tytéž soubory (<span class="num">--verify</span>). Webové stránky se v čase mění, u nich pomůže <a href="https://web.archive.org/">web.archive.org</a>.</li>
+        </ul></div>
+      <div class="panel card"><h4>Jak čteme čísla (vzorce)</h4>
+        <ul class="clean small formulas">
+          <li><b>Politika osoby</b> = min(100, 3 × R + F). R = počet let ve volených nebo výkonných funkcích (zastupitel, radní, náměstek, primátor, starosta, krajský zastupitel, poslanec; překrývající se období se počítají jednou; kandidatury, členství ve straně, výbory a dozorčí rady se nepočítají). F = body za nejvyšší funkci: primátor/hejtman 30, náměstek/poslanec 22, radní/starosta obvodu 16, krajský zastupitel 10, zastupitel města 8, zastupitel/místostarosta obvodu 5. Funkce a roky jsou z doložených profilů (viz zdroje u kandidátky).</li>
+          <li><b>Praxe osoby</b> = vzdělání (0–30) + kariéra mimo politiku (0–70). Vzdělání z titulů na kandidátní listině ČSÚ: bez titulu 5, student VŠ 8, Bc. 15, Mgr./Ing./MUDr./PaedDr. 22, Ph.D./CSc. 27, doc. 29, prof. 30, další titul nebo MBA +2. Kariéra = zařazení do pásma podle nejvyšší dosažené pozice mimo politiku: 60–70 vrcholové vedení nebo profesura, 45–59 vedoucí pozice nebo zavedený odborník, 30–44 kvalifikovaná praxe, 15–29 krátká praxe nebo málo informací, 0–14 student či nezaměstnaný. Zařazení je ruční a u každého kandidáta je uvedené zdůvodnění. Titul na listině je nepovinný, „bez titulu“ tedy neznamená bez VŠ.</li>
+          <li><b>Politika a Praxe kandidátky</b> = aritmetický průměr hodnot první pětky (u Asociálů čtyř kandidátů).</li>
+          <li><b>Účast osoby</b> = hlasování, u kterých byl přítomen / všechna hlasování v době mandátu × 100. <b>Účast kandidátky</b> = Σ přítomností / Σ hlasování za ty z první pětky, kdo seděli v zastupitelstvu (vážený průměr, kdo seděl déle, váží víc).</li>
+          <li><b>Témata v %</b> = počet bodů programu v tématu / počet všech bodů programu × 100, zaokrouhleno tak, aby řádek dal 100.</li>
+          <li><b>Shoda – teze</b>: odpověď u ∈ {−1, −½, +½, +1}, váha w = 2 u důležité teze, jinak 1, postoj kandidátky p ∈ {−1, −½, 0, +½, +1}. Pro každou tezi x = u × p; přičte se w × x, je-li x &gt; 0, a w × 2x, je-li x &lt; 0 (neshoda se počítá dvojnásobně). Shoda = součet / Σ w × |u| × 100. „Nevím“ a teze bez postoje kandidátky se nepočítají do čitatele. Výsledek je mezi −200 % (vždy opačně) a +100 % (vždy stejně), 0 % = shoda a neshoda se vyruší nebo kandidátka nemá postoj.</li>
+          <li><b>Shoda – hlasování (osoba)</b>: váš hlas u ∈ {pro +1, proti −1}, hlas zastupitele p: pro +1, proti −1, zdržel se −½, nepřítomen = nezapočítá se. Stejný vzorec jako u tezí (shoda +1, neshoda −2).</li>
+          <li><b>Shoda – hlasování (kandidátka)</b>: postoj kandidátky u hlasování = průměr hlasů jejích letošních kandidátů, kteří tehdy hlasovali; dál stejný vzorec. Kandidátka bez takových lidí shodu nemá.</li>
+          <li><b>Jinak než klub</b> = podíl sporných hlasování (aspoň 3 pro a aspoň 3 proti nebo zdržel se), kde zastupitel hlasoval jinak než většina jeho klubu. <b>Shoda klubů</b> = podíl sporných hlasování, kde většiny dvou klubů hlasovaly stejně.</li>
+          <li><b>Pozitiva a negativa</b> jsou převzatá ze zdrojů (horní index [s…]) a přisouzená jejich autorům.</li>
+          <li id="vote-method"></li>
+        </ul></div>
+    </div>
+    <div id="all-sources"></div>
+  </section>
+</main>
+<footer class="wrap"><p id="foot"></p></footer>
+<div class="tip" id="tip" hidden></div>
+<div class="modal" id="kv-modal" role="dialog" aria-modal="true" aria-labelledby="kv-title" hidden>
+  <div class="modal-box">
+    <div class="modal-head"><div><p class="eyebrow">Vaše odpovědi se ukládají jen ve vašem prohlížeči</p><h2 id="kv-title">Volební kalkulačka</h2></div><button type="button" class="modal-x" id="kv-close" aria-label="Zavřít">×</button></div>
+    <div class="ktabs" role="tablist"><button type="button" role="tab" data-mode="teze" aria-selected="false">Podle programů <span class="num" data-cnt="teze"></span></button><button type="button" role="tab" data-mode="hlas" aria-selected="true">Podle minulých hlasování <span class="num" data-cnt="hlas"></span></button></div>
+    <p class="lede small">Režim podle minulé práce: u každého ze 40 klíčových hlasování zastupitelstva 2016–2026 vidíte, o čem se hlasovalo a jak to dopadlo, a zvolíte, jak byste hlasoval/a vy (Pro / Proti / Nevím). Zastupitelé se seřadí podle toho, jak často hlasovali stejně jako vy. Shoda přičítá bod, opačný hlas odečítá dva, „zdržel se“ zastupitele se počítá jako poloviční nesouhlas. Pořadí uvidíte i v tabulce hlasování na stránce.</p>
+    <div class="kalk"><div class="kalk-q" id="kv-q"></div><aside class="kalk-res panel" id="kv-res" aria-live="polite"></aside></div>
+  </div>
+</div>
+<div class="modal" id="k-modal" role="dialog" aria-modal="true" aria-labelledby="k-title" hidden>
+  <div class="modal-box">
+    <div class="modal-head"><div><p class="eyebrow">Vaše odpovědi se ukládají jen ve vašem prohlížeči</p><h2 id="k-title">Volební kalkulačka</h2></div><button type="button" class="modal-x" id="k-close" aria-label="Zavřít kalkulačku">×</button></div>
+    <div class="ktabs" role="tablist"><button type="button" role="tab" data-mode="teze" aria-selected="true">Podle programů <span class="num" data-cnt="teze"></span></button><button type="button" role="tab" data-mode="hlas" aria-selected="false">Podle minulých hlasování <span class="num" data-cnt="hlas"></span></button></div>
+    <p class="lede small">Režim podle programů: odpovězte na teze, u kterých se kandidátky liší. Postoje kandidátek vycházejí z jejich programů a vyjádření lídrů (rozbalte „Postoje“). Shoda přičítá body, neshoda odečítá dvojnásobek. Důležité teze mají dvojnásobnou váhu. Šest tezí je navázaných na skutečná hlasování v zastupitelstvu, takže se seřadí i zastupitelé. Po zavření se podle vaší shody seřadí tabulky na stránce.</p>
+    <div class="kalk"><div class="kalk-q" id="kalk-q"></div><aside class="kalk-res panel" id="kalk-res" aria-live="polite"></aside></div>
+  </div>
+</div>
+
+<script>
+const D = /*__DATA__*/null;
+const THEMES = [
+  ["doprava_parkovani","Doprava a parkování"],["bydleni","Bydlení"],["rozvoj_uzemni_plan_vystavba","Rozvoj a výstavba"],
+  ["zivotni_prostredi_zelen","Životní prostředí"],["socialni_zdravotnictvi_seniori","Sociální, zdraví, senioři"],["skolstvi_deti_rodina","Školy, děti, rodiny"],
+  ["kultura_sport_volny_cas","Kultura a sport"],["bezpecnost_poradek","Bezpečnost"],["finance_hospodareni_dane","Finance a hospodaření"],
+  ["sprava_transparentnost_digitalizace","Úřad a transparentnost"],["ekonomika_podnikani_cestovni_ruch","Ekonomika a turistika"],["ostatni","Ostatní"]];
+const TH = Object.fromEntries(THEMES);
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const A = l => l.analyza || {};
+const REPO = "https://github.com/pvasek/volby2026/blob/claude/wonderful-davinci-dsr4zp/";
+const leader = l => l.kandidati[0];
+/* party filter */
+const REX = { 1: /\bSPD\b|Svoboda a př|Trikol/, 2: /LIBERECKÁ 9|Liberecká 9|Liberecká devítka|TOP ?09|KDU/, 3: /\bPRO\b(?! Liberecký kraj)|Právo Respekt|Tarabov/,
+  4: /\bANO\b/, 5: /LIBE!|\bGEN\b|Generace|Batthy/, 6: /Pirát|PIRÁT|otevřený lidem|\bLOL\b|Změna pro Liber|ZMĚNA PRO|Zelen|Pro KRAJinu|Hrušk/,
+  7: /asociál/i, 8: /\bDSZ\b|zvířat/, 9: /Lepší (Liberec|město)|Tepl[áé]|Pohank/, 10: /\bODS\b|Občanská demokr|[Ss]portovc|Unie pro sport|SPOLU(?! PRO)|Veselk/,
+  11: /Starost|\bSLK\b|\bSTAN\b|Hájk|Hájek|Zámečník/ };
+let SEL = new Set();
+try { const v = JSON.parse(localStorage.getItem("volby-lbc-filtr") || "[]"); if (Array.isArray(v)) SEL = new Set(v.filter(n => REX[n])); } catch (e) {}
+const on = n => !SEL.size || SEL.has(n);
+const matchAny = t => !SEL.size || [...SEL].some(n => REX[n].test(String(t || "")));
+const emptyF = (what = "nic") => `<p class="empty-f">Pro vybrané strany zde ${what} není.</p>`;
+const shortName = l => ({"Svoboda a přímá demokracie (SPD)":"SPD","PRO Právo Respekt Odbornost":"PRO","Liberec otevřený lidem a Piráti":"LOL + Piráti","Demokratická strana zelených - ZA PRÁVA ZVÍŘAT, sdružení DSZ - ZA PRÁVA ZVÍŘAT a NK":"DSZ – Za práva zvířat","Starostové pro Liberecký kraj":"Starostové (SLK)","ODS společně se sportovci":"ODS + sportovci","Česká strana asociálů":"Asociálové"}[l.nazev] || l.nazev);
+const scoreCell = (v, kind) => v == null ? '<span class="muted">–</span>' : `<div class="score ${kind || ""}"><span class="num">${v}</span><span class="bar"><i style="width:${v}%"></i></span></div>`;
+
+/* tooltip */
+const tip = $("#tip");
+function bindTip(root) {
+  root.addEventListener("mousemove", e => { const t = e.target.closest("[data-tip]"); if (!t) { tip.hidden = true; return; }
+    tip.innerHTML = t.dataset.tip; tip.hidden = false;
+    const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8), y = e.clientY + 16 + tip.offsetHeight > innerHeight ? e.clientY - tip.offsetHeight - 10 : e.clientY + 16;
+    tip.style.left = x + "px"; tip.style.top = y + "px"; });
+  root.addEventListener("mouseleave", () => tip.hidden = true);
+}
+
+/* facts */
+const nC = D.lists.reduce((s, l) => s + l.kandidati.length, 0);
+$("#facts").innerHTML = [["39","mandátů"],["11","kandidátek"],[nC,"kandidátů"],["5 %","hranice pro zisk mandátu"],[D.results[2022] ? "40,9 %" : "–","účast 2022"],["2","volební dny"]]
+  .map(([b, s]) => `<div class="fact"><b class="num">${b}</b><span>${s}</span></div>`).join("");
+
+/* poll lookup */
+function pollFor(l) {
+  const P = D.pruzkumy && D.pruzkumy.pruzkumy || []; if (!P.length) return null;
+  const p = P[P.length - 1]; const r = p.vysledky || {};
+  const k = Object.keys(r).find(k => { const a = k.toLowerCase(), n = l.nazev.toLowerCase(), z = (l.zkratka||"").toLowerCase(), s = shortName(l).toLowerCase();
+    return a === n || a === z || a === s || n.includes(a) || a.includes(n); });
+  return k ? r[k] : null;
+}
+
+/* účast první pětky (vážená počtem hlasování) */
+function listUcast(l) {
+  const os = l.kandidati.slice(0, 5).map(c => (D.hlasovani_agg && D.hlasovani_agg.osoby || []).find(o => o.cislo === l.cislo && o.poradi === c.poradi)).filter(Boolean);
+  if (!os.length) return null;
+  const tot = os.reduce((a, o) => a + o.hlasovani, 0), pres = os.reduce((a, o) => a + o.hlasovani * o.ucast_pct / 100, 0);
+  return { pct: Math.round(1000 * pres / tot) / 10, n: os.length, votes: tot, weak: os.length < 2 || tot < 1500, who: os.map(o => `${o.jmeno.replace(/^(\S+\.\s)+/, "")}: ${String(o.ucast_pct).replace(".", ",")} % (${o.hlasovani})`) };
+}
+const ucastCell = u => !u ? '<span class="muted" title="Nikdo z první pětky nebyl v letech 2016–2026 zastupitelem města">–</span>'
+  : `<span class="${u.weak ? "muted" : ""}" title="${esc(u.who.join("; "))}${u.weak ? " · málo dat, orientační" : ""}"><span class="num">${String(u.pct).replace(".", ",")} %</span> <span class="small muted num">${u.n}/5${u.weak ? "*" : ""}</span></span>`;
+
+/* overview table */
+let ovSort = { k: "score", dir: -1 };
+function renderOverview() {
+  const act = kActive(); if ((!act && ovSort.k === "shoda") || (!kvActive() && ovSort.k === "shodaV")) ovSort = { k: "score", dir: -1 };
+  const actVo = kvActive();
+  const rows = D.lists.filter(l => on(l.cislo)).map(l => { const m = act ? listMatch(l) : null; const mv = actVo ? listVoteMatch(l) : null; const uc = listUcast(l); return { l, m, mv, shodaV: mv && mv.cov ? mv.pct : null, uc, ucast: uc ? uc.pct : null, shoda: m ? m.pct : null, score: l.skore.politika, praxe: l.skore.praxe, poll: pollFor(l), cislo: l.cislo }; });
+  rows.sort((a, b) => { const x = a[ovSort.k], y = b[ovSort.k]; if (x == null) return 1; if (y == null) return -1; return (x > y ? 1 : x < y ? -1 : 0) * ovSort.dir; });
+  const hasPoll = rows.some(r => r.poll != null);
+  $("#t-overview").innerHTML = `<thead><tr><th class="sortable" data-k="cislo">Č.</th><th>Kandidátka</th><th>Lídr</th><th>Na co se zaměřují</th>
+    ${act ? `<th class="sortable" data-k="shoda" title="Shoda s vašimi odpověďmi na teze (podle programů)">Shoda ${ovSort.k === "shoda" ? (ovSort.dir < 0 ? "↓" : "↑") : ""}</th>` : ""}${actVo ? `<th class="sortable" data-k="shodaV" title="Shoda s vašimi hlasy podle toho, jak hlasovali lidé z kandidátky v zastupitelstvu">Shoda (hlas.) ${ovSort.k === "shodaV" ? (ovSort.dir < 0 ? "↓" : "↑") : ""}</th>` : ""}<th class="sortable" data-k="score" title="Politika kandidátky = průměr Politiky první pětky; Politika osoby = min(100, 3 × roky ve volených funkcích + body za nejvyšší funkci)">Politika ${ovSort.k==="score"?(ovSort.dir<0?"↓":"↑"):""}</th><th class="sortable" data-k="praxe" title="Praxe kandidátky = průměr Praxe první pětky; Praxe osoby = vzdělání (0–30) + kariéra mimo politiku (0–70)">Praxe ${ovSort.k==="praxe"?(ovSort.dir<0?"↓":"↑"):""}</th><th class="sortable" data-k="ucast" title="Účast první pětky na hlasováních zastupitelstva 2016–2026, vážená počtem hlasování">Účast v ZM ${ovSort.k==="ucast"?(ovSort.dir<0?"↓":"↑"):""}</th>${hasPoll?'<th class="sortable" data-k="poll">Průzkum</th>':""}</tr></thead><tbody>` +
+    rows.map(({ l, m, mv, uc, score, praxe, poll }) => { const a = A(l), c = leader(l);
+      return `<tr><td><span class="ballot">${l.cislo}</span></td>
+      <td class="listname"><a href="#kandidatky" data-open="${l.cislo}">${esc(shortName(l))}</a><small>${esc(l.zkratka)} · ${l.kandidati.length} kandidátů</small></td>
+      <td>${esc(c.jmeno)}<div class="small muted">${c.vek} let · ${esc((c.povolani||"").slice(0,70))}</div></td>
+      <td class="small" style="max-width:34ch">${esc(a.shrnuti ? a.shrnuti.split(/(?<=\.)\s/)[0] : "")}<div class="chips" style="margin-top:6px">${(a.zamereni||[]).slice(0,4).map(z=>`<span class="chip">${esc(z)}</span>`).join("")}</div></td>
+      ${act ? `<td>${shodaCell(m)}</td>` : ""}${actVo ? `<td>${mv && mv.cov ? shodaCell(mv) : '<span class="muted" title="Nikdo z kandidátky nehlasoval o vašich hlasováních">–</span>'}</td>` : ""}<td>${scoreCell(score)}</td><td>${scoreCell(praxe, "praxe")}</td><td style="white-space:nowrap">${ucastCell(uc)}</td>${hasPoll?`<td class="num">${poll!=null?String(poll).replace(".",",")+" %":"–"}</td>`:""}</tr>`; }).join("") + "</tbody>";
+  $("#t-overview").querySelectorAll("th.sortable").forEach(th => th.onclick = () => { const k = th.dataset.k; ovSort = { k, dir: ovSort.k === k ? -ovSort.dir : (k==="cislo"?1:-1) }; renderOverview(); });
+  $("#t-overview").querySelectorAll("[data-open]").forEach(a => a.onclick = () => openParty(+a.dataset.open));
+}
+
+/* volební kalkulačka */
+const KT = D.kalkulacka || [], PEN = 2;
+const ANS_LABELS = [[-1, "Rozhodně ne"], [-0.5, "Spíš ne"], [0, "Nevím"], [0.5, "Spíš ano"], [1, "Rozhodně ano"]];
+let KA = {};
+try { const v = JSON.parse(localStorage.getItem("volby-lbc-kalk") || "{}"); if (v && typeof v === "object") KA = v; } catch (e) {}
+const saveKA = () => { try { localStorage.setItem("volby-lbc-kalk", JSON.stringify(KA)); } catch (e) {} };
+let KON = true; try { KON = localStorage.getItem("volby-lbc-kalk-on") !== "0"; } catch (e) {}
+const kAnswered = () => KT.filter(t => KA[t.id] && KA[t.id].u).length;
+const kActive = () => KON && kAnswered() >= 3;
+const listMatch = l => scoreOf(t => t.postoje[l.cislo] ? t.postoje[l.cislo].p : null);
+const personMatch = n => scoreOf(t => t.hlasovani.length ? councillorStance(t, n) : null);
+const shodaCell = r => r == null || r.pct == null ? '<span class="muted">–</span>' : `<span class="shoda" title="shoda v ${r.hit}, neshoda v ${r.miss}, postoj k ${r.cov} tezím"><span class="num">${r.pct > 0 ? "+" : ""}${r.pct} %</span><span class="dv"><i class="${r.pct >= 0 ? "pos" : "neg"}" style="width:${Math.min(50, Math.abs(r.pct) / 2)}%"></i></span></span>`;
+function setKON(v) { KON = v; try { localStorage.setItem("volby-lbc-kalk-on", v ? "1" : "0"); } catch (e) {} if (v) { if (kAnswered() >= 3) ovSort = { k: "shoda", dir: -1 }; else if (kvAnswered() >= 3) ovSort = { k: "shodaV", dir: -1 }; if (kvAnswered() >= 3) aSort = { k: "shoda", dir: -1 }; } else { if (ovSort.k === "shoda") ovSort = { k: "score", dir: -1 }; if (aSort.k === "shoda") aSort = { k: "cislo", dir: 1 }; } refreshKalkViews(); }
+function refreshKalkViews() { renderOverview(); renderHeat(); renderPeople(); renderVotes(); renderKbar(); }
+/* hlasovací kalkulačka */
+let KV = {}; try { const v = JSON.parse(localStorage.getItem("volby-lbc-kv") || "{}"); if (v && typeof v === "object") KV = v; } catch (e) {}
+const saveKV = () => { try { localStorage.setItem("volby-lbc-kv", JSON.stringify(KV)); } catch (e) {} };
+const VOTES = (((D.hlasovani && D.hlasovani.hlasovani) || []).slice()).sort((a, b) => (a.datum > b.datum ? 1 : -1));
+const kvAnswered = () => VOTES.filter(v => KV[v.id]).length;
+const kvActive = () => KON && kvAnswered() >= 3;
+function voteMatch(name) {
+  let s = 0, max = 0, cov = 0, hit = 0, miss = 0;
+  for (const v of VOTES) { const u = KV[v.id]; if (!u) continue; max += 1; const x0 = (v.hlasy || {})[name]; const p = { A: 1, N: -1, Z: -0.5 }[String(x0 || "").toUpperCase()[0]];
+    if (p == null) continue; cov++; const x = u * p; if (x > 0) { s += x; hit++; } else if (x < 0) { s += 2 * x; miss++; } }
+  return { pct: max && cov ? Math.round(100 * s / max) : null, cov, hit, miss };
+}
+function listVoteMatch(l) {
+  const names = l.kandidati.map(c => c.jmeno).filter(n => { const m = findCand(n); return m && m.l.cislo === l.cislo; });
+  let s = 0, max = 0, cov = 0, hit = 0, miss = 0, who = new Set();
+  for (const v of VOTES) { const u = KV[v.id]; if (!u) continue; max += 1;
+    const ps = names.map(n => { const m = { A: 1, N: -1, Z: -0.5 }[String((v.hlasy || {})[n] || "").toUpperCase()[0]]; if (m != null) who.add(n); return m; }).filter(x => x != null);
+    if (!ps.length) continue; cov++; const p = ps.reduce((a, b) => a + b, 0) / ps.length, x = u * p; if (x > 0) { s += x; hit++; } else if (x < 0) { s += 2 * x; miss++; } }
+  return { pct: max && cov ? Math.round(100 * s / max) : null, cov, hit, miss, lidi: who.size };
+}
+function setKV(id, u) { if (KV[id] === u || !u) delete KV[id]; else KV[id] = u; saveKV(); }
+const meBtns = (v, small) => `<span class="vme" role="group" aria-label="Váš hlas">${small ? "" : "Vy:"}${[[1, "Pro"], [-1, "Proti"], [0, "Nevím"]].map(([u, t]) => `<button type="button" data-vid="${esc(v.id)}" data-u="${u}" aria-pressed="${(KV[v.id] || 0) === u && (u !== 0 || !KV[v.id])}">${t}</button>`).join("")}</span>`;
+function renderKvQ() {
+  $("#kv-q").innerHTML = VOTES.map((v, i) => { const ok = resCls(v);
+    return `<div class="panel vq${KV[v.id] ? " q answered" : ""}"><div class="meta"><span class="num">${i + 1} · ${esc(v.datum)}</span>${v.tema ? `<span class="chip">${esc(v.tema)}</span>` : ""}<span class="vres ${ok}" style="padding:3px 6px">${ok === "acc" ? "✔ přijato" : ok === "rej" ? "✘ nepřijato" : ""}</span></div>
+      <h4>${esc(v.nazev)}</h4><p class="small muted">${esc(v.popis || "")} ${v.zdroj_url ? `<a href="${esc(v.zdroj_url)}">protokol</a>` : ""}${v.kontext_url ? ` · <a href="${esc(v.kontext_url)}">kontext</a>` : ""}</p>${meBtns(v)}</div>`; }).join("");
+}
+function renderKvRes() {
+  const n = kvAnswered();
+  let h = `<div><h4>Shoda se zastupiteli <button type="button" class="btn-link" id="kv-reset">Vymazat odpovědi</button></h4><p class="small muted">Odpovězeno ${n} z ${VOTES.length} hlasování</p><div class="progress"><i style="width:${n / VOTES.length * 100}%"></i></div></div>`;
+  if (n < 3) h += `<p class="small">Odpovězte aspoň na 3 hlasování.</p>`;
+  else { const ppl = Object.entries(getKC()).filter(([nm, m]) => on(m.l.cislo)).map(([nm, m]) => ({ nm, m, ...voteMatch(nm) })).filter(r => r.cov > 0).sort((a, b) => b.pct - a.pct || b.cov - a.cov);
+    const dv = p => `<span class="dv"><i class="${p >= 0 ? "pos" : "neg"}" style="width:${Math.min(50, Math.abs(p) / 2)}%"></i></span>`;
+    const lr = D.lists.filter(l => on(l.cislo)).map(l => ({ l, ...listVoteMatch(l) })).sort((a, b) => (b.cov ? b.pct : -999) - (a.cov ? a.pct : -999));
+    h += `<div class="rk"><p class="eyebrow">Kandidátky podle hlasování jejich lidí</p>${lr.map(r => r.cov ? `<div class="rk-row" data-tip="<b>${esc(shortName(r.l))}</b><br>postoj = průměr hlasů ${r.lidi} jejích kandidátů, kteří hlasovali<br>stejně v ${r.hit}, opačně v ${r.miss}, k dispozici u ${r.cov} z ${n}"><span class="nm"><span class="ballot" style="min-width:20px;height:20px;font-size:.7rem">${r.l.cislo}</span> ${esc(shortName(r.l))} <small>${r.cov}/${n} · ${r.lidi} ${r.lidi === 1 ? "člověk" : r.lidi < 5 ? "lidé" : "lidí"}</small></span>${dv(r.pct)}<span class="num" style="text-align:right">${r.pct > 0 ? "+" : ""}${r.pct} %</span></div>` : `<div class="rk-row"><span class="nm muted"><span class="ballot" style="min-width:20px;height:20px;font-size:.7rem">${r.l.cislo}</span> ${esc(shortName(r.l))} <small>nikdo nehlasoval</small></span><span></span><span class="num muted" style="text-align:right">–</span></div>`).join("")}</div>
+    <div class="rk"><p class="eyebrow">Kandidáti 2026, kteří hlasovali</p>${ppl.slice(0, 30).map(r => `<div class="rk-row" data-tip="<b>${esc(r.nm)}</b><br>${esc(shortName(r.m.l))} #${r.m.c.poradi}<br>stejně v ${r.hit}, opačně v ${r.miss}, hlasoval/a v ${r.cov} z ${n}"><span class="nm">${esc(r.nm)} <small>${r.m.l.cislo}·#${r.m.c.poradi} · ${r.cov}/${n}</small></span>${dv(r.pct)}<span class="num" style="text-align:right">${r.pct > 0 ? "+" : ""}${r.pct} %</span></div>`).join("")}</div>
+      <p class="note">Číslo za jménem = u kolika vašich hlasování byl/a v zastupitelstvu. Procenta počítají se všemi vašimi odpověďmi.</p>
+      <button type="button" id="kv-apply" style="font:600 .88rem/1 var(--f-body);padding:10px 14px;border-radius:999px;border:0;background:var(--accent);color:#fff;cursor:pointer">Seřadit tabulku hlasování podle shody</button>`; }
+  $("#kv-res").innerHTML = h; bindTip($("#kv-res"));
+  $("#kv-reset").onclick = () => { KV = {}; saveKV(); renderKvQ(); renderKvRes(); renderKbar(); };
+  const ap = $("#kv-apply"); if (ap) ap.onclick = () => { KON = true; try { localStorage.setItem("volby-lbc-kalk-on", "1"); } catch (e) {} closeKv(); };
+}
+let kvLastFocus = null;
+function openKv() { renderTabCounts(); if (!kvLastFocus || !document.body.contains(kvLastFocus) || kvLastFocus.closest(".modal")) kvLastFocus = document.activeElement; $("#kv-modal").hidden = false; document.documentElement.style.overflow = "hidden"; renderKvQ(); renderKvRes(); $("#kv-close").focus(); }
+function closeKv() { $("#kv-modal").hidden = true; document.documentElement.style.overflow = ""; if (kvActive()) aSort = { k: "shoda", dir: -1 }; refreshKalkViews(); if (kvLastFocus) kvLastFocus.focus(); }
+document.addEventListener("click", e => { const b = e.target.closest("button[data-vid]"); if (!b) return; setKV(b.dataset.vid, +b.dataset.u);
+  if (!$("#kv-modal").hidden) { const y = $("#kv-modal").scrollTop; renderKvQ(); renderKvRes(); $("#kv-modal").scrollTop = y; renderKbar(); renderTabCounts(); } else { refreshKalkViews(); } });
+
+function renderKbar() {
+  const n = kAnswered(), act = kActive();
+  $("#k-count").textContent = [n ? `${n}/${KT.length}` : "", kvAnswered() ? `${kvAnswered()}/${VOTES.length}` : ""].filter(Boolean).join(" · ");
+  const nv = kvAnswered(); $("#kv-count").textContent = nv ? `${nv}/${VOTES.length}` : "";
+  const tg = $("#k-toggle"); tg.hidden = n < 3 && nv < 3; tg.setAttribute("aria-checked", KON && (n >= 3 || nv >= 3));
+  const vh = nv < 3 ? `<span>Zkuste <b>hlasovací kalkulačku</b>: řekněte, jak byste hlasoval/a vy, a tabulka se seřadí podle toho, kdo hlasoval stejně. Hlasovat můžete i přímo v panelu níže.</span><button type="button" class="kb primary" data-k="vopen">Otevřít hlasovací kalkulačku</button>`
+    : kvActive() ? `<span>Zastupitelé seřazeni podle <b>shody s vašimi hlasy</b> (${nv} z ${VOTES.length}).</span><button type="button" class="kb" data-k="vopen">Upravit</button><button type="button" class="kb" data-k="off">Vypnout řazení</button>`
+    : `<span>Máte vyplněno ${nv} hlasování, řazení podle shody je vypnuté.</span><button type="button" class="kb primary" data-k="on">Řadit podle shody</button><button type="button" class="kb" data-k="vopen">Upravit</button>`;
+  document.querySelectorAll("[data-kvbar]").forEach(b => b.innerHTML = vh);
+  const html = n < 3 ? `<span>Vyplňte <b>volební kalkulačku</b> (20 tezí) a programy i přehled kandidátek se seřadí podle toho, jak se s vámi shodují.</span><button type="button" class="kb primary" data-k="open">Otevřít kalkulačku</button>`
+    : act ? `<span>Řazeno podle <b>vaší shody</b> z kalkulačky (${odp(n)}).</span><button type="button" class="kb" data-k="open">Upravit odpovědi</button><button type="button" class="kb" data-k="off">Vypnout řazení</button>`
+    : `<span>Máte vyplněnou kalkulačku (${odp(n)}), řazení podle shody je vypnuté.</span><button type="button" class="kb primary" data-k="on">Řadit podle shody</button><button type="button" class="kb" data-k="open">Upravit odpovědi</button>`;
+  document.querySelectorAll("[data-kbar]").forEach(b => b.innerHTML = html);
+}
+const odp = n => `${n} ${n === 1 ? "odpověď" : n < 5 ? "odpovědi" : "odpovědí"}`;
+let KMODE = "teze"; try { KMODE = localStorage.getItem("volby-lbc-kmode") || "teze"; } catch (e) {}
+function openMode(m) { KMODE = m; try { localStorage.setItem("volby-lbc-kmode", m); } catch (e) {} if (m === "hlas") openKv(); else openKalk(); }
+function switchMode(m) { const fromK = !$("#k-modal").hidden, fromV = !$("#kv-modal").hidden; $("#k-modal").hidden = true; $("#kv-modal").hidden = true; document.documentElement.style.overflow = ""; openMode(m); }
+function renderTabCounts() { document.querySelectorAll('[data-cnt="teze"]').forEach(e => e.textContent = `${kAnswered()}/${KT.length}`); document.querySelectorAll('[data-cnt="hlas"]').forEach(e => e.textContent = `${kvAnswered()}/${VOTES.length}`); }
+document.addEventListener("click", e => { const t = e.target.closest(".ktabs [data-mode]"); if (t) switchMode(t.dataset.mode); });
+let kLastFocus = null;
+function openKalk() { renderTabCounts(); if (!kLastFocus || !document.body.contains(kLastFocus) || kLastFocus.closest(".modal")) kLastFocus = document.activeElement; $("#k-modal").hidden = false; document.documentElement.style.overflow = "hidden"; renderKalkQ(); renderKalkRes(); $("#k-close").focus(); }
+function closeKalk() { $("#k-modal").hidden = true; document.documentElement.style.overflow = ""; if (kAnswered() >= 3 && KON) ovSort = { k: "shoda", dir: -1 }; refreshKalkViews(); if (kLastFocus) kLastFocus.focus(); }
+const stLabel = p => p >= 1 ? "PRO" : p > 0 ? "SPÍŠ PRO" : p === 0 ? "NEUTRÁLNÍ" : p > -1 ? "SPÍŠ PROTI" : "PROTI";
+const VOTE_BY_ID = Object.fromEntries(((D.hlasovani && D.hlasovani.hlasovani) || []).map(v => [v.id, v]));
+function councillorStance(t, name) {   // mean of linked votes, A=1, N=-1, Z=-0.5; absent ignored
+  const xs = (t.hlasovani || []).map(h => { const v = VOTE_BY_ID[h.id]; const x = v && (v.hlasy || {})[name]; const m = { A: 1, N: -1, Z: -0.5 }[String(x || "").toUpperCase()[0]]; return m == null ? null : m * h.smer; }).filter(x => x != null);
+  return xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : null;
+}
+let _KC = null; const getKC = () => _KC || (_KC = (() => { const ppl = {}; for (const v of Object.values(VOTE_BY_ID)) for (const n of Object.keys(v.hlasy || {})) { const m = findCand(n); if (m) ppl[n] = m; } return ppl; })());
+function scoreOf(getP) {
+  let s = 0, max = 0, cov = 0, hit = 0, miss = 0;
+  for (const t of KT) { const a = KA[t.id]; if (!a || !a.u) continue; const w = a.w ? 2 : 1; max += w * Math.abs(a.u);
+    const p = getP(t); if (p == null) continue; cov++; const x = a.u * p; if (x > 0) { s += w * x; hit++; } else if (x < 0) { s += w * x * PEN; miss++; } }
+  return { pct: max ? Math.round(100 * s / max) : null, cov, hit, miss };
+}
+function renderKalkQ() {
+  const n = KT.length;
+  $("#kalk-q").innerHTML = KT.map((t, i) => { const a = KA[t.id] || {};
+    const st = Object.entries(t.postoje).map(([k, v]) => ({ l: D.lists.find(l => l.cislo === +k), ...v })).filter(x => x.l && on(x.l.cislo)).sort((x, y) => y.p - x.p || x.l.cislo - y.l.cislo);
+    const agree = p => !a.u ? "" : a.u * p > 0 ? " hit" : a.u * p < 0 ? " miss" : "";
+    return `<div class="panel q${a.u ? " answered" : ""}" data-id="${t.id}"><div class="q-head"><span class="chip">${esc(t.tema)}</span><span class="num muted small">${i + 1} / ${n}</span></div>
+      <p class="q-text">${esc(t.text)}</p>
+      <div class="seg" role="group" aria-label="Vaše odpověď">${ANS_LABELS.map(([v, lab]) => `<button type="button" data-v="${v}" aria-pressed="${a.u === v || (v === 0 && a.u === 0)}">${lab}</button>`).join("")}</div>
+      <div class="q-tools"><label><input type="checkbox" class="imp" ${a.w ? "checked" : ""}> Důležité pro mě (×2)</label>
+        <details class="more" style="flex-basis:100%"><summary>Postoje kandidátek (${st.length})${t.hlasovani.length ? " a hlasování" : ""}</summary>
+        <div class="stances">${st.map(x => `<div class="stance"><span class="st ${x.p > 0 ? "y" : x.p < 0 ? "n" : ""}${agree(x.p)}">${x.l.cislo} · ${stLabel(x.p)}</span><span><b>${esc(shortName(x.l))}:</b> ${esc(x.proc)} ${(u => u ? `<a href="${esc(u)}" class="small">zdroj</a>` : "")(A(x.l).program_url || A(x.l).web || ((A(x.l).zdroje || [])[0] || {}).url)}</span></div>`).join("") || `<p class="small muted">Žádná z vybraných kandidátek se k tezi nevyjádřila.</p>`}
+        ${t.hlasovani.map(h => { const v = VOTE_BY_ID[h.id]; return v ? `<p class="small muted">Hlasování ${esc(v.datum)}: ${esc(v.nazev)} (${esc(v.vysledek || "")}). ${h.smer > 0 ? "Hlas pro" : "Hlas proti"} = souhlas s tezí.</p>` : ""; }).join("")}</div></details></div></div>`; }).join("");
+  $("#kalk-q").querySelectorAll(".q").forEach(q => {
+    const id = q.dataset.id;
+    q.querySelectorAll(".seg button").forEach(b => b.onclick = () => { const v = +b.dataset.v; const cur = KA[id] || {}; KA[id] = { ...cur, u: cur.u === v ? undefined : v }; if (KA[id].u === undefined && !KA[id].w) delete KA[id]; saveKA(); const y = $("#k-modal").scrollTop; renderKalkQ(); renderKalkRes(); renderKbar(); renderTabCounts(); $("#k-modal").scrollTop = y; });
+    q.querySelector(".imp").onchange = e => { KA[id] = { ...(KA[id] || {}), w: e.target.checked }; saveKA(); renderKalkRes(); };
+  });
+}
+function renderKalkRes() {
+  const answered = KT.filter(t => KA[t.id] && KA[t.id].u).length;
+  const head = `<div><h4>Výsledek <button type="button" class="btn-link" id="kalk-reset">Vymazat odpovědi</button></h4><p class="small muted">Zodpovězeno ${answered} z ${KT.length} tezí</p><div class="progress"><i style="width:${answered / KT.length * 100}%"></i></div></div>`;
+  if (answered < 3) { $("#kalk-res").innerHTML = head + `<p class="small">Odpovězte aspoň na 3 teze. Pořadí kandidátek se tu pak bude průběžně měnit.</p><p class="note">Shoda = +body, neshoda = −2× body. „Nevím“ se nepočítá. Kandidátka bez postoje k tezi nezíská ani neztratí nic.</p>`; bindReset(); return; }
+  const rows = D.lists.filter(l => on(l.cislo)).map(l => ({ l, ...scoreOf(t => t.postoje[l.cislo] ? t.postoje[l.cislo].p : null) })).sort((a, b) => (b.pct ?? -999) - (a.pct ?? -999) || b.cov - a.cov);
+  const dv = p => `<span class="dv"><i class="${p >= 0 ? "pos" : "neg"}" style="width:${Math.min(50, Math.abs(p) / 2)}%"></i></span>`;
+  let h = head + `<div class="rk"><p class="eyebrow">Kandidátky podle programu</p>${rows.map(r => `<div class="rk-row" data-tip="<b>${esc(shortName(r.l))}</b><br>shoda v ${r.hit}, neshoda v ${r.miss}, postoj k ${r.cov} z ${answered} tezí"><span class="nm"><span class="ballot" style="min-width:20px;height:20px;font-size:.7rem">${r.l.cislo}</span> ${esc(shortName(r.l))} <small>${r.cov}/${answered}</small></span>${dv(r.pct)}<span class="num" style="text-align:right">${r.pct > 0 ? "+" : ""}${r.pct} %</span></div>`).join("")}</div>
+    <p class="note">Číslo za názvem = k kolika vašim tezím se kandidátka vyjádřila. Málo postojů znamená menší výpovědní hodnotu.</p>`;
+  const vt = KT.filter(t => t.hlasovani.length && KA[t.id] && KA[t.id].u);
+  if (vt.length) {
+    const pr = Object.entries(getKC()).filter(([n, m]) => on(m.l.cislo)).map(([n, m]) => ({ n, m, ...scoreOf(t => t.hlasovani.length ? councillorStance(t, n) : null) })).filter(r => r.cov > 0)
+      .sort((a, b) => b.pct - a.pct || b.cov - a.cov).slice(0, 25);
+    h += `<div class="rk"><p class="eyebrow">Zastupitelé podle skutečného hlasování</p>${pr.length ? pr.map(r => `<div class="rk-row" data-tip="<b>${esc(r.n)}</b><br>${esc(shortName(r.m.l))} #${r.m.c.poradi}<br>hlasoval/a v ${r.cov} z ${vt.length} tezí navázaných na hlasování"><span class="nm">${esc(r.n)} <small>${r.m.l.cislo}·#${r.m.c.poradi} · ${r.cov}/${vt.length}</small></span>${dv(r.pct)}<span class="num" style="text-align:right">${r.pct > 0 ? "+" : ""}${r.pct} %</span></div>`).join("") : `<p class="small muted">Nikdo z vybraných kandidátek nehlasoval o tezích, na které jste odpověděli.</p>`}</div>
+      <p class="note">Jen kandidáti 2026, kteří v zastupitelstvu hlasovali o ${vt.length} tezích s hlasováním. Procenta počítají se všemi vašimi odpověďmi, proto bývají nižší než u kandidátek.</p>`;
+  } else h += `<p class="note">Odpovězte i na teze označené „hlasování“ (např. herny, byty, dluh), aby se ukázalo pořadí zastupitelů podle toho, jak skutečně hlasovali.</p>`;
+  h += `<button type="button" class="kb primary" id="kalk-apply" style="font:600 .88rem/1 var(--f-body);padding:10px 14px;border-radius:999px;border:0;background:var(--accent);color:#fff;cursor:pointer">Seřadit tabulky na stránce podle shody</button>`;
+  $("#kalk-res").innerHTML = h; bindTip($("#kalk-res")); bindReset();
+}
+function bindReset() { const b = $("#kalk-reset"); if (b) b.onclick = () => { KA = {}; saveKA(); renderKalkQ(); renderKalkRes(); renderKbar(); };
+  const t = $("#kalk-apply"); if (t) t.onclick = () => { KON = true; try { localStorage.setItem("volby-lbc-kalk-on", "1"); } catch (e) {} closeKalk(); }; }
+
+/* politika × praxe scatter */
+function renderScatter() {
+  const W = 520, H = 360, m = { l: 44, r: 16, t: 14, b: 40 }, x = v => m.l + v / 100 * (W - m.l - m.r), y = v => H - m.b - v / 100 * (H - m.t - m.b);
+  const pts = D.lists.filter(l => l.skore.politika != null && l.skore.praxe != null);
+  // nudge overlapping labels apart
+  const pos = pts.map(l => ({ l, cx: x(l.skore.politika), cy: y(l.skore.praxe) }));
+  for (let it = 0; it < 40; it++) for (const a of pos) for (const b of pos) { if (a === b) continue; const dx = a.cx - b.cx, dy = a.cy - b.cy;
+    if (Math.abs(dx) < 26 && Math.abs(dy) < 22) { const push = dy === 0 ? (a.l.cislo < b.l.cislo ? -1 : 1) : Math.sign(dy); a.cy += push * 1.5; } }
+  let g = "";
+  for (const t of [0, 25, 50, 75, 100]) g += `<line class="grid" x1="${x(t)}" x2="${x(t)}" y1="${m.t}" y2="${H - m.b}"/><line class="grid" x1="${m.l}" x2="${W - m.r}" y1="${y(t)}" y2="${y(t)}"/><text x="${x(t)}" y="${H - m.b + 16}" text-anchor="middle">${t}</text><text x="${m.l - 8}" y="${y(t) + 4}" text-anchor="end">${t}</text>`;
+  g += `<text x="${(m.l + W - m.r) / 2}" y="${H - 6}" text-anchor="middle">Politika →</text><text transform="translate(12 ${(m.t + H - m.b) / 2}) rotate(-90)" text-anchor="middle">Praxe →</text>`;
+  g += pos.map(({ l, cx, cy }) => `<g class="dot${on(l.cislo) ? "" : " dim"}" data-tip="<b>${l.cislo} ${esc(shortName(l))}</b><br>Politika ${l.skore.politika} (${l.skore.politika_top5.join(" · ")})<br>Praxe ${l.skore.praxe} (${l.skore.praxe_top5.join(" · ")})"><rect x="${cx - 13}" y="${cy - 11}" width="26" height="22" rx="4"/><text x="${cx}" y="${cy + 1}">${l.cislo}</text></g>`).join("");
+  $("#scatter").innerHTML = `<div class="scatter"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Politická zkušenost a praxe kandidátek">${g}</svg></div>
+    <div style="display:grid;gap:8px;min-width:0"><h4>Politika × praxe</h4><p class="small">Každý štítek je jedna kandidátka (číslo na lístku). Vpravo nahoře jsou týmy se zkušeností z radnice i z civilní kariéry. Vlevo dole nováčci s krátkou praxí.</p>
+    <p class="note">Najetím zobrazíte skóre jednotlivých kandidátů první pětky.</p></div>`;
+  bindTip($("#scatter"));
+}
+
+/* kandidáti: politika × praxe */
+let pHl = null;
+function renderPeopleScatter() {
+  const W = 560, H = 400, m = { l: 44, r: 16, t: 14, b: 40 }, x = v => m.l + v / 100 * (W - m.l - m.r), y = v => H - m.b - v / 100 * (H - m.t - m.b);
+  const pts = D.lists.flatMap(l => l.kandidati.slice(0, 5).map(c => { const p = (A(l).kandidati || []).find(k => k.poradi === c.poradi) || {};
+    return POL(c) != null && c.praxe ? { l, c, pol: POL(c), prx: c.praxe.index, cx: x(POL(c)), cy: y(c.praxe.index) } : null; })).filter(Boolean);
+  for (let it = 0; it < 60; it++) for (let i = 0; i < pts.length; i++) for (let j = i + 1; j < pts.length; j++) { const a = pts[i], b = pts[j], dx = b.cx - a.cx, dy = b.cy - a.cy, d = Math.hypot(dx, dy) || .01;
+    if (d < 11) { const k = (11 - d) / 2, ux = dx / d || 1, uy = dy / d; a.cx -= ux * k; a.cy -= uy * k; b.cx += ux * k; b.cy += uy * k; } }
+  let g = "";
+  for (const t of [0, 25, 50, 75, 100]) g += `<line class="grid" x1="${x(t)}" x2="${x(t)}" y1="${m.t}" y2="${H - m.b}"/><line class="grid" x1="${m.l}" x2="${W - m.r}" y1="${y(t)}" y2="${y(t)}"/><text x="${x(t)}" y="${H - m.b + 16}" text-anchor="middle">${t}</text><text x="${m.l - 8}" y="${y(t) + 4}" text-anchor="end">${t}</text>`;
+  g += `<text x="${(m.l + W - m.r) / 2}" y="${H - 6}" text-anchor="middle">Politika →</text><text transform="translate(12 ${(m.t + H - m.b) / 2}) rotate(-90)" text-anchor="middle">Praxe →</text>`;
+  const sur = s => s.replace(/^.*\s/, "");
+  g += pts.map(p => { const dim = !on(p.l.cislo) || (pHl && pHl !== p.l.cislo), hl = pHl === p.l.cislo;
+    return `<g class="pt${dim ? " dim" : ""}${hl ? " hl" : ""}" data-tip="<b>${esc(p.c.jmeno)}</b><br>${p.l.cislo} ${esc(shortName(p.l))} · ${p.c.poradi}. místo<br>Politika ${esc(polF(p.c))}<br>Praxe ${esc(prxF(p.c))}"><circle cx="${p.cx.toFixed(1)}" cy="${p.cy.toFixed(1)}" r="${p.c.poradi === 1 ? 7 : 5.5}" style="fill:${LIST_COL[p.l.cislo]}"/>${hl ? `<text x="${(p.cx + 9).toFixed(1)}" y="${(p.cy + 3.5).toFixed(1)}">${esc(sur(clean(p.c.jmeno)))}</text>` : ""}</g>`; }).join("");
+  $("#pscatter").innerHTML = `<div class="scatter"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Politická zkušenost a praxe kandidátů">${g}</svg></div>
+    <div style="display:grid;gap:10px;min-width:0"><h4>Kandidáti: politika × praxe</h4><p class="small">Každá tečka je jeden z prvních pěti kandidátů. Barva = kandidátka, větší tečka = lídr. Kliknutím na kandidátku zvýrazníte její lidi se jmény.</p>
+    <div class="plegend">${D.lists.filter(l => l.kandidati.length).map(l => `<button type="button" data-pl="${l.cislo}" aria-pressed="${pHl === l.cislo}" class="${on(l.cislo) ? "" : "dim"}"><i style="background:${LIST_COL[l.cislo]}"></i>${l.cislo} ${esc(shortName(l))}</button>`).join("")}</div>
+    <p class="note">Najetím na tečku zobrazíte jméno. Mírně posunuté tečky se jinak překrývaly.</p></div>`;
+  $("#pscatter").querySelectorAll("[data-pl]").forEach(b => b.onclick = () => { const n = +b.dataset.pl; pHl = pHl === n ? null : n; renderPeopleScatter(); });
+  bindTip($("#pscatter"));
+}
+const clean = n => n.replace(/(?<![\w])(Ing|Mgr|Bc|PhDr|RNDr|MUDr|MVDr|JUDr|doc|prof|PaedDr|arch|CSc|Ph\.\s?D|MBA|MPA|M\.A)\.?,?(?![\w])/g, "").replace(/\s+/g, " ").trim();
+
+/* heatmap */
+function renderHeat() {
+  const max = Math.max(...D.lists.flatMap(l => Object.values(A(l).temata_pct || {}).map(Number)), 1);
+  let h = `<thead><tr>${kActive() ? `<th class="col" style="vertical-align:bottom"><div>Vaše shoda</div></th>` : ""}<th class="row"></th>${THEMES.map(([k, n]) => `<th class="col"><div>${n}</div></th>`).join("")}</tr></thead><tbody>`;
+  const actH = kActive(); const hl = D.lists.map(l => ({ l, m: actH ? listMatch(l) : null }));
+  if (actH) hl.sort((a, b) => (b.m.pct ?? -999) - (a.m.pct ?? -999) || a.l.cislo - b.l.cislo);
+  for (const { l, m } of hl) { const t = A(l).temata_pct;
+    h += `<tr class="${on(l.cislo) ? "" : "dim"}">${actH ? `<td style="padding-right:10px">${shodaCell(m)}</td>` : ""}<th class="row"><span class="ballot" style="min-width:22px;height:22px;font-size:.7rem;margin-right:6px">${l.cislo}</span>${esc(shortName(l))}</th>`;
+    for (const [k, n] of THEMES) {
+      if (!t) { h += `<td class="cell na">·</td>`; continue; }
+      const v = +t[k] || 0, p = Math.round(Math.pow(v / max, .8) * 100);
+      h += `<td class="cell" style="background:color-mix(in oklab, var(--seq) ${p}%, var(--surface-2));color:${p > 52 ? "#fff" : "var(--ink)"}" data-tip="<b>${esc(shortName(l))}</b><br>${n}: ${v} %">${v || ""}</td>`; }
+    h += "</tr>"; }
+  $("#t-heat").innerHTML = h + "</tbody>"; bindTip($("#t-heat"));
+}
+
+/* bars helper */
+const bars = (rows, max, hl) => `<div class="bars">${rows.map(r => `<div class="barrow${SEL.size && !matchAny(r.lab) ? " dim" : ""}" data-tip="${esc(r.tip || r.lab + ": " + r.v + " %")}"><span class="lab">${esc(r.lab)}</span><span class="track"><i class="${hl && hl(r) ? "hl" : ""}" style="width:${(r.v / max * 100).toFixed(1)}%"></i></span><span class="val num">${String(r.v).replace(".", ",")} %${r.m != null ? ` <span class="muted">${r.m}</span>` : ""}</span></div>`).join("")}</div>`;
+
+function renderPolls() {
+  const P = D.pruzkumy || {}, out = [];
+  for (const p of (P.pruzkumy || [])) { const rows = Object.entries(p.vysledky || {}).map(([k, v]) => ({ lab: k, v: +v })).sort((a, b) => b.v - a.v);
+    out.push(`<div class="panel card"><div><p class="eyebrow">${esc(p.agentura || "")}${p.zadavatel ? " pro " + esc(p.zadavatel) : ""}</p><h3>Průzkum ${esc(p.datum_terenu || "")}</h3></div>${bars(rows, Math.max(...rows.map(r => r.v), 1))}<p class="note">${esc([p.vzorek && "vzorek " + p.vzorek, p.metoda, p.poznamka].filter(Boolean).join(" · "))} · <a href="${esc(p.url)}">zdroj</a></p></div>`); }
+  for (const p of (P.proxy_vysledky || [])) { const rows = Object.entries(p.vysledky || {}).map(([k, v]) => ({ lab: k, v: +v })).sort((a, b) => b.v - a.v).slice(0, 10);
+    out.push(`<div class="panel card"><div><p class="eyebrow">Skutečné výsledky</p><h3>${esc(p.volby)}</h3><p class="small muted">${esc(p.uzemi)}${p.ucast_pct ? " · účast " + String(p.ucast_pct).replace(".", ",") + " %" : ""}</p></div>${bars(rows, Math.max(...rows.map(r => r.v), 1))}<p class="note"><a href="${esc(p.url)}">zdroj</a>${p.poznamka ? " · " + esc(p.poznamka) : ""}</p></div>`); }
+  for (const p of []) { const rows = Object.entries(p.vysledky || {}).map(([k, v]) => ({ lab: k, v: +v })).sort((a, b) => b.v - a.v).slice(0, 10);
+    if (!rows.length) continue;
+    out.push(`<div class="panel card"><div><p class="eyebrow">Starší průzkum – není pro volby 2026</p><h3>${esc(p.agentura || "")} · ${esc(p.uzemi || "")}</h3></div>${bars(rows, Math.max(...rows.map(r => r.v), 1))}<p class="note">${esc([p.volby, p.datum_terenu, p.vzorek && "n = " + p.vzorek, p.metoda].filter(Boolean).join(" · "))} · <a href="${esc(p.url)}">zdroj</a></p></div>`); }
+  const intro = false ? `<div class="callout" style="grid-column:1/-1"><b>Volební průzkum pro Liberec 2026 neexistuje.</b> ${esc(P.poznamka.replace(/^K datu[^–]*?\.\s*/, ""))}</div>` : "";
+  $("#polls").innerHTML = intro + (out.join("") || `<div class="panel card"><p>Data o průzkumech zatím nejsou k dispozici.</p></div>`); bindTip($("#polls"));
+}
+
+/* party explorer */
+const srcLink = (a, id) => { if (!id) return ""; if (String(id).includes(",")) return String(id).split(",").map(x => srcLink(a, x.trim())).join(""); if (id === "volby_gov") return `<sup class="src"><a href="#zdroje" title="ČSÚ – volby.gov.cz">[ČSÚ]</a></sup>`;
+  const s = (a.zdroje || []).find(z => z.id === id); return `<sup class="src"><a href="${esc(s ? s.url : "#")}" title="${esc(s ? s.nazev : id)}">[${esc(id)}]</a></sup>`; };
+function personCard(l, c) {
+  const a = A(l), p = (a.kandidati || []).find(x => x.poradi === c.poradi) || {};
+  const hist = (c.historie || []).map(h => `<span class="tl ${h.zvolen ? "won" : ""}" title="${esc(h.strana)} · pořadí ${h.poradi}${h.hlasy ? " · " + h.hlasy + " hlasů" : ""}">${h.rok} ${h.volby === "komunální" ? (h.zastupitelstvo === "Liberec" ? "město" : esc(h.zastupitelstvo.replace("Liberec-", ""))) : h.volby === "krajské" ? "kraj" : "PSP"}${h.zvolen ? " ✓" : ""}</span>`).join("");
+  const car = (p.politicka_kariera || []).map(k => `<li>${esc(k.funkce)} <span class="muted num">${k.od ?? "?"}–${k.do ?? "dosud"}</span>${srcLink(a, k.zdroj)}</li>`).join("");
+  const pos = (p.pozitivni || []).map(x => `<div class="plus">${esc(x.text)}${srcLink(a, x.zdroj)}</div>`).join("");
+  const neg = (p.negativni || []).map(x => `<div class="minus">${esc(x.text)}${srcLink(a, x.zdroj)}</div>`).join("");
+  const npw = p.posledni_nepoliticka_prace;
+  return `<article class="person"><div class="top"><span class="pos">${c.poradi}.</span><div><div class="name">${esc(c.jmeno)}</div><div class="meta">${c.vek} let · ${c.prislusnost === "BEZPP" ? "nestraník" : "člen " + esc(c.prislusnost)}${c.navrhujici_strana !== c.prislusnost ? " · navrhl " + esc(c.navrhujici_strana) : ""}</div></div>
+    <div class="badges"><div class="badge num" title="Politika = ${esc(polF(c))}">${POL(c) ?? "–"}<small>POLIT.</small></div><div class="badge praxe num" title="Praxe = ${esc(prxF(c))}">${c.praxe ? c.praxe.index : "–"}<small>PRAXE</small></div></div></div>
+    ${p.shrnuti ? `<p class="small">${esc(p.shrnuti)}</p>` : `<p class="small muted">${esc(c.povolani)}</p>`}
+    <dl class="kv"><dt>Politika</dt><dd><span class="num small">${esc(polF(c))}</span>${c.politika && c.politika.zapocteno.length ? `<div class="small muted">započteno: ${c.politika.zapocteno.map(z => esc(z.funkce.split("(")[0].trim()) + ` ${z.od ?? "?"}–${z.do ?? "dosud"}`).join("; ")}</div>` : ""}</dd>
+      ${c.praxe ? `<dt>Praxe</dt><dd><span class="num small">${esc(prxF(c))}</span><div class="small muted">kariéra: ${esc(c.praxe.kariera)} (z profilu níže)</div></dd>` : ""}
+      <dt>Teď dělá</dt><dd>${esc(p.soucasna_prace || c.povolani)}</dd>
+      <dt>Civilní práce</dt><dd>${npw ? esc(npw.co) + (npw.kdy ? ` <span class="muted">(${esc(npw.kdy)})</span>` : "") : "–"}</dd>${(g => g ? `<dt>Hlasování</dt><dd>${g.hlasovani} hlasování ${g.od.slice(0, 4)}–${g.do.slice(0, 4)}: účast ${pc(g.ucast_pct)}, jinak než klub ${pc(g.odchylka_od_klubu_pct)} <a href="#hlasovani">více</a></dd>` : "")(aggFor(l, c))}</dl>
+    ${hist ? `<div><p class="eyebrow" style="margin-bottom:5px">Kandidatury 2014–2025 (✓ zvolen)</p><div class="timeline">${hist}</div></div>` : `<p class="small muted">Dosud nekandidoval/a (2014–2025).</p>`}
+    ${(car || pos || neg || p.nejiste) ? `<details class="more"><summary>Kariéra, pro a proti</summary><div style="display:grid;gap:10px">
+      ${car ? `<ul class="clean small">${car}</ul>` : ""}${pos || neg ? `<div class="pc small">${pos}${neg}</div>` : ""}${p.nejiste ? `<p class="small muted">Neověřeno: ${esc(p.nejiste)}</p>` : ""}</div></details>` : ""}
+  </article>`;
+}
+let current = 11;
+function openParty(n) { current = n; renderParty(); document.querySelectorAll("#picker button").forEach(b => b.setAttribute("aria-pressed", +b.dataset.n === n)); }
+function renderPicker() {
+  if (!on(current)) current = (D.lists.find(l => on(l.cislo)) || D.lists[0]).cislo;
+  $("#picker").innerHTML = D.lists.filter(l => on(l.cislo)).map(l => `<button type="button" data-n="${l.cislo}" aria-pressed="${l.cislo === current}"><span class="ballot">${l.cislo}</span>${esc(shortName(l))}</button>`).join("");
+  $("#picker").querySelectorAll("button").forEach(b => b.onclick = () => openParty(+b.dataset.n));
+}
+function renderParty() {
+  const l = D.lists.find(x => x.cislo === current), a = A(l);
+  const byTheme = {}; for (const b of (a.program_body || [])) (byTheme[b.tema] ||= []).push(b);
+  const pts = THEMES.filter(([k]) => byTheme[k]).map(([k, n]) => `<div><h4>${n}${a.temata_pct ? ` · ${a.temata_pct[k] ?? 0} %` : ""}</h4><ul class="clean">${byTheme[k].map(b => `<li class="${b.konkretni === false ? "vague" : ""}">${esc(b.bod)}</li>`).join("")}</ul></div>`).join("");
+  const h = a.hodnoceni || {};
+  const top5 = l.kandidati.slice(0, 5);
+  $("#party").innerHTML = `<div class="party-head"><span class="ballot">${l.cislo}</span><div style="display:grid;gap:6px;min-width:0"><h3>${esc(l.nazev)}</h3>
+      <p class="small muted">${esc(a.slozeni || l.zkratka)} · ${l.kandidati.length} kandidátů${a.web ? ` · <a href="${esc(a.web)}">web</a>` : ""}${a.program_url ? ` · <a href="${esc(a.program_url)}">program</a>` : ""}</p>
+      <p>${esc(a.shrnuti || "Analýza se připravuje.")}</p></div>
+      <div class="score-box" style="display:grid;gap:5px;min-width:0"><span class="eyebrow">Politika · průměr top 5</span>${scoreCell(l.skore.politika)}<span class="small muted num">průměr první pětky ${meanF(l.skore.politika_top5)}</span>
+        <span class="eyebrow" style="margin-top:6px">Praxe · průměr top 5</span>${scoreCell(l.skore.praxe, "praxe")}<span class="small muted num">průměr první pětky ${meanF(l.skore.praxe_top5)}</span>
+        <a class="small" href="#zdroje">Jak se počítá</a></div></div>
+    <div class="party-body"><div><h4>Co chtějí udělat</h4><div class="pts">${pts || '<p class="muted">Program nebyl nalezen.</p>'}</div><p class="note">Kurzívou jsou vágní body bez konkrétního opatření.</p></div>
+      <div>${h.silne_stranky ? `<div class="pc"><h4>Silné stránky</h4>${h.silne_stranky.map(s => `<div class="plus small">${esc(s)}</div>`).join("")}</div>` : ""}
+        ${h.slabe_stranky_rizika ? `<div class="pc"><h4>Slabiny a rizika</h4>${h.slabe_stranky_rizika.map(s => `<div class="minus small">${esc(s)}</div>`).join("")}</div>` : ""}
+        ${(h.kontroverze || []).length ? `<div class="pc"><h4>Kontroverze</h4>${h.kontroverze.map(k => `<div class="minus small">${esc(k.text)}${srcLink(a, k.zdroj)}</div>`).join("")}</div>` : ""}
+        ${a.povolebni_signaly ? `<div><h4>Po volbách</h4><p class="small">${esc(a.povolebni_signaly)}</p></div>` : ""}</div></div>
+    <div class="people">${top5.map(c => personCard(l, c)).join("")}</div>
+    ${(a.zdroje || []).length ? `<details class="more" style="padding:12px 18px;border-top:1px solid var(--line)"><summary>Zdroje této kandidátky (${a.zdroje.length})</summary><ul class="small" style="margin:0;padding:0;list-style:none;display:grid;gap:5px">${a.zdroje.map(z => `<li><span class="num muted">[${esc(z.id)}]</span> <a href="${esc(z.url)}">${esc(z.nazev || z.url)}</a> <span class="muted">– ${esc(z.obsah || "")}</span></li>`).join("")}</ul></details>` : ""}`;
+}
+
+/* people table */
+let pSort = { k: "skore", dir: -1 };
+let pShodaInit = false;
+function renderPeople() {
+  const actP = kActive() || kvActive();
+  if (actP && !pShodaInit) { pSort = { k: "shoda", dir: -1 }; pShodaInit = true; }
+  if (!actP) { if (pSort.k === "shoda") pSort = { k: "skore", dir: -1 }; pShodaInit = false; }
+  const f = $("#f-list").value, q = $("#f-q").value.trim().toLowerCase();
+  let rows = D.lists.flatMap(l => l.kandidati.slice(0, 5).map(c => { const p = (A(l).kandidati || []).find(x => x.poradi === c.poradi) || {};
+    const g = aggFor(l, c);
+    let sh = null; if (actP) { const vm = kvActive() ? voteMatch(c.jmeno) : null; if (vm && vm.cov) sh = { ...vm, src: "hlas." }; else if (kActive()) sh = { ...listMatch(l), src: "prog." }; }
+    return { l, c, p, g, sh, shoda: sh ? sh.pct : null, skore: POL(c), praxe: c.praxe ? c.praxe.index : null, roky: c.politika ? c.politika.roky : null, vek: c.vek, ucast: g ? g.ucast_pct : null }; }));
+  rows = rows.filter(r => on(r.l.cislo));
+  if (f) rows = rows.filter(r => r.l.cislo === +f);
+  if (q) rows = rows.filter(r => (r.c.jmeno + " " + r.c.povolani + " " + (r.p.soucasna_prace || "")).toLowerCase().includes(q));
+  rows.sort((a, b) => { const x = a[pSort.k], y = b[pSort.k]; if (x == null) return 1; if (y == null) return -1; return (x - y) * pSort.dir; });
+  const ar = k => pSort.k === k ? (pSort.dir < 0 ? " ↓" : " ↑") : "";
+  $("#t-people").innerHTML = `<thead><tr><th>Kandidát</th><th>Kandidátka</th>${actP ? `<th class="sortable" data-k="shoda" title="Vaše shoda: hlas. = podle skutečného hlasování v zastupitelstvu, prog. = podle programu kandidátky">Shoda${ar("shoda")}</th>` : ""}<th class="sortable" data-k="vek">Věk${ar("vek")}</th><th class="sortable" data-k="skore">Politika${ar("skore")}</th><th class="sortable" data-k="praxe">Praxe${ar("praxe")}</th><th class="sortable" data-k="roky">Let v politice${ar("roky")}</th><th class="sortable" data-k="ucast" title="Účast na hlasováních zastupitelstva 2016–2026">Účast v ZM${ar("ucast")}</th><th>Teď dělá</th><th>Poslední civilní práce</th></tr></thead><tbody>` +
+    rows.map(({ l, c, p, g, sh }) => `<tr><td><b>${c.poradi}.</b> ${esc(c.jmeno)}</td><td class="small"><span class="ballot" style="min-width:20px;height:20px;font-size:.7rem">${l.cislo}</span> ${esc(shortName(l))}</td>${actP ? `<td>${sh && sh.pct != null ? `${shodaCell(sh)}<span class="small muted">${sh.src}</span>` : '<span class="muted">–</span>'}</td>` : ""}<td class="num">${c.vek}</td>
+      <td title="${esc(polF(c))}">${scoreCell(POL(c))}</td><td title="${esc(prxF(c))}">${scoreCell(c.praxe ? c.praxe.index : null, "praxe")}</td><td class="num">${c.politika ? c.politika.roky : "–"}</td><td class="num" ${g ? `title="${g.hlasovani} hlasování ${g.od.slice(0, 4)}–${g.do.slice(0, 4)}"` : ""}>${g ? pc(g.ucast_pct) : '<span class="muted" title="nebyl/a zastupitelem města 2016–2026">–</span>'}</td><td class="small">${esc(p.soucasna_prace || c.povolani)}</td>
+      <td class="small">${p.posledni_nepoliticka_prace ? esc(p.posledni_nepoliticka_prace.co) + ` <span class="muted">(${esc(p.posledni_nepoliticka_prace.kdy || "")})</span>` : "–"}</td></tr>`).join("") + "</tbody>";
+  $("#t-people").querySelectorAll("th.sortable").forEach(th => th.onclick = () => { const k = th.dataset.k; pSort = { k, dir: pSort.k === k ? -pSort.dir : -1 }; renderPeople(); });
+}
+
+/* votes */
+function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/\b(ing|mgr|bc|phdr|rndr|mudr|mvdr|judr|doc|prof|paeddr|arch|csc|ph\.?d|mba|mpa|ll\.?m|m\.?a)\b\.?/g, "").replace(/[^a-z ]/g, " ").replace(/\s+/g, " ").trim(); }
+const wasCouncillor = c => (c.historie || []).some(h => h.volby === "komunální" && h.zastupitelstvo === "Liberec" && h.zvolen);
+const candIdx = {}; D.lists.forEach(l => l.kandidati.forEach(c => { const k = norm(c.jmeno); if (!candIdx[k] || (wasCouncillor(c) && !wasCouncillor(candIdx[k].c))) candIdx[k] = { l, c }; }));
+function findCand(name) { const n = norm(name); if (candIdx[n]) return candIdx[n]; const parts = n.split(" "); for (const k in candIdx) { const kp = k.split(" "); if (parts.every(p => kp.includes(p)) && parts.length >= 2) return candIdx[k]; } return null; }
+let vFilter = "2026", selVote = 0;
+const resCls = v => /nepřijat|zamítnut/i.test(v.vysledek || "") ? "rej" : /přijat|schválen/i.test(v.vysledek || "") ? "acc" : "";
+function voteTip(v, i) {
+  const S = v.souhrn || {}, ok = resCls(v);
+  const res = ok === "acc" ? `<span style="color:var(--good-soft)">✔ přijato</span>` : ok === "rej" ? `<span style="color:var(--bad-soft)">✘ nepřijato</span>` : esc(v.vysledek || "výsledek neuveden");
+  return `<b>${i + 1}. ${esc(v.datum)} · ${esc(v.nazev)}</b><br>${esc(v.popis || "")}<br><b>${res}</b>${S.pro != null ? ` · pro ${esc(S.pro)}, proti ${esc(S.proti)}, zdržel se ${esc(S.zdrzelo)}` : ""}`;
+}
+function renderVotes() {
+  const V = D.hlasovani, S = D.hlasovani_summary || {};
+  const Q = (S.kvalita || {}).kontrola_souctu_na_protokolu || {};
+  $("#vote-method").innerHTML = `<b>Hlasování</b>: ${S.pocet_hlasovani || "?"} jmenovitých hlasování z ${S.pocet_zasedani_s_jmenovitymi_daty || "?"} zasedání (${esc((S.rozsah_dat || {}).od || "")} až ${esc((S.rozsah_dat || {}).do || "")}). Zdroj: <a href="https://podklady.liberec.cz/">podklady.liberec.cz</a>, naskenované protokoly hlasovacího zařízení převedené přes OCR a ověřené proti součtům na protokolu (${Q.OK || "?"} sedí přesně, ${(Q.NEUPLNE || 0) + (Q.NESOULAD_SOUCTU || 0)} s drobnou chybou) a proti zápisům. ${esc([].concat(S.mezery || []).slice(0, 2).join(" "))}`;
+  const votes = Array.isArray(V) ? V : (V && V.hlasovani) || [];
+  $("#votes-intro").innerHTML = votes.length ? `Z ${(S.pocet_hlasovani || 0).toLocaleString("cs")} jmenovitých hlasování městského zastupitelstva (2016–2026) jsme vybrali ${votes.length} politicky významných: rozpočty, hazard, teplárna, Ještěd, územní plán, nájemní bydlení, změny koalice a další. Řádky jsou zastupitelé. Výchozí pohled ukazuje jen ty, kdo kandidují i letos. Kliknutím na číslo nebo buňku zobrazíte nad tabulkou, o čem se hlasovalo a jak to dopadlo. Statistiky ze všech hlasování jsou pod tabulkou.` : "Jmenovitá data o hlasování se nepodařilo získat.";
+  if (!votes.length) return;
+  votes.sort((a, b) => (a.datum > b.datum ? 1 : -1));
+  const people = {}; votes.forEach(v => Object.keys(v.hlasy || {}).forEach(n => people[n] = 1));
+  let names = Object.keys(people).map(n => ({ n, m: findCand(n) }));
+  if (vFilter === "2026" || SEL.size) names = names.filter(x => x.m && on(x.m.l.cislo));
+  const actV = kvActive(); if (actV) names.forEach(x => { x.k = voteMatch(x.n); });
+  names.sort((a, b) => (actV ? ((b.k && b.k.cov ? b.k.pct : -999) - (a.k && a.k.cov ? a.k.pct : -999)) : 0) || (a.m ? a.m.l.cislo : 99) - (b.m ? b.m.l.cislo : 99) || (a.m ? a.m.c.poradi : 0) - (b.m ? b.m.c.poradi : 0) || a.n.localeCompare(b.n, "cs"));
+  $("#votes-controls").innerHTML = `<label for="f-vote">Zobrazit</label><select id="f-vote"><option value="2026"${vFilter === "2026" ? " selected" : ""}>jen kandidáty 2026</option><option value="all"${vFilter === "all" ? " selected" : ""}>všechny zastupitele</option></select>`;
+  $("#f-vote").onchange = e => { vFilter = e.target.value; renderVotes(); };
+  let h = `<table class="vm"><thead><tr><th class="row"></th>${votes.map((v, i) => `<th class="col ${resCls(v)}" tabindex="0" data-c="${i}" aria-label="Hlasování ${i + 1}">${i + 1}</th>`).join("")}</tr></thead><tbody>`;
+  if (kvAnswered()) { h += `<tr class="me"><th class="row">${actV ? `<span class="ksh num"></span> ` : ""}<span class="vn">Vy</span> <small>· vaše hlasy</small></th>`;
+    for (const v of votes) { const u = KV[v.id]; h += u ? `<td class="v ${u > 0 ? "A" : "N"}" data-c="${votes.indexOf(v)}">${u > 0 ? "A" : "N"}</td>` : `<td data-c="${votes.indexOf(v)}"></td>`; } h += "</tr>"; }
+  for (const { n, m, k: km } of names) {
+    h += `<tr><th class="row" title="${esc(n)}">${actV ? `<span class="ksh num">${km && km.cov ? (km.pct > 0 ? "+" : "") + km.pct + " %" : "–"}</span> ` : ""}<span class="vn">${esc(n)}</span> ${m ? `<small>· ${m.l.cislo} ${esc(shortName(m.l))} #${m.c.poradi}</small>` : ""}</th>`;
+    for (const v of votes) { const x = (v.hlasy || {})[n]; const k = x ? String(x).toUpperCase()[0] : "";
+      h += k ? `<td class="v ${"ANZX".includes(k) ? k : "X"}" data-c="${votes.indexOf(v)}" data-who="${esc(n)}">${k === "X" ? "·" : k}</td>` : `<td data-c="${votes.indexOf(v)}"></td>`; }
+    h += "</tr>"; }
+  $("#votes-matrix").innerHTML = names.length ? h + "</tbody></table>" : emptyF("žádný současný ani bývalý zastupitel");
+  const VL = { A: "pro", N: "proti", Z: "zdržel se", X: "nehlasoval / nepřítomen" };
+  const M = $("#votes-matrix");
+  const show = (c, who) => { selVote = c; const box = $("#vote-info"), v = votes[c], S = v.souhrn || {}, ok = resCls(v), x = who ? (v.hlasy || {})[who] : null;
+    box.innerHTML = `<div class="vinfo-head"><div class="vnavs"><button type="button" class="vnav" id="v-prev" ${c === 0 ? "disabled" : ""} aria-label="Předchozí hlasování" title="Předchozí">‹</button><button type="button" class="vnav" id="v-next" ${c === votes.length - 1 ? "disabled" : ""} aria-label="Další hlasování" title="Další">›</button></div>
+        <div class="vinfo-title"><span class="vnum ${ok}">${c + 1}</span><div style="min-width:0"><p class="small muted num">${esc(v.datum)}${v.tema ? " · " + esc(v.tema) : ""} · ${c + 1} z ${votes.length}</p><h4>${esc(v.nazev)}</h4></div></div></div>
+      <p class="small">${esc(v.popis || "")}</p>
+      <div class="vinfo-foot"><span class="vres ${ok}">${ok === "acc" ? "✔ přijato" : ok === "rej" ? "✘ nepřijato" : esc(v.vysledek || "výsledek neuveden")}</span>
+        <span class="small num">${S.pro != null ? `pro <b>${esc(S.pro)}</b> · proti <b>${esc(S.proti)}</b> · zdržel se <b>${esc(S.zdrzelo)}</b>${S.nepritomno != null ? ` · nepřítomno ${esc(S.nepritomno)}` : ""}` : ""}</span>
+        ${who ? `<span class="small"><b>${esc(who)}</b>: ${x ? VL[String(x).toUpperCase()[0]] || esc(x) : "nebyl/a zastupitelem"}</span>` : ""}
+        ${meBtns(v)}
+        <span class="small">${v.zdroj_url ? `<a href="${esc(v.zdroj_url)}">protokol</a>` : ""}${v.kontext_url ? ` · <a href="${esc(v.kontext_url)}">kontext</a>` : ""}</span></div>`;
+    $("#v-prev").onclick = () => show(c - 1); $("#v-next").onclick = () => show(c + 1);
+    M.querySelectorAll(".colhl").forEach(e => e.classList.remove("colhl"));
+    const th = M.querySelector(`th[data-c="${c}"]`); if (th) th.classList.add("colhl");
+    placeBand(th);
+    if (th) { const r = th.getBoundingClientRect(), R = M.getBoundingClientRect(), sw = (M.querySelector("th.row") || { offsetWidth: 0 }).offsetWidth;
+      if (r.left < R.left + sw + 8 || r.right > R.right - 8) M.scrollLeft += r.left - (R.left + sw + (R.width - sw) / 2); } };
+  window.addEventListener("resize", () => placeBand(M.querySelector("th.col.colhl")));
+  const placeBand = th => { let band = M.querySelector(".vband"); if (!band) { band = document.createElement("div"); band.className = "vband"; M.prepend(band); }
+    if (!th) { band.hidden = true; return; } const tb = M.querySelector("table.vm"), R = M.getBoundingClientRect(), r = th.getBoundingClientRect(), T = tb.getBoundingClientRect();
+    band.hidden = false; band.style.left = (r.left - R.left + M.scrollLeft - 3) + "px"; band.style.width = (r.width + 6) + "px"; band.style.top = (r.top - R.top + M.scrollTop - 4) + "px"; band.style.height = (T.bottom - r.top + 6) + "px"; };
+  M.onclick = e => { const t = e.target.closest("[data-c]"); if (t) show(+t.dataset.c, t.dataset.who); };
+  M.onkeydown = e => { const t = e.target.closest("th[data-c]"); if (t && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); show(+t.dataset.c); } };
+  show(Math.min(selVote, votes.length - 1));
+  renderAgg();
+}
+
+/* aggregated voting */
+const AGG = D.hlasovani_agg || {};
+const aggFor = (l, c) => (AGG.osoby || []).find(o => o.cislo === l.cislo && o.poradi === c.poradi);
+let aSort = { k: "cislo", dir: 1 };
+function renderAgg() {
+  if (!AGG.osoby) return;
+  const terms = Object.entries(AGG.kluby || {}).filter(([t]) => t !== "2014–2018").reverse();
+  const heat = terms.map(([t, v]) => { const rowsIdx = v.kluby.map((k, i) => i).filter(i => matchAny(v.kluby[i])); return rowsIdx.length ? [t, v, rowsIdx] : null; }).filter(Boolean).map(([t, v, rowsIdx]) => `<div class="panel card"><div><p class="eyebrow">Volební období ${esc(t)} · ${v.spornych} sporných hlasování</p><h4>Jak často kluby hlasovaly stejně</h4></div>
+    <div class="scroll"><table class="heat"><thead><tr><th class="row"></th>${v.kluby.map(k => `<th class="col" style="height:90px"><div>${esc(k)}</div></th>`).join("")}</tr></thead><tbody>
+    ${rowsIdx.map(i => [v.kluby[i], i]).map(([a, i]) => `<tr><th class="row">${esc(a)}</th>${v.shoda[i].map((x, j) => i === j ? `<td class="cell na">–</td>` : x == null ? `<td class="cell na">·</td>` : `<td class="cell" style="background:color-mix(in oklab, var(--seq) ${Math.round(Math.max(0, x - 15) / 85 * 100)}%, var(--surface-2));color:${x > 62 ? "#fff" : "var(--ink)"}" data-tip="${esc(a)} × ${esc(v.kluby[j])}: shoda v ${x} % sporných hlasování">${x}</td>`).join("")}</tr>`).join("")}</tbody></table></div></div>`).join("");
+  const actA = kvActive(); if (!actA && aSort.k === "shoda") aSort = { k: "cislo", dir: 1 };
+  const rows = AGG.osoby.filter(o => on(o.cislo)).map(o => { const km = actA ? voteMatch(o.jmeno) : null; return { ...o, km, shoda: km && km.cov ? km.pct : null, l: D.lists.find(l => l.cislo === o.cislo) }; });
+  rows.sort((a, b) => { const x = a[aSort.k], y = b[aSort.k]; if (x == null) return 1; if (y == null) return -1; return ((x > y) - (x < y)) * aSort.dir || a.cislo - b.cislo || a.poradi - b.poradi; });
+  const ar = k => aSort.k === k ? (aSort.dir < 0 ? " ↓" : " ↑") : "";
+  const th = (k, t) => `<th class="sortable" data-k="${k}">${t}${ar(k)}</th>`;
+  $("#votes-agg").innerHTML = `<h3 style="margin:14px 0 10px">Všech ${AGG.celkem_hlasovani.toLocaleString("cs")} hlasování 2016–2026 v číslech</h3>
+    <div class="grid2">${heat}</div>
+    <div class="panel scroll" style="margin-top:16px"><table id="t-agg"><thead><tr>${th("cislo", "Kandidát 2026")}${actA ? th("shoda", "Shoda") : ""}<th>V zastupitelstvu</th>${th("hlasovani", "Hlasování")}${th("ucast_pct", "Účast")}${th("pro_pct", "Pro")}${th("proti_pct", "Proti")}${th("zdrzel_pct", "Zdržel se")}${th("odchylka_od_klubu_pct", "Jinak než klub")}</tr></thead><tbody>
+    ${rows.map(o => `<tr><td><span class="ballot" style="min-width:20px;height:20px;font-size:.7rem">${o.cislo}</span> <b>${o.poradi}.</b> ${esc(o.jmeno)}</td>${actA ? `<td>${shodaCell(o.km && o.km.cov ? o.km : null)}</td>` : ""}<td class="small">${esc(o.od.slice(0, 4))}–${esc(o.do.slice(0, 4))} · ${esc(o.kluby.join(", "))}</td>
+      <td class="num">${o.hlasovani}</td><td class="num">${pc(o.ucast_pct)}</td><td class="num">${pc(o.pro_pct)}</td><td class="num">${pc(o.proti_pct)}</td><td class="num">${pc(o.zdrzel_pct)}</td><td class="num">${pc(o.odchylka_od_klubu_pct)}</td></tr>`).join("")}</tbody></table></div>
+    <p class="note">${esc(AGG.metodika)} Volby primátora a radních jsou tajné, v datech nejsou.</p>`;
+  bindTip($("#votes-agg"));
+  $("#t-agg").querySelectorAll("th.sortable").forEach(t => t.onclick = () => { const k = t.dataset.k; aSort = { k, dir: aSort.k === k ? -aSort.dir : (k === "cislo" ? 1 : -1) }; renderAgg(); });
+}
+const pc = v => v == null ? "–" : String(v).replace(".", ",") + " %";
+const POL = c => c.politika ? c.politika.index : null;
+const let_ = n => n === 1 ? "rok" : n >= 2 && n <= 4 ? "roky" : "let";
+const polF = c => c.politika ? `3 × ${c.politika.roky} ${let_(c.politika.roky)} ve funkcích + ${c.politika.funkce_body} (${c.politika.funkce}) = ${c.politika.index}` : "–";
+const prxF = c => c.praxe ? `${c.praxe.vzdelani_body} vzdělání (${c.praxe.vzdelani}) + ${c.praxe.kariera_body} kariéra = ${c.praxe.index}` : "–";
+const meanF = xs => xs.length ? `(${xs.join(" + ")}) / ${xs.length} = ${Math.round(xs.reduce((a, b) => a + b, 0) / xs.length)}` : "–";
+
+/* flows (sankey) */
+const LIST_COL = { 1: "#8b5a2b", 2: "#d4a017", 3: "#7c3aed", 4: "#1e3a8a", 5: "#db2777", 6: "#16a34a", 7: "#94a3b8", 8: "#84cc16", 9: "#f97316", 10: "#3b82f6", 11: "#0f766e" };
+function renderFlows() {
+  const P = D.toky || []; if (!P.length) return;
+  const NONE = "nekandidoval", YRS = ["2014", "2018", "2022", "2026"], K = 3.2, GAP = 9, NW = 10, XS = [160, 450, 740, 970], W = 1130, TOP = 26;
+  const raw = (p, c) => c < 3 ? (p.s[c] || NONE) : "L" + p.cislo;
+  const cnt = [0, 1, 2, 3].map(c => P.reduce((m, p) => (m[raw(p, c)] = (m[raw(p, c)] || 0) + 1, m), {}));
+  const nk = (p, c) => { const k = raw(p, c); return c < 3 && k !== NONE && cnt[c][k] < 3 ? "ostatní" : k; };
+  const tot = {}; P.forEach(p => [0, 1, 2].forEach(c => { const k = nk(p, c); if (k !== NONE && k !== "ostatní") tot[k] = (tot[k] || 0) + 1; }));
+  const famOrder = Object.keys(tot).sort((a, b) => tot[b] - tot[a]).concat(["ostatní", NONE]);
+  const ord = (c, k) => c < 3 ? famOrder.indexOf(k) : +k.slice(1);
+  const lst = n => D.lists.find(l => l.cislo === n);
+  const label = (c, k) => c < 3 ? k : (l => `${l.cislo} ${shortName(l)}`)(lst(+k.slice(1)));
+  // nodes
+  const nodes = {}, colNodes = [[], [], [], []]; let H = 0;
+  for (let c = 0; c < 4; c++) {
+    const keys = [...new Set(P.map(p => nk(p, c)))].sort((a, b) => ord(c, a) - ord(c, b)); let y = TOP;
+    for (const k of keys) { const members = P.map((p, i) => i).filter(i => nk(P[i], c) === k); const n = { c, k, y0: y, y1: y + members.length * K, members, outY: y, inY: y };
+      nodes[c + "|" + k] = n; colNodes[c].push(n); y = n.y1 + GAP; }
+    H = Math.max(H, y);
+  }
+  // links grouped by (src, dst, list 2026)
+  const links = [];
+  for (let c = 0; c < 3; c++) {
+    const g = {}; P.forEach((p, i) => { const key = nk(p, c) + "|" + nk(p, c + 1) + "|" + p.cislo; (g[key] ||= { c, s: nodes[c + "|" + nk(p, c)], t: nodes[(c + 1) + "|" + nk(p, c + 1)], cislo: p.cislo, members: [] }).members.push(i); });
+    const L = Object.values(g);
+    L.sort((a, b) => a.s.y0 - b.s.y0 || a.t.y0 - b.t.y0 || a.cislo - b.cislo).forEach(l => { l.sy = l.s.outY; l.s.outY += l.members.length * K; });
+    L.sort((a, b) => a.t.y0 - b.t.y0 || a.s.y0 - b.s.y0 || a.cislo - b.cislo).forEach(l => { l.ty = l.t.inY; l.t.inY += l.members.length * K; });
+    links.push(...L);
+  }
+  let g = YRS.map((yr, c) => `<text class="yr" x="${XS[c] + NW / 2}" y="14" text-anchor="middle">${yr}</text>`).join("");
+  g += links.map((l, li) => { const x0 = XS[l.c] + NW, x1 = XS[l.c + 1], h = l.members.length * K, xm = (x0 + x1) / 2, none = l.s.k === NONE || l.t.k === NONE;
+    return `<path class="lk${none ? " none" : ""}" data-l="${li}" style="fill:${LIST_COL[l.cislo]}" d="M${x0},${l.sy}C${xm},${l.sy} ${xm},${l.ty} ${x1},${l.ty}L${x1},${l.ty + h}C${xm},${l.ty + h} ${xm},${l.sy + h} ${x0},${l.sy + h}Z"/>`; }).join("");
+  const allNodes = colNodes.flat();
+  g += allNodes.map((n, ni) => { const none = n.k === NONE, h = n.y1 - n.y0, left = n.c === 0, fill = n.c === 3 ? LIST_COL[+n.k.slice(1)] : null;
+    const tx = left ? XS[0] - 6 : XS[n.c] + NW + 5;
+    return `<rect class="nd${none ? " none" : ""}" data-n="${ni}" x="${XS[n.c]}" y="${n.y0}" width="${NW}" height="${Math.max(h, 1.5)}" rx="2"${fill ? ` style="fill:${fill}"` : ""}/>` +
+      `<text x="${tx}" y="${n.y0 + h / 2 + 4}" text-anchor="${left ? "end" : "start"}">${esc(label(n.c, n.k))} <tspan class="c">${n.members.length}</tspan></text>`; }).join("");
+  $("#flows").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Toky kandidátů mezi stranami 2014–2026">${g}</svg>`;
+  const svg = $("#flows svg");
+  const paint = test => { $("#flows").classList.toggle("hl", !!test); svg.querySelectorAll(".lk").forEach(e => e.classList.toggle("on", !!test && test(links[+e.dataset.l]))); };
+  const base = () => SEL.size ? (l => on(l.cislo)) : null;
+  paint(base());
+  const names = m => m.slice(0, 12).map(i => esc(P[i].n)).join(", ") + (m.length > 12 ? "…" : "");
+  svg.addEventListener("mouseover", e => { const a = e.target.closest(".lk"), n = e.target.closest(".nd");
+    if (a) { const l = links[+a.dataset.l]; paint(x => x === l);
+      a.setAttribute("data-tip", `<b>${YRS[l.c]}: ${esc(label(l.c, l.s.k))} → ${YRS[l.c + 1]}: ${esc(label(l.c + 1, l.t.k))}</b><br>${l.members.length} ${l.members.length === 1 ? "člověk" : l.members.length < 5 ? "lidé" : "lidí"}, letos za ${esc(shortName(lst(l.cislo)))}<br>${names(l.members)}`); }
+    else if (n) { const nd = allNodes[+n.dataset.n]; paint(x => x.s === nd || x.t === nd);
+      n.setAttribute("data-tip", `<b>${YRS[nd.c]} · ${esc(label(nd.c, nd.k))}</b><br>${nd.members.length} lidí<br>${names(nd.members)}`); } });
+  svg.addEventListener("mouseleave", () => paint(base()));
+  bindTip($("#flows"));
+}
+
+/* history */
+const srcs = z => [].concat(z || []).map((x, i) => { const u = typeof x === "string" ? x : x.url, loc = typeof x === "string" ? "" : x.local; return `<a href="${esc(u)}">zdroj ${i + 1}</a>`; }).join(" · ");
+// campaign theme → calculator statements (stances) + programme theme (emphasis)
+const CAMP_MAP = [
+  [/Doprava/, ["okruh", "centrum"], "doprava_parkovani"], [/Parkování/, ["zony"], "doprava_parkovani"], [/Bezpečnost/, ["fugnerka", "hazard"], "bezpecnost_poradek"],
+  [/bydlení/i, ["byty"], "bydleni"], [/dluh/i, ["dluh", "dan"], "finance_hospodareni_dane"], [/Korupce/, [], "sprava_transparentnost_digitalizace"],
+  [/MHD/, ["mhd"], "doprava_parkovani"], [/stadion/i, ["stadion", "lanovka"], "kultura_sport_volny_cas"], [/Povolební/, [], null]];
+const COOP = [[2, "vylučuje ANO"], [11, "vylučuje SPD a PRO"], [6, "vylučuje extremisty a lidi z korupčních kauz"], [4, "nikoho nevylučuje"], [1, "nikoho nevylučuje"], [9, "nikoho nevylučuje"], [10, "jedná se všemi demokratickými"], [5, "„umí se bavit s každým“"]];
+const chipL = (l, txt, cls, tip) => `<span class="stance-chip ${cls || ""}" ${tip ? `data-tip="${esc(tip)}"` : ""}><b>${l.cislo}</b> ${esc(shortName(l))}${txt ? ` · ${esc(txt)}` : ""}</span>`;
+function campaignStances(tema) {
+  const m = CAMP_MAP.find(([rx]) => rx.test(tema)); if (!m) return "";
+  const [, ids, th] = m; let h = "";
+  if (/Povolební/.test(tema)) h += `<div class="cs"><span class="eyebrow">Kdo koho vylučuje</span><div class="chips">${COOP.filter(([n]) => on(n)).map(([n, t]) => chipL(D.lists.find(l => l.cislo === n), t, /vylučuje [A-Z]/.test(t) ? "n" : "")).join("")}</div></div>`;
+  for (const id of ids) { const t = KT.find(x => x.id === id); if (!t) continue;
+    const st = Object.entries(t.postoje).map(([k, v]) => ({ l: D.lists.find(l => l.cislo === +k), ...v })).filter(x => x.l && on(x.l.cislo)).sort((a, b) => b.p - a.p || a.l.cislo - b.l.cislo);
+    if (!st.length) continue;
+    h += `<div class="cs"><span class="eyebrow">${esc(t.text)}</span><div class="chips">${st.map(x => chipL(x.l, stLabel(x.p).toLowerCase(), x.p > 0 ? "y" : x.p < 0 ? "n" : "", x.proc)).join("")}</div></div>`; }
+  if (th) { const top = D.lists.filter(l => on(l.cislo) && A(l).temata_pct && (A(l).program_body || []).length >= 8).map(l => ({ l, v: +A(l).temata_pct[th] || 0 })).filter(x => x.v > 0).sort((a, b) => b.v - a.v).slice(0, 4);
+    if (top.length) h += `<div class="cs"><span class="eyebrow">Největší důraz v programu (${esc(TH[th])})</span><div class="chips">${top.map(x => chipL(x.l, x.v + " %", "")).join("")}</div></div>`; }
+  return h ? `<div class="cs-wrap">${h}</div>` : "";
+}
+function renderCampaign() {
+  const K = D.kontext || {}; let h = "";
+  if ((K.temata_kampane_2026 || []).length) h += `<h3 style="margin:10px 0">O čem je kampaň 2026</h3><div class="grid2">${K.temata_kampane_2026.filter(t => matchAny(t.tema + " " + t.popis)).map(t => `<div class="panel card"><h4>${esc(t.tema)}</h4><p class="small">${esc(t.popis)}</p>${campaignStances(t.tema)}<p class="note">${srcs(t.zdroje)}</p></div>`).join("")}</div>`;
+  if ((K.debaty || []).length) h += `<h3 style="margin:18px 0 10px">Předvolební debaty</h3><div class="panel scroll"><table><thead><tr><th>Datum</th><th>Debata</th><th>Účastníci</th><th>Témata</th></tr></thead><tbody>${K.debaty.filter(d => matchAny([].concat(d.ucastnici || []).join(" ") + " " + d.nazev + " " + (d.poradatel || ""))).map(d => `<tr><td class="num" style="white-space:nowrap">${esc(d.datum || "")}</td><td><b>${esc(d.nazev)}</b><div class="small muted">${esc(d.poradatel || "")}</div><div class="note">${srcs(d.zdroje)}</div></td><td class="small">${esc([].concat(d.ucastnici || []).join(", "))}</td><td class="small">${esc([].concat(d.temata || []).join(", "))}</td></tr>`).join("")}</tbody></table></div>`;
+  if ((K.podpory_a_spojenectvi || []).length) h += `<h3 style="margin:18px 0 10px">Spojenectví a podpory</h3><div class="panel scroll"><table><thead><tr><th>Kdo</th><th>Koho</th><th>Co</th></tr></thead><tbody>${K.podpory_a_spojenectvi.filter(d => matchAny(d.kdo + " " + d.koho + " " + d.popis)).map(d => `<tr><td>${esc(d.kdo)}</td><td>${esc(d.koho)}</td><td class="small">${esc(d.popis)} <span class="note">${srcs(d.zdroje)}</span></td></tr>`).join("")}</tbody></table></div>`;
+  $("#campaign").innerHTML = h; bindTip($("#campaign"));
+}
+function renderPast() {
+  const out = [];
+  for (const y of [2022, 2018, 2014]) { const R = D.results[y]; if (!R) continue;
+    const rows = R.filter(r => r.pct >= 1).map(r => ({ lab: r.nazev, v: r.pct, m: r.mandaty ? r.mandaty + " m." : "", tip: `<b>${esc(r.nazev)}</b><br>${String(r.pct).replace(".", ",")} % · ${r.mandaty} mandátů${r.zvoleni.length ? "<br>" + r.zvoleni.map(esc).join(", ") : ""}` }));
+    out.push(`<div class="panel card"><div><p class="eyebrow">Komunální volby</p><h3>${y}</h3></div>${bars(rows, Math.max(...rows.map(r => r.v)), r => r.m)}<p class="note">Fialově strany se zastupiteli. Najetím zobrazíte zvolené.</p></div>`); }
+  $("#past").innerHTML = out.join(""); bindTip($("#past"));
+  const K = D.kontext || {};
+  if ((K.vladnouci_koalice || []).length) $("#coalitions").innerHTML = `<div class="panel scroll"><table><thead><tr><th>Období</th><th>Koalice</th><th>Primátor</th><th>Poznámka</th></tr></thead><tbody>${K.vladnouci_koalice.map(k => `<tr class="${matchAny(k.koalice + " " + k.primator + " " + (k.poznamka || "") + " " + [].concat(k.namestci || []).join(" ")) ? "" : "dim"}"><td class="num" style="white-space:nowrap">${esc(k.obdobi)}</td><td>${esc(k.koalice)}</td><td>${esc(k.primator)}</td><td class="small">${esc(k.poznamka || "")} <span class="note">${srcs(k.zdroje)}</span>${(k.namestci && k.namestci.length) ? `<div class="muted">Náměstci: ${esc([].concat(k.namestci).join(", "))}</div>` : ""}</td></tr>`).join("")}</tbody></table></div>`;
+  if ((K.kauzy_a_projekty || []).length) $("#cases").innerHTML = `<h3 style="margin:10px 0">Velká témata a kauzy</h3><div class="grid2">${(f => f.length ? f : null)(K.kauzy_a_projekty.filter(k => matchAny(k.nazev + " " + k.popis + " " + [].concat(k.zapojene_strany || []).join(" "))))?.map(k => `<div class="panel card"><div><p class="eyebrow">${esc(k.obdobi || "")}</p><h4>${esc(k.nazev)}</h4></div><p class="small">${esc(k.popis)}</p>${(k.zapojene_strany || []).length ? `<div class="chips">${[].concat(k.zapojene_strany).map(s => `<span class="chip">${esc(s)}</span>`).join("")}</div>` : ""}<p class="note">${srcs(k.zdroje)}</p></div>`).join("") ?? emptyF("žádná kauza")}</div>`;
+}
+function renderSwitch() {
+  const rows = D.lists.filter(l => on(l.cislo)).flatMap(l => l.kandidati.filter(c => c.poradi <= 15 && new Set(c.rodiny).size >= 2).map(c => ({ l, c })));
+  $("#t-switch").innerHTML = `<thead><tr><th>Kandidát</th><th>Letos za</th><th>Dříve kandidoval/a za (chronologicky)</th></tr></thead><tbody>${rows.map(({ l, c }) => `<tr><td><b>${c.poradi}.</b> ${esc(c.jmeno)}</td><td class="small"><span class="ballot" style="min-width:20px;height:20px;font-size:.7rem">${l.cislo}</span> ${esc(shortName(l))}</td><td class="small">${c.rodiny.map(esc).join(' <span class="muted">→</span> ')}</td></tr>`).join("")}</tbody>`;
+}
+function renderSources() {
+  const K = D.kontext || {}, P = D.pruzkumy || {};
+  const groups = D.lists.filter(l => on(l.cislo) && (A(l).zdroje || []).length).map(l => `${esc(shortName(l))}: ${A(l).zdroje.length}`);
+  $("#all-sources").innerHTML = `<p class="note">Počet zdrojů podle kandidátek – ${groups.join(" · ") || "–"}. Úplné seznamy jsou u každé kandidátky. ${(K.zdroje || []).length ? `Kontext: ${(K.zdroje).length} zdrojů.` : ""}</p>`;
+  $("#foot").textContent = `Sestaveno ${D.built} z veřejných zdrojů. Nezávislý přehled, nikým nezadaný. Pokud najdete chybu, ozvěte se.`;
+  $("#overview-note").textContent = "Vzorce: Politika osoby = min(100, 3 × roky ve volených funkcích + body za nejvyšší funkci). Praxe osoby = vzdělání (0–30) + kariéra (0–70). Politika a Praxe jsou průměrem první pětky kandidátky (u Asociálů čtyř kandidátů). Účast v ZM = podíl hlasování zastupitelstva 2016–2026, u kterých byli přítomni ti z první pětky, kdo v zastupitelstvu seděli, vážený počtem hlasování (kdo seděl déle, váží víc). Číslo 3/5 říká, z kolika lidí se počítá; hvězdička a šedá barva = málo dat (jeden člověk nebo méně než 1 500 hlasování). Najetím zobrazíte účast jednotlivců.";
+}
+for (const l of D.lists) $("#f-list").insertAdjacentHTML("beforeend", `<option value="${l.cislo}">${l.cislo} ${esc(shortName(l))}</option>`);
+$("#f-list").onchange = renderPeople; $("#f-q").oninput = renderPeople;
+{ const n = D.lists.filter(l => l.analyza).length; if (n < D.lists.length) { const w = $("#wip"); w.hidden = false; w.innerHTML = `<b>Rozpracováno:</b> analýza programů a profily kandidátů jsou hotové u ${n} z ${D.lists.length} kandidátek, hlasování zastupitelstva ${D.hlasovani ? "je doplněno" : "se stahuje"}. Stránka se průběžně aktualizuje.`; } }
+function renderAll() {
+  if (!window._kInit) { if (kActive()) ovSort = { k: "shoda", dir: -1 }; if (kvActive()) aSort = { k: "shoda", dir: -1 }; } window._kInit = true;
+  renderOverview(); renderScatter(); if (!$("#k-modal").hidden) { renderKalkQ(); renderKalkRes(); } if (!$("#kv-modal").hidden) { renderKvQ(); renderKvRes(); } renderKbar(); renderHeat(); renderPolls(); renderPicker(); renderParty(); renderPeopleScatter(); renderPeople(); renderVotes(); renderPast(); renderSwitch(); renderFlows(); renderCampaign(); renderSources(); renderFilterUI();
+}
+function renderFilterUI() {
+  const names = D.lists.filter(l => SEL.has(l.cislo)).map(shortName);
+  $("#pf-label").textContent = !SEL.size ? "Všechny strany" : names.length <= 2 ? names.join(", ") : `${names.length} strany vybrány`.replace(/^(\d+) strany/, (m, n) => n >= 5 ? `${n} stran` : m);
+  $("#pf-btn").classList.toggle("active", SEL.size > 0); $("#pf-clear").hidden = !SEL.size;
+  $("#pf-pop").querySelectorAll("input").forEach(i => i.checked = SEL.has(+i.value));
+  [...$("#f-list").options].forEach(o => o.hidden = !!o.value && !on(+o.value));
+  if ($("#f-list").value && !on(+$("#f-list").value)) { $("#f-list").value = ""; }
+}
+function setSel(next) { SEL = next; try { localStorage.setItem("volby-lbc-filtr", JSON.stringify([...SEL])); } catch (e) {} renderAll(); }
+$("#pf-pop").innerHTML = `<p>Vyberte jednu nebo více kandidátek. Filtr platí pro celou stránku.</p>` + D.lists.map(l => `<label><input type="checkbox" value="${l.cislo}"><span class="ballot">${l.cislo}</span>${esc(shortName(l))}</label>`).join("") +
+  `<div class="pf-actions"><button type="button" id="pf-all">Zobrazit všechny</button><button type="button" id="pf-done">Hotovo</button></div>`;
+$("#pf-pop").addEventListener("change", e => { if (e.target.matches("input")) { const n = new Set(SEL); e.target.checked ? n.add(+e.target.value) : n.delete(+e.target.value); setSel(n); } });
+const togglePop = open => { $("#pf-pop").hidden = !open; $("#pf-btn").setAttribute("aria-expanded", open); };
+$("#pf-btn").onclick = e => { e.stopPropagation(); togglePop($("#pf-pop").hidden); };
+$("#pf-all").onclick = () => setSel(new Set()); $("#pf-done").onclick = () => togglePop(false); $("#pf-clear").onclick = () => setSel(new Set());
+document.addEventListener("click", e => { if (!e.target.closest(".pf")) togglePop(false); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") { togglePop(false); if (!$("#k-modal").hidden) closeKalk(); if (!$("#kv-modal").hidden) closeKv(); } });
+$("#k-open").onclick = () => openMode(KMODE); $("#k-close").onclick = closeKalk; $("#k-toggle").onclick = () => setKON(!(kActive() || kvActive()));
+$("#k-modal").addEventListener("click", e => { if (e.target.id === "k-modal") closeKalk(); });
+document.addEventListener("click", e => { const b = e.target.closest("[data-kbar] [data-k], [data-kvbar] [data-k]"); if (!b) return; const a = b.dataset.k; if (a === "open") openMode("teze"); else if (a === "vopen") openMode("hlas"); else setKON(a === "on"); });
+$("#kv-open").onclick = openKv; $("#kv-close").onclick = closeKv; $("#kv-modal").addEventListener("click", e => { if (e.target.id === "kv-modal") closeKv(); });
+renderAll();
+</script>

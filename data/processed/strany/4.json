@@ -1,0 +1,231 @@
+{
+  "cislo": 4,
+  "nazev": "ANO 2011",
+  "zkratka": "ANO",
+  "slozeni": "Samostatná kandidátka hnutí ANO 2011; všech prvních pět kandidátů je podle ČSÚ členy ANO.",
+  "web": null,
+  "program_url": "https://nasliberec.cz/2026/09/07/tiskova-zprava-hnuti-ano-zahajilo-kampan-v-liberci/",
+  "program_local": "data/raw/programy/ano/program_priority_2026.md",
+  "shrnuti": "Druhá nejsilnější strana zastupitelstva (11 mandátů v roce 2022), od roku 2018 v koalici se Starosty. Do voleb jde s heslem „Liberec bude zase makat!“, novým lídrem bez politické praxe Tomášem Recem a výrazně obměněnou kandidátkou. Priority: silnice k průmyslovým zónám a vnitřní okruh, parkování, městské byty a bytové družstvo, nové koupaliště, kapacity pro seniory a více strážníků.",
+  "zamereni": ["doprava a silnice", "parkování", "městské bydlení", "sport a koupaliště", "senioři", "nezvyšování daní"],
+  "zkusenost_skore": 65,
+  "zkusenost_zduvodneni": "ANO je osm let v koalici a na kandidátce má současného náměstka Lenerta a radního Majznera. Lídr Rec ale nikdy nebyl zastupitelem a místní organizace prošla v letech 2025–2026 rozpuštěním a personální výměnou; odešli náměstci Teplá a Prachař.",
+  "temata_pct": {
+    "doprava_parkovani": 28,
+    "bydleni": 10,
+    "rozvoj_uzemni_plan_vystavba": 7,
+    "zivotni_prostredi_zelen": 0,
+    "socialni_zdravotnictvi_seniori": 10,
+    "skolstvi_deti_rodina": 0,
+    "kultura_sport_volny_cas": 14,
+    "bezpecnost_poradek": 10,
+    "finance_hospodareni_dane": 10,
+    "sprava_transparentnost_digitalizace": 0,
+    "ekonomika_podnikani_cestovni_ruch": 7,
+    "ostatni": 4
+  },
+  "program_body": [
+    {"tema": "doprava_parkovani", "bod": "Dostavět vnitřní městský okruh a postavit silnice k průmyslovým zónám Sever a Jih (podle Rece by ulevily dopravě u Globusu a v ulici České mládeže).", "konkretni": true},
+    {"tema": "doprava_parkovani", "bod": "Opravovat silnice podle priorit a koordinovat uzavírky s krajem a správci sítí.", "konkretni": false},
+    {"tema": "doprava_parkovani", "bod": "MHD zdarma pro děti do 15 let a zavést krátkodobou jízdenku.", "konkretni": true},
+    {"tema": "doprava_parkovani", "bod": "Nové parkovací plochy a na největších sídlištích parkovací domy; zlegalizovat a vyznačit stávající místa; placené zóny na sídlištích zatím neplánují (koncepce parkování do konce 2027).", "konkretni": true},
+    {"tema": "doprava_parkovani", "bod": "Urychlit stavbu lanovky na Ještěd s co nejnižší zátěží rozpočtu, ideálně soukromým investorem (úspora podle Rece cca 750 mil. Kč).", "konkretni": true},
+    {"tema": "doprava_parkovani", "bod": "Uzavřít Zvolenskou ulici u přehrady pro auta o víkendech a svátcích.", "konkretni": true},
+    {"tema": "bydleni", "bod": "Zvýšit počet městských bytů a zřídit městské bytové družstvo.", "konkretni": false},
+    {"tema": "bydleni", "bod": "Zasíťovat vhodné lokality a prodávat stavební pozemky Liberečanům.", "konkretni": false},
+    {"tema": "finance_hospodareni_dane", "bod": "Nezvyšovat daň z nemovitosti; nezadlužovat město více; efektivně čerpat dotace.", "konkretni": true},
+    {"tema": "finance_hospodareni_dane", "bod": "Zvážit prodej stadionu U Nisy klubu FC Slovan, pokud bude smluvně zajištěno užívání výhradně pro fotbal a předkupní právo města.", "konkretni": true},
+    {"tema": "kultura_sport_volny_cas", "bod": "Postavit nové moderní koupaliště u Home Credit Areny s využitím odpadního tepla z arény (brouzdaliště, 25m bazén); Vápenku nevykupovat.", "konkretni": true},
+    {"tema": "kultura_sport_volny_cas", "bod": "Navýšit podporu dětí a mládeže ve sportovních klubech, nová veřejná sportoviště na sídlištích, rozvoj areálu Vesec.", "konkretni": false},
+    {"tema": "socialni_zdravotnictvi_seniori", "bod": "Rozšířit kapacity domovů pro seniory a terénních sociálních služeb; postavit městské Alzheimer centrum.", "konkretni": false},
+    {"tema": "bezpecnost_poradek", "bod": "Zvýšit počet městských strážníků; v terminálu Fügnerova po rekonstrukci nonstop služebna městské policie a důsledná kontrola vyhlášky (alkohol, bivakování).", "konkretni": true},
+    {"tema": "rozvoj_uzemni_plan_vystavba", "bod": "Pokračovat v revitalizaci sídlišť (např. Ruprechtice: nárůst parkovacích míst z 200 na 300) a častěji uklízet Fügnerovu.", "konkretni": false},
+    {"tema": "ekonomika_podnikani_cestovni_ruch", "bod": "Hledat nového velkého zaměstnavatele z oblasti průmyslu 4.0, aby město méně záviselo na automobilovém průmyslu; prohloubit spolupráci s TUL.", "konkretni": false},
+    {"tema": "ostatni", "bod": "Zajistit dostatečné financování Technických služeb města Liberce (TSML).", "konkretni": false}
+  ],
+  "hodnoceni": {
+    "silne_stranky": [
+      "Zkušenost z vedení města: Lenert je od 2022 náměstkem pro územní plánování, majetek a sport, Majzner od 2025 radním (s_denik_vedeni, s_nl_solc).",
+      "Priority míří na témata, která lidé v anketách řeší nejvíce: doprava, parkování, bydlení, bezpečnost na Fügnerově (s_tz, s_denik_fug).",
+      "Několik konkrétních investičních návrhů s lokalizací (koupaliště u Home Credit Areny, silnice k průmyslovým zónám, Zvolenská ulice) (s_drbna_rec)."
+    ],
+    "slabe_stranky_rizika": [
+      "Úplný program se nepodařilo dohledat: k dispozici je jen seznam asi 25 hesel z tiskové zprávy a výroky lídra, často bez nákladů a termínů (s_tz).",
+      "Napětí mezi sliby a financemi: nové koupaliště, parkovací domy, městské byty, Alzheimer centrum a další strážníci vedle slibu nezadlužovat a nezvyšovat daň z nemovitosti; zdroje financování jsou uvedeny jen obecně (dotace, soukromý investor u lanovky) (s_anketa).",
+      "Lídr bez politické praxe a téměř neznámý veřejnosti; kandidátku podle Našeho Liberce prosadila skupina kolem Víta Kyzlinka po vnitrostranickém sporu (s_nl_zemetreseni, s_nov_kand).",
+      "Strana je osm let ve vedení města, ale v kampani kritizuje ‚dluh Starostů‘ (např. silnice k průmyslovým zónám), za který nese spoluodpovědnost (s_drbna_rec)."
+    ],
+    "kontroverze": [
+      {"text": "Náměstek Jiří Šolc (nestraník zvolený za ANO) byl v dubnu 2025 obviněn v korupční kauze. Podle Deníku N policie podezírá Šolce z přijetí úplatku 200 000 Kč ve formě sponzorského daru, který v roce 2022 dostalo hnutí ANO od Libereckého investičního fondu. Šolc vinu odmítá. Klub ANO ho vyzval k rezignaci a navrhl jeho odvolání; zastupitelstvo ho odvolalo.", "zdroj": "s_denik_solc"},
+      {"text": "Liberecká organizace ANO byla podle krajské předsedkyně Jitky Volfové rozpuštěna v roce 2016 a znovu v roce 2025. Před volbami 2026 z kandidátky zmizeli náměstci Martina Teplá (nyní lídryně Lepšího Liberce) a Vojtěch Prachař, který mluví o ‚osobních animozitách a závisti‘ po změně vedení místní organizace.", "zdroj": "s_nl_zemetreseni"},
+      {"text": "Opozice LOL kritizovala návrh náměstka Lenerta dát FC Slovan a Bílým Tygrům 18 mil. Kč na tři roky (cca 17 000 Kč na dítě ročně oproti 2 500 Kč u ostatních klubů). Lenert to označil za zavádějící spojování dvou různých dotačních programů.", "zdroj": "s_nl_arena"}
+    ]
+  },
+  "povolebni_signaly": "Lídr Rec předem nevylučuje spolupráci s žádnou kandidátkou, která se dostane do zastupitelstva. Rozhodovat má průnik programů a ‚kompetentní obsazení pozic náměstků‘ (anketa ČTK, s_anketa; PR rozhovor, s_drbna_rec). SLK vylučuje jen SPD a PRO, pokračování koalice SLK–ANO je tedy možné. Spekulace Našeho Liberce o předem dohodnuté výměně postů mezi Zámečníkem a Lenertem nejsou ověřené (s_nl_glosa).",
+  "kandidati": [
+    {
+      "poradi": 1,
+      "jmeno": "Mgr. Tomáš Rec",
+      "vek": 36,
+      "povolani_dle_listiny": "manažer evropských fondů",
+      "prislusnost": "ANO (navrhující strana ANO)",
+      "shrnuti": "Kandidát na primátora a politický nováček. Rodák z Rochlic, vystudoval TUL a Univerzitu Karlovu. Po studiích pracoval na libereckém magistrátu, pak na několika ministerstvech. Nyní vede útvar v Centru pro regionální rozvoj v Liberci, kde administruje projekty z evropských fondů.",
+      "politicka_kariera": [
+        {"funkce": "člen hnutí ANO; lídr kandidátky a kandidát na primátora", "od": 2026, "do": null, "zdroj": "s_csu_2026"}
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 15,
+      "soucasna_prace": "Vedoucí pozice v Centru pro regionální rozvoj ČR (pobočka Liberec), administrace evropských dotací. Od května 2025 má živnostenské oprávnění.",
+      "posledni_nepoliticka_prace": {"co": "Centrum pro regionální rozvoj ČR (dříve Magistrát města Liberec a ministerstva)", "kdy": "souběžně dosud"},
+      "pozitivni": [
+        {"text": "Podle ANO má přes 12 let praxe ve veřejné správě a odbornost v evropských fondech, kterou chce využít k získání dotací pro město.", "zdroj": "s_tz"},
+        {"text": "V médiích předkládá konkrétní návrhy: nonstop služebnu na Fügnerově, koupaliště u Home Credit Areny, koncepci parkování do konce roku 2027.", "zdroj": "s_denik_fug"}
+      ],
+      "negativni": [
+        {"text": "Novinky ho popisují jako ‚politikou nepolíbeného‘ kandidáta, o jehož aktivitách se kromě prezentace na sociálních sítích příliš neví.", "zdroj": "s_nov_kand"},
+        {"text": "Glosa Deníku poznamenává, že o něm ‚z obyčejných lidí ještě nikdy nikdo nikde neslyšel‘; Náš Liberec píše, že o jeho vizích a politických preferencích se ví málo.", "zdroj": "s_denik_glosa"},
+        {"text": "Podle Našeho Liberce v minulosti chodil na schůzky libereckých Pirátů, členem však nebyl; lídrem se stal v rámci vnitřní přestavby místního ANO.", "zdroj": "s_nl_zemetreseni"}
+      ],
+      "nejiste": "Konkrétní ministerstva, roky a pozice v jeho kariéře se nepodařilo ověřit (jen souhrn v tiskové zprávě ANO). Předmět živnosti zapsané v ARES (IČO 23293764, od 14. 5. 2025, mj. reklama, vzdělávání) a to, zda podniká, nejsou ověřeny."
+    },
+    {
+      "poradi": 2,
+      "jmeno": "Adam Lenert",
+      "vek": 40,
+      "povolani_dle_listiny": "náměstek primátora",
+      "prislusnost": "ANO (navrhující strana ANO)",
+      "shrnuti": "Bývalý úředník úřadu územního plánování magistrátu, kde vedl oddělení. Od roku 2022 uvolněný náměstek primátora, nejprve pro územní plánování a majetkoprávní záležitosti, později pro územní plánování, majetek a sport. Po odchodu Židka převzal mj. rekonstrukci bazénu. V roce 2025 neúspěšně kandidoval do Sněmovny.",
+      "politicka_kariera": [
+        {"funkce": "kandidát ANO do ZM Liberec (22. místo, nezvolen)", "od": 2018, "do": 2018, "zdroj": "volby_gov"},
+        {"funkce": "zastupitel SML", "od": 2022, "do": null, "zdroj": "volby_gov"},
+        {"funkce": "náměstek primátora pro územní plánování a majetkoprávní záležitosti, později územní plánování, majetek a sport", "od": 2022, "do": null, "zdroj": "s_wiki_zast"},
+        {"funkce": "člen statutárního orgánu TMR Ještěd a.s. (od 1/2025) a BAZÉN LIBEREC, s.r.o. (1–5/2025)", "od": 2025, "do": null, "zdroj": "s_hl_lenert"},
+        {"funkce": "kandidát ANO do Poslanecké sněmovny, Liberecký kraj (12. místo, nezvolen)", "od": 2025, "do": 2025, "zdroj": "volby_gov"}
+      ],
+      "roky_v_politice": 4,
+      "zkusenost_skore": 60,
+      "soucasna_prace": "Uvolněný náměstek primátora pro územní plánování, majetek a sport.",
+      "posledni_nepoliticka_prace": {"co": "vedoucí oddělení úřadu územního plánování Magistrátu města Liberec (dříve referent, specialista územního plánu)", "kdy": "do 2022"},
+      "pozitivni": [
+        {"text": "Prosadil prodej zdevastovaného areálu Machnínského zámečku investorovi, který tam chce postavit Alzheimer centrum s nejméně 162 lůžky; provoz má platit soukromý investor.", "zdroj": "s_nl_alz"},
+        {"text": "Jako odpovědný náměstek uvádí, že vícepráce na rekonstrukci bazénu nepřekročily 3,5 % ceny.", "zdroj": "s_nl_bazen_prodr"},
+        {"text": "Odborné zázemí v územním plánování z praxe na magistrátu.", "zdroj": "volby_gov"}
+      ],
+      "negativni": [
+        {"text": "Zelení/LOL mu vyčítají, že dotačním návrhem zvýhodnil FC Slovan a Bílé Tygry, kluby vlivných majitelů; Lenert kritiku odmítá jako zavádějící.", "zdroj": "s_nl_arena"},
+        {"text": "Rekonstrukce bazénu pod jeho gescí se podle Našeho Liberce prodražila na 928,5 mil. Kč a byl ohrožen termín dotace NSA; jde o zakázku, kterou policie vyšetřuje v kauze Židek–Syrovátko. Lenert sám obviněn není.", "zdroj": "s_nl_bazen_prodr"},
+        {"text": "Zrušení smluvních stání taxi na Fügnerově vyvolalo protest taxikářů a petici.", "zdroj": "s_nl_taxi"}
+      ],
+      "nejiste": "Náš Liberec opakovaně uvádí neověřené zvěsti o jeho dohodě se Zámečníkem o primátorském postu. Rok nástupu na magistrát a délku úřednické praxe se nepodařilo ověřit. Podle Hlídače státu daroval ANO 48 800 Kč."
+    },
+    {
+      "poradi": 3,
+      "jmeno": "Ing. Bc. Vít Kyzlink",
+      "vek": 59,
+      "povolani_dle_listiny": "lesní inženýr, odhadce nemovitostí",
+      "prislusnost": "ANO (navrhující strana ANO)",
+      "shrnuti": "Podnikatel v realitách a zastupitel za ANO od roku 2022. Podle Našeho Liberce nový předseda místní organizace ANO a hlavní autor podoby kandidátky 2026. V zastupitelstvu veřejně vystupoval málo.",
+      "politicka_kariera": [
+        {"funkce": "kandidát ANO do ZM Liberec (nezvolen)", "od": 2014, "do": 2014, "zdroj": "volby_gov"},
+        {"funkce": "zastupitel SML", "od": 2022, "do": null, "zdroj": "volby_gov"},
+        {"funkce": "kandidát ANO do zastupitelstva Libereckého kraje (nezvolen)", "od": 2024, "do": 2024, "zdroj": "volby_gov"},
+        {"funkce": "předseda místní organizace ANO Liberec", "od": 2026, "do": null, "zdroj": "s_nl_zemetreseni"}
+      ],
+      "roky_v_politice": 4,
+      "zkusenost_skore": 30,
+      "soucasna_prace": "Podnikatel: člen statutárního orgánu a společník DRAFIN s.r.o. (od 2007), člen statutárního orgánu Liberecké realitní kanceláře s.r.o. (od 2009), živnostník od 1992; neuvolněný zastupitel.",
+      "posledni_nepoliticka_prace": {"co": "realitní a odhadcová činnost (DRAFIN s.r.o., Liberecká realitní kancelář s.r.o.)", "kdy": "souběžně dosud"},
+      "pozitivni": [
+        {"text": "Dlouholetá praxe v realitách a odhadech nemovitostí, užitečná pro agendu majetku města (podnikání od 1992 podle ARES a OR).", "zdroj": "s_hl_kyzlink"}
+      ],
+      "negativni": [
+        {"text": "Podle Našeho Liberce na zastupitelstvu za čtyři roky ‚téměř nevystoupil‘, ale v zákulisí ANO má velký vliv; jeho skupina ovládla kandidátku, ze které zmizeli výrazní politici ANO.", "zdroj": "s_nl_zemetreseni"},
+        {"text": "Bývalý náměstek Vojtěch Prachař (ANO) mluví v souvislosti se změnou vedení místního ANO o ‚osobních animozitách a závisti‘.", "zdroj": "s_nl_zemetreseni"}
+      ],
+      "nejiste": "Hlídač státu uvádí také KYVI s.r.o. v likvidaci; důvod likvidace není znám. Jiné veřejné aktivity v zastupitelstvu (výbory, návrhy) se nepodařilo dohledat."
+    },
+    {
+      "poradi": 4,
+      "jmeno": "Ing. Jan Majzner",
+      "vek": 66,
+      "povolani_dle_listiny": "daňový poradce",
+      "prislusnost": "ANO (navrhující strana ANO)",
+      "shrnuti": "Daňový poradce, jako OSVČ podniká od roku 1992. Zastupitel od 2022 a od května 2025 člen rady města, kde nahradil odvolaného Jiřího Šolce. Dříve kandidoval za Stranu Práv Občanů (2014) a za koalici SPD a SPO (kraj 2016).",
+      "politicka_kariera": [
+        {"funkce": "člen finančního výboru ZM Liberec", "od": 2012, "do": null, "zdroj": "s_nl_finvybor"},
+        {"funkce": "kandidát Strany Práv Občanů do ZM Liberec (nezvolen)", "od": 2014, "do": 2014, "zdroj": "volby_gov"},
+        {"funkce": "kandidát koalice SPD a SPO do zastupitelstva Libereckého kraje (nezvolen; uveden jako člen krajské kontrolní komise)", "od": 2016, "do": 2016, "zdroj": "volby_gov"},
+        {"funkce": "zastupitel SML (za ANO)", "od": 2022, "do": null, "zdroj": "volby_gov"},
+        {"funkce": "radní SML", "od": 2025, "do": null, "zdroj": "s_nl_solc"}
+      ],
+      "roky_v_politice": 4,
+      "zkusenost_skore": 40,
+      "soucasna_prace": "Daňový poradce (OSVČ); neuvolněný radní a zastupitel.",
+      "posledni_nepoliticka_prace": {"co": "daňový poradce (živnost od 1992), angažmá v řadě firem a spolků, např. Okresní hospodářská komora Liberec a spolek Letci Liberec", "kdy": "souběžně dosud"},
+      "pozitivni": [
+        {"text": "Podle vlastních slov se od roku 1990 věnuje ekonomii a účetnictví, má tedy dlouhou odbornou praxi v oblasti financí.", "zdroj": "s_nl_solc"},
+        {"text": "Je zapsán jako daňový poradce s živností od roku 1992.", "zdroj": "s_ares_majzner"}
+      ],
+      "negativni": [
+        {"text": "Před ANO kandidoval za jiné subjekty: Stranu Práv Občanů (2014) a koalici SPD a SPO (2016).", "zdroj": "volby_gov"},
+        {"text": "Náš Liberec ho při volbě do rady označil za ‚nepříliš výrazného zastupitele‘.", "zdroj": "s_nl_solc"}
+      ],
+      "nejiste": "Hlídač státu uvádí jeho angažmá ve 24 soukromých firmách a v Sportovním areálu Ještěd a.s.; povahu těchto vazeb a možné střety zájmů jsme neověřovali. Členství ve finančním výboru je doloženo jen k roku 2012 a jeho trvání není známé. Náš Liberec ho v roce 2025 označil za nestraníka, ČSÚ v roce 2026 uvádí členství v ANO."
+    },
+    {
+      "poradi": 5,
+      "jmeno": "Jan Díl",
+      "vek": 29,
+      "povolani_dle_listiny": "vedoucí pracovník TSML, podnikatel",
+      "prislusnost": "ANO (navrhující strana ANO)",
+      "shrnuti": "Mladý kandidát bez politické funkce, v roce 2022 kandidoval za ANO z 23. místa a nebyl zvolen. Podle listiny je vedoucím pracovníkem městských Technických služeb (TSML) a podnikatelem. Podle Hlídače státu je jednatelem firmy Dotace Pro s.r.o. a společníkem firmy LIBERECKÉ KOTLÁRNY – Hölter, s.r.o.",
+      "politicka_kariera": [
+        {"funkce": "kandidát ANO do ZM Liberec (nezvolen; povolání provozní technik – rozpočtář)", "od": 2022, "do": 2022, "zdroj": "volby_gov"}
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 10,
+      "soucasna_prace": "Podle kandidátní listiny vedoucí pracovník Technických služeb města Liberce a podnikatel; jednatel firmy Dotace Pro s.r.o. (od 11/2024), společník firmy LIBERECKÉ KOTLÁRNY – Hölter, s.r.o. (od 12/2020).",
+      "posledni_nepoliticka_prace": {"co": "TSML, vlastní podnikání", "kdy": "souběžně dosud"},
+      "pozitivni": [
+        {"text": "Má praktickou zkušenost s provozem městských technických služeb a s podnikáním (živnost od 2018).", "zdroj": "s_ares_dil"}
+      ],
+      "negativni": [],
+      "nejiste": "V médiích se o něm nepodařilo nic dohledat. Firma Liberecké kotlárny má v registru smluv zakázky za 34 mil. Kč, ale podle nalezených záznamů od tepláren v Písku a Strakonicích, ne od města Liberec. Pokud by byl zvolen jako zaměstnanec TSML, rozhodoval by v zastupitelstvu i o financování organizace, kde pracuje (ANO slibuje ‚dostatečné financování TSML‘). Jde o obecné riziko střetu zájmů, konkrétní pochybení zjištěno nebylo. Pracovní pozici v TSML jsme neověřovali."
+    }
+  ],
+  "zdroje": [
+    {"id": "volby_gov", "url": "https://www.volby.gov.cz/", "nazev": "ČSÚ – výsledky a kandidátní listiny 2014–2025 (zpracováno)", "datum_stazeni": "2026-10-08", "local": "data/processed/historie_kandidatu.json", "obsah": "Kandidatury a zvolení kandidátů 2014–2025."},
+    {"id": "s_csu_2026", "url": "https://www.volby.gov.cz/", "nazev": "ČSÚ – kandidátní listiny KV 2026 Liberec", "datum_stazeni": "2026-10-08", "local": "data/processed/kandidati_2026.json", "obsah": "Oficiální kandidátka ANO 2011 (věk, povolání, příslušnost)."},
+    {"id": "s_tz", "url": "https://nasliberec.cz/2026/09/07/tiskova-zprava-hnuti-ano-zahajilo-kampan-v-liberci/", "nazev": "Tisková zpráva: Hnutí ANO zahájilo kampaň v Liberci (Náš Liberec, 7. 9. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/programy/ano/nasliberec_tz_ano_zahajilo_kampan.html", "obsah": "Profil lídra Rece, prvních 7 kandidátů a hlavní programové priority."},
+    {"id": "s_tz_feedit", "url": "https://feedit.cz/2026/09/03/hnuti-ano-zahajilo-kampan-do-komunalnich-voleb-v-liberci/", "nazev": "FeedIT: Hnutí ANO zahájilo kampaň do komunálních voleb v Liberci (3. 9. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/programy/ano/feedit_ano_zahajilo_kampan.html", "obsah": "Stejná TZ, odkazovaná ANO jako ‚volební program‘ na programydovoleb.cz."},
+    {"id": "s_prog_md", "url": "https://nasliberec.cz/2026/09/07/tiskova-zprava-hnuti-ano-zahajilo-kampan-v-liberci/", "nazev": "Výtah programových priorit ANO 2026 (sestaveno z TZ a výroků lídra)", "datum_stazeni": "2026-10-08", "local": "data/raw/programy/ano/program_priority_2026.md", "obsah": "Seznam priorit a doplňujících výroků s odkazy na zdroje."},
+    {"id": "s_pdv", "url": "https://programydovoleb.cz/volby/komunalni-volby/176/strana/163963", "nazev": "Programy do voleb – ANO 2011 Liberec 2026", "datum_stazeni": "2026-10-08", "local": "data/raw/programy/ano/programydovoleb_ano_liberec.html", "obsah": "Kandidátka a odkaz na program (TZ na feedit.cz)."},
+    {"id": "s_crol", "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-special-z-liberce-9646377", "nazev": "ČRo Liberec: Komunální volby 2026 – speciál z Liberce", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/crol_special_liberec_2026.html", "obsah": "Odpovědi T. Rece: uzavírky, parkování na sídlištích, prodej stadionu."},
+    {"id": "s_anketa", "url": "https://liberecky.denik.cz/zpravy-region/v-liberci-chteji-volebni-lidri-investovat-do-dopravy-bytu-ci-verejneho-prostoru/", "nazev": "Deník/ČTK: anketa lídrů (14. 9. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/slk/denik_lidri_investovat_ctk_anketa.html", "obsah": "Priority, zadlužení, povolební spolupráce a parkování podle lídrů."},
+    {"id": "s_denik_fug", "url": "https://liberecky.denik.cz/komunalni-volby/co-s-ostudou-liberce-volebni-lidri-rikaji-jak-chteji-zmenit-fugnerku/", "nazev": "Deník: Co s ostudou Liberce – lídři o Fügnerce", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/denik_fugnerka_lidri.html", "obsah": "Recův plán: nonstop služebna, dohled, úklid."},
+    {"id": "s_denik_glosa", "url": "https://liberecky.denik.cz/komunalni-volby/glosa-kdo-bude-ridit-liberec-hledejte-muze-v-tricku-a-s-rukama-v-kapsach/", "nazev": "Deník: Glosa o kampani", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/denik_glosa_kampan.html", "obsah": "Komentář k lídrům včetně Rece."},
+    {"id": "s_denik_11", "url": "https://liberecky.denik.cz/komunalni-volby/o-liberec-se-utka-11-kandidatek-podivejte-se-kdo-je-povede-do-voleb/", "nazev": "Deník/ČTK: O Liberec se utká 11 kandidátek (21. 8. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/denik_11_kandidatek.html", "obsah": "Lídři kandidátek, výsledky 2022, složení koalice."},
+    {"id": "s_denik_vedeni", "url": "https://liberecky.denik.cz/zpravy-region/liberec-volby-vedeni-zastupitele/", "nazev": "Deník: Liberec má nové zastupitele (2022)", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/denik_vedeni_2022.html", "obsah": "Volba náměstků 2022 včetně Lenerta."},
+    {"id": "s_denik_solc", "url": "https://liberecky.denik.cz/zpravy-region/korupcni-kauza-liberec-namestek-solc/", "nazev": "Deník/ČTK: K odvolání Šolce bude nejspíš mimořádné zastupitelstvo (2025)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/denik_korupcni_kauza_solc.html", "obsah": "Obvinění Šolce, sponzorský dar LIF hnutí ANO, výzva klubu ANO k rezignaci."},
+    {"id": "s_drbna_rec", "url": "https://liberecka.drbna.cz/politika/901129-chci-byt-primatorem-pro-vsechny-tvrdi-kandidat-rec.html", "nazev": "Liberecká Drbna: Chci být primátorem pro všechny (PR článek ANO, 1. 10. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/drbna_rec_primatorem_pro_vsechny.html", "obsah": "Placený rozhovor s Recem: silnice k průmyslovým zónám, koupaliště u arény, koalice."},
+    {"id": "s_nov_kand", "url": "https://www.novinky.cz/clanek/volby-komunalni-do-cela-liberce-chce-kontroverzni-politicka-i-neznami-kandidati-40591579", "nazev": "Novinky: Do čela Liberce chce kontroverzní politička i neznámí kandidáti (6. 8. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/novinky_do_cela_liberce_kandidati.html", "obsah": "Rec jako politický nováček, odchod Teplé z ANO."},
+    {"id": "s_nl_zemetreseni", "url": "https://nasliberec.cz/2026/06/10/volby-26-zemetreseni-v-libereckem-ano-skupina-kolem-neznameho-zastupitele-ovladla-kandidatku/", "nazev": "Náš Liberec: Zemětřesení v libereckém ANO (10. 6. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/nasliberec_zemetreseni_v_ano.html", "obsah": "Sestavování kandidátky, role Kyzlinka, vyjádření Rece, Prachaře a Volfové."},
+    {"id": "s_nl_glosa", "url": "https://nasliberec.cz/2026/10/04/glosa-ceka-liberec-zase-vlada-loutek-a-kdo-bude-tentokrat-tahat-za-nitky/", "nazev": "Náš Liberec: Glosa – Čeká Liberec (zase) vláda loutek? (4. 10. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/nasliberec_glosa_vlada_loutek.html", "obsah": "Názorový komentář k lídrům ANO a SLK, spekulace o dohodách."},
+    {"id": "s_nl_solc", "url": "https://nasliberec.cz/2025/05/20/jiri-solc-jiz-neni-namestkem-primatora-pro-jeho-odvolani-hlasovalo-27-z-37-zastupitelu/", "nazev": "Náš Liberec: Jiří Šolc již není náměstkem primátora (20. 5. 2025)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/nasliberec_solc_odvolan.html", "obsah": "Odvolání Šolce, volba Majznera do rady, postoje klubů."},
+    {"id": "s_nl_arena", "url": "https://nasliberec.cz/2026/01/30/arena-posila-mesto-neferove-vice-penez-sportovnim-klubum-podnikatelu-spojenych-s-politikou/", "nazev": "Náš Liberec: Aréna – sportovní dotace (30. 1. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/nasliberec_arena_kluby.html", "obsah": "Kritika LOL a plná odpověď náměstka Lenerta."},
+    {"id": "s_nl_bazen_prodr", "url": "https://nasliberec.cz/2025/09/04/kontroverzni-prestavba-bazenu-se-prodrazuje-liberec-taky-muze-prijit-o-dotaci/", "nazev": "Náš Liberec: Přestavba bazénu se prodražuje (4. 9. 2025)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/nasliberec_bazen_prodrazuje.html", "obsah": "Cena 928,5 mil. Kč, vyjádření Lenerta k víceracím a termínu."},
+    {"id": "s_nl_alz", "url": "https://nasliberec.cz/2024/10/30/v-arealu-zniceneho-machninskeho-zamecku-ma-vzniknout-alzheimer-centrum/", "nazev": "Náš Liberec: V areálu Machnínského zámečku má vzniknout Alzheimer centrum (2024)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/nasliberec_alzheimer_machnin.html", "obsah": "Prodej areálu investorovi na návrh Lenerta."},
+    {"id": "s_nl_taxi", "url": "https://nasliberec.cz/2025/08/01/taxiky-na-fugnerce-konci-mesto-kvuli-upravam-terminalu-s-taxikari-neprodlouzi-smlouvy/", "nazev": "Náš Liberec: Taxíky na Fügnerce končí (2025)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/nasliberec_taxiky_fugnerka.html", "obsah": "Zrušení smluvních stání taxi, vyjádření Lenerta, nesouhlas taxikářů."},
+    {"id": "s_nl_finvybor", "url": "https://nasliberec.cz/2012/09/04/financni-vybor-zastupitelstva/", "nazev": "Náš Liberec: Finanční výbor zastupitelstva (2012)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/nasliberec_financni_vybor_2012.html", "obsah": "Seznam členů finančního výboru včetně Ing. Jana Majznera."},
+    {"id": "s_wiki_zast", "url": "https://cs.wikipedia.org/wiki/Zastupitelstvo_m%C4%9Bsta_Liberec", "nazev": "Wikipedie: Zastupitelstvo města Liberec", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/wiki_zastupitelstvo_liberec.html", "obsah": "Složení rad 2022–2026 (Lenert, Majzner, Teplá, Prachař)."},
+    {"id": "s_hl_lenert", "url": "https://www.hlidacstatu.cz/osoba/adam-lenert", "nazev": "Hlídač státu: Adam Lenert (*1986)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/hlidac_adam-lenert.html", "obsah": "Členství v ANO, dary ANO 48 800 Kč, TMR Ještěd a.s., BAZÉN LIBEREC s.r.o."},
+    {"id": "s_hl_kyzlink", "url": "https://www.hlidacstatu.cz/osoba/vit-kyzlink", "nazev": "Hlídač státu: Vít Kyzlink (*1967)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/hlidac_vit-kyzlink.html", "obsah": "DRAFIN s.r.o., Liberecká realitní kancelář s.r.o., KYVI s.r.o. v likvidaci; člen ANO."},
+    {"id": "s_hl_majzner", "url": "https://www.hlidacstatu.cz/osoba/jan-majzner", "nazev": "Hlídač státu: Jan Majzner (*1960)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/hlidac_jan-majzner.html", "obsah": "Angažmá ve 24 firmách, Sportovní areál Ještěd a.s., dary ANO."},
+    {"id": "s_hl_dil", "url": "https://www.hlidacstatu.cz/osoba/jan-dil-1", "nazev": "Hlídač státu: Jan Díl (*1997)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/hlidac_jan-dil.html", "obsah": "Dotace Pro s.r.o., LIBERECKÉ KOTLÁRNY – Hölter, s.r.o."},
+    {"id": "s_hl_kotlarny", "url": "https://www.hlidacstatu.cz/HledatSmlouvy?Q=ico:43225381", "nazev": "Hlídač státu: smlouvy LIBERECKÉ KOTLÁRNY – Hölter", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/hlidac_smlouvy_liberecke_kotlarny.html", "obsah": "Smlouvy s teplárnami v Písku a Strakonicích (34 mil. Kč)."},
+    {"id": "s_ares_rec", "url": "https://ares.gov.cz/", "nazev": "ARES: Mgr. Tomáš Rec, IČO 23293764", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/ares_rec.json", "obsah": "Živnostník od 14. 5. 2025."},
+    {"id": "s_ares_kyzlink", "url": "https://ares.gov.cz/", "nazev": "ARES: Vít Kyzlink V + V, IČO 16399498", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/ares_kyzlink.json", "obsah": "Živnostník od 1992."},
+    {"id": "s_ares_majzner", "url": "https://ares.gov.cz/", "nazev": "ARES: Ing. Jan Majzner, daňový poradce, IČO 18328725", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/ares_majzner.json", "obsah": "Daňový poradce od 1992."},
+    {"id": "s_ares_dil", "url": "https://ares.gov.cz/", "nazev": "ARES: Jan Díl, IČO 07328036", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/ano/ares_dil.json", "obsah": "Živnostník od 2018."}
+  ]
+}

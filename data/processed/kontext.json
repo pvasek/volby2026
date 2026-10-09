@@ -1,0 +1,947 @@
+{
+  "meta": {
+    "uzemi": "Statutární město Liberec (obec 563889), Zastupitelstvo města, 39 mandátů",
+    "volby": "Komunální volby 9.–10. 10. 2026",
+    "zpracovano": "2026-10-08",
+    "poznamka": "Všechny zdroje jsou uloženy v data/raw/kontext/ (soupis v data/raw/kontext/SOURCES.md). Server Náš Liberec (nasliberec.cz) je výrazně kritický vůči vedení radnice a autor textu Deníku Referendum (Jindřich Felcman) sám kandiduje za Liberec otevřený lidem a Piráti; jejich hodnocení jsou zde použita jen jako doložení faktů nebo jako výslovně označené názory."
+  },
+  "vladnouci_koalice": [
+    {
+      "obdobi": "2014–2018",
+      "koalice": "Změna pro Liberec (12 mandátů) + ANO 2011 (9) = 21 z 39",
+      "primator": "Tibor Batthyány (zvolen za ANO 2011; hnutí ANO v roce 2016 zrušilo libereckou organizaci, Batthyány a další radní za ANO se do hnutí nevrátili)",
+      "namestci": [
+        "Jan Korytář (Změna) – ekonomika, strategický rozvoj a dotace",
+        "Tomáš Kysela (ANO) – technická správa majetku, sportovní infrastruktura",
+        "Karolína Hrbková (Změna) – územní plánování, zeleň, životní prostředí",
+        "Ivan Langr (Zelení/Změna) – školství, kultura, sociální věci, cestovní ruch"
+      ],
+      "poznamka": "Volby 2014 vyhrála Změna pro Liberec, primátorem se 27. 11. 2014 stal Tibor Batthyány z ANO. V prosinci 2016 primátor s pomocí opozice nechal odvolat náměstkyni Karolínu Hrbkovou (Změna), v lednu 2017 byla na jeho návrh zvolena znovu; v březnu 2017 Změna žádala změny ve fungování koalice a v dubnu 2017 se koalice podle Libereckého deníku definitivně rozpadla, všichni však zůstali ve funkcích. V únoru 2018 Změna navrhovala primátora odvolat, potřebných 20 hlasů ale neměla. Ve volbách 2018 Batthyány kandidoval za PRO 2016 a do zastupitelstva se nedostal.",
+      "zdroje": [
+        "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+        "data/raw/kontext/eurozpravy_rozhadany_liberec.html",
+        "data/raw/kontext/drbna_zmena_upravy_koalice.html",
+        "data/raw/kontext/denik_zmena_chce_odvolat_batthyanyho.html",
+        "data/raw/kontext/kv2014_vysledky_obec_563889.xml",
+        "data/raw/kontext/nasliberec_zemetreseni_ano.html"
+      ]
+    },
+    {
+      "obdobi": "2018–2022",
+      "koalice": "Starostové pro Liberecký kraj (16) + ANO 2011 (11) + ODS (4) = 31 z 39",
+      "primator": "Jaroslav Zámečník (SLK), zvolen 20. 11. 2018",
+      "namestci": [
+        "Jiří Němeček (ANO) – statutární náměstek, strategický rozvoj, dotace a majetková správa (do 2019)",
+        "Radka Loučková Kotasová (ANO) – strategický rozvoj, dotace a majetková správa (od 2020)",
+        "Jiří Šolc (SLK) – technická správa a IT",
+        "Zbyněk Karban (ANO) – ekonomika",
+        "Ivan Langr (SLK) – kultura, školství, sociální věci a cestovní ruch"
+      ],
+      "poznamka": "Koaliční smlouvu SLK, ANO a ODS podepsaly koncem října 2018; jedenáctičlenná rada (SLK 5, ANO 4, ODS 2: Petr Židek a Petra Břeňová). ODS se do vedení města vrátila po osmi letech. Opozici tvořily Změna pro Liberec (6) a Liberec otevřený lidem (2).",
+      "zdroje": [
+        "data/raw/kontext/crol_koalice_2018.html",
+        "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+        "data/raw/kontext/kv2018_vysledky_obec_563889.xml"
+      ]
+    },
+    {
+      "obdobi": "2022–duben 2024",
+      "koalice": "Starostové pro Liberecký kraj společně s TOP 09 a KDU-ČSL (12) + ANO 2011 (11) + ODS společně se Sportovci (4) + Piráti (2) = 29 z 39",
+      "primator": "Jaroslav Zámečník (SLK), znovu zvolen 18. 10. 2022; zároveň měl na starosti ekonomiku",
+      "namestci": [
+        "Šárka Prachařová (ANO) – statutární náměstkyně, strategický rozvoj a dotace",
+        "Petr Židek (ODS) – majetková správa, sport a sportovní infrastruktura",
+        "Jiří Janďourek (SLK) – architektura, veřejný prostor a dopravní stavby",
+        "Ivan Langr (SLK) – kultura, školství a cestovní ruch",
+        "Jiří Šolc (za ANO) – technická správa a IT",
+        "Adam Lenert (ANO) – územní plánování a majetkoprávní záležitosti",
+        "Martina Teplá (ANO) – neuvolněná, sociální záležitosti",
+        "Jan Hruška (Piráti) – neuvolněný, městské bydlení a místní Agenda 21"
+      ],
+      "poznamka": "Koaliční smlouva čtyřkoalice podepsána 14. 10. 2022; rada SLK 5, ANO 4, ODS 1, Piráti 1. Počet uvolněných náměstků vzrostl ze čtyř na šest. V opozici byly Liberec otevřený lidem (6) a SPD (4). Pozn.: k zadání – koalice z roku 2022 zahrnovala i ODS, nejen SLK, ANO a Piráty.",
+      "zdroje": [
+        "data/raw/kontext/denik_koalice_2022.html",
+        "data/raw/kontext/denik_vedeni_2022.html",
+        "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+        "data/raw/pruzkumy/kv2022_vysledky_obec_563889.xml"
+      ]
+    },
+    {
+      "obdobi": "duben 2024–2026",
+      "koalice": "Starostové pro Liberecký kraj (+ TOP 09 a KDU-ČSL) + ANO 2011 + Piráti; po vypovězení smlouvy ODS 25 z 39, ke konci období podle Wikipedie 24 (SLK+TOP+KDU 12, ANO 10, Piráti 2)",
+      "primator": "Jaroslav Zámečník (SLK)",
+      "namestci": [
+        "Šárka Prachařová (ANO) – statutární náměstkyně, strategický rozvoj a dotace",
+        "Jiří Janďourek (SLK) – architektura, veřejný prostor a dopravní stavby",
+        "Ivan Langr (SLK) – kultura, školství a cestovní ruch",
+        "Adam Lenert (ANO) – územní plánování, majetek a sport",
+        "Jiří Šolc (za ANO) – technická správa a IT (odvolán 19. 5. 2025)",
+        "Vojtěch Prachař (ANO) – neuvolněný, energetika a Smart City",
+        "Martina Teplá (zvolena za ANO, v roce 2026 z ANO odešla, lídryně Lepšího Liberce) – neuvolněná, sociální záležitosti",
+        "Jan Hruška (Piráti) – neuvolněný, městské bydlení a místní Agenda 21"
+      ],
+      "poznamka": "Po policejním zásahu na radnici 9. 4. 2024 ODS zrušila Petru Židkovi členství a ten 15. 4. 2024 rezignoval na funkci náměstka; SLK, ANO a Piráti téhož dne vypověděli koaliční smlouvu ODS. Podle Náš Liberec zastupitelé ODS vedení města nadále podporovali. Náměstek Jiří Šolc (nestraník za ANO) byl 30. 4. 2025 obviněn z korupce a 19. 5. 2025 odvolán (27 z 37 hlasů); do rady místo něj nastoupil Jan Majzner (za ANO) a počet uvolněných náměstků se snížil na čtyři. V květnu 2026 ze SLK vystoupil radní a starosta Vratislavic Lukáš Pohanka a založil hnutí Lepší město, lepší život (Lepší Liberec).",
+      "zdroje": [
+        "data/raw/kontext/crol_koalice_bez_ods_2024.html",
+        "data/raw/kontext/ctk_koalice_bez_ods_2024.html",
+        "data/raw/kontext/crol_solc_odvolan_rada_2025.html",
+        "data/raw/kontext/ctk_solc_odvolan_2025.html",
+        "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+        "data/raw/kontext/nasliberec_bazen_dotace_2026.html",
+        "data/raw/kontext/novinky_pohanka_odchod.html",
+        "data/raw/kontext/drbna_tepla_rozhovor.html"
+      ]
+    }
+  ],
+  "kauzy_a_projekty": [
+    {
+      "nazev": "Korupční kauza na radnici (zásah NCOZ v dubnu 2024)",
+      "obdobi": "2024–dosud (vyšetřování)",
+      "popis": "V dubnu 2024 zasahovala Národní centrála proti organizovanému zločinu v budovách magistrátu a v sídle skupiny SYNER; obviněno bylo osm lidí ve třech větvích (opravy silnic, majetkové operace radnice, zakázka Libereckého kraje). Ve druhé větvi jsou obviněni tehdejší náměstek Petr Židek (ODS) a šéf SYNER Group Petr Syrovátko, kteří vinu odmítají; podle médií odkazujících na policejní dokumenty jde mimo jiné o informace k zakázce na rekonstrukci bazénu. Kauza vedla k odchodu ODS z koalice, o podání obžaloby jsme do 8. 10. 2026 nenašli zprávu.",
+      "zapojene_strany": [
+        "ODS",
+        "Starostové pro Liberecký kraj",
+        "ANO 2011",
+        "Piráti"
+      ],
+      "zdroje": [
+        "data/raw/kontext/ctk_syrovatko_obvinen_2024.html",
+        "data/raw/kontext/crol_koalice_bez_ods_2024.html",
+        "data/raw/kontext/seznam_korupce_syner_2024.html",
+        "data/raw/kontext/denikreferendum_felcman_2026.html"
+      ]
+    },
+    {
+      "nazev": "Obvinění a odvolání náměstka Jiřího Šolce",
+      "obdobi": "2025",
+      "popis": "Na konci dubna 2025 policie v rámci stejného vyšetřování obvinila náměstka pro technickou správu Jiřího Šolce (nestraník za ANO, v letech 2018–2022 náměstek za SLK). Šolc obvinění odmítl a odmítl i rezignovat, zastupitelstvo ho 19. 5. 2025 odvolalo 27 hlasy z 37; zastupitelem zůstal. Opozice tehdy neúspěšně navrhovala obměnu celé rady.",
+      "zapojene_strany": [
+        "ANO 2011",
+        "Starostové pro Liberecký kraj",
+        "Piráti",
+        "Liberec otevřený lidem",
+        "ODS"
+      ],
+      "zdroje": [
+        "data/raw/kontext/crol_solc_odvolan_rada_2025.html",
+        "data/raw/kontext/ctk_solc_odvolan_2025.html",
+        "data/raw/kontext/denik_solc_odvolan.html"
+      ]
+    },
+    {
+      "nazev": "Rekonstrukce městského plaveckého bazénu",
+      "obdobi": "2023–2026+",
+      "popis": "Modernizace bazénu u Tržního náměstí je největší investicí období; rozpočet 2026 na ni vyčlenil 783 mil. Kč bez DPH. Po zásahu policie v dubnu 2024 město zakázku (tehdy zhruba 750 mil. Kč) nechalo prověřit, vyměnilo administrátora a nechalo projekt posoudit VUT a ČVUT; vítězem zůstal Metrostav DIZ a v srpnu 2026 město získalo dotaci 205 mil. Kč na energetické úspory. Opozice (LOL, Zelení) ji označuje za nejdražší rekonstrukci bazénu v Česku a zakázka je součástí policejního vyšetřování.",
+      "zapojene_strany": [
+        "Starostové pro Liberecký kraj",
+        "ANO 2011",
+        "ODS",
+        "Liberec otevřený lidem"
+      ],
+      "zdroje": [
+        "data/raw/kontext/ct24_bazen_proverit_2024.md",
+        "data/raw/kontext/denik_rozpocet_schodkovy.html",
+        "data/raw/kontext/denik_rozpocet_bazen_uver.html",
+        "data/raw/kontext/nasliberec_bazen_dotace_2026.html",
+        "data/raw/kontext/denikreferendum_felcman_2026.html"
+      ]
+    },
+    {
+      "nazev": "Rozpočet a zadlužení města",
+      "obdobi": "2022–2026",
+      "popis": "Rozpočet na rok 2026 schválený v listopadu 2025 počítá s výdaji 4,761 mld. Kč a příjmy 3,814 mld. Kč, rozdíl kryjí zůstatky a dva kontokorentní úvěry; investice přesahují 1,4 mld. Kč (bazén, energetické úspory 34 budov za 560 mil. Kč, Ruprechtice, kino Varšava aj.). Podle závěrečného účtu, jak jej citoval Náš Liberec, činil přímý dluh k 31. 12. 2025 asi 1,58 mld. Kč (10 586 Kč na obyvatele), s městskými firmami zhruba 3 mld. Kč. Primátor Zámečník nárůst vysvětluje investicemi přes 3 mld. Kč za čtyři roky, opozice kritizuje růst dluhu a ceny zakázek.",
+      "zapojene_strany": [
+        "Starostové pro Liberecký kraj",
+        "ANO 2011",
+        "Piráti",
+        "Liberec otevřený lidem"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_rozpocet_schodkovy.html",
+        "data/raw/kontext/nasliberec_ucet_po_zamecnikovi.html",
+        "data/raw/kontext/denik_ctk_anketa_lidri.html"
+      ]
+    },
+    {
+      "nazev": "Tramvajová trať do Rochlice",
+      "obdobi": "2018–2026+",
+      "popis": "Zrychlení přípravy tramvaje na největší sídliště slibovali Starostové už v roce 2018; varianta z roku 2022 s tunelem a demolicemi za téměř 1,5 mld. Kč byla stažena a revizní studie z roku 2024 doporučila levnější vedení za necelých 1,3 mld. Kč. Končící primátor Zámečník v srpnu 2026 projekt zařadil mezi věci, které se nepodařily.",
+      "zapojene_strany": [
+        "Starostové pro Liberecký kraj",
+        "Liberec otevřený lidem"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_zamecnik_bilance_tramvaj.html",
+        "data/raw/kontext/nasliberec_tramvaj_posudek_2024.html"
+      ]
+    },
+    {
+      "nazev": "Terminál Fügnerova a bezpečnost v dolním centru",
+      "obdobi": "2022–2026",
+      "popis": "Terminál MHD Fügnerova prošel v roce 2026 generální opravou, město přidalo osvětlení, zrušilo stání taxíků a připravuje služebnu městské policie a úpravy veřejného prostoru. V anketě Libereckého deníku „Starosto, vyřeš to!“ jej čtenáři se 73–74 % hlasů označili za největší ostudu města a všichni oslovení lídři slibují stálou přítomnost strážníků a častější úklid.",
+      "zapojene_strany": [
+        "Starostové pro Liberecký kraj",
+        "ANO 2011",
+        "Liberecká 9",
+        "Liberec otevřený lidem a Piráti",
+        "Lepší Liberec"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_sliby_bilance.html",
+        "data/raw/kontext/denik_fugnerka_lidri.html",
+        "data/raw/kontext/denik_komunalni_volby_rubrika.html"
+      ]
+    },
+    {
+      "nazev": "Budova Uran a autobusové nádraží",
+      "obdobi": "2018–2026",
+      "popis": "Původní projekt nového autobusového nádraží s parkovacím domem radnice po roce 2018 opustila ve prospěch propojení s železnicí (Central Station). Rekonstrukce úřednické budovy Uran (v rozpočtu 2024 přes 136 mil. Kč) se podle Náš Liberec prodražila asi o 100 mil. Kč a primátor připustil chyby v projektu; v roce 2026 převzalo přízemí Uranu funkci odbavovací haly a provizorní buňky zmizely.",
+      "zapojene_strany": [
+        "Starostové pro Liberecký kraj"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_sliby_bilance.html",
+        "data/raw/kontext/denik_rozpocet_bazen_uver.html",
+        "data/raw/kontext/nasliberec_ucet_po_zamecnikovi.html",
+        "data/raw/kontext/denik_zamecnik_bilance_tramvaj.html"
+      ]
+    },
+    {
+      "nazev": "Opravy ulic, dopravní uzavírky a Tržní náměstí",
+      "obdobi": "2023–2026",
+      "popis": "Město v posledních letech opravuje velké množství ulic (např. Vítězná, sítě od Šaldova náměstí ke Komenského do dubna 2027), což vede k rozsáhlým uzavírkám. Proměnu Tržního náměstí za zhruba 60 mil. Kč bez DPH vedení obhajuje bezpečností, kritici ji označují za drahou a Lukáš Pohanka kritiku uzavírek a návrhu Tržního náměstí uvedl mezi důvody odchodu ze SLK. Odpovědným náměstkem je Jiří Janďourek (SLK).",
+      "zapojene_strany": [
+        "Starostové pro Liberecký kraj",
+        "Lepší Liberec"
+      ],
+      "zdroje": [
+        "data/raw/kontext/drbna_trzni_namesti.html",
+        "data/raw/kontext/novinky_pohanka_odchod.html",
+        "data/raw/kontext/denik_glosa_kampan.html",
+        "data/raw/kontext/crol_special_liberec_2026.html"
+      ]
+    },
+    {
+      "nazev": "Možný prodej stadionu U Nisy FC Slovan Liberec",
+      "obdobi": "2026",
+      "popis": "Od jara 2026 město jedná s majitelem klubu Ondřejem Kaniou o prodeji stadionu, protože areál potřebuje investice (jen osvětlení a trávník 50–70 mil. Kč během dvou let). Pracovní verze posudku uvádí horní hranici asi 360 mil. Kč, Kania odmítá platit stovky milionů; o prodeji má rozhodnout až nové zastupitelstvo.",
+      "zapojene_strany": [
+        "ANO 2011",
+        "Starostové pro Liberecký kraj",
+        "LIBE!",
+        "Lepší Liberec",
+        "DSZ – ZA PRÁVA ZVÍŘAT"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_stadion_prodej.html",
+        "data/raw/kontext/tiscali_stadion_kania.html",
+        "data/raw/kontext/crol_special_liberec_2026.html"
+      ]
+    },
+    {
+      "nazev": "Nová lanovka na Ještěd",
+      "obdobi": "2023–2026+",
+      "popis": "Město připravuje novou kabinovou lanovku (jedna kabina pro 100 lidí na dvou lanech) a v únoru 2026 představilo finální podobu stanic; Liberecký kraj současně schvaloval odkup hotelu a vysílače Ještěd za 181 mil. Kč. Lídr SLK Lukáš Hájek navrhuje stavbu zaplatit z prodeje stadionu U Nisy, lídr ANO Tomáš Rec počítá s možností soukromého investora (úspora asi 750 mil. Kč); zakázku na design za 2,4 mil. Kč kritizoval Náš Liberec.",
+      "zapojene_strany": [
+        "Starostové pro Liberecký kraj",
+        "ANO 2011"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_jested_kraj_lanovka.html",
+        "data/raw/kontext/denik_ctk_anketa_lidri.html",
+        "data/raw/pruzkumy/nasliberec_hledani_pruzkum.html"
+      ]
+    },
+    {
+      "nazev": "Městské bydlení (koncepce 2025+, Papírák 2030)",
+      "obdobi": "2022–2026+",
+      "popis": "Koncepce bydlení z listopadu 2025 počítá se zvýšením počtu městských bytů z 1 021 až na 2 000 do roku 2035; město za 15 let postavilo jen jeden bytový dům (49 bytů Na Žižkově, 2023). V březnu 2026 vybralo projektanty pro až 150 bytů a parkovací dům na Papírovém náměstí (stavba bytů odhadem 750 mil. Kč). Část opozice považuje cíle za nereálné.",
+      "zapojene_strany": [
+        "Piráti",
+        "Starostové pro Liberecký kraj",
+        "ODS"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_bydleni_zdvojnasobit.html",
+        "data/raw/kontext/denik_papirak_byty_2026.html",
+        "data/raw/kontext/denik_koalice_2022.html"
+      ]
+    },
+    {
+      "nazev": "Teplárenství a cena tepla",
+      "obdobi": "2022–2026",
+      "popis": "Město vlastní 23,96 % Teplárny Liberec, většinu má skupina Enetiqa (dříve MVV Energie CZ); teplo pochází hlavně ze spalovny Termizo. Pokus města získat zpět spalovnu a většinu teplárny se nezdařil, což primátor Zámečník uvádí mezi neúspěchy. Od ledna 2026 teplo zdražilo o 6,5 % (asi 1 060 Kč/GJ u pětiletých smluv).",
+      "zapojene_strany": [
+        "Starostové pro Liberecký kraj"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_teplo_2026.html",
+        "data/raw/kontext/denik_zamecnik_bilance_tramvaj.html"
+      ]
+    },
+    {
+      "nazev": "Přestupní uzel Central Station",
+      "obdobi": "2021–2026+",
+      "popis": "Kraj, město a Správa železnic připravují nový přestupní terminál u vlakového nádraží, kam se má přesunout autobusové nádraží. Předběžný harmonogram z roku 2021 počítal s dokončením kolem roku 2030; do té doby slouží jako odbavovací hala budova Uran.",
+      "zapojene_strany": [
+        "Starostové pro Liberecký kraj"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_central_station.html",
+        "data/raw/kontext/denik_sliby_bilance.html"
+      ]
+    },
+    {
+      "nazev": "Proměna politické scény před volbami 2026",
+      "obdobi": "2025–2026",
+      "popis": "Primátor Zámečník v prosinci 2025 oznámil, že post neobhajuje, lídrem SLK je Lukáš Hájek a Zámečník je na kandidátce druhý. ANO postavilo do čela nováčka Tomáše Rece a na kandidátce chybí Šárka Prachařová, Vojtěch Prachař i Martina Teplá; Teplá z ANO odešla a vede Lepší Liberec Lukáše Pohanky, který opustil SLK. TOP 09 a KDU-ČSL kandidují zvlášť jako Liberecká 9, Piráti se spojili s LOL a exprimátor Batthyány se vrací s kandidátkou LIBE!.",
+      "zapojene_strany": [
+        "Starostové pro Liberecký kraj",
+        "ANO 2011",
+        "Lepší Liberec",
+        "LIBERECKÁ 9",
+        "Liberec otevřený lidem a Piráti",
+        "LIBE!"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_zamecnik_nekandiduje.html",
+        "data/raw/kontext/denik_11_kandidatek.html",
+        "data/raw/kontext/nasliberec_zemetreseni_ano.html",
+        "data/raw/kontext/genus_ano_rec.html",
+        "data/raw/kontext/drbna_tepla_rozhovor.html",
+        "data/raw/kontext/denik_pohanka_podpisy.html",
+        "data/raw/kontext/drbna_batthyany_navrat_2026.html"
+      ]
+    }
+  ],
+  "temata_kampane_2026": [
+    {
+      "tema": "Doprava, opravy silnic a koordinace uzavírek",
+      "popis": "Nejčastější téma kampaně i debat ČRo: koordinace uzavírek, plán oprav ulic, dostavba vnitřního okruhu a silnic k průmyslovým zónám (ANO), oprava 60 ulic (SLK). Lepší Liberec a LIBE! kritizují nekoordinované uzavírky současného vedení.",
+      "zdroje": [
+        "data/raw/kontext/crol_special_liberec_2026.html",
+        "data/raw/kontext/denik_ctk_anketa_lidri.html",
+        "data/raw/kontext/drbna_batthyany_navrat_2026.html"
+      ]
+    },
+    {
+      "tema": "Parkování na sídlištích",
+      "popis": "Lídři se většinou vyhýbají plošnému zavedení placených zón; ANO chce parkovací plochy a parkovací domy a koncepci do konce roku 2027, Liberecká 9 modré zóny pro rezidenty spolu s parkovacími domy, LOL a Piráti zóny jen se souhlasem místních.",
+      "zdroje": [
+        "data/raw/kontext/denik_ctk_anketa_lidri.html",
+        "data/raw/kontext/crol_special_liberec_2026.html",
+        "data/raw/kontext/denikreferendum_felcman_2026.html"
+      ]
+    },
+    {
+      "tema": "Bezpečnost a Fügnerova",
+      "popis": "Terminál Fügnerova vyšel z ankety Deníku jako největší problém města; SLK slibuje strážníky 24/7 se psem, ANO nonstop služebnu, LOL a Piráti stálou dvoučlennou hlídku a odkrytí Harcovského potoka, SPD více strážníků.",
+      "zdroje": [
+        "data/raw/kontext/denik_fugnerka_lidri.html",
+        "data/raw/kontext/denik_ctk_anketa_lidri.html"
+      ]
+    },
+    {
+      "tema": "Dostupné bydlení",
+      "popis": "Téma všech debat ČRo i debaty v Babylonu; strany slibují stavbu městských bytů (ANO, SLK, LOL a Piráti), spor je o realističnost cílů a financování.",
+      "zdroje": [
+        "data/raw/kontext/crol_debaty_lidri_2026.html",
+        "data/raw/kontext/denik_debata_babylon.html",
+        "data/raw/kontext/denik_bydleni_zdvojnasobit.html"
+      ]
+    },
+    {
+      "tema": "Hospodaření a dluh města",
+      "popis": "Většina lídrů v anketě ČTK říká, že je třeba hlídat zadlužení; ANO a SPD další zadlužování odmítají, Lepší Liberec upozorňuje na výdaje 5,66 mld. Kč při příjmech 3,88 mld. Kč v aktualizovaném rozpočtu 2026, Zámečník chce po volbách dál řídit městskou ekonomiku.",
+      "zdroje": [
+        "data/raw/kontext/denik_ctk_anketa_lidri.html",
+        "data/raw/kontext/nasliberec_ucet_po_zamecnikovi.html"
+      ]
+    },
+    {
+      "tema": "Korupce a důvěryhodnost radnice",
+      "popis": "Kauzy z let 2024–2025 (Židek, Šolc) jsou v kampani přítomné: glosa Libereckého deníku zmiňuje heslo „Liberec konečně bez korupce“ jako oblíbenou opoziční mantru, LOL a Piráti odmítají koalici s lidmi spojenými s korupčními kauzami. Vládnoucí strany v roce 2024 vypověděly smlouvu ODS a v roce 2025 odvolaly náměstka Šolce; opozice tehdy žádala obměnu celé rady.",
+      "zdroje": [
+        "data/raw/kontext/denik_glosa_kampan.html",
+        "data/raw/kontext/denikreferendum_felcman_2026.html",
+        "data/raw/kontext/crol_solc_odvolan_rada_2025.html"
+      ]
+    },
+    {
+      "tema": "MHD a jízdné",
+      "popis": "V debatách ČRo se řešilo zlevnění jízdného a motivace k MHD; SLK slibuje MHD pro děti do 15 let zdarma, Lepší Liberec upozorňuje na drahé rozběhnuté projekty (rekonstrukce trati, elektrobusy DPMLJ).",
+      "zdroje": [
+        "data/raw/kontext/crol_debata1.html",
+        "data/raw/kontext/denik_ctk_anketa_lidri.html"
+      ]
+    },
+    {
+      "tema": "Prodej stadionu U Nisy a lanovka na Ještěd",
+      "popis": "ČRo se ptal všech kandidátek na prodej stadionu; ANO by prodej za stamiliony s podmínkami (výhradně fotbal, předkupní právo) zvážilo, LIBE! prodej podporuje s podmínkou peněz zpět do sportu, DSZ a Lepší Liberec zdůrazňují zákonné a smluvní podmínky. SLK chce z prodeje stadionu financovat lanovku, ANO zmiňuje soukromého investora lanovky.",
+      "zdroje": [
+        "data/raw/kontext/crol_special_liberec_2026.html",
+        "data/raw/kontext/denik_ctk_anketa_lidri.html"
+      ]
+    },
+    {
+      "tema": "Povolební spolupráce",
+      "popis": "Liberecká 9 vylučuje koalici s ANO; Lukáš Hájek (SLK) vylučuje spolupráci s SPD a PRO; LOL a Piráti odmítají extremisty a lidi spojené s korupčními kauzami; ANO, SPD a Lepší Liberec předem nikoho nevylučují.",
+      "zdroje": [
+        "data/raw/kontext/denik_ctk_anketa_lidri.html",
+        "data/raw/kontext/liberecka9_web.html"
+      ]
+    }
+  ],
+  "debaty": [
+    {
+      "nazev": "Liberec volí! – velká předvolební debata",
+      "datum": "2026-09-17",
+      "poradatel": "Milion chvilek pro demokracii (místní skupiny Liberec a Frýdlant) a Televize rtm plus, Centrum Babylon",
+      "ucastnici": [
+        "Lukáš Hájek (SLK)",
+        "Tomáš Rec (ANO)",
+        "Jan Hruška (LOL a Piráti)",
+        "Jiří Veselka (ODS se sportovci)",
+        "Tomáš Paleček (SPD)",
+        "Zdeněk Chmelík (Liberecká 9)",
+        "Martina Teplá (Lepší Liberec)"
+      ],
+      "temata": [
+        "dostupné bydlení",
+        "doprava a infrastruktura",
+        "kultura",
+        "bezpečnost",
+        "rozpočet a investice",
+        "dotazy veřejnosti"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_debata_babylon.html",
+        "data/raw/kontext/centrum_debata_babylon.html"
+      ]
+    },
+    {
+      "nazev": "Český rozhlas Liberec – tři předvolební debaty (moderuje Jana Švecová)",
+      "datum": "září–říjen 2026 (přesná data vysílání neuvedena; stránka aktualizována 7. 10. 2026)",
+      "poradatel": "Český rozhlas Liberec; složení debat určil los za účasti notáře",
+      "ucastnici": [
+        "Debata 1: Lukáš Hájek (SLK), Lenka Tarabová (PRO), Tomáš Rec (ANO), Jiří Veselka (ODS se sportovci)",
+        "Debata 2: Zdeněk Chmelík (Liberecká 9), Jan Hruška (LOL a Piráti), Martina Teplá (Lepší Liberec), Tomáš Paleček (SPD)",
+        "Debata 3: Petra Bártová (DSZ – ZA PRÁVA ZVÍŘAT), Tibor Batthyány (LIBE!); Česká strana asociálů se nezúčastnila"
+      ],
+      "temata": [
+        "dostupnost bydlení",
+        "doprava a rekonstrukce silnic",
+        "parkování",
+        "koordinace oprav",
+        "MHD a jízdné"
+      ],
+      "zdroje": [
+        "data/raw/kontext/crol_debaty_lidri_2026.html",
+        "data/raw/kontext/crol_debata1.html",
+        "data/raw/kontext/crol_debata2.html",
+        "data/raw/kontext/crol_debata3.html"
+      ]
+    },
+    {
+      "nazev": "ČRo Liberec – písemný speciál (3 otázky všem 11 kandidátkám)",
+      "datum": "2026-10-01",
+      "poradatel": "Český rozhlas Liberec",
+      "ucastnici": [
+        "všech 11 kandidujících subjektů"
+      ],
+      "temata": [
+        "koordinace dopravních uzavírek",
+        "parkování na sídlištích",
+        "prodej stadionu U Nisy"
+      ],
+      "zdroje": [
+        "data/raw/kontext/crol_special_liberec_2026.html"
+      ]
+    },
+    {
+      "nazev": "Anketa ČTK s lídry (Liberecký deník)",
+      "datum": "2026-09-14",
+      "poradatel": "ČTK / Liberecký deník",
+      "ucastnici": [
+        "Tomáš Rec (ANO)",
+        "Martina Teplá (Lepší Liberec)",
+        "Zdeněk Chmelík (Liberecká 9)",
+        "Jan Hruška (LOL a Piráti)",
+        "Jiří Veselka (ODS)",
+        "Tomáš Paleček (SPD)",
+        "Lukáš Hájek (SLK)"
+      ],
+      "temata": [
+        "hlavní úkol a zadlužení",
+        "povolební spolupráce",
+        "parkování a placené zóny"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_ctk_anketa_lidri.html"
+      ]
+    },
+    {
+      "nazev": "Starosto, vyřeš to! – seriál Libereckého deníku (Fügnerova)",
+      "datum": "2026-08-14 až 2026-10-07",
+      "poradatel": "Liberecký deník",
+      "ucastnici": [
+        "odpověděli Lukáš Hájek (SLK), Tomáš Rec (ANO), Jan Hruška (LOL a Piráti), Zdeněk Chmelík (Liberecká 9), Martina Teplá (Lepší Liberec)"
+      ],
+      "temata": [
+        "terminál Fügnerova",
+        "bezpečnost",
+        "veřejný prostor"
+      ],
+      "zdroje": [
+        "data/raw/kontext/denik_fugnerka_lidri.html",
+        "data/raw/kontext/denik_sliby_bilance.html"
+      ]
+    }
+  ],
+  "podpory_a_spojenectvi": [
+    {
+      "kdo": "Trikolora",
+      "koho": "SPD (Tomáš Paleček)",
+      "popis": "Trikolora nepostavila vlastní kandidátku a podpořila SPD.",
+      "zdroje": [
+        "data/raw/kontext/denik_11_kandidatek.html"
+      ]
+    },
+    {
+      "kdo": "Unie pro sport a zdraví (Sportovci)",
+      "koho": "ODS společně se sportovci",
+      "popis": "Společná kandidátka ODS a Unie pro sport a zdraví, lídr Jiří Veselka.",
+      "zdroje": [
+        "data/raw/kontext/ods_liberec_volby2026.html",
+        "data/raw/kontext/denik_11_kandidatek.html"
+      ]
+    },
+    {
+      "kdo": "TOP 09 a KDU-ČSL",
+      "koho": "LIBERECKÁ 9",
+      "popis": "V roce 2022 kandidovaly se SLK, v roce 2026 jsou součástí Liberecké 9 (lídr Zdeněk Chmelík, TOP 09); SLK jdou samostatně.",
+      "zdroje": [
+        "data/raw/kontext/denik_11_kandidatek.html",
+        "data/raw/kontext/genus_ano_rec.html"
+      ]
+    },
+    {
+      "kdo": "Piráti",
+      "koho": "Liberec otevřený lidem a Piráti",
+      "popis": "Piráti nepostavili vlastní kandidátku a spojili se s LOL (jádro kolem Strany zelených), lídr Jan Hruška, dvojka Zuzana Kocumová.",
+      "zdroje": [
+        "data/raw/kontext/denik_11_kandidatek.html",
+        "data/raw/kontext/denik_kdo_chce_vladnout.html"
+      ]
+    },
+    {
+      "kdo": "GEN a Svobodní",
+      "koho": "LIBE! (Tibor Batthyány)",
+      "popis": "V registru kandidátních listin ČSÚ (kvros.csv) je LIBE! vedena jako koalice GEN + NK (nezávislí kandidáti). Podle Drbny (5/2026) a Deníku (8/2026) na ní kandidují i Svobodní (formálně tedy jako NK, nikoli jako strana v koalici); Drbna v květnu psala také o podpoře hnutí PRO, které ale nakonec kandiduje samostatně (lídryně Lenka Tarabová).",
+      "zdroje": [
+        "data/raw/kontext/drbna_batthyany_navrat_2026.html",
+        "data/raw/kontext/denik_11_kandidatek.html",
+        "data/raw/kontext/libe_web.html",
+        "data/raw/volby_gov/kv2026/reg/csv_od/kvros.csv"
+      ]
+    },
+    {
+      "kdo": "Martin Půta (hejtman, předseda SLK)",
+      "koho": "Lukáš Pohanka / Lepší Liberec",
+      "popis": "Odchod Pohanky ze SLK označil za politováníhodný, ale popřál mu ve volbách hodně štěstí; nejde o podporu. Podporu kandidátům od celostátních politiků jsme nedohledali.",
+      "zdroje": [
+        "data/raw/kontext/denik_pohanka_podpisy.html"
+      ]
+    },
+    {
+      "kdo": "Jaroslav Zámečník (končící primátor)",
+      "koho": "Lukáš Hájek (SLK)",
+      "popis": "Na webu SLK Zámečník uvádí, že místo lídra přenechal Hájkovi, a označuje ho za jasnou volbu.",
+      "zdroje": [
+        "data/raw/kontext/slk_web.html"
+      ]
+    }
+  ],
+  "zdroje": [
+    {
+      "url": "https://cs.wikipedia.org/wiki/Zastupitelstvo_m%C4%9Bsta_Liberec",
+      "local_file": "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://cs.wikipedia.org/wiki/Seznam_primátorů_Liberce",
+      "local_file": "data/raw/kontext/wiki_seznam_primatoru.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://cs.wikipedia.org/wiki/Tibor_Batthy%C3%A1ny",
+      "local_file": "data/raw/kontext/wiki_batthyany.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://cs.wikipedia.org/wiki/Jaroslav_Z%C3%A1me%C4%8Dn%C3%ADk",
+      "local_file": "data/raw/kontext/wiki_zamecnik.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://cs.wikipedia.org/wiki/Volby_do_zastupitelstev_obc%C3%AD_v_%C4%8Cesku_2026",
+      "local_file": "data/raw/kontext/wiki_kv2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.volby.cz/pls/kv2018/vysledky_obec?datumvoleb=20181005&cislo_obce=563889",
+      "local_file": "data/raw/kontext/kv2018_vysledky_obec_563889.xml",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.volby.cz/pls/kv2014/vysledky_obec?datumvoleb=20141010&cislo_obce=563889",
+      "local_file": "data/raw/kontext/kv2014_vysledky_obec_563889.xml",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://eurozpravy.cz/domaci/politika/107597-rozhadany-liberec-koalice-ve-meste-vznikla-ale-v-kraji-se-rozpadla",
+      "local_file": "data/raw/kontext/eurozpravy_rozhadany_liberec.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecka.drbna.cz/politika/10307-zmena-pro-liberec-chce-upravy-v-radnicni-koalici.html",
+      "local_file": "data/raw/kontext/drbna_zmena_upravy_koalice.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy-region/zmena-chce-aby-primator-batthyany-skoncil-ten-se-odvolani-neboji/",
+      "local_file": "data/raw/kontext/denik_zmena_chce_odvolat_batthyanyho.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberec.rozhlas.cz/v-liberci-vznikla-koalice-starostu-ano-a-ods-7667169",
+      "local_file": "data/raw/kontext/crol_koalice_2018.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/volby-2022-komunalni/koalice-v-liberci-smlouvu-podepsalo-vitezne-uskupeni-s-ano-ods-a-piraty-20221014.html",
+      "local_file": "data/raw/kontext/denik_koalice_2022.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/volby-2022-komunalni/liberec-volby-vedeni-zastupitele-20221018.html",
+      "local_file": "data/raw/kontext/denik_vedeni_2022.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberec.rozhlas.cz/liberecka-koalice-bude-pokracovat-bez-ods-zbyle-strany-ji-vypovedely-koalicni-9215578",
+      "local_file": "data/raw/kontext/crol_koalice_bez_ods_2024.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.ceskenoviny.cz/zpravy/2505968",
+      "local_file": "data/raw/kontext/ctk_koalice_bez_ods_2024.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.ceskenoviny.cz/zpravy/2504768",
+      "local_file": "data/raw/kontext/ctk_syrovatko_obvinen_2024.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-korupce-v-liberci-politik-slouzil-firme-syner-za-byt-a-penize-pise-policie-249704",
+      "local_file": "data/raw/kontext/seznam_korupce_syner_2024.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/liberec-necha-proverit-zakazku-na-rekonstrukci-bazenu-prace-zacnou-misto-jara-nejdriv-na-podzim-349314",
+      "local_file": "data/raw/kontext/ct24_bazen_proverit_2024.md",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.ceskenoviny.cz/zpravy/zastupitele-liberce-odvolali-solce-z-funkce-namestka-kvuli-obvineni-z-korupce/2675526",
+      "local_file": "data/raw/kontext/ctk_solc_odvolan_2025.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberec.rozhlas.cz/libereckeho-namestka-solce-zastupitele-odvolali-rada-mesta-prosla-obmenou-9477037",
+      "local_file": "data/raw/kontext/crol_solc_odvolan_rada_2025.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy_region/zastupitele-liberec-solc-odvolani-obvineni-korupce.html",
+      "local_file": "data/raw/kontext/denik_solc_odvolan.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy-region/liberec-bude-pristi-rok-hospodarit-se-ctyrmi-miliardami-na-bazen-si-vezme-uver-2/",
+      "local_file": "data/raw/kontext/denik_rozpocet_bazen_uver.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy-region/rozpocet-liberce-bude-opet-vyrazne-schodkovy-s-vydaji-pres-4-7-miliardy-korun-20/",
+      "local_file": "data/raw/kontext/denik_rozpocet_schodkovy.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://nasliberec.cz/2026/09/26/ucet-po-primatoru-zamecnikovi-zadluzene-mesto-drahe-stavebni-zakazky-a-korupcni-kauzy/",
+      "local_file": "data/raw/kontext/nasliberec_ucet_po_zamecnikovi.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://nasliberec.cz/2026/08/21/rekonstrukci-bazenu-kterou-vysetruje-policie-podpori-dotace-dotace-205-milionu/",
+      "local_file": "data/raw/kontext/nasliberec_bazen_dotace_2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://nasliberec.cz/2024/12/09/tramvaj-do-rochlic-novy-posudek-dal-za-pravdu-kritikum/",
+      "local_file": "data/raw/kontext/nasliberec_tramvaj_posudek_2024.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://nasliberec.cz/2026/06/10/volby-26-zemetreseni-v-libereckem-ano-skupina-kolem-neznameho-zastupitele-ovladla-kandidatku/",
+      "local_file": "data/raw/kontext/nasliberec_zemetreseni_ano.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://nasliberec.cz/2026/06/03/volby-26-jaroslav-zamecnik-uz-primatorem-nebude-lidrem-starostu-je-zcela-neviditelny-zastupitel/",
+      "local_file": "data/raw/kontext/nasliberec_zamecnik_hajek.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://nasliberec.cz/2026/10/04/glosa-ceka-liberec-zase-vlada-loutek-a-kdo-bude-tentokrat-tahat-za-nitky/",
+      "local_file": "data/raw/kontext/nasliberec_glosa_loutky.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://nasliberec.cz/2026/09/07/tiskova-zprava-hnuti-ano-zahajilo-kampan-v-liberci/",
+      "local_file": "data/raw/kontext/nasliberec_ano_kampan_tz.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy-region/primator-zamecnik-liberec-volby/",
+      "local_file": "data/raw/kontext/denik_zamecnik_bilance_tramvaj.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy-region/liberec-zamecnik-nebude-kandidovat-primator/",
+      "local_file": "data/raw/kontext/denik_zamecnik_nekandiduje.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/komunalni-volby/komunalni-volby-2026-v-liberci-kdo-kandiduje-a-co-je-dobre-vedet/",
+      "local_file": "data/raw/kontext/denik_kdo_kandiduje_2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/komunalni-volby/o-liberec-se-utka-11-kandidatek-podivejte-se-kdo-je-povede-do-voleb/",
+      "local_file": "data/raw/kontext/denik_11_kandidatek.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/komunalni-volby/kdo-chce-vladnout-liberci-ostrileni-matadori-i-kuriozity-zname-jmena/",
+      "local_file": "data/raw/kontext/denik_kdo_chce_vladnout.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/komunalni-volby/",
+      "local_file": "data/raw/kontext/denik_komunalni_volby_rubrika.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/komunalni-volby/",
+      "local_file": "data/raw/kontext/denik_komunalni_volby_rubrika_p2.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/komunalni-volby/glosa-kdo-bude-ridit-liberec-hledejte-muze-v-tricku-a-s-rukama-v-kapsach/",
+      "local_file": "data/raw/kontext/denik_glosa_kampan.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/komunalni-volby/liberec-sliby-zmeny-komunalni-volby-zari-2026/",
+      "local_file": "data/raw/kontext/denik_sliby_bilance.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/komunalni-volby/co-s-ostudou-liberce-volebni-lidri-rikaji-jak-chteji-zmenit-fugnerku/",
+      "local_file": "data/raw/kontext/denik_fugnerka_lidri.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/komunalni-volby/predvolebni-debata-v-babylonu-sedm-lidru-bude-odpovidat-na-otazky-liberecanu/",
+      "local_file": "data/raw/kontext/denik_debata_babylon.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.centrum.cz/clanek/kdo-povede-liberec-velka-predvolebni-debata-lidru-uz-ve-ctvrtek-v-babylonu-294583",
+      "local_file": "data/raw/kontext/centrum_debata_babylon.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy-region/v-liberci-chteji-volebni-lidri-investovat-do-dopravy-bytu-ci-verejneho-prostoru/",
+      "local_file": "data/raw/kontext/denik_ctk_anketa_lidri.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-special-z-liberce-9646377",
+      "local_file": "data/raw/kontext/crol_special_liberec_2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-debaty-s-lidry-stran-a-hnuti-ktere-kandiduji-do-9647563",
+      "local_file": "data/raw/kontext/crol_debaty_lidri_2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-debaty-s-lidry-stran-a-hnuti-ktere-kandiduji-do-9647563",
+      "local_file": "data/raw/kontext/crol_debata1.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-debaty-s-lidry-stran-a-hnuti-ktere-kandiduji-do-9647563",
+      "local_file": "data/raw/kontext/crol_debata2.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-debaty-s-lidry-stran-a-hnuti-ktere-kandiduji-do-9647563",
+      "local_file": "data/raw/kontext/crol_debata3.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://denikreferendum.cz/clanek/239408-komunalni-volby-2026-zaklety-liberec-ceka-jeste-dlouha-cesta",
+      "local_file": "data/raw/kontext/denikreferendum_felcman_2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://denikreferendum.cz/clanek/238989-korupcni-kauzy-ano-a-ods-vyrazne-prispely-k-rozpadu-koalic-na-radnicich",
+      "local_file": "data/raw/kontext/denikreferendum_korupcni_kauzy.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.novinky.cz/clanek/volby-komunalni-starosty-opustil-oblibeny-starosta-vratislavic-lukas-pohanka-do-voleb-pujde-pod-vlastni-znackou-40576655",
+      "local_file": "data/raw/kontext/novinky_pohanka_odchod.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy-region/lukas-pohanka-starosta-vratislavice-slk-politika-liberec/",
+      "local_file": "data/raw/kontext/denik_pohanka_podpisy.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecka.drbna.cz/politika/901637-martina-tepla-na-radnici-rychle-zjistite-ze-dobry-napad-je-teprve-zacatek.html",
+      "local_file": "data/raw/kontext/drbna_tepla_rozhovor.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecka.drbna.cz/zpravy/politika/42517-exprimator-batthyany-chce-zpet-do-politiky-do-voleb-pujde-se-svobodnymi-a-pro.html",
+      "local_file": "data/raw/kontext/drbna_batthyany_navrat_2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://genus.cz/politika/ano-se-v-liberci-vsadilo-na-novou-tvar-lidrem-je-tomas-rec-v-jablonci-kandidatku-povede-milan-kroupa-n737462.htm",
+      "local_file": "data/raw/kontext/genus_ano_rec.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy-region/liberec-stadion-prodej-fc-slovan/",
+      "local_file": "data/raw/kontext/denik_stadion_prodej.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.tiscali.cz/kania-chce-stadion-v-liberci-koupit-ale-odmita-platit-stovky-milionu-za-chatrajici-areal-mesto-uz-zna-jeho-cenu-767174",
+      "local_file": "data/raw/kontext/tiscali_stadion_kania.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecka.drbna.cz/zpravy/doprava/42421-trzni-namesti-u-bazenu-ceka-promena-zamer-za-60-milionu-predstavi-liberec-v-pondeli-v-linserce.html",
+      "local_file": "data/raw/kontext/drbna_trzni_namesti.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy-region/jested-lanovka-kraj-rozhodne-koupe-mesto/",
+      "local_file": "data/raw/kontext/denik_jested_kraj_lanovka.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy_region/liberec-by-chtel-do-deseti-let-zdvojnasobit-pocet-mestskych-bytu-20251103.html",
+      "local_file": "data/raw/kontext/denik_bydleni_zdvojnasobit.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy_region/liberec-vybral-projektanty-pro-mestske-byty-a-parkovaci-dum-na-papiraku-20260325.html",
+      "local_file": "data/raw/kontext/denik_papirak_byty_2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy_region/teplo-v-liberci-zdrazi-o-6-5-pct-domacnosti-si-rocne-priplati-1625-korun-2025121.html",
+      "local_file": "data/raw/kontext/denik_teplo_2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecky.denik.cz/zpravy-region/central-station-liberec/",
+      "local_file": "data/raw/kontext/denik_central_station.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://programydovoleb.cz/volby/komunalni-volby/176/obec/563889",
+      "local_file": "data/raw/kontext/programydovoleb_liberec_2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://starostoveproliberec.cz/",
+      "local_file": "data/raw/kontext/slk_web.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://libereckadevitka.cz/",
+      "local_file": "data/raw/kontext/liberecka9_web.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://volimelibe.cz/",
+      "local_file": "data/raw/kontext/libe_web.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://lepsi-liberec.cz/",
+      "local_file": "data/raw/kontext/lepsi_liberec_web.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.ods.cz/ms.liberec/volby2026/komunalni/3293-liberec",
+      "local_file": "data/raw/kontext/ods_liberec_volby2026.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.volby.cz/appdata/ps2025/odata/vysledky_krajmesta.xml",
+      "local_file": "data/raw/pruzkumy/ps2025_vysledky_krajmesta.xml",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.volby.cz/appdata/kz2024/odata/vysledky_krajmesta.xml",
+      "local_file": "data/raw/pruzkumy/kz2024_vysledky_krajmesta.xml",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.volby.cz/pls/kv2022/vysledky_obec?datumvoleb=20220923&cislo_obce=563889",
+      "local_file": "data/raw/pruzkumy/kv2022_vysledky_obec_563889.xml",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://liberecka.drbna.cz/politika/37001-nejvyssi-volebni-potencial-ma-v-libereckem-kraji-ano-tesne-nasledovane-starosty.html",
+      "local_file": "data/raw/pruzkumy/drbna_kantar_potencial_kraj_2024.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://zpravy.kurzy.cz/638909-sanep-volebni-preference-stran-hnuti-a-koalic-v-krajskych-mestech-cr/",
+      "local_file": "data/raw/pruzkumy/sanep_krajska_mesta_kurzy.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://www.parlamentnilisty.cz/zpravy/tiskovezpravy/SANEP-Komunalni-volby-volebni-preference-v-peti-nejvetsich-mestech-CR-712150",
+      "local_file": "data/raw/pruzkumy/sanep_5_mest_pl.html",
+      "stazeno": "2026-10-08"
+    },
+    {
+      "url": "https://nasliberec.cz/?s=pr%C5%AFzkum",
+      "local_file": "data/raw/pruzkumy/nasliberec_hledani_pruzkum.html",
+      "stazeno": "2026-10-08"
+    }
+  ]
+}

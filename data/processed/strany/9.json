@@ -1,0 +1,610 @@
+{
+  "cislo": 9,
+  "nazev": "Lepší Liberec",
+  "zkratka": "Lepší město+NK",
+  "slozeni": "Politické hnutí Lepší město, lepší život (vzniklo 15. 6. 2026) + nezávislí kandidáti (NK)",
+  "web": "https://lepsi-liberec.cz/",
+  "program_url": "https://lepsi-liberec.cz/",
+  "program_local": "data/raw/programy/lepsi-liberec/lepsi-liberec_cz_web.html",
+  "shrnuti": "Nové uskupení, které vzniklo odchodem vratislavického starosty Lukáše Pohanky ze SLK (květen 2026) a ke kterému se připojila náměstkyně primátora Martina Teplá po odchodu z ANO. Program je praktický a 'čtvrťový': koordinace uzavírek a oprav, parkování na sídlištích, úklid, malé parky, bezpečnost a sociální služby pro seniory.",
+  "zamereni": [
+    "doprava a uzavírky",
+    "parkování na sídlištích",
+    "čistota a pořádek",
+    "zeleň ve čtvrtích",
+    "senioři a sociální služby",
+    "bezpečnost"
+  ],
+  "zkusenost_skore": 70,
+  "zkusenost_zduvodneni": "Hnutí je nové, ale oba lídři mají dlouhou praxi ve vedení města (náměstkyně 2022–2026, radní od 2018) a Pohanka 18 let vede městský obvod; zbytek špičky kandidátky má zkušenost hlavně z Vratislavic nebo žádnou.",
+  "temata_pct": {
+    "doprava_parkovani": 23,
+    "bydleni": 2,
+    "rozvoj_uzemni_plan_vystavba": 2,
+    "zivotni_prostredi_zelen": 18,
+    "socialni_zdravotnictvi_seniori": 11,
+    "skolstvi_deti_rodina": 7,
+    "kultura_sport_volny_cas": 9,
+    "bezpecnost_poradek": 11,
+    "finance_hospodareni_dane": 5,
+    "sprava_transparentnost_digitalizace": 5,
+    "ekonomika_podnikani_cestovni_ruch": 2,
+    "ostatni": 5
+  },
+  "program_body": [
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Určit jednoho odpovědného koordinátora staveb, uzavírek a objížděk (pravděpodobně pod odborem dopravních staveb magistrátu) a zveřejňovat omezení na jednom místě (web/aplikace).",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Zveřejnit plán oprav ulic a chodníků s pořadím podle technického stavu, bezpečnosti, využití a nákladů, koordinovaný se správci sítí, včetně okrajových čtvrtí.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Doplnit chybějící chodníky, obnovit přechody a značení, přednostně na trasách ke školám a zastávkám.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Připravit řešení průjezdu mezi Sokolovským a Malým náměstím; zklidnit dopravu tam, kde to nepřesune problém jinam (např. Puškinova).",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Na sídlištích najít městské pozemky pro nová parkovací místa a spolupracovat s bytovými družstvy a SVJ (vzor: sídliště Zámecký vrch ve Vratislavicích); placené zóny spíše jen v centru.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Prověřit parkovací domy v centru, vyžadovat dostatek parkovacích míst u nové výstavby, napojit všechna parkoviště v centru na navigační systém a pořídit automaty s platebním terminálem.",
+      "konkretni": true
+    },
+    {
+      "tema": "zivotni_prostredi_zelen",
+      "bod": "Rozšířit pravidelný jarní a podzimní svoz velkoobjemového odpadu a nastavit kapacitně zvládnutý svoz bioodpadu; kultivovat kontejnerová stání.",
+      "konkretni": true
+    },
+    {
+      "tema": "bezpecnost_poradek",
+      "bod": "Každodenní úklid exponovaných míst (centrum, Fügnerova) a koordinace technických služeb, městské policie a sociálních pracovníků.",
+      "konkretni": true
+    },
+    {
+      "tema": "ostatni",
+      "bod": "Udržované veřejné toalety v centru, pítka a mlžítka; důslednější kontrola a rychlejší opravy mobiliáře.",
+      "konkretni": true
+    },
+    {
+      "tema": "zivotni_prostredi_zelen",
+      "bod": "Malé parky ve vnitroblocích a na sídlištích (např. Králův Háj, Růžodolská), úprava parku pod Klášterem, doplnění parků Clam-Gallasů a Budyšínská, lesoparky v Rochlici a na ruprechtickém cvičáku, postupná revitalizace hřbitovů, vzpomínkové místo pro domácí mazlíčky.",
+      "konkretni": true
+    },
+    {
+      "tema": "bezpecnost_poradek",
+      "bod": "Více strážníků v problémových lokalitách, pravidelné investice do kamer, asistenti prevence kriminality a domovníci, nízkoprahové zařízení pro děti a mládež.",
+      "konkretni": true
+    },
+    {
+      "tema": "bezpecnost_poradek",
+      "bod": "Důsledně vymáhat zákaz pití alkoholu na veřejnosti; doplnit osvětlení na tmavých místech, mj. podél cyklostezky u Nisy v Pavlovicích.",
+      "konkretni": true
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Modernizovat a doplnit hřiště (Růžodol, Pavlovice, Broumovská, Králův Háj), rozšířit vybavení areálu Vesec, doplnit volnočasové zázemí v Radčicích, Doubí, Rochlici, na Františkově, Gagarince aj.",
+      "konkretni": true
+    },
+    {
+      "tema": "skolstvi_deti_rodina",
+      "bod": "Otevřít školní hřiště veřejnosti mimo vyučování, kde to dovolí provoz; příměstské tábory i pro děti mladší 7 let a děti se zdravotním postižením.",
+      "konkretni": true
+    },
+    {
+      "tema": "socialni_zdravotnictvi_seniori",
+      "bod": "Zavést příspěvek na oběd pro Liberečany starší 70 let u zapojených poskytovatelů a rozšířit kapacitu dopravy Taxík Maxík.",
+      "konkretni": true
+    },
+    {
+      "tema": "socialni_zdravotnictvi_seniori",
+      "bod": "Připravit výstavbu pavilonu Domu seniorů na Františkově (pokračování projektu současného vedení).",
+      "konkretni": true
+    },
+    {
+      "tema": "socialni_zdravotnictvi_seniori",
+      "bod": "Navýšit Fond sociálních služeb a Fond zdraví a prevence; spolupráce s TUL na praxích studentů sociálních oborů.",
+      "konkretni": false
+    },
+    {
+      "tema": "bydleni",
+      "bod": "Podpořit výstavbu nových bytů; městské a dostupné bydlení cílit na mladé rodiny a potřebné profese (bez čísel a harmonogramu).",
+      "konkretni": false
+    },
+    {
+      "tema": "finance_hospodareni_dane",
+      "bod": "Upřednostnit 'jednoduchá a chytrá řešení' před drahými projekty, pravidelně vyhodnocovat investice; podle lídryně 'stoprocentní racionalizace' a zastavení zbytných nákupů.",
+      "konkretni": false
+    },
+    {
+      "tema": "rozvoj_uzemni_plan_vystavba",
+      "bod": "Rozhodovat o investicích podle potřeb jednotlivých čtvrtí, ne jen podle viditelnosti projektů v centru; přebírat řešení osvědčená ve Vratislavicích.",
+      "konkretni": false
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Prodej stadionu U Nisy jen s podmínkami: zachování sportovního využití, přístup na cyklostezku, posouzení okolních pozemků, výnos do dalších sportovišť.",
+      "konkretni": true
+    }
+  ],
+  "hodnoceni": {
+    "silne_stranky": [
+      "Program je místně konkrétní: jmenuje ulice, parky, sídliště a čtvrti a obsahuje kontrolovatelné kroky (plán oprav, koordinátor uzavírek, příspěvek na obědy 70+).",
+      "Lídři znají chod radnice zevnitř (náměstkyně pro sociální věci, radní, starosta obvodu).",
+      "Pohanka má silnou voličskou podporu (nejvíce preferenčních hlasů v Liberci 2018 i 2022, 12/15 mandátů ve Vratislavicích 2022).",
+      "Opatrný přístup k velkým investicím a výslovně uvedené podmínky pro prodej stadionu U Nisy."
+    ],
+    "slabe_stranky_rizika": [
+      "Hnutí vzniklo teprve v červnu 2026, nemá vlastní historii ani organizaci mimo vratislavický tým.",
+      "Oba lídři byli součástí koalice, jejíž výsledky nyní kritizují – voliči mohou vnímat rozpor.",
+      "Program neuvádí náklady ani zdroje financování (např. příspěvek na obědy, nové parkovací kapacity, více strážníků).",
+      "Část bodů je obecná (bydlení, 'jednoduchá a chytrá řešení', hospodaření) a Dům seniorů na Františkově je pokračováním již připravovaného projektu.",
+      "Vznik je podle oponentů částečně spojen se spory o místa na kandidátkách SLK a ANO."
+    ],
+    "kontroverze": [
+      {
+        "text": "Okolnosti odchodu Pohanky ze SLK: on uvádí ztrátu důvěry ve vedení SLK, nekoordinované uzavírky a návrh Tržního náměstí; předseda libereckých SLK Hájek tvrdí, že Pohanka politiku hnutí nerozporoval a šlo i o umístění na kandidátce.",
+        "zdroj": "s3"
+      },
+      {
+        "text": "Okolnosti odchodu Teplé z ANO: server Náš Liberec píše, že ji nové vedení místního ANO odstranilo z kandidátky; Teplá uvádí, že ANO opustila kvůli rozdílným představám o programu, personálních otázkách a omlazení kandidátky.",
+        "zdroj": "s6"
+      },
+      {
+        "text": "Rozhovor s Teplou v Liberecké Drbně (2. 10. 2026) je označen jako placené politické reklamní sdělení hnutí.",
+        "zdroj": "s8"
+      }
+    ]
+  },
+  "povolebni_signaly": "Teplá v anketě ČTK: o spolupráci budou jednat až podle výsledků a programových priorit, rozhodující nebude název strany; před volbami nechtějí žádnou variantu vylučovat ani slibovat. Pohanka chtěl v květnu 2026 zůstat v současné radniční koalici do konce období. (zdroje: s9, s4)",
+  "kandidati": [
+    {
+      "poradi": 1,
+      "jmeno": "Martina Teplá",
+      "vek": 50,
+      "povolani_dle_listiny": "náměstkyně primátora statutárního města Liberec pro sociální záležitosti, členka Českého červeného kříže Liberec",
+      "prislusnost": "BEZPP (navrhlo hnutí Lepší město, lepší život); do roku 2026 dlouholetá členka ANO",
+      "shrnuti": "Sociální pracovnice a od roku 2022 neuvolněná náměstkyně primátora pro sociální záležitosti za ANO, zároveň krajská zastupitelka. V létě 2026 po téměř deseti letech odešla z ANO a stala se lídryní nového uskupení Lepší Liberec, je jeho kandidátkou na primátorku.",
+      "politicka_kariera": [
+        {
+          "funkce": "členka hnutí ANO 2011",
+          "od": 2016,
+          "do": 2026,
+          "zdroj": "s1"
+        },
+        {
+          "funkce": "krajská zastupitelka (Liberecký kraj, ANO)",
+          "od": 2016,
+          "do": 2020,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "zastupitelka SML (ANO)",
+          "od": 2018,
+          "do": null,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "neuvolněná náměstkyně primátora pro sociální záležitosti (ANO)",
+          "od": 2022,
+          "do": null,
+          "zdroj": "s13"
+        },
+        {
+          "funkce": "krajská zastupitelka (Liberecký kraj, zvolena za ANO)",
+          "od": 2024,
+          "do": null,
+          "zdroj": "volby_gov"
+        }
+      ],
+      "roky_v_politice": 10,
+      "zkusenost_skore": 70,
+      "soucasna_prace": "Neuvolněná náměstkyně primátora a krajská zastupitelka; zda souběžně vykonává civilní zaměstnání, se nepodařilo ověřit.",
+      "posledni_nepoliticka_prace": {
+        "co": "sociální pracovnice / vedoucí pracovnice v sociální oblasti ve veřejné správě (dle povolání na kandidátních listinách)",
+        "kdy": "uváděno 2016–2022; současný stav neznámý"
+      },
+      "pozitivni": [
+        {
+          "text": "Čtyři roky vede sociální agendu města; podle vlastních slov se podařilo udržet asistenty prevence kriminality po skončení dotace, provozovat humanitární a hygienické středisko a sociální sanitku a připravit rozšíření Domu seniorů na Františkově (vyjádření v placeném rozhovoru).",
+          "zdroj": "s8"
+        },
+        {
+          "text": "Opakovaně získává vysoký počet preferenčních hlasů (2018: 6 900, 2022: 7 963 hlasů v Liberci).",
+          "zdroj": "volby_gov"
+        },
+        {
+          "text": "Novinky ji označují za 'jednu z nejvýraznějších' a 'oblíbenou' liberecké političky.",
+          "zdroj": "s7"
+        },
+        {
+          "text": "Má zkušenost z města i kraje a z úřednické práce ve veřejné správě.",
+          "zdroj": "s8"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "Odchod z ANO těsně před uzávěrkou kandidátek; podle serveru Náš Liberec ji nové vedení místního ANO z kandidátky odstranilo, ona sama uvádí rozchod v představách o programu a personálních otázkách a že si mohla vybrat mezi obměněnou kandidátkou ANO a novým hnutím.",
+          "zdroj": "s6"
+        },
+        {
+          "text": "Jako členka současného vedení města (koalice SLK, ANO, Piráti) nyní kritizuje některé jeho výsledky (doprava, veřejný prostor, bydlení); sama připouští, že 'nestojí stranou'.",
+          "zdroj": "s8"
+        },
+        {
+          "text": "Rozhovor v Liberecké Drbně, v němž prezentuje své výsledky, je placeným politickým reklamním sdělením hnutí, ne nezávislou žurnalistikou.",
+          "zdroj": "s8"
+        }
+      ],
+      "nejiste": "Přesná data členství v ANO a formální ukončení členství; zda je stále neuvolněnou náměstkyní až do konce období (ČTK k 21. 8. 2026 uvádí, že 'nyní působí za ANO'); konkrétní dřívější zaměstnavatel ve veřejné správě; žádné nezávislé hodnocení její práce náměstkyně jsme nenašli."
+    },
+    {
+      "poradi": 2,
+      "jmeno": "Lukáš Pohanka",
+      "vek": 48,
+      "povolani_dle_listiny": "starosta Vratislavic nad Nisou, člen Rady statutárního města Liberec",
+      "prislusnost": "Lepší město, lepší život (předseda hnutí); do května 2026 člen SLK",
+      "shrnuti": "Dlouholetý starosta městského obvodu Vratislavice nad Nisou (od 2008 s přestávkou 2013–2014) a radní Liberce od roku 2018. V letech 2018 i 2022 získal nejvíc preferenčních hlasů ze všech kandidátů v Liberci. V květnu 2026 vystoupil ze SLK a založil hnutí Lepší město, lepší život.",
+      "politicka_kariera": [
+        {
+          "funkce": "starosta MO Vratislavice nad Nisou",
+          "od": 2008,
+          "do": 2013,
+          "zdroj": "s4"
+        },
+        {
+          "funkce": "zastupitel SML (kandidátka LO)",
+          "od": 2010,
+          "do": 2014,
+          "zdroj": "s12"
+        },
+        {
+          "funkce": "starosta MO Vratislavice nad Nisou (znovu, po zhruba ročním odvolání)",
+          "od": 2014,
+          "do": null,
+          "zdroj": "s4"
+        },
+        {
+          "funkce": "člen hnutí Starostové pro Liberecký kraj",
+          "od": 2010,
+          "do": 2026,
+          "zdroj": "s3"
+        },
+        {
+          "funkce": "zastupitel SML (SLK)",
+          "od": 2018,
+          "do": null,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "radní SML (2018–2022 se svěřeným sportem)",
+          "od": 2018,
+          "do": null,
+          "zdroj": "s12"
+        },
+        {
+          "funkce": "předseda hnutí Lepší město, lepší život",
+          "od": 2026,
+          "do": null,
+          "zdroj": "s1"
+        }
+      ],
+      "roky_v_politice": 18,
+      "zkusenost_skore": 80,
+      "soucasna_prace": "Uvolněný starosta Vratislavic nad Nisou a radní města Liberec.",
+      "posledni_nepoliticka_prace": {
+        "co": "neznámé (od roku 2008 v čele obvodu)",
+        "kdy": "před 2008"
+      },
+      "pozitivni": [
+        {
+          "text": "V komunálních volbách 2018 i 2022 získal v Liberci nejvíce preferenčních hlasů ze všech kandidátů; jeho kandidátka ve Vratislavicích získala v roce 2022 12 z 15 mandátů.",
+          "zdroj": "s4"
+        },
+        {
+          "text": "Hejtman a předseda SLK Martin Půta i po jeho odchodu ocenil, že ve Vratislavicích 'dosahuje se svým týmem dlouhodobě skvělých výsledků'.",
+          "zdroj": "s4"
+        },
+        {
+          "text": "Pro vznik nového hnutí nasbíral za tři týdny zhruba 3 300 podpisů.",
+          "zdroj": "s5"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "Předseda libereckých SLK Lukáš Hájek uvedl, že Pohanka jako radní 'v drtivé většině hlasoval stejně' a kroky hnutí nerozporoval; jako možný důvod odchodu zmínil, že nedostal na kandidátce SLK pozici, kterou si představoval. Sám Pohanka v tiskové zprávě uvedl, že mu nové vedení SLK 'nenabídlo místo na své kandidátce pro Liberec'.",
+          "zdroj": "s3"
+        },
+        {
+          "text": "Na podzim 2013 byl z funkce starosty Vratislavic odvolán (zhruba na rok); důvody se nám nepodařilo dohledat.",
+          "zdroj": "s4"
+        },
+        {
+          "text": "Jako radní od roku 2018 nese spoluodpovědnost za rozhodnutí vedení města, které nyní kritizuje (např. uzavírky, návrh Tržního náměstí).",
+          "zdroj": "s3"
+        }
+      ],
+      "nejiste": "Rok vstupu do SLK uvádějí zdroje různě (2009, 2010, 2012); důvod odvolání v roce 2013; Hlídač státu eviduje jeho angažmá v orgánech TMR Ještěd a.s. a dalších firmách a dary jedné politické straně (5 darů, 42 500 Kč) – souvislost s funkcí (např. nominace za město) neověřena."
+    },
+    {
+      "poradi": 3,
+      "jmeno": "Jiří Mejsnar",
+      "vek": 44,
+      "povolani_dle_listiny": "vedoucí oddělení Magistrátu města Liberec",
+      "prislusnost": "Lepší město, lepší život",
+      "shrnuti": "Úředník libereckého magistrátu a dlouholetý zastupitel městského obvodu Vratislavice nad Nisou, kde byl místostarostou. Patří k Pohankovu vratislavickému týmu; dříve pracoval jako manažer projektů v oblasti životního prostředí.",
+      "politicka_kariera": [
+        {
+          "funkce": "zastupitel MO Vratislavice nad Nisou (SLK)",
+          "od": 2014,
+          "do": null,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "místostarosta Vratislavic nad Nisou (takto uveden na kandidátce 2018, v roce 2022 již jako bývalý; přesné roky neověřeny)",
+          "od": null,
+          "do": 2022,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "člen hnutí Lepší město, lepší život",
+          "od": 2026,
+          "do": null,
+          "zdroj": "csu_2026"
+        }
+      ],
+      "roky_v_politice": 12,
+      "zkusenost_skore": 40,
+      "soucasna_prace": "Vedoucí oddělení Magistrátu města Liberec (civilní úřednická práce), zastupitel obvodu.",
+      "posledni_nepoliticka_prace": {
+        "co": "vedoucí oddělení Magistrátu města Liberec (dříve manažer projektů v oblasti ŽP)",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [
+        {
+          "text": "Zkušenost ze samosprávy obvodu (zastupitel od 2014, místostarosta) i z magistrátního úřadu.",
+          "zdroj": "s2"
+        },
+        {
+          "text": "Ve Vratislavicích opakovaně zvolen (2014, 2018, 2022).",
+          "zdroj": "volby_gov"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "Kandiduje na zastupitele města, přičemž je zaměstnancem magistrátu, který zastupitelstvo řídí – v případě zvolení potenciální střet rolí (obecné riziko, konkrétní problém nezjištěn).",
+          "zdroj": "csu_2026"
+        }
+      ],
+      "nejiste": "Přesné roky ve funkci místostarosty (v roce 2018 uváděn jako místostarosta, v roce 2022 jako bývalý); Hlídač státu eviduje 4 dary jedné politické straně (50 000 Kč), stranu neuvádí; o působení na magistrátu jsme nenašli nezávislé zdroje."
+    },
+    {
+      "poradi": 4,
+      "jmeno": "Lukáš Lehký",
+      "vek": 33,
+      "povolani_dle_listiny": "projektový manažer, předseda Krajského svazu házené LK",
+      "prislusnost": "Lepší město, lepší život",
+      "shrnuti": "Projektový manažer a sportovní funkcionář (předseda Krajského svazu házené Libereckého kraje). Podle dat ČSÚ v letech 2014–2025 nekandidoval; jde o politického nováčka.",
+      "politicka_kariera": [
+        {
+          "funkce": "člen hnutí Lepší město, lepší život",
+          "od": 2026,
+          "do": null,
+          "zdroj": "csu_2026"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 10,
+      "soucasna_prace": "Projektový manažer; předseda krajského svazu házené.",
+      "posledni_nepoliticka_prace": {
+        "co": "projektový manažer",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [
+        {
+          "text": "Zkušenost se sportovní správou na krajské úrovni (předseda Krajského svazu házené).",
+          "zdroj": "csu_2026"
+        }
+      ],
+      "negativni": [],
+      "nejiste": "Zaměstnavatel a obor projektového řízení neznámé; mediální zmínky ani záznamy v rejstřících jsme nedohledali."
+    },
+    {
+      "poradi": 5,
+      "jmeno": "Radovan Novotný",
+      "vek": 58,
+      "povolani_dle_listiny": "stavební inženýr, projektant",
+      "prislusnost": "BEZPP (navrhlo hnutí Lepší město, lepší život)",
+      "shrnuti": "Stavební inženýr a projektant bez stranické příslušnosti. Podle dat ČSÚ v letech 2014–2025 nekandidoval.",
+      "politicka_kariera": [],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 5,
+      "soucasna_prace": "Stavební inženýr, projektant.",
+      "posledni_nepoliticka_prace": {
+        "co": "stavební inženýr, projektant",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [
+        {
+          "text": "Odborné stavební zázemí, které se hodí k programovým tématům oprav ulic a investic.",
+          "zdroj": "csu_2026"
+        }
+      ],
+      "negativni": [],
+      "nejiste": "Zaměstnavatel/firma neověřeny; v Hlídači státu existuje více osob stejného jména (u jedné nesedí rok narození), proto obchodní vazby neuvádíme."
+    }
+  ],
+  "zdroje": [
+    {
+      "id": "volby_gov",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – historie kandidatur 2014–2025 (komunální Liberec/obvody, krajské LK, sněmovní LK)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/historie_kandidatu.json",
+      "obsah": "Oficiální data ČSÚ o dřívějších kandidaturách a zvolení kandidátů (bez výkonných funkcí)."
+    },
+    {
+      "id": "csu_2026",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – kandidátní listiny pro volby do Zastupitelstva města Liberec 2026",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/kandidati_2026.json",
+      "obsah": "Oficiální kandidátní listiny 2026: věk, povolání, navrhující strana, politická příslušnost."
+    },
+    {
+      "id": "s1",
+      "url": "https://lepsi-liberec.cz/",
+      "nazev": "Lepší Liberec – oficiální web (program, kandidátka, tiskové zprávy)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/lepsi-liberec/lepsi-liberec_cz_web.html",
+      "obsah": "Programové priority v 8 okruzích, kandidátka, TZ o odchodu Pohanky ze SLK (4. 5. 2026) a Teplé z ANO (3. 8. 2026)."
+    },
+    {
+      "id": "s2",
+      "url": "https://lepsi-vratislavice.cz/",
+      "nazev": "Lepší Vratislavice – web kandidátky v městském obvodu",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/lepsi-liberec/lepsi-vratislavice_cz.html",
+      "obsah": "Vratislavická kandidátka a priority; Mejsnar uveden jako bývalý místostarosta Vratislavic."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.novinky.cz/clanek/volby-komunalni-starosty-opustil-oblibeny-starosta-vratislavic-lukas-pohanka-do-voleb-pujde-pod-vlastni-znackou-40576655",
+      "nazev": "Novinky.cz: Starosty opustil oblíbený starosta Vratislavic Lukáš Pohanka (5. 5. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/novinky_pohanka_odchod.html",
+      "obsah": "Důvody odchodu Pohanky ze SLK a reakce předsedy libereckých SLK Lukáše Hájka."
+    },
+    {
+      "id": "s4",
+      "url": "https://liberecky.denik.cz/zpravy-region/starosta-libereckych-vratislavic-pohanka-vystoupil-z-hnuti-slk/",
+      "nazev": "Liberecký deník/ČTK: Starosta Vratislavic Pohanka vystoupil z hnutí SLK (5. 5. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/slk/denik_pohanka_vystoupil_slk.html",
+      "obsah": "Odchod ze SLK, reakce Zámečníka a Půty, Pohanka odvolán 2013, nejvíce preferenčních hlasů 2018 a 2022."
+    },
+    {
+      "id": "s5",
+      "url": "https://liberecky.denik.cz/zpravy-region/lukas-pohanka-starosta-vratislavice-slk-politika-liberec/",
+      "nazev": "Liberecký deník: Pohanka nasbíral 3300 podpisů pro nové hnutí (15. 6. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_pohanka_podpisy.html",
+      "obsah": "Vznik hnutí Lepší město, lepší život; Pohankovy výhrady k uzavírkám a projektům."
+    },
+    {
+      "id": "s6",
+      "url": "https://nasliberec.cz/2026/06/10/volby-26-zemetreseni-v-libereckem-ano-skupina-kolem-neznameho-zastupitele-ovladla-kandidatku/",
+      "nazev": "Náš Liberec: Zemětřesení v libereckém ANO (10. 6. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/nasliberec_zemetreseni_ano.html",
+      "obsah": "Proměna kandidátky ANO; Martina Teplá podle serveru z kandidátky ANO odstraněna."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.novinky.cz/clanek/volby-komunalni-do-cela-liberce-chce-kontroverzni-politicka-i-neznami-kandidati-40591579",
+      "nazev": "Novinky.cz: Do čela Liberce chce kontroverzní politička i neznámí kandidáti (6. 8. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/novinky_do_cela_liberce_kontroverzni.html",
+      "obsah": "Přehled kandidátek; Teplá po deseti letech opustila ANO a spojila se s Pohankou."
+    },
+    {
+      "id": "s8",
+      "url": "https://liberecka.drbna.cz/politika/901637-martina-tepla-na-radnici-rychle-zjistite-ze-dobry-napad-je-teprve-zacatek.html",
+      "nazev": "Liberecká Drbna: Martina Teplá – rozhovor (2. 10. 2026; placené politické reklamní sdělení Lepší město, lepší život)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/drbna_tepla_rozhovor.html",
+      "obsah": "Teplá o odchodu z ANO, své práci náměstkyně a prioritách; jde o placenou inzerci hnutí."
+    },
+    {
+      "id": "s9",
+      "url": "https://liberecky.denik.cz/zpravy-region/v-liberci-chteji-volebni-lidri-investovat-do-dopravy-bytu-ci-verejneho-prostoru/",
+      "nazev": "Liberecký deník/ČTK: anketa lídrů (14. 9. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_ctk_anketa_lidri.html",
+      "obsah": "Odpovědi Teplé k financím, povolební spolupráci a parkování."
+    },
+    {
+      "id": "s10",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-special-z-liberce-9646377",
+      "nazev": "ČRo Liberec: Komunální volby 2026 – speciál z Liberce (1. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_special_liberec_2026.html",
+      "obsah": "Odpovědi Teplé k uzavírkám, parkování na sídlištích a prodeji stadionu U Nisy."
+    },
+    {
+      "id": "s11",
+      "url": "https://liberecky.denik.cz/komunalni-volby/co-s-ostudou-liberce-volebni-lidri-rikaji-jak-chteji-zmenit-fugnerku/",
+      "nazev": "Liberecký deník: Co s ostudou Liberce – lídři o Fügnerce",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_fugnerka_lidri.html",
+      "obsah": "Návrhy Lepšího Liberce pro terminál Fügnerova."
+    },
+    {
+      "id": "s12",
+      "url": "https://cs.wikipedia.org/wiki/Zastupitelstvo_m%C4%9Bsta_Liberec",
+      "nazev": "Wikipedie: Zastupitelstvo města Liberec",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+      "obsah": "Složení rad a seznamy zastupitelů 2010–2026 (Pohanka radní 2018–, Teplá náměstkyně 2022–)."
+    },
+    {
+      "id": "s13",
+      "url": "https://liberecky.denik.cz/zpravy-region/liberec-volby-vedeni-zastupitele/",
+      "nazev": "Liberecký deník: Nové vedení Liberce (18. 10. 2022)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_vedeni_2022.html",
+      "obsah": "Teplá (ANO) neuvolněnou náměstkyní pro sociální věci."
+    },
+    {
+      "id": "s14",
+      "url": "https://liberec.rozhlas.cz/v-liberci-vznikla-koalice-starostu-ano-a-ods-7667169",
+      "nazev": "ČRo Liberec: V Liberci vznikla koalice Starostů, ANO a ODS (31. 10. 2018)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_koalice_2018.html",
+      "obsah": "Pohanka (SLK) členem rady města od 2018."
+    },
+    {
+      "id": "s15",
+      "url": "https://www.hlidacstatu.cz/osoba/lukas-pohanka",
+      "nazev": "Hlídač státu: Lukáš Pohanka (*1978)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/lepsi-liberec/hlidacstatu_lukas-pohanka.html",
+      "obsah": "Funkce, dary politické straně, angažmá ve firmách (mj. TMR Ještěd a.s.)."
+    },
+    {
+      "id": "s16",
+      "url": "https://www.hlidacstatu.cz/osoba/jiri-mejsnar-6",
+      "nazev": "Hlídač státu: Jiří Mejsnar (*1982)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/lepsi-liberec/hlidacstatu_jiri-mejsnar-6.html",
+      "obsah": "Evidované dary politické straně (4 dary, 50 000 Kč)."
+    },
+    {
+      "id": "s17",
+      "url": "https://liberecky.denik.cz/komunalni-volby/kdo-chce-vladnout-liberci-ostrileni-matadori-i-kuriozity-zname-jmena/",
+      "nazev": "Liberecký deník: Kdo chce vládnout Liberci",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_kdo_chce_vladnout.html",
+      "obsah": "Pohanka po neshodách odešel od Starostů, kandiduje jako dvojka za Teplou."
+    },
+    {
+      "id": "s18",
+      "url": "https://liberecky.denik.cz/komunalni-volby/o-liberec-se-utka-11-kandidatek-podivejte-se-kdo-je-povede-do-voleb/",
+      "nazev": "Liberecký deník/ČTK: O Liberec se utká 11 kandidátek (21. 8. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_11_kandidatek.html",
+      "obsah": "Přehled kandidátek a lídrů; Teplá 'nyní působí za ANO'."
+    }
+  ]
+}

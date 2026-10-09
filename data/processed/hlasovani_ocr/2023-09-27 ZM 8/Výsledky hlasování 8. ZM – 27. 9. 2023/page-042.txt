@@ -1,0 +1,53 @@
+2 ;
+bf m “
+anon — Strana: 1/1
+VÝSLEDEK HLASOVÁNÍ č. 42 - BOD č. 42, - Součinnost města Liberec a Libereckého kraje při přípravě a
+realizaci přístavby Domova seniorů Františkov
+( Poznámka: Usnesení )
+sedání č. 202308 - 8. řádné zasedání ZM Liberec Dne: 27.09.2023 17:01
+Řádka Karta — Zastupitel Strana Hlasoval(a)
+1 1 hDr. Jaromír Baxa, Ph.D. LOL PRO
+2 etra Břeňová ops ZDRŽEL SE
+3 3MŮDr. Ladislav Dzan, Ph.D. oDS ZDRŽEL SE
+4 elislav Fejtek SPD PRO
+5 5 kuheneh Felcman LOL PRO
+6 6 Mgr. Lu! Hájek, Ph.D. M.A. SLK ZDRŽEL SE
+T Ná vat lata SPD NEHLASOVAL
+8 8 Ing. Martin Hoza ODS PRO
+9 9 Mo Japrinuška Piráti ZDRŽEL SE
+10 51 Ing.a kop Jiří Janďourek SLK ZDRŽEL SE
+1 1 Jeroslva š á ANO ZDRŽEL SE
+12 12 Bc. Zuza a Kočumová LOL PRO
+13 13 Ing. RoberťKóřse SEK ZDRŽEL SE
+14 14 MUDr. Anna Kšírová LOL PRO
+15 0 Ing. Vít Kyzlin ANO NEPŘÍTOMEN
+16 57 PhDr. Mgr Ivan Langr, Ph.D. SLK ZDRŽEL SE
+17 52 Adam Lenert ANO NEHLASOVAL
+18 18 Ing. Jan Majzner -Z ANO ZDRŽEL SE
+19 0 Mgr. Jan Marek SLK NEPŘÍTOMEN
+20 20 Matyáš Moc SLK ZDRŽEL SE
+21 21 Ing. Tomáš Paleček : SPD PRO
+22 22 | Lukáš Pohanka hb ; SLK ZDRŽEL SE
+23 23 Robert Prade SLK ZDRŽEL SE
+24 24 Ing. Vojtěch Prachař ANO ZDRŽEL SE
+25 53 Mgr. Šárka Prachařová ANO ZDRŽEL SE
+26 26 Bc. Anna Provazníková SLK ZDRŽEL SE
+27 27 Mgr. LL.M. Petr Slanina, Ph.D., MB Piráti ZDRŽEL SE
+28 28 Ing. Jan Stárek LOL PRO
+29 29 prof. Ing. Josef Šedlbauer, Ph.D. LOL PRO
+30 41 MUDr. Zdeněk Šembera ANO ZDRŽEL SE
+31 31 Milan Šír SPD ZDRŽEL SE
+32 54. Mgr. Jiří Šolc ZDRŽEL SE
+33 33 Ing. Jaroslav Šrajer c ANO ZDRŽEL SE
+34 34 Bc. Martina Teplá ANO ZDRŽEL SE
+35 35 © Marek Várvra ZDRŽEL SE
+36 36 Ing. Jakub Vytiska K ZDRŽEL SE
+37 55 © Ing. Jaroslav Zámečník, CSc. LK ZDRŽEL SE
+38 38 Hana Zemanová K NEHLASOVAL
+39 56 | Mar. Petr Židek, MPA ode CCD ZDRŽEL SE
+PŘÍTOMNÝCH: 37 PRO: 9 ZDRŽELO SE: 25
+NEPŘÍTOMNÝCH: 2 PROTI 0 << NEHLASOVALO: 3
+ČLENŮ ZASTUPITELSTVA: 39
+“ se" m
+— ===
+Zastoupení v ČR: BitEST Kutná Hora - www.bitest.cz H.E.R. Systém © A.S. Partner, s.r.o., Košice

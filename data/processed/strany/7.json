@@ -1,0 +1,262 @@
+{
+  "cislo": 7,
+  "nazev": "Česká strana asociálů",
+  "zkratka": "ČSA",
+  "slozeni": "Česká strana asociálů (nově registrovaná strana se sídlem v Liberci); 2 členové ČSA + 2 nestraníci (BEZPP), celkem jen 4 kandidáti.",
+  "web": null,
+  "program_url": null,
+  "program_local": "data/raw/programy/csa/README_program.md",
+  "shrnuti": "Recesistická (satirická) strana registrovaná v lednu 2026 se sídlem v Liberci, která kandiduje se 4 kandidáty, z toho 3 s příjmením Kolomazník; lídrem je devatenáctiletý Kryštof Kolomazník. Program nezveřejnila; jediné „programové“ výroky jsou žertovné odpovědi v anketě ČRo (zavřít všechny silnice najednou, zdražit auta, prodat Ještěd a radnici). Informací je velmi málo.",
+  "zamereni": [
+    "satira / recese",
+    "parodie dopravní politiky",
+    "studentská kandidátka"
+  ],
+  "zkusenost_skore": 3,
+  "zkusenost_zduvodneni": "Strana existuje od ledna 2026 a nemá žádné mandáty; žádný z kandidátů nezastával volenou funkci (jen č. 4 dříve neúspěšně kandidoval za ODS).",
+  "temata_pct": {
+    "doprava_parkovani": 60,
+    "bydleni": 20,
+    "rozvoj_uzemni_plan_vystavba": 0,
+    "zivotni_prostredi_zelen": 0,
+    "socialni_zdravotnictvi_seniori": 0,
+    "skolstvi_deti_rodina": 0,
+    "kultura_sport_volny_cas": 0,
+    "bezpecnost_poradek": 0,
+    "finance_hospodareni_dane": 0,
+    "sprava_transparentnost_digitalizace": 0,
+    "ekonomika_podnikani_cestovni_ruch": 0,
+    "ostatni": 20
+  },
+  "program_body": [
+    {
+      "tema": "doprava_parkovani",
+      "bod": "(satira) Uzavřít všechny silnice a opravit je najednou; lidé mají jezdit tramvají nebo chodit pěšky.",
+      "konkretni": false
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "(satira) Zavést či zvýšit poplatek za automobil, aby si auto „nikdo nemohl dovolit“.",
+      "konkretni": false
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "(satira) Pokuta „miliarda korun“ za každý km/h překročení rychlosti.",
+      "konkretni": false
+    },
+    {
+      "tema": "bydleni",
+      "bod": "(satira) Na místě parkovišť postavit 10 000 nových bytů.",
+      "konkretni": false
+    },
+    {
+      "tema": "ostatni",
+      "bod": "(satira) Prodat majiteli Slovanu „za hubičku“ Ještěd, parky, radnici i stadion U Nisy, pokud si strana bude moci pohladit jeho psy.",
+      "konkretni": false
+    }
+  ],
+  "hodnoceni": {
+    "silne_stranky": [
+      "Kandidatura velmi mladých lidí (19 a 20 let) – může oslovit voliče, kteří chtějí vyjádřit protest či nadsázku.",
+      "Otevřeně satirický přístup – nevydává se za skutečný program."
+    ],
+    "slabe_stranky_rizika": [
+      "Žádný seriózní program, žádný web; odpovědi v ČRo jsou výslovně žertovné.",
+      "Jen 4 kandidáti na 39 mandátů, z toho tři z jedné rodiny – i při zisku mandátů by neobsadila výbory ani komise.",
+      "Nevyužila nabízený prostor v rozhlasové předvolební debatě.",
+      "Lídr je podle kandidátní listiny nezaměstnaný a bez jakékoli zkušenosti s veřejnou správou."
+    ],
+    "kontroverze": []
+  },
+  "povolebni_signaly": "Žádné vyjádření k povolební spolupráci nenalezeno.",
+  "kandidati": [
+    {
+      "poradi": 1,
+      "jmeno": "Kryštof Kolomazník",
+      "vek": 19,
+      "povolani_dle_listiny": "nezaměstnaný",
+      "prislusnost": "ČSA",
+      "shrnuti": "Devatenáctiletý lídr strany, jeden ze tří nejmladších kandidátů do libereckého zastupitelstva. Za stranu odpovídal v anketě ČRo (satirické odpovědi).",
+      "politicka_kariera": [
+        {
+          "funkce": "lídr kandidátky ČSA (první kandidatura)",
+          "od": 2026,
+          "do": null,
+          "zdroj": "csu_kl2026"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 1,
+      "soucasna_prace": "Nezaměstnaný (dle listiny).",
+      "posledni_nepoliticka_prace": {
+        "co": "neznámé",
+        "kdy": "neznámé"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Kromě údajů z listiny a odpovědí v ČRo nic nedohledáno (soukromá osoba, nepátráno dál)."
+    },
+    {
+      "poradi": 2,
+      "jmeno": "Pavel Hrubeš",
+      "vek": 20,
+      "povolani_dle_listiny": "student",
+      "prislusnost": "ČSA",
+      "shrnuti": "Dvacetiletý student, podle rejstříku MV předseda České strany asociálů (od června 2026).",
+      "politicka_kariera": [
+        {
+          "funkce": "předseda České strany asociálů",
+          "od": 2026,
+          "do": null,
+          "zdroj": "mv_rejstrik_csa"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 2,
+      "soucasna_prace": "Student (dle listiny).",
+      "posledni_nepoliticka_prace": {
+        "co": "student",
+        "kdy": "dosud"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Další informace nedohledány."
+    },
+    {
+      "poradi": 3,
+      "jmeno": "Veronika Kolomazníková",
+      "vek": 49,
+      "povolani_dle_listiny": "účetní",
+      "prislusnost": "BEZPP (navržena ČSA)",
+      "shrnuti": "Účetní, nestraník na kandidátce ČSA; podle žertovné poznámky v odpovědi ČRo manželka lídra kandidátky (zřejmě míněno v nadsázce).",
+      "politicka_kariera": [],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 1,
+      "soucasna_prace": "Účetní (dle listiny).",
+      "posledni_nepoliticka_prace": {
+        "co": "účetní",
+        "kdy": "souběžně dosud (dle listiny)"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Rodinné vazby mezi kandidáty Kolomazníkovými nebyly ověřeny (jen shoda příjmení a bydliště ve Vratislavicích)."
+    },
+    {
+      "poradi": 4,
+      "jmeno": "David Kolomazník",
+      "vek": 49,
+      "povolani_dle_listiny": "projektový manažer",
+      "prislusnost": "BEZPP (navržen ČSA)",
+      "shrnuti": "Projektový manažer, jediný kandidát s volební zkušeností: v letech 2018–2022 kandidoval za ODS do zastupitelstva obvodu Vratislavice, kraje i města (vždy nezvolen); tehdy uváděl práci ve vedení střediska ČD Cargo a jako manažer odboru ETCS v ČD Telematice.",
+      "politicka_kariera": [
+        {
+          "funkce": "kandidát ODS do zastupitelstva MO Vratislavice nad Nisou (č. 2, nezvolen)",
+          "od": 2018,
+          "do": 2018,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "kandidát ODS v krajských volbách (č. 41, nezvolen)",
+          "od": 2020,
+          "do": 2020,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "kandidát ODS (Vratislavice) a ODS společně se Sportovci (ZM Liberec, č. 19) – nezvolen",
+          "od": 2022,
+          "do": 2022,
+          "zdroj": "volby_gov"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 5,
+      "soucasna_prace": "Projektový manažer (dle listiny).",
+      "posledni_nepoliticka_prace": {
+        "co": "projektový manažer (2022: manažer odboru ETCS, ČD Telematika)",
+        "kdy": "souběžně dosud (dle listiny)"
+      },
+      "pozitivni": [],
+      "negativni": [
+        {
+          "text": "Změna politického působení: 2018–2022 kandidoval za ODS, nyní za recesistickou ČSA.",
+          "zdroj": "volby_gov"
+        }
+      ],
+      "nejiste": "Současný zaměstnavatel neověřen."
+    }
+  ],
+  "zdroje": [
+    {
+      "id": "volby_gov",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ volby.cz – historie kandidatur 2014–2025 (zpracováno)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/historie_kandidatu.json",
+      "obsah": "Dřívější kandidatury a zvolení (komunální, krajské, sněmovní) podle oficiálních dat ČSÚ."
+    },
+    {
+      "id": "csu_kl2026",
+      "url": "https://www.volby.cz/opendata/opendata.htm",
+      "nazev": "ČSÚ – registrované kandidátní listiny KV 2026, Liberec",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/kandidati_2026.json",
+      "obsah": "Oficiální kandidátní listiny 2026 (věk, povolání, příslušnost, navrhující strana); surová data data/raw/volby_gov/kv2026/reg/csv_od/kvrk.csv."
+    },
+    {
+      "id": "crol_special",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-special-z-liberce-9646377",
+      "nazev": "ČRo Liberec: Komunální volby 2026 – speciál z Liberce (1. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_special_liberec_2026.html",
+      "obsah": "Neupravené odpovědi všech 11 subjektů na 3 otázky (uzavírky, parkování na sídlištích, prodej stadionu U Nisy)."
+    },
+    {
+      "id": "denik_11",
+      "url": "https://liberecky.denik.cz/komunalni-volby/o-liberec-se-utka-11-kandidatek-podivejte-se-kdo-je-povede-do-voleb/",
+      "nazev": "Liberecký deník/ČTK: O Liberec se utká 11 kandidátek",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_11_kandidatek.html",
+      "obsah": "Přehled kandidátek a lídrů; Trikolora podpořila SPD; ČSA a DSZ kandidují poprvé."
+    },
+    {
+      "id": "denik_kdo",
+      "url": "https://liberecky.denik.cz/komunalni-volby/kdo-chce-vladnout-liberci-ostrileni-matadori-i-kuriozity-zname-jmena/",
+      "nazev": "Liberecký deník: Kdo chce vládnout Liberci? Ostřílení matadoři i kuriozity",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_kdo_chce_vladnout.html",
+      "obsah": "Profesní složení kandidátek, lídři, glosa o kandidátce ČSA."
+    },
+    {
+      "id": "pdv_csa",
+      "url": "https://programydovoleb.cz/volby/komunalni-volby/176/strana/164201",
+      "nazev": "Programy do voleb: Česká strana asociálů, Liberec 2026",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/csa/programydovoleb_strana_164201.html",
+      "obsah": "Kandidátka (4 jména), žádný program."
+    },
+    {
+      "id": "csa_program_stav",
+      "url": "https://programydovoleb.cz/volby/komunalni-volby/176/strana/164201",
+      "nazev": "Stav dohledání programu ČSA",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/csa/README_program.md",
+      "obsah": "Program ani web strany nenalezeny; jediné programové výroky jsou v ČRo speciálu."
+    },
+    {
+      "id": "mv_rejstrik_csa",
+      "url": "https://mv.gov.cz/seznam-politickych-stran/?id=637",
+      "nazev": "Rejstřík politických stran MV ČR: Česká strana asociálů",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/csa/mv_rejstrik_csa.html",
+      "obsah": "Registrace 20. 1. 2026, sídlo Liberec, předseda Pavel Hrubeš (od 6. 6. 2026), IČO 24397229."
+    },
+    {
+      "id": "crol_debata3",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-debaty-s-lidry-stran-a-hnuti-ktere-kandiduji-do-9647563/3",
+      "nazev": "ČRo Liberec: Debata DSZ a LIBE! (7. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/dsz/crol_debata3_dsz.html",
+      "obsah": "Uvádí, že zástupce České strany asociálů prostor v debatě nevyužil."
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "cislo": 8,
+  "nazev": "Demokratická strana zelených - ZA PRÁVA ZVÍŘAT, sdružení DSZ - ZA PRÁVA ZVÍŘAT a NK",
+  "zkratka": "DSZ+NK",
+  "slozeni": "Sdružení politické strany DSZ – ZA PRÁVA ZVÍŘAT a nezávislých kandidátů; všech 6 kandidátů je bez stranické příslušnosti (lídryně navržena DSZ, ostatní jako nezávislí).",
+  "web": "https://dsz-zapravazvirat.cz/",
+  "program_url": "https://static.programydovoleb.cz/2026/csu_kv_ros/0923/164870/92705a4219.pdf",
+  "program_local": "data/raw/programy/dsz/program_dsz_liberec_2026.pdf",
+  "shrnuti": "Malá šestičlenná kandidátka vedená nestranickou právničkou a dobrovolnicí v útulku Petrou Bártovou, která kandiduje pod hlavičkou celostátní DSZ – ZA PRÁVA ZVÍŘAT. Hlavním tématem je ochrana zvířat (kastrace koček, péče o toulavá zvířata), program ale řeší i místní praktické věci: koupaliště Vápenka, veřejné toalety, taxi na Fügnerově, dostupné bydlení a kontrolu investic. Strana kandiduje v Liberci poprvé; v krajských volbách 2024 získala ve městě 0,38 %.",
+  "zamereni": [
+    "ochrana zvířat",
+    "koupaliště Vápenka",
+    "veřejné toalety",
+    "Fügnerova a taxi",
+    "kontrola investic"
+  ],
+  "zkusenost_skore": 3,
+  "zkusenost_zduvodneni": "Žádný z kandidátů nezastával volenou funkci; lídryně jen neúspěšně vedla krajskou kandidátku DSZ v roce 2024 (0,35 % v kraji).",
+  "temata_pct": {
+    "doprava_parkovani": 7,
+    "bydleni": 7,
+    "rozvoj_uzemni_plan_vystavba": 7,
+    "zivotni_prostredi_zelen": 13,
+    "socialni_zdravotnictvi_seniori": 3,
+    "skolstvi_deti_rodina": 3,
+    "kultura_sport_volny_cas": 13,
+    "bezpecnost_poradek": 3,
+    "finance_hospodareni_dane": 7,
+    "sprava_transparentnost_digitalizace": 13,
+    "ekonomika_podnikani_cestovni_ruch": 0,
+    "ostatni": 24
+  },
+  "program_body": [
+    {
+      "tema": "ostatni",
+      "bod": "Dlouhodobý a dostatečně financovaný kastrační program pro kočky ve spolupráci s útulky, veterináři a spolky.",
+      "konkretni": true
+    },
+    {
+      "tema": "ostatni",
+      "bod": "Funkční systém péče o opuštěná, toulavá a zraněná zvířata a informování veřejnosti, jak pomoci.",
+      "konkretni": false
+    },
+    {
+      "tema": "ostatni",
+      "bod": "Důsledné vymáhání pravidel pro pohyb psů a zároveň dostatek míst pro venčení.",
+      "konkretni": false
+    },
+    {
+      "tema": "ostatni",
+      "bod": "Audit veřejných toalet (počet, otevírací doba, stav, náklady) a zajištění čistých bezbariérových toalet u dopravních uzlů, v centru a v parcích s provozem i pro večerní spoje.",
+      "konkretni": true
+    },
+    {
+      "tema": "bydleni",
+      "bod": "Podporovat výstavbu a obnovu dostupného městského, nájemního a sociálního bydlení a opravy městského bytového fondu.",
+      "konkretni": false
+    },
+    {
+      "tema": "rozvoj_uzemni_plan_vystavba",
+      "bod": "U každého většího developerského projektu požadovat řešení dopravy, chodníků, zeleně, škol a služeb; přednost účelným investicím před „megalomanskými projekty“.",
+      "konkretni": false
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Řešit koupi nebo pronájem soukromého areálu koupaliště Vápenka a jeho rekonstrukci pro veřejnost (předkupní právo města skončilo 2024).",
+      "konkretni": true
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Pokračovat v rekonstrukci havarijní staré hokejové haly (plán 2027, cca 80 mil. Kč) a hlídat zadání, cenový strop, otevřenou soutěž a dodatky; zajistit veřejné bruslení pro školy a děti.",
+      "konkretni": true
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Předvídatelný a transparentní systém dotací pro spolky pracující s dětmi, seniory, sportem, kulturou, přírodou a zvířaty.",
+      "konkretni": false
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Vrátit stanoviště taxi na viditelné místo ve Fügnerově ulici u autobusového nádraží a tramvají; řádně projednat petici a zveřejnit důvody původního rozhodnutí.",
+      "konkretni": true
+    },
+    {
+      "tema": "bezpecnost_poradek",
+      "bod": "Lepší osvětlení, dohled a koordinace města, policie a dopravců v okolí terminálu Fügnerova, zejména večer a v noci.",
+      "konkretni": false
+    },
+    {
+      "tema": "zivotni_prostredi_zelen",
+      "bod": "Údržba parků a vzrostlé zeleně, výsadba odolných listnatých stromů a obnova alejí.",
+      "konkretni": false
+    },
+    {
+      "tema": "zivotni_prostredi_zelen",
+      "bod": "Zalesňování a péče o krajinu s dohledatelnými náklady a následnou údržbou; opatření proti horku a suchu (stín, zadržování vody).",
+      "konkretni": false
+    },
+    {
+      "tema": "socialni_zdravotnictvi_seniori",
+      "bod": "Podpora kapacit pečovatelského bydlení a koordinace s krajem v paliativní a hospicové péči.",
+      "konkretni": false
+    },
+    {
+      "tema": "skolstvi_deti_rodina",
+      "bod": "Pomoc mladým se získáním první pracovní zkušenosti (spolupráce škol, městských organizací a zaměstnavatelů, prázdninové programy).",
+      "konkretni": false
+    },
+    {
+      "tema": "sprava_transparentnost_digitalizace",
+      "bod": "U významných investic zveřejňovat varianty, rozpočet, provozní náklady, přínosy a odpovědnou osobu; umožnit obyvatelům včasné vyjádření.",
+      "konkretni": true
+    },
+    {
+      "tema": "finance_hospodareni_dane",
+      "bod": "Účelné a veřejně kontrolované hospodaření; u nefunkčních či nákladných zařízení vyhodnotit odpovědnost.",
+      "konkretni": false
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "(odpověď ČRo) Každoroční závazný koordinační plán uzavírek schvalovaný před stavební sezonou a pracovní skupina správců komunikací, kraje, státu, sítí, DPMLJ a IZS.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "(odpověď ČRo) Zóny rezidentního/placeného stání nařízením obce; u nové výstavby důsledně vyžadovat parkovací standard a podzemní garáže.",
+      "konkretni": true
+    },
+    {
+      "tema": "finance_hospodareni_dane",
+      "bod": "(odpověď ČRo) Stadion U Nisy prodat jen za cenu obvyklou, po zveřejnění záměru a prověření dotačních závazků; veřejné vlastnictví považuje za legitimní.",
+      "konkretni": true
+    }
+  ],
+  "hodnoceni": {
+    "silne_stranky": [
+      "Zveřejnila psaný a poměrně konkrétní program (Vápenka, audit toalet, taxi na Fügnerově, kastrační program).",
+      "Odpovědi v ČRo jsou věcné a právně argumentované (postup u uzavírek, parkovacích zón, prodeje majetku).",
+      "Deklarovaný závazek nic nemožného neslibovat a průběžně vykazovat výsledky."
+    ],
+    "slabe_stranky_rizika": [
+      "Jen 6 kandidátů, nikdo s praxí ve veřejné správě; v krajských volbách 2024 získala DSZ ve městě Liberec 0,38 % – reálná šance na mandát je velmi malá.",
+      "Klíčové body nejsou vyčísleny (koupě či pronájem Vápenky, kastrační program).",
+      "Část programu se týká věcí již rozběhnutých (hokejová hala) nebo mimo přímou působnost města (silnice jiných vlastníků).",
+      "Na kandidátce není žádný člen DSZ – vazba na celostátní stranu je jen formální."
+    ],
+    "kontroverze": [
+      {
+        "text": "Celostátní DSZ podle Wikipedie mezi lety 2011–2012 spolupracovala se stranou Suverenita a ve své ideologii uvádí i antiimigrační postoje; liberecká kandidátka tato témata v programu nemá (kontext celostátní strany).",
+        "zdroj": "wiki_dsz"
+      }
+    ]
+  },
+  "povolebni_signaly": "Žádné vyjádření k povolební spolupráci nenalezeno.",
+  "kandidati": [
+    {
+      "poradi": 1,
+      "jmeno": "Mgr. Petra Bártová",
+      "vek": 62,
+      "povolani_dle_listiny": "právník, člen České ornitologické společnosti, přispěvatel World of Dogs-Bosna a OBRAZ-Obránci zvířat, dobrovolník v Archa centrum pro zvířata v nouzi",
+      "prislusnost": "BEZPP (navržena DSZ – ZA PRÁVA ZVÍŘAT)",
+      "shrnuti": "Nestranická právnička angažovaná v ochraně zvířat (dobrovolnice v libereckém útulku Archa, podporovatelka spolků OBRAZ a World of Dogs). V roce 2024 vedla krajskou kandidátku DSZ (38 preferenčních hlasů). Zúčastnila se rozhlasové debaty a v anketě ČRo odpovídala právně argumentovaně.",
+      "politicka_kariera": [
+        {
+          "funkce": "lídryně kandidátky DSZ – ZA PRÁVA ZVÍŘAT v krajských volbách (nezvolena)",
+          "od": 2024,
+          "do": 2024,
+          "zdroj": "volby_gov"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 5,
+      "soucasna_prace": "Právnička (dle listiny); dobrovolnice v útulku Archa.",
+      "posledni_nepoliticka_prace": {
+        "co": "právník",
+        "kdy": "souběžně dosud (dle listiny)"
+      },
+      "pozitivni": [
+        {
+          "text": "Dlouhodobá dobrovolnická činnost v ochraně zvířat (útulek Archa, Česká ornitologická společnost, OBRAZ) – deklarovaná v kandidátní listině.",
+          "zdroj": "csu_kl2026"
+        },
+        {
+          "text": "V anketě ČRo předložila právně podložené odpovědi k uzavírkám, parkovacím zónám a prodeji stadionu.",
+          "zdroj": "crol_special"
+        }
+      ],
+      "negativni": [],
+      "nejiste": "Právní praxe (advokacie, zaměstnavatel) neověřena; mediální zmínky mimo předvolební přehledy nenalezeny."
+    },
+    {
+      "poradi": 2,
+      "jmeno": "Daniel Hajdík",
+      "vek": 21,
+      "povolani_dle_listiny": "student VŠ - Technická univerzita Liberec, Fakulta přírodovědně-humanitní a pedagogická - obor Aplikovaná geografie",
+      "prislusnost": "BEZPP (nezávislý kandidát)",
+      "shrnuti": "Student aplikované geografie na TUL, první kandidatura.",
+      "politicka_kariera": [],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 1,
+      "soucasna_prace": "Student TUL (dle listiny).",
+      "posledni_nepoliticka_prace": {
+        "co": "student",
+        "kdy": "dosud"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Žádné další informace (soukromá osoba)."
+    },
+    {
+      "poradi": 3,
+      "jmeno": "Viktorie Kubínová",
+      "vek": 22,
+      "povolani_dle_listiny": "recepční - cestovní ruch",
+      "prislusnost": "BEZPP (nezávislá kandidátka)",
+      "shrnuti": "Recepční v cestovním ruchu, první kandidatura.",
+      "politicka_kariera": [],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 1,
+      "soucasna_prace": "Recepční (dle listiny).",
+      "posledni_nepoliticka_prace": {
+        "co": "recepční – cestovní ruch",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Žádné další informace (soukromá osoba)."
+    },
+    {
+      "poradi": 4,
+      "jmeno": "Miroslava Kubínová",
+      "vek": 48,
+      "povolani_dle_listiny": "podnikatelka",
+      "prislusnost": "BEZPP (nezávislá kandidátka)",
+      "shrnuti": "Podnikatelka z Ruprechtic, první kandidatura.",
+      "politicka_kariera": [],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 1,
+      "soucasna_prace": "Podnikatelka (dle listiny); obor neuveden.",
+      "posledni_nepoliticka_prace": {
+        "co": "podnikání",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Obor podnikání neověřen."
+    },
+    {
+      "poradi": 5,
+      "jmeno": "Miroslav Dolejš",
+      "vek": 74,
+      "povolani_dle_listiny": "důchodce",
+      "prislusnost": "BEZPP (nezávislý kandidát)",
+      "shrnuti": "Důchodce z Ruprechtic, první kandidatura (v datech 2014–2025 bez kandidatur).",
+      "politicka_kariera": [],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 1,
+      "soucasna_prace": "Důchodce.",
+      "posledni_nepoliticka_prace": {
+        "co": "neznámé",
+        "kdy": "neznámé"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Žádné další informace."
+    }
+  ],
+  "zdroje": [
+    {
+      "id": "volby_gov",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ volby.cz – historie kandidatur 2014–2025 (zpracováno)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/historie_kandidatu.json",
+      "obsah": "Dřívější kandidatury a zvolení (komunální, krajské, sněmovní) podle oficiálních dat ČSÚ."
+    },
+    {
+      "id": "csu_kl2026",
+      "url": "https://www.volby.cz/opendata/opendata.htm",
+      "nazev": "ČSÚ – registrované kandidátní listiny KV 2026, Liberec",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/kandidati_2026.json",
+      "obsah": "Oficiální kandidátní listiny 2026 (věk, povolání, příslušnost, navrhující strana); surová data data/raw/volby_gov/kv2026/reg/csv_od/kvrk.csv."
+    },
+    {
+      "id": "kz2024_mesto",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – výsledky krajských voleb 2024 v krajských městech",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/pruzkumy/kz2024_vysledky_krajmesta.xml",
+      "obsah": "Výsledky KZ 2024 ve městě Liberec a v Libereckém kraji (názvy stran z data/raw/volby_gov/kz2024/reg/csv/kzrkl.csv)."
+    },
+    {
+      "id": "crol_special",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-special-z-liberce-9646377",
+      "nazev": "ČRo Liberec: Komunální volby 2026 – speciál z Liberce (1. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_special_liberec_2026.html",
+      "obsah": "Neupravené odpovědi všech 11 subjektů na 3 otázky (uzavírky, parkování na sídlištích, prodej stadionu U Nisy)."
+    },
+    {
+      "id": "denik_11",
+      "url": "https://liberecky.denik.cz/komunalni-volby/o-liberec-se-utka-11-kandidatek-podivejte-se-kdo-je-povede-do-voleb/",
+      "nazev": "Liberecký deník/ČTK: O Liberec se utká 11 kandidátek",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_11_kandidatek.html",
+      "obsah": "Přehled kandidátek a lídrů; Trikolora podpořila SPD; ČSA a DSZ kandidují poprvé."
+    },
+    {
+      "id": "denik_kdo",
+      "url": "https://liberecky.denik.cz/komunalni-volby/kdo-chce-vladnout-liberci-ostrileni-matadori-i-kuriozity-zname-jmena/",
+      "nazev": "Liberecký deník: Kdo chce vládnout Liberci? Ostřílení matadoři i kuriozity",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_kdo_chce_vladnout.html",
+      "obsah": "Profesní složení kandidátek, lídři, glosa o kandidátce ČSA."
+    },
+    {
+      "id": "pdv_dsz",
+      "url": "https://programydovoleb.cz/volby/komunalni-volby/176/strana/164870",
+      "nazev": "Programy do voleb: DSZ – ZA PRÁVA ZVÍŘAT a NK, Liberec 2026",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/dsz/programydovoleb_strana_164870.html",
+      "obsah": "Kandidátka (6 jmen) a odkaz na PDF programu (vloženo 23. 9. 2026)."
+    },
+    {
+      "id": "dsz_program",
+      "url": "https://static.programydovoleb.cz/2026/csu_kv_ros/0923/164870/92705a4219.pdf",
+      "nazev": "DSZ – ZA PRÁVA ZVÍŘAT: Liberec, kde se dobře žije lidem i zvířatům – podrobný volební program",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/dsz/program_dsz_liberec_2026.pdf",
+      "obsah": "Dvoustránkový program v 8 oblastech (zvířata, bydlení, koupání a sport, Fügnerova a taxi, veřejné toalety, zeleň, spolky a senioři, otevřená radnice); text v .txt vedle."
+    },
+    {
+      "id": "crol_debata3",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-debaty-s-lidry-stran-a-hnuti-ktere-kandiduji-do-9647563/3",
+      "nazev": "ČRo Liberec: Debata DSZ a LIBE! (7. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/dsz/crol_debata3_dsz.html",
+      "obsah": "Anotace debaty, které se zúčastnila Petra Bártová; jen audio."
+    },
+    {
+      "id": "wiki_dsz",
+      "url": "https://cs.wikipedia.org/wiki/Demokratick%C3%A1_strana_zelen%C3%BDch",
+      "nazev": "Wikipedie: Demokratická strana zelených – Za práva zvířat",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/dsz/wiki_dsz.html",
+      "obsah": "Celostátní strana založená 2009 odštěpením od SZ, předseda Jiří Anderle, sídlo Klenčí pod Čerchovem; dřívější spolupráce se Suverenitou, EP 2024 0,41 %."
+    }
+  ]
+}

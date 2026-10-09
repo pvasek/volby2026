@@ -1,0 +1,645 @@
+{
+  "cislo": 10,
+  "nazev": "ODS společně se sportovci",
+  "zkratka": "ODS+USZ",
+  "slozeni": "ODS + Unie pro sport a zdraví (USZ, 'Sportovci'); na kandidátce i nestraníci navržení oběma subjekty",
+  "web": "https://www.ods.cz/ms.liberec",
+  "program_url": null,
+  "program_local": "data/raw/programy/ods-sportovci/ods_ms_28651.html",
+  "shrnuti": "Opakovaná společná kandidátka ODS a Unie pro sport a zdraví, kterou vede bývalý náměstek primátora Jiří Veselka. Ucelený programový dokument jsme nenašli; z vyjádření a článků kandidátů vyplývá důraz na sport (koupaliště ve Vesci, plán rozvoje sportu, podpora mládeže), koordinaci uzavírek, parkování na sídlištích a městské byty pod heslem 'město, které funguje'.",
+  "zamereni": [
+    "sport a sportoviště",
+    "koupaliště Vesec",
+    "koordinace oprav a uzavírek",
+    "parkování na sídlištích",
+    "městské byty",
+    "bezpečnost"
+  ],
+  "zkusenost_skore": 55,
+  "zkusenost_zduvodneni": "ODS byla v koalici 2018–2024 a Břeňová byla radní; lídr má zkušenost náměstka, ale z let 2000–2006. Po kauze Židek (2024) je uskupení v opozici a zbytek špičky kandidátky má malou zkušenost se samosprávou.",
+  "temata_pct": {
+    "doprava_parkovani": 27,
+    "bydleni": 18,
+    "rozvoj_uzemni_plan_vystavba": 0,
+    "zivotni_prostredi_zelen": 0,
+    "socialni_zdravotnictvi_seniori": 0,
+    "skolstvi_deti_rodina": 5,
+    "kultura_sport_volny_cas": 36,
+    "bezpecnost_poradek": 5,
+    "finance_hospodareni_dane": 5,
+    "sprava_transparentnost_digitalizace": 4,
+    "ekonomika_podnikani_cestovni_ruch": 0,
+    "ostatni": 0
+  },
+  "program_body": [
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Jeden společný plán všech významných oprav a uzavírek (městských, krajských, státních i správců sítí) pod jednotnou odpovědností; klíčové tahy neuzavírat současně.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Hlídat termíny staveb, požadovat co nejkratší uzavírky a včas informovat o objížďkách.",
+      "konkretni": false
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Při každé rekonstrukci ulic prověřit nová parkovací místa, využít vnitrobloky a zanedbané plochy, po dohodě noční parkování u marketů a škol; kde prostor nestačí, parkovací domy.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Rezidentní parkování s předností pro obyvatele sídliště; plošné placené zóny na sídlištích nepovažují za optimální; nesnižovat počet míst v centru bez náhrady.",
+      "konkretni": true
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Vybudovat nové moderní městské koupaliště v areálu Vesec (petice za záměr).",
+      "konkretni": true
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Zvýšit finanční podporu sportujících dětí a mládeže (nyní 2 500 Kč na člena, podle ODS 40–60 % úrovně srovnatelných měst) a zavést víceleté garance pro kluby.",
+      "konkretni": true
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Zpracovat a přijmout Plán rozvoje sportu s časově definovanými kroky; podpořit opravy, vybavení a investice do sportovišť včetně školních.",
+      "konkretni": true
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Městská sportovní hala s diváckým zázemím; řešit stav Svijanské arény, šaten a zázemí Sportparku.",
+      "konkretni": false
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Prodej stadionu U Nisy podpořit jen za tržní cenu dle nezávislého posudku, s trvalou smluvní garancí sportovního využití a s investicí výnosu do sportovní infrastruktury.",
+      "konkretni": true
+    },
+    {
+      "tema": "bydleni",
+      "bod": "Dlouhodobý program systematické výstavby městských bytů (dnes podle ODS jen něco přes 1 000 bytů) a transparentní pravidla přidělování.",
+      "konkretni": false
+    },
+    {
+      "tema": "bydleni",
+      "bod": "Byty pro žádané profese (učitelé, lékaři, hasiči, policisté) a startovací byty pro mladé rodiny; sociální bydlení s pravidly proti zneužívání.",
+      "konkretni": false
+    },
+    {
+      "tema": "rozvoj_uzemni_plan_vystavba",
+      "bod": "Zrušit nebo výrazně upravit pravidla příspěvků investorů na infrastrukturu (tzv. 'výpalné'), alespoň u bytové výstavby; omezit průtahy a poplatky.",
+      "konkretni": true
+    },
+    {
+      "tema": "skolstvi_deti_rodina",
+      "bod": "Obnovit pravidelná pracovní setkání vedení města s řediteli škol a školek po vzoru kraje.",
+      "konkretni": true
+    },
+    {
+      "tema": "bezpecnost_poradek",
+      "bod": "Bezpečnost a pořádek jako jeden z hlavních pilířů programu (bez zveřejněných konkrétních opatření).",
+      "konkretni": false
+    },
+    {
+      "tema": "finance_hospodareni_dane",
+      "bod": "Jasný investiční plán na několik let s prioritami (doprava, parkování, veřejný prostor, sportoviště); zadlužení jen u smysluplných dlouhodobých investic, zdroje z úspor a dotací.",
+      "konkretni": false
+    },
+    {
+      "tema": "sprava_transparentnost_digitalizace",
+      "bod": "'Vrátit Liberci řádné řízení' a zvýšit efektivitu fungování úřadu (bez konkrétních kroků).",
+      "konkretni": false
+    }
+  ],
+  "hodnoceni": {
+    "silne_stranky": [
+      "Silná expertíza ve sportu a konkrétní sportovní návrhy (koupaliště Vesec, Plán rozvoje sportu, vyšší podpora mládeže, víceleté garance pro kluby).",
+      "Jasně formulované podmínky prodeje stadionu U Nisy.",
+      "Praktický přístup k parkování (nová místa při rekonstrukcích, noční parkování u marketů, rezidentní přednost).",
+      "Zavedená strana s předchozí zkušeností z vedení města (2018–2024)."
+    ],
+    "slabe_stranky_rizika": [
+      "Ucelený volební program jsme nenašli (web odsliberec.cz byl nedostupný); body jsou poskládané z článků a mediálních odpovědí.",
+      "Reputační zátěž korupční kauzy bývalého lídra a náměstka Petra Židka (2024) a vyřazení z koalice.",
+      "Téma bezpečnosti je ohlašováno jako pilíř, ale bez konkrétních opatření.",
+      "Zrušení příspěvků investorů ('výpalné') a výstavba bytů, koupaliště a haly by zatížily rozpočet – zdroje financování nejsou vyčísleny.",
+      "Lídr je širší veřejnosti málo známý (glosa Deníku)."
+    ],
+    "kontroverze": [
+      {
+        "text": "V dubnu 2024 koaliční partneři vypověděli ODS koaliční smlouvu poté, co policie obvinila náměstka primátora Petra Židka (tehdy ODS) v korupční kauze spojené se společností SYNER; ODS mu zrušila členství a zrušila licenci jednoho ze dvou libereckých místních sdružení. Židek vinu nekomentoval a uvedl, že se bude hájit.",
+        "zdroj": "s15"
+      },
+      {
+        "text": "Lídr Veselka byl v roce 2012 obviněn v kauze odměn v dozorčí radě KNL; stíhání bylo podle Novinek zastaveno.",
+        "zdroj": "s22"
+      },
+      {
+        "text": "Ostrý tón kampaně: článek na webu ODS Liberec mluví o 'diletantismu' a 'amatérismu' vedení města a o 'přeměně Liberce na provinční díru'.",
+        "zdroj": "s4"
+      },
+      {
+        "text": "Glosa Libereckého deníku kritizovala kandidáty ODS a Sportovců za 'tapetování' sociálních sítí fotkami nehezkých míst s kritikou radnice.",
+        "zdroj": "s26"
+      }
+    ]
+  },
+  "povolebni_signaly": "Veselka v anketě ČTK: o spolupráci rozhodnou výsledky a programová shoda, jsou připraveni jednat 'prakticky se všemi demokratickými subjekty' (s2). Nikoho výslovně nevyloučil.",
+  "kandidati": [
+    {
+      "poradi": 1,
+      "jmeno": "Jiří Veselka",
+      "vek": 67,
+      "povolani_dle_listiny": "ředitel sportovní organizace, předseda klubu stolního tenisu SKST Liberec",
+      "prislusnost": "Unie pro sport a zdraví (navrhla USZ)",
+      "shrnuti": "Manažer s dlouhou praxí ve veřejných firmách: náměstek primátora Liberce 2000–2006, poté ředitel libereckého dopravního podniku a 2011–2013 generální ředitel Krajské nemocnice Liberec. Od roku 2019 jednatel firmy spravující sportoviště v Turnově, předseda SKST Liberec; za Sportovce kandidoval 2018 a 2022 bez zvolení.",
+      "politicka_kariera": [
+        {
+          "funkce": "náměstek primátora Liberce",
+          "od": 2000,
+          "do": 2006,
+          "zdroj": "s13"
+        },
+        {
+          "funkce": "člen Kontrolního výboru SML (nevolená funkce ve výboru zastupitelstva)",
+          "od": null,
+          "do": null,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "člen Unie pro sport a zdraví",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_2026"
+        }
+      ],
+      "roky_v_politice": 6,
+      "zkusenost_skore": 55,
+      "soucasna_prace": "Jednatel/ředitel firmy spravující městská sportoviště v Turnově (od 2019), předseda SKST Liberec.",
+      "posledni_nepoliticka_prace": {
+        "co": "ředitel sportovní organizace (Městská sportovní Turnov)",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [
+        {
+          "text": "Rozsáhlá manažerská praxe ve veřejném sektoru (dopravní podnik, krajská nemocnice, městská sportoviště v Turnově).",
+          "zdroj": "s13"
+        },
+        {
+          "text": "Při volbě do čela KNL v roce 2011 kraj zdůvodnil jeho výběr manažerskými dovednostmi a znalostí nemocnice, kde pracoval v letech 1989–1999.",
+          "zdroj": "s18"
+        },
+        {
+          "text": "V odpovědích médiím předložil konkrétní podmínky pro prodej stadionu (nezávislý posudek ceny, smluvní garance sportovního využití, výnos do sportovišť).",
+          "zdroj": "s1"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "V roce 2012 jej policie jako generálního ředitele KNL obvinila z porušení povinnosti při správě cizího majetku z nedbalosti kvůli schválení odměn uvolněným politikům v dozorčí radě nemocnice; obvinění odmítl a podle Novinek státní zástupce jeho stíhání zastavil.",
+          "zdroj": "s21"
+        },
+        {
+          "text": "Liberecký deník jej v glose označil za 'zkušeného harcovníka, ale širšímu plénu téměř utajeného' kandidáta.",
+          "zdroj": "s26"
+        },
+        {
+          "text": "V září 2013 rezignoval na post předsedy představenstva KNL po změnách ve vedení nemocnice.",
+          "zdroj": "s19"
+        }
+      ],
+      "nejiste": "Za jakou stranu byl náměstkem 2000–2006 a v jakých přesných letech vedl dopravní podnik; zastavení stíhání známe jen ze zmínky Novinek (2015), samotné rozhodnutí jsme nedohledali; Hlídač státu u osoby jména Jiří Veselka (*1958) eviduje angažmá v řadě firem, shodu osoby jsme neověřili."
+    },
+    {
+      "poradi": 2,
+      "jmeno": "Lumír Vadovský",
+      "vek": 47,
+      "povolani_dle_listiny": "manažer realitní kanceláře",
+      "prislusnost": "ODS (navrhla ODS); předseda ODS na Liberecku",
+      "shrnuti": "Realitní manažer a předseda ODS na Liberecku. Zastupitelem Liberce byl v období 2018–2022 (do zastupitelstva nastoupil krátce po volbách 2018), místopředseda Kontrolního výboru; v letech 2024 a 2025 kandidoval za SPOLU do kraje a Sněmovny bez zvolení.",
+      "politicka_kariera": [
+        {
+          "funkce": "zastupitel SML (ODS)",
+          "od": 2018,
+          "do": 2022,
+          "zdroj": "s17"
+        },
+        {
+          "funkce": "místopředseda Kontrolního výboru SML",
+          "od": null,
+          "do": 2022,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "předseda ODS na Liberecku",
+          "od": null,
+          "do": null,
+          "zdroj": "s12"
+        }
+      ],
+      "roky_v_politice": 4,
+      "zkusenost_skore": 35,
+      "soucasna_prace": "Oblastní manažer realitní kanceláře (civilní zaměstnání), stranický předseda.",
+      "posledni_nepoliticka_prace": {
+        "co": "manažer realitní kanceláře / realitní makléř",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [
+        {
+          "text": "Zkušenost zastupitele a z kontrolního výboru; podle Novinek prosazuje kandidátku složenou z 'nových aktivních lidí'.",
+          "zdroj": "s12"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "Jako realitní manažer by v zastupitelstvu rozhodoval mj. o územním rozvoji a bytové politice – potenciální střet zájmů je třeba sledovat (konkrétní případ nezjištěn).",
+          "zdroj": "csu_2026"
+        }
+      ],
+      "nejiste": "Hlídač státu uvádí mandát zastupitele 'od 2018 do 2024', Wikipedie do 2022 – nesoulad neověřen; Hlídač eviduje firmu Vadovský Group s.r.o., jeho dar 50 000 Kč a dary jeho firmy 102 000 Kč jedné politické straně (pravděpodobně ODS, neověřeno); od kdy je předsedou oblastní ODS, nevíme."
+    },
+    {
+      "poradi": 3,
+      "jmeno": "Petra Břeňová",
+      "vek": 47,
+      "povolani_dle_listiny": "asistentka radní Libereckého kraje - resort školství a sportu, zastupitelka města Liberec, místopředsedkyně Výboru pro kulturu a cestovní ruch SML",
+      "prislusnost": "ODS (navrhla ODS)",
+      "shrnuti": "Zastupitelka Liberce od roku 2018, v letech 2018–2022 členka rady města za ODS. Pracuje jako asistentka krajské radní pro školství a sport; v kampani se věnuje parkování na sídlištích a komunikaci města se školami.",
+      "politicka_kariera": [
+        {
+          "funkce": "zastupitelka SML (ODS)",
+          "od": 2018,
+          "do": null,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "radní SML (ODS)",
+          "od": 2018,
+          "do": 2022,
+          "zdroj": "s16"
+        },
+        {
+          "funkce": "asistentka náměstka hejtmana / radní Libereckého kraje (resort školství a sportu)",
+          "od": 2018,
+          "do": null,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "místopředsedkyně výborů SML (sociální věci a bezpečnost; nyní kultura a cestovní ruch)",
+          "od": null,
+          "do": null,
+          "zdroj": "volby_gov"
+        }
+      ],
+      "roky_v_politice": 8,
+      "zkusenost_skore": 50,
+      "soucasna_prace": "Asistentka radní Libereckého kraje (placená práce v politickém aparátu kraje), zastupitelka města.",
+      "posledni_nepoliticka_prace": {
+        "co": "koordinátorka v sociální oblasti",
+        "kdy": "uváděno 2014; později již v politickém aparátu"
+      },
+      "pozitivni": [
+        {
+          "text": "Čtyři roky zkušeností z rady města a osm let v zastupitelstvu.",
+          "zdroj": "s17"
+        },
+        {
+          "text": "Konkrétně popisuje problémy parkování na sídlištích (Dobiášova, parkoviště u Hokejky) a navrhuje rozšiřování kapacit.",
+          "zdroj": "s6"
+        },
+        {
+          "text": "Navrhuje obnovit pravidelná setkání města s řediteli škol podle praxe kraje.",
+          "zdroj": "s10"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "ODS, za kterou zasedala ve vedení města, byla v roce 2024 vyřazena z koalice kvůli obvinění tehdejšího lídra Petra Židka v korupční kauze (dostupné zdroje ji s kauzou osobně nespojují).",
+          "zdroj": "s15"
+        },
+        {
+          "text": "Od roku 2018 pracuje jako placená asistentka v krajském politickém aparátu – mimopolitickou praxi v posledních letech nemá.",
+          "zdroj": "volby_gov"
+        }
+      ],
+      "nejiste": "Přesný začátek práce asistentky v kraji (v roce 2018 již uváděna jako asistentka náměstka hejtmana)."
+    },
+    {
+      "poradi": 4,
+      "jmeno": "Lucie Židková",
+      "vek": 54,
+      "povolani_dle_listiny": "vrchní sestra Senevida, členka Výboru pro sociální záležitosti SML",
+      "prislusnost": "ODS (navrhla ODS)",
+      "shrnuti": "Zdravotní sestra, dříve vrchní sestra urologie Krajské nemocnice Liberec, nyní vrchní sestra v zařízení Senevida. Jako nevolená členka působí ve výboru pro sociální záležitosti; v letech 2018 a 2022 kandidovala bez zvolení.",
+      "politicka_kariera": [
+        {
+          "funkce": "členka výboru zastupitelstva SML pro sociální věci (nevolená členka)",
+          "od": null,
+          "do": null,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "členka ODS",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_2026"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 15,
+      "soucasna_prace": "Vrchní sestra Senevida (civilní práce).",
+      "posledni_nepoliticka_prace": {
+        "co": "vrchní sestra (Senevida, dříve urologie KNL)",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [
+        {
+          "text": "Dlouholetá praxe ve zdravotnictví a péči o seniory, relevantní pro sociální agendu města.",
+          "zdroj": "volby_gov"
+        }
+      ],
+      "negativni": [],
+      "nejiste": "Od kdy je členkou výboru a ODS, nevíme; mediální zmínky o ní jsme nenašli."
+    },
+    {
+      "poradi": 5,
+      "jmeno": "František Příhoda",
+      "vek": 58,
+      "povolani_dle_listiny": "projektant, podnikatel, prezident florbalového klubu FBC Liberec, člen Výboru pro sport SML",
+      "prislusnost": "BEZPP (navrhla Unie pro sport a zdraví)",
+      "shrnuti": "Projektant a podnikatel, prezident florbalového klubu FBC Liberec a nevolený člen sportovního výboru města. Za sportovní uskupení kandidoval od roku 2014 (2014, 2018, 2022 a v kraji 2024), zvolen nebyl.",
+      "politicka_kariera": [
+        {
+          "funkce": "člen Výboru pro sport SML (nevolený člen)",
+          "od": null,
+          "do": null,
+          "zdroj": "volby_gov"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 15,
+      "soucasna_prace": "Projektant, podnikatel, prezident FBC Liberec.",
+      "posledni_nepoliticka_prace": {
+        "co": "projektant, podnikatel",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [
+        {
+          "text": "Dlouholetý funkcionář mládežnického sportu (FBC Liberec), zná potřeby klubů, na které program cílí.",
+          "zdroj": "volby_gov"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "Jako prezident klubu, který využívá městská sportoviště a dotace, by v zastupitelstvu rozhodoval o sportovních penězích – potenciální střet zájmů (konkrétní případ nezjištěn).",
+          "zdroj": "csu_2026"
+        }
+      ],
+      "nejiste": "Hlídač státu u osoby stejného jména (*1968) eviduje angažmá ve firmě STORING spol. s r.o. (141 smluv se státem za 95 mil. Kč od 2016) a dar 100 000 Kč jedné straně – shodu osoby ani stranu jsme neověřili."
+    }
+  ],
+  "zdroje": [
+    {
+      "id": "volby_gov",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – historie kandidatur 2014–2025 (komunální Liberec/obvody, krajské LK, sněmovní LK)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/historie_kandidatu.json",
+      "obsah": "Oficiální data ČSÚ o dřívějších kandidaturách a zvolení kandidátů (bez výkonných funkcí)."
+    },
+    {
+      "id": "csu_2026",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – kandidátní listiny pro volby do Zastupitelstva města Liberec 2026",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/kandidati_2026.json",
+      "obsah": "Oficiální kandidátní listiny 2026: věk, povolání, navrhující strana, politická příslušnost."
+    },
+    {
+      "id": "s1",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-special-z-liberce-9646377",
+      "nazev": "ČRo Liberec: Komunální volby 2026 – speciál z Liberce (1. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_special_liberec_2026.html",
+      "obsah": "Veselkovy odpovědi k uzavírkám, parkování na sídlištích a prodeji stadionu U Nisy; odkazy na program 'město, které funguje'."
+    },
+    {
+      "id": "s2",
+      "url": "https://liberecky.denik.cz/zpravy-region/v-liberci-chteji-volebni-lidri-investovat-do-dopravy-bytu-ci-verejneho-prostoru/",
+      "nazev": "Liberecký deník/ČTK: anketa lídrů (14. 9. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_ctk_anketa_lidri.html",
+      "obsah": "Veselka k hlavním úkolům, zadlužení, povolební spolupráci a placeným zónám."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.ods.cz/ms.liberec/clanek/28457-liberec-potrebuje-nove-koupaliste-ods-chce-prosadit-moderni-areal-ve-vesci",
+      "nazev": "ODS Liberec: Liberec potřebuje nové koupaliště (R. Škvor)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/ods-sportovci/ods_ms_28457.html",
+      "obsah": "Návrh koupaliště v areálu Vesec jako hlavní téma kandidatury."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.ods.cz/ms.liberec/clanek/28498-a-je-to-tady-o-liberci-se-zas-jednou-mluvi-v-celostatnich-mediich",
+      "nazev": "ODS Liberec: „A je to tady! O Liberci se zas jednou mluví…“ (D. Futschik)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/ods-sportovci/ods_ms_28498.html",
+      "obsah": "Ostrá kritika souběžných uzavírek kolem I/35 a vedení města."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.ods.cz/ms.liberec/clanek/28597-liberec-ma-tragicky-malo-mestskych-bytu",
+      "nazev": "ODS Liberec: Liberec má tragicky málo městských bytů (R. Škvor)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/ods-sportovci/ods_ms_28597.html",
+      "obsah": "Dlouhodobý program výstavby městských bytů a transparentní přidělování."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.ods.cz/ms.liberec/clanek/28625-parkovani-na-libereckych-sidlistich-aneb-problem-ktery-uz-nelze-prehlizet",
+      "nazev": "ODS Liberec: Parkování na libereckých sídlištích (P. Břeňová)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/ods-sportovci/ods_ms_28625.html",
+      "obsah": "Kritika parkovací politiky, požadavek nových kapacit na sídlištích, výhrady k rušení míst v centru."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.ods.cz/ms.liberec/clanek/28651-liberec-mesto-sportu-a-kde-je-pravda",
+      "nazev": "ODS Liberec: LIBEREC, město sportu a kde je pravda (srpen 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/ods-sportovci/ods_ms_28651.html",
+      "obsah": "Analýza stavu sportovišť a pět navrhovaných kroků (vyšší podpora mládeže, Plán rozvoje sportu aj.)."
+    },
+    {
+      "id": "s8",
+      "url": "https://www.ods.cz/ms.liberec/clanek/28709-dostupne-bydleni-pro-normalni-zivot",
+      "nazev": "ODS Liberec: Dostupné bydlení pro normální život (předseda MS Liberec, srpen 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/ods-sportovci/ods_ms_28709.html",
+      "obsah": "Zrušení/úprava příspěvků investorů ('výpalné'), byty pro profese a startovací byty, parkování."
+    },
+    {
+      "id": "s9",
+      "url": "https://www.ods.cz/ms.liberec/clanek/28774-petice-na-podporu-zameru-realizace-koupaliste-ve-sportovnim-a-rekreacnim-arealu-vesec",
+      "nazev": "ODS Liberec: Petice za koupaliště ve Vesci",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/ods-sportovci/ods_ms_28774.html",
+      "obsah": "Petice za městské koupaliště."
+    },
+    {
+      "id": "s10",
+      "url": "https://www.ods.cz/ms.liberec/clanek/28868-skolstvi-v-liberci-potrebuje-zmenu-zacit-by-mela-u-komunikace",
+      "nazev": "ODS Liberec: Školství v Liberci potřebuje změnu (P. Břeňová)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/ods-sportovci/ods_ms_28868.html",
+      "obsah": "Pravidelná komunikace města s řediteli škol."
+    },
+    {
+      "id": "s11",
+      "url": "https://www.ods.cz/ms.liberec/volby2026/komunalni/3293-liberec",
+      "nazev": "ODS: kandidátní listina ODS společně se sportovci pro Liberec",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/ods-sportovci/ods_cz_volby2026_liberec.html",
+      "obsah": "Kandidátka s příslušností kandidátů."
+    },
+    {
+      "id": "s12",
+      "url": "https://www.novinky.cz/clanek/domaci-koalice-ods-a-sportovcu-predstavila-lidra-pro-podzimni-volby-v-liberci-40564259",
+      "nazev": "Novinky.cz: Koalice ODS a Sportovců představila lídra (25. 2. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/novinky_ods_sportovci_lidr.html",
+      "obsah": "Veselka lídrem, Vadovský předsedou ODS na Liberecku, pilíře programu sport a bezpečnost; odchod z koalice po kauze Židek."
+    },
+    {
+      "id": "s13",
+      "url": "https://genus.cz/politika/lidrem-ods-v-komunalnich-volbach-v-liberci-bude-jiri-veselka-z-unie-pro-sport-a-zdravi-n727519.htm",
+      "nazev": "Genus/ČTK: Lídrem ODS v Liberci bude Jiří Veselka (25. 2. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/genus_lidr_veselka.html",
+      "obsah": "Veselkův životopis: náměstek 2000–2006, ředitel DP, KNL od 2011, od 2019 jednatel sportovní firmy v Turnově."
+    },
+    {
+      "id": "s14",
+      "url": "https://liberecky.denik.cz/zpravy-region/ods-se-spojila-se-sportovci-o-hlasy-volicu-budou-bojovat-spolecne/",
+      "nazev": "Liberecký deník: ODS se spojila se Sportovci (15. 6. 2022)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/denik_ods_spojila_sportovci.html",
+      "obsah": "Kandidátka 2022 v čele s Petrem Židkem."
+    },
+    {
+      "id": "s15",
+      "url": "https://www.ceskenoviny.cz/zpravy/2505968",
+      "nazev": "ČTK: Koalice v Liberci bude pokračovat bez ODS (15. 4. 2024)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/ctk_koalice_bez_ods_2024.html",
+      "obsah": "Vypovězení koaliční smlouvy ODS kvůli obvinění náměstka Petra Židka; ODS zrušila jeho členství a licenci místního sdružení."
+    },
+    {
+      "id": "s16",
+      "url": "https://liberec.rozhlas.cz/v-liberci-vznikla-koalice-starostu-ano-a-ods-7667169",
+      "nazev": "ČRo Liberec: V Liberci vznikla koalice Starostů, ANO a ODS (31. 10. 2018)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_koalice_2018.html",
+      "obsah": "Břeňová za ODS v radě města od 2018."
+    },
+    {
+      "id": "s17",
+      "url": "https://cs.wikipedia.org/wiki/Zastupitelstvo_m%C4%9Bsta_Liberec",
+      "nazev": "Wikipedie: Zastupitelstvo města Liberec",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+      "obsah": "Složení rad 2018–2026 a seznamy zastupitelů (Břeňová, Vadovský)."
+    },
+    {
+      "id": "s18",
+      "url": "https://www.kraj-lbc.cz/aktuality/case:detailPdf/itemId:491504/cgId:15623",
+      "nazev": "Liberecký kraj TZ: KNL má nového generálního ředitele (2. 9. 2011)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/kraj_lbc_tz_knl_veselka_2011.pdf",
+      "obsah": "Veselka zvolen předsedou představenstva a GŘ KNL; v nemocnici pracoval 1989–1999."
+    },
+    {
+      "id": "s19",
+      "url": "https://www.kraj-lbc.cz/aktuality/case:detailPdf/itemId:503634/cgId:15623",
+      "nazev": "Liberecký kraj TZ: Změny v představenstvu KNL (20. 9. 2013)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/kraj_lbc_tz_knl_rezignace_veselka_2013.pdf",
+      "obsah": "Dozorčí rada přijala Veselkovu rezignaci na post předsedy představenstva KNL."
+    },
+    {
+      "id": "s20",
+      "url": "https://www.kraj-lbc.cz/aktuality/case:detailPdf/itemId:477790/cgId:15623",
+      "nazev": "Liberecký kraj TZ: Ředitel SFDI navštívil Liberecký kraj (18. 8. 2005)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/kraj_lbc_tz_namestek_veselka.pdf",
+      "obsah": "Zmínka o náměstkovi primátora Jiřím Veselkovi (2005)."
+    },
+    {
+      "id": "s21",
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/primatorka-liberce-obvinena-kvuli-odmenam-v-tamni-nemocnici-276413",
+      "nazev": "ČT24: Primátorka Liberce obviněna kvůli odměnám v tamní nemocnici (11. 6. 2012)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/ct24_primatorka_obvinena_odmeny_knl.html",
+      "obsah": "Obvinění Rosenbergové, Bursy a Veselky kvůli schválení odměn členům dozorčí rady KNL; obvinění odmítli."
+    },
+    {
+      "id": "s22",
+      "url": "https://www.novinky.cz/clanek/krimi-policie-obvinila-z-prani-spinavych-penez-manzelku-sefa-liberecke-nemocnice-309232",
+      "nazev": "Novinky.cz: článek o kauzách KNL (25. 6. 2015)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/novinky_prani_penez_manzelka_necesany.html",
+      "obsah": "Uvádí, že stíhání Veselky v kauze odměn státní zástupce zastavil."
+    },
+    {
+      "id": "s23",
+      "url": "https://www.hlidacstatu.cz/osoba/lumir-vadovsky",
+      "nazev": "Hlídač státu: Lumír Vadovský (*1979)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/hlidacstatu_lumir-vadovsky.html",
+      "obsah": "Funkce zastupitele, dary politické straně, firma Vadovský Group s.r.o."
+    },
+    {
+      "id": "s24",
+      "url": "https://www.hlidacstatu.cz/osoba/frantisek-prihoda-1",
+      "nazev": "Hlídač státu: František Příhoda (*1968)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/hlidacstatu_frantisek-prihoda-1.html",
+      "obsah": "Dar politické straně, angažmá ve firmách (STORING spol. s r.o. aj.)."
+    },
+    {
+      "id": "s25",
+      "url": "https://www.hlidacstatu.cz/osoba/jiri-veselka",
+      "nazev": "Hlídač státu: Jiří Veselka (*1958)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/ods-sportovci/hlidacstatu_jiri-veselka_1958.html",
+      "obsah": "Evidovaná angažmá ve firmách a organizacích (shoda osoby neověřena)."
+    },
+    {
+      "id": "s26",
+      "url": "https://liberecky.denik.cz/komunalni-volby/glosa-kdo-bude-ridit-liberec-hledejte-muze-v-tricku-a-s-rukama-v-kapsach/",
+      "nazev": "Liberecký deník: Glosa – Kdo bude řídit Liberec?",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_glosa_kampan.html",
+      "obsah": "Komentář: Veselka 'zkušený harcovník', ale širší veřejnosti 'téměř utajený'; kritika kampaně kandidátů ODS na sociálních sítích."
+    },
+    {
+      "id": "s27",
+      "url": "https://liberecky.denik.cz/zpravy-region/koalice-v-liberci-smlouvu-podepsalo-vitezne-uskupeni-s-ano-ods-a-piraty/",
+      "nazev": "Liberecký deník: Koalice v Liberci – smlouvu podepsalo vítězné uskupení s ANO, ODS a Piráty (14. 10. 2022)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_koalice_2022.html",
+      "obsah": "ODS součástí koalice 2022."
+    },
+    {
+      "id": "s28",
+      "url": "https://liberecky.denik.cz/komunalni-volby/o-liberec-se-utka-11-kandidatek-podivejte-se-kdo-je-povede-do-voleb/",
+      "nazev": "Liberecký deník/ČTK: O Liberec se utká 11 kandidátek (21. 8. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_11_kandidatek.html",
+      "obsah": "ODS se Sportovci vede bývalý náměstek primátora Jiří Veselka."
+    }
+  ]
+}

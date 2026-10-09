@@ -1,0 +1,482 @@
+{
+  "cislo": 3,
+  "nazev": "PRO Právo Respekt Odbornost",
+  "zkratka": "PRO",
+  "slozeni": "PRO (strana Jindřicha Rajchla) samostatně; prvních 13 kandidátů jsou členové PRO, od č. 14 převážně nestraníci (BEZPP) navržení PRO.",
+  "web": "https://www.stranapro.cz/",
+  "program_url": null,
+  "program_local": "data/raw/programy/pro/README_program.md",
+  "shrnuti": "Liberecká kandidátka celostátní strany PRO, kterou vede krajská předsedkyně Lenka Tarabová, bývalá vratislavická zastupitelka a seniorská ombudsmanka odvolaná v roce 2021 kvůli žluté hvězdě „Neočkovaný“. Psaný lokální program se nepodařilo najít (podle lídryně je na Facebooku); z veřejných odpovědí vyplývá důraz na plánování oprav silnic, parkovací domy místo modrých zón, bezpečnost a čistotu. PRO v roce 2022 v Liberci získalo 2,65 % a žádný mandát.",
+  "zamereni": [
+    "doprava a uzavírky",
+    "parkovací domy místo modrých zón",
+    "bezpečí a čistota",
+    "„naslouchání lidem“",
+    "celostátně: suverenita, odpor ke covidovým opatřením"
+  ],
+  "zkusenost_skore": 15,
+  "zkusenost_zduvodneni": "Strana nemá a neměla zastupitele v Liberci (2022: 2,65 %); zkušenost se samosprávou má jen lídryně (zastupitelka obvodu Vratislavice 2014–2018) a z funkce seniorské ombudsmanky.",
+  "temata_pct": {
+    "doprava_parkovani": 59,
+    "bydleni": 0,
+    "rozvoj_uzemni_plan_vystavba": 0,
+    "zivotni_prostredi_zelen": 0,
+    "socialni_zdravotnictvi_seniori": 0,
+    "skolstvi_deti_rodina": 0,
+    "kultura_sport_volny_cas": 8,
+    "bezpecnost_poradek": 8,
+    "finance_hospodareni_dane": 0,
+    "sprava_transparentnost_digitalizace": 17,
+    "ekonomika_podnikani_cestovni_ruch": 0,
+    "ostatni": 8
+  },
+  "program_body": [
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Zavést pravidelnou koordinaci oprav silnic mezi magistrátem, krajem a ŘSD a celoroční harmonogram oprav s postupnou návazností („ne všechno najednou“).",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Ke každé uzavírce mít předem připravenou a přehledně značenou objížďku.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Do smluv se zhotoviteli dávat vymahatelné termíny a sankce za jejich nedodržení; denně kontrolovat, co se na stavbách skutečně děje.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Odmítnout modré (placené) zóny na sídlištích jako „zpoplatnění nedostatku“.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Stavět parkovací domy u sídlišť po dohodě s místními (inspirace Vídní a Kodaní, s veřejným prostorem v přízemí); bez lokalit a nákladů.",
+      "konkretni": false
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Parkování na sídlištích řešit v dialogu s obyvateli konkrétních lokalit.",
+      "konkretni": false
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Doprava a parkování jako hlavní priority programu sestaveného ze setkání s lidmi v ulicích.",
+      "konkretni": false
+    },
+    {
+      "tema": "bezpecnost_poradek",
+      "bod": "Bezpečí v ulicích jako jedna z priorit (bez konkrétních opatření).",
+      "konkretni": false
+    },
+    {
+      "tema": "ostatni",
+      "bod": "Čistota města jako jedna z priorit (bez konkrétních opatření).",
+      "konkretni": false
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "O případném prodeji stadionu U Nisy jednat se všemi stranami (klub, fanoušci, odborníci); téma v programu není.",
+      "konkretni": false
+    },
+    {
+      "tema": "sprava_transparentnost_digitalizace",
+      "bod": "Spravovat město „pro všechny občany, ne ve prospěch kapes vyvolených“ (deklarace bez nástrojů).",
+      "konkretni": false
+    },
+    {
+      "tema": "sprava_transparentnost_digitalizace",
+      "bod": "Naslouchat občanům po celé volební období, nejen před volbami.",
+      "konkretni": false
+    }
+  ],
+  "hodnoceni": {
+    "silne_stranky": [
+      "K dopravním uzavírkám předložila praktické návrhy (harmonogram, objížďky, smluvní sankce zhotovitelům).",
+      "Jasné stanovisko proti placeným zónám na sídlištích – srozumitelná alternativa pro voliče, kteří zpoplatnění odmítají.",
+      "Lídryně má praxi z poradenství v bydlení a z role seniorské ombudsmanky (2019–2020)."
+    ],
+    "slabe_stranky_rizika": [
+      "Psaný komunální program není veřejně dohledatelný mimo Facebook; programydovoleb.cz neobsahuje žádný program – voliči nemají jak sliby ověřit.",
+      "Návrhy nejsou vyčísleny (parkovací domy bez lokalit, nákladů a financování).",
+      "Slabé volební výsledky: 2,65 % v KV 2022, 1,28 % ve městě Liberec v krajských volbách 2024 – reálná šance na mandát je nejistá.",
+      "Malá zkušenost se správou statutárního města; zbytek čela kandidátky tvoří stranické funkcionářky a funkcionáři bez veřejně známé praxe v samosprávě.",
+      "Hlavní favorit (SLK) i další subjekty předem odmítají spolupráci, PRO by tak mělo velmi omezený koaliční potenciál."
+    ],
+    "kontroverze": [
+      {
+        "text": "Lídryně Lenka Tarabová byla v lednu 2021 odvolána z pozice seniorské ombudsmanky města poté, co na demonstraci proti covidovým opatřením nosila žlutou Davidovu hvězdu s nápisem „Neočkovaný“; Federace židovských obcí to označila za zneužití symbolu holokaustu, Tarabová označila odvolání za „totalitní praktiky“.",
+        "zdroj": "novinky_ombudsmanka,echo24_tarabova"
+      },
+      {
+        "text": "Strana GEN v květnu 2026 odmítla spolupráci s PRO v rámci uskupení Libe!; předseda GEN Vojtěch Ryvola řekl o Tarabové: „Ta paní opravdu není někdo, s kým bychom se chtěli spojovat.“ Piráti a brněnský GEN PRO označili za extremisty.",
+        "zdroj": "novinky_gen_pro"
+      },
+      {
+        "text": "Novinky.cz Tarabovou popisují jako „kontroverzní političku“, která zůstává „bojovnicí proti covidu“ a je známá „protiukrajinskými postoji“ (hodnocení redakce).",
+        "zdroj": "novinky_lidri"
+      },
+      {
+        "text": "Lídr SLK Lukáš Hájek vyloučil spolupráci s SPD a PRO, podle něj „cíleně pracují s vyvoláváním strachu a nenávisti“.",
+        "zdroj": "denik_anketa"
+      },
+      {
+        "text": "Celostátní program PRO požaduje mj. ukončení členství ČR ve WHO, zastavení dodávek zbraní na Ukrajinu a připouští opuštění NATO či EU, pokud by „ohrožovaly suverenitu“ (celostátní, ne komunální témata).",
+        "zdroj": "pro_program_cr"
+      }
+    ]
+  },
+  "povolebni_signaly": "PRO se ke koalicím veřejně nevyjádřilo (v anketě ČTK nebylo osloveno). Původně mělo podporovat kandidátku Libe! (GEN + Svobodní), GEN to ale odmítl (novinky_gen_pro, iliberecko_libe). SLK spolupráci s PRO výslovně vylučuje; L9 a LOL+Piráti odmítají „extremisty“ (denik_anketa).",
+  "kandidati": [
+    {
+      "poradi": 1,
+      "jmeno": "Lenka Tarabová",
+      "vek": 58,
+      "povolani_dle_listiny": "krajská předsedkyně PRO",
+      "prislusnost": "PRO",
+      "shrnuti": "Krajská předsedkyně PRO a kandidátka na primátorku. V letech 2014–2018 byla zastupitelkou městského obvodu Vratislavice nad Nisou (Volba pro Vratislavice, podle Novinek i radní), pracovala v bytovém poradenství (Sdružení nájemníků ČR) a 2019–2020 byla seniorskou ombudsmankou Liberce. Je zakladatelkou iniciativy Občanská neposlušnost.",
+      "politicka_kariera": [
+        {
+          "funkce": "zastupitelka MO Liberec-Vratislavice nad Nisou (lídryně Volby pro Vratislavice; podle Novinek i radní)",
+          "od": 2014,
+          "do": 2018,
+          "zdroj": "volby_gov,novinky_lidri"
+        },
+        {
+          "funkce": "lídryně Volby pro Vratislavice ve volbách 2018 (nezvolena)",
+          "od": 2018,
+          "do": 2018,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "seniorská ombudsmanka města Liberec (na dohodu přes Komunitní středisko Kontakt; nepolitická funkce)",
+          "od": 2019,
+          "do": 2021,
+          "zdroj": "drbna_tarabova,novinky_ombudsmanka"
+        },
+        {
+          "funkce": "zakladatelka iniciativy Občanská neposlušnost",
+          "od": null,
+          "do": null,
+          "zdroj": "novinky_ombudsmanka"
+        },
+        {
+          "funkce": "krajská předsedkyně PRO (Liberecký kraj)",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_kl2026,denik_kdo"
+        }
+      ],
+      "roky_v_politice": 4,
+      "zkusenost_skore": 25,
+      "soucasna_prace": "Krajská předsedkyně PRO (dle kandidátní listiny); jiné zaměstnání neuvedeno.",
+      "posledni_nepoliticka_prace": {
+        "co": "seniorská ombudsmanka (DPP s Komunitním střediskem Kontakt); předtím manažerka sociálního a bytového poradenství / Sdružení nájemníků ČR",
+        "kdy": "do 31. 12. 2020"
+      },
+      "pozitivni": [
+        {
+          "text": "Jako první liberecká seniorská ombudsmanka (od dubna 2019) pomáhala seniorům a lidem s postižením s bydlením, bezpečností, dluhy a jednáním s úřady.",
+          "zdroj": "drbna_tarabova"
+        },
+        {
+          "text": "Má zkušenost z komunální politiky (zastupitelka obvodu Vratislavice 2014–2018) a z bytového poradenství.",
+          "zdroj": "volby_gov,novinky_lidri"
+        },
+        {
+          "text": "V ČRo předložila praktické návrhy k plánování oprav silnic (harmonogram, objížďky, sankce zhotovitelům).",
+          "zdroj": "crol_special"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "V lednu 2021 na demonstraci nosila žlutou hvězdu „Neočkovaný“ a omezení při covidu přirovnávala k zacházení se Židy; město ji odvolalo, náměstek Ivan Langr (SLK) to označil za „absolutně neakceptovatelné jednání“.",
+          "zdroj": "novinky_ombudsmanka,echo24_tarabova"
+        },
+        {
+          "text": "Kvůli její osobě odmítla strana GEN společnou kandidaturu s PRO v uskupení Libe!.",
+          "zdroj": "novinky_gen_pro"
+        },
+        {
+          "text": "Novinky.cz uvádějí, že je známá „protiukrajinskými postoji“ (hodnocení redakce, konkrétní výroky nedoloženy).",
+          "zdroj": "novinky_lidri"
+        }
+      ],
+      "nejiste": "Funkce radní ve Vratislavicích uvádí jen Novinky (ČSÚ data potvrzují zastupitelský mandát 2014). Od kdy je krajskou předsedkyní PRO a zda má jiný zdroj příjmů, se nepodařilo ověřit. Případný příbuzenský vztah k Milanu Tarabovi (Sdružení nájemníků) neověřen – neuvádí se."
+    },
+    {
+      "poradi": 2,
+      "jmeno": "Ing. Jaroslav Körner",
+      "vek": 55,
+      "povolani_dle_listiny": "auditor",
+      "prislusnost": "PRO",
+      "shrnuti": "Člen PRO, podle listiny auditor. Dosud nekandidoval v libereckých, krajských ani sněmovních volbách 2014–2025 v Libereckém kraji a veřejné zmínky o něm chybí.",
+      "politicka_kariera": [
+        {
+          "funkce": "člen PRO (podle kandidátní listiny 2026)",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_kl2026"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 3,
+      "soucasna_prace": "Auditor (dle listiny).",
+      "posledni_nepoliticka_prace": {
+        "co": "auditor",
+        "kdy": "souběžně dosud (dle listiny)"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Zápis v rejstříku Komory auditorů ani zaměstnavatel neověřeny; vyhledávání bez výsledků."
+    },
+    {
+      "poradi": 3,
+      "jmeno": "Iveta Marková",
+      "vek": 57,
+      "povolani_dle_listiny": "vedoucí marketingu PRO LBK",
+      "prislusnost": "PRO",
+      "shrnuti": "Členka PRO, podle listiny vedoucí marketingu krajské organizace PRO. Dříve nekandidovala (data 2014–2025) a veřejné informace chybí.",
+      "politicka_kariera": [
+        {
+          "funkce": "vedoucí marketingu krajské organizace PRO (stranická funkce)",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_kl2026"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 3,
+      "soucasna_prace": "Vedoucí marketingu PRO Liberecký kraj (stranická role; zda placená, neznámo).",
+      "posledni_nepoliticka_prace": {
+        "co": "neznámé",
+        "kdy": "neznámé"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Profesní historie a délka stranické funkce neověřeny."
+    },
+    {
+      "poradi": 4,
+      "jmeno": "Ing. Stanislav Zich",
+      "vek": 72,
+      "povolani_dle_listiny": "předseda MO PRO Lbc",
+      "prislusnost": "PRO",
+      "shrnuti": "Předseda místní organizace PRO v Liberci, v krajských volbách 2024 kandidoval za PRO (č. 9, 14 preferenčních hlasů). Tehdy se uváděl jako IT specialista, programátor a důchodce.",
+      "politicka_kariera": [
+        {
+          "funkce": "kandidát krajských voleb za PRO (č. 9, nezvolen)",
+          "od": 2024,
+          "do": 2024,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "předseda místní organizace PRO Liberec",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_kl2026"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 5,
+      "soucasna_prace": "Předseda MO PRO; podle listiny z roku 2024 důchodce.",
+      "posledni_nepoliticka_prace": {
+        "co": "IT specialista, programátor",
+        "kdy": "neznámé (2024 uváděn i jako důchodce)"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Profesní historie a doba ve stranické funkci neověřeny."
+    },
+    {
+      "poradi": 5,
+      "jmeno": "PaedDr. Jitka Maštálková",
+      "vek": 63,
+      "povolani_dle_listiny": "pedagog",
+      "prislusnost": "PRO",
+      "shrnuti": "Členka PRO, pedagožka. V datech 2014–2025 se nevyskytuje žádná její kandidatura a veřejné zmínky chybí.",
+      "politicka_kariera": [
+        {
+          "funkce": "členka PRO (podle kandidátní listiny 2026)",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_kl2026"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 2,
+      "soucasna_prace": "Pedagožka (dle listiny).",
+      "posledni_nepoliticka_prace": {
+        "co": "pedagog",
+        "kdy": "souběžně dosud (dle listiny)"
+      },
+      "pozitivni": [],
+      "negativni": [],
+      "nejiste": "Působiště (škola) neověřeno."
+    }
+  ],
+  "zdroje": [
+    {
+      "id": "volby_gov",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ volby.cz – historie kandidatur 2014–2025 (zpracováno)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/historie_kandidatu.json",
+      "obsah": "Dřívější kandidatury a zvolení (komunální, krajské, sněmovní) podle oficiálních dat ČSÚ."
+    },
+    {
+      "id": "csu_kl2026",
+      "url": "https://www.volby.cz/opendata/opendata.htm",
+      "nazev": "ČSÚ – registrované kandidátní listiny KV 2026, Liberec",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/kandidati_2026.json",
+      "obsah": "Oficiální kandidátní listiny 2026 (věk, povolání, příslušnost, navrhující strana); surová data data/raw/volby_gov/kv2026/reg/csv_od/kvrk.csv."
+    },
+    {
+      "id": "csu_kv2022",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – výsledky KV 2022 Liberec (zpracováno)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/kandidati_2022.json",
+      "obsah": "Kandidátky a výsledky komunálních voleb 2022 v Liberci."
+    },
+    {
+      "id": "kz2024_mesto",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – výsledky krajských voleb 2024 v krajských městech",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/pruzkumy/kz2024_vysledky_krajmesta.xml",
+      "obsah": "Výsledky KZ 2024 ve městě Liberec a v Libereckém kraji (názvy stran z data/raw/volby_gov/kz2024/reg/csv/kzrkl.csv)."
+    },
+    {
+      "id": "crol_special",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-special-z-liberce-9646377",
+      "nazev": "ČRo Liberec: Komunální volby 2026 – speciál z Liberce (1. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_special_liberec_2026.html",
+      "obsah": "Neupravené odpovědi všech 11 subjektů na 3 otázky (uzavírky, parkování na sídlištích, prodej stadionu U Nisy)."
+    },
+    {
+      "id": "crol_debaty",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-debaty-s-lidry-stran-a-hnuti-ktere-kandiduji-do-9647563",
+      "nazev": "ČRo Liberec: Debaty s lídry (7. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_debaty_lidri_2026.html",
+      "obsah": "Přehled tří rozhlasových debat lídrů (pouze audio, obsah debat nepřepsán)."
+    },
+    {
+      "id": "denik_11",
+      "url": "https://liberecky.denik.cz/komunalni-volby/o-liberec-se-utka-11-kandidatek-podivejte-se-kdo-je-povede-do-voleb/",
+      "nazev": "Liberecký deník/ČTK: O Liberec se utká 11 kandidátek",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_11_kandidatek.html",
+      "obsah": "Přehled kandidátek a lídrů; Trikolora podpořila SPD; ČSA a DSZ kandidují poprvé."
+    },
+    {
+      "id": "denik_kdo",
+      "url": "https://liberecky.denik.cz/komunalni-volby/kdo-chce-vladnout-liberci-ostrileni-matadori-i-kuriozity-zname-jmena/",
+      "nazev": "Liberecký deník: Kdo chce vládnout Liberci? Ostřílení matadoři i kuriozity",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_kdo_chce_vladnout.html",
+      "obsah": "Profesní složení kandidátek, lídři, glosa o kandidátce ČSA."
+    },
+    {
+      "id": "denik_anketa",
+      "url": "https://liberecky.denik.cz/zpravy-region/v-liberci-chteji-volebni-lidri-investovat-do-dopravy-bytu-ci-verejneho-prostoru/",
+      "nazev": "Liberecký deník/ČTK: V Liberci chtějí volební lídři investovat do dopravy, bytů či veřejného prostoru (14. 9. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/spd/denik_ctk_anketa_lidri_2026.html",
+      "obsah": "Anketa ČTK s lídry 7 subjektů se zastupiteli: priority, zadlužení, povolební spolupráce, parkování."
+    },
+    {
+      "id": "pdv_pro",
+      "url": "https://programydovoleb.cz/volby/komunalni-volby/176/strana/164226",
+      "nazev": "Programy do voleb: PRO Liberec 2026",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/pro/programydovoleb_strana_164226.html",
+      "obsah": "Kandidátka PRO; žádný volební program nevložen."
+    },
+    {
+      "id": "pro_program_stav",
+      "url": "https://www.stranapro.cz/volby-2026/",
+      "nazev": "Stav dohledání programu PRO Liberec",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/pro/README_program.md",
+      "obsah": "Lokální program je podle lídryně jen na Facebooku (nedostupné bez přihlášení); na webu strany chybí."
+    },
+    {
+      "id": "pro_volby2026",
+      "url": "https://www.stranapro.cz/volby-2026/",
+      "nazev": "stranapro.cz: Volby 2026",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/pro/stranapro_volby2026.html",
+      "obsah": "Mapa kandidátek PRO (110 komunálních kandidátek), bez libereckého programu."
+    },
+    {
+      "id": "pro_program_cr",
+      "url": "https://www.stranapro.cz/program-pro-cr/",
+      "nazev": "stranapro.cz: Program PRO pro ČR (celostátní)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/pro/stranapro_program_cr.html",
+      "obsah": "Celostátní program: suverenita, odchod z WHO, zastavení dodávek zbraní na Ukrajinu, kritika „politických neziskovek“, bydlení aj."
+    },
+    {
+      "id": "crol_debata1",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-debaty-s-lidry-stran-a-hnuti-ktere-kandiduji-do-9647563/1",
+      "nazev": "ČRo Liberec: Debata SLK, PRO, ANO, ODS (7. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/pro/crol_debata1_pro.html",
+      "obsah": "Anotace debaty s L. Tarabovou (bydlení, doprava, parkování, MHD); jen audio."
+    },
+    {
+      "id": "novinky_lidri",
+      "url": "https://www.novinky.cz/clanek/volby-komunalni-do-cela-liberce-chce-kontroverzni-politicka-i-neznami-kandidati-40591579",
+      "nazev": "Novinky.cz: Do čela Liberce chce kontroverzní politička i neznámí kandidáti (6. 8. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/pro/novinky_lidri_kontroverzni_2026.html",
+      "obsah": "Profil lídrů; Tarabová – bývalá radní Vratislavic a seniorská ombudsmanka, kontroverze 2021, původně podpora Libe!."
+    },
+    {
+      "id": "novinky_gen_pro",
+      "url": "https://www.novinky.cz/clanek/domaci-zpravy-liberecky-kraj-strana-byvaleho-politika-ano-zatrhla-svym-clenum-v-liberci-spolupraci-s-rajchlovci-40577695",
+      "nazev": "Novinky.cz: Strana bývalého politika ANO zatrhla svým členům v Liberci spolupráci s Rajchlovci (12. 5. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/pro/novinky_gen_zatrhl_rajchlovci_2026.html",
+      "obsah": "Předseda GEN odmítl spolupráci s PRO kvůli osobě Tarabové; Piráti a GEN Brno označili PRO za extremisty."
+    },
+    {
+      "id": "iliberecko_libe",
+      "url": "https://www.iliberecko.cz/v-liberci-vzniklo-nove-volebni-uskupeni-libe-slibuje-jiny-styl-rizeni-mesta",
+      "nazev": "iLiberecko: V Liberci vzniklo nové volební uskupení Libe! (květen 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/iliberecko_vzniklo_libe.html",
+      "obsah": "Libe! vzniklo jako kandidátka GEN a Svobodných s podporou PRO (smlouva 4. 5. 2026); citace Tarabové."
+    },
+    {
+      "id": "novinky_ombudsmanka",
+      "url": "https://www.novinky.cz/clanek/domaci-liberec-odvolal-ombudsmanku-pro-seniory-byla-na-demonstraci-s-pripnutou-davidovou-hvezdou-40347445",
+      "nazev": "Novinky.cz: Liberec odvolal ombudsmanku pro seniory (11. 1. 2021)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/pro/novinky_ombudsmanka_odvolana_2021.html",
+      "obsah": "Odvolání Tarabové po demonstraci se žlutou hvězdou „Neočkovaný“; reakce FŽO, náměstka Langra a ředitele Kontaktu."
+    },
+    {
+      "id": "drbna_tarabova",
+      "url": "https://liberecka.drbna.cz/spolecnost/25132-za-vsim-si-stojim-brani-se-ve-videu-na-facebooku-odvolana-liberecka-ombudsmanka.html",
+      "nazev": "Liberecká Drbna: Za vším si stojím, brání se odvolaná ombudsmanka (11. 1. 2021)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/pro/drbna_tarabova_video_2021.html",
+      "obsah": "Tarabová byla ombudsmankou od dubna 2019, pomáhala seniorům s bydlením, dluhy, úřady; obhajoba použití hvězdy."
+    },
+    {
+      "id": "echo24_tarabova",
+      "url": "https://www.echo24.cz/a/SnAeZ/noseni-zlute-hvezdy-ji-stalo-misto-odpurkyne-ockovani-mluvi-o-totalitnich-praktikach",
+      "nazev": "Echo24: Nošení žluté hvězdy ji stálo místo (14. 1. 2021)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/pro/echo24_tarabova_2021.html",
+      "obsah": "Tarabová vystupuje za výzvu Občanská neposlušnost; odvolání označila za „totalitní praktiky“; prohlášení církví a FŽO."
+    }
+  ]
+}

@@ -1,0 +1,1033 @@
+{
+ "osoby": [
+  {
+   "jmeno": "Ing. Tomáš Paleček",
+   "cislo": 1,
+   "poradi": 1,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "SPD"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 95.6,
+   "pro_pct": 90.9,
+   "proti_pct": 3.9,
+   "zdrzel_pct": 5.2,
+   "nehlasoval_pct": 1.2,
+   "odchylka_od_klubu_pct": 10.3,
+   "spornych": 291
+  },
+  {
+   "jmeno": "Milan Šír",
+   "cislo": 1,
+   "poradi": 3,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "SPD"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 99.7,
+   "pro_pct": 91.9,
+   "proti_pct": 1.5,
+   "zdrzel_pct": 6.7,
+   "nehlasoval_pct": 2.5,
+   "odchylka_od_klubu_pct": 11.6,
+   "spornych": 294
+  },
+  {
+   "jmeno": "Ladislav Fejtek",
+   "cislo": 1,
+   "poradi": 8,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "SPD"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 97.3,
+   "pro_pct": 89.1,
+   "proti_pct": 2.0,
+   "zdrzel_pct": 8.9,
+   "nehlasoval_pct": 2.7,
+   "odchylka_od_klubu_pct": 15.2,
+   "spornych": 289
+  },
+  {
+   "jmeno": "Zdeněk Chmelík",
+   "cislo": 2,
+   "poradi": 1,
+   "od": "2018-11-20",
+   "do": "2022-09-15",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 1675,
+   "ucast_pct": 89.6,
+   "pro_pct": 93.0,
+   "proti_pct": 4.2,
+   "zdrzel_pct": 2.8,
+   "nehlasoval_pct": 1.5,
+   "odchylka_od_klubu_pct": 8.8,
+   "spornych": 374
+  },
+  {
+   "jmeno": "Mgr. Jan Marek",
+   "cislo": 2,
+   "poradi": 2,
+   "od": "2016-01-28",
+   "do": "2026-09-24",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 4546,
+   "ucast_pct": 80.0,
+   "pro_pct": 87.5,
+   "proti_pct": 2.9,
+   "zdrzel_pct": 9.6,
+   "nehlasoval_pct": 4.0,
+   "odchylka_od_klubu_pct": 18.5,
+   "spornych": 1077
+  },
+  {
+   "jmeno": "Hana Zemanová",
+   "cislo": 2,
+   "poradi": 6,
+   "od": "2018-11-20",
+   "do": "2026-09-24",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 3234,
+   "ucast_pct": 90.1,
+   "pro_pct": 95.1,
+   "proti_pct": 1.2,
+   "zdrzel_pct": 3.7,
+   "nehlasoval_pct": 2.5,
+   "odchylka_od_klubu_pct": 8.9,
+   "spornych": 616
+  },
+  {
+   "jmeno": "Bc. Jiří Zavoral",
+   "cislo": 2,
+   "poradi": 10,
+   "od": "2018-11-20",
+   "do": "2022-09-15",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 1675,
+   "ucast_pct": 95.2,
+   "pro_pct": 93.1,
+   "proti_pct": 2.8,
+   "zdrzel_pct": 4.0,
+   "nehlasoval_pct": 0.9,
+   "odchylka_od_klubu_pct": 17.8,
+   "spornych": 387
+  },
+  {
+   "jmeno": "Adam Lenert",
+   "cislo": 4,
+   "poradi": 2,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "ANO"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 98.8,
+   "pro_pct": 95.1,
+   "proti_pct": 1.3,
+   "zdrzel_pct": 3.6,
+   "nehlasoval_pct": 1.6,
+   "odchylka_od_klubu_pct": 7.2,
+   "spornych": 292
+  },
+  {
+   "jmeno": "Ing. Bc. Vít Kyzlink",
+   "cislo": 4,
+   "poradi": 3,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "ANO"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 91.3,
+   "pro_pct": 94.9,
+   "proti_pct": 0.7,
+   "zdrzel_pct": 4.5,
+   "nehlasoval_pct": 3.1,
+   "odchylka_od_klubu_pct": 5.6,
+   "spornych": 267
+  },
+  {
+   "jmeno": "Ing. Jan Majzner",
+   "cislo": 4,
+   "poradi": 4,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "ANO"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 99.7,
+   "pro_pct": 95.2,
+   "proti_pct": 1.0,
+   "zdrzel_pct": 3.8,
+   "nehlasoval_pct": 1.2,
+   "odchylka_od_klubu_pct": 6.3,
+   "spornych": 302
+  },
+  {
+   "jmeno": "Ing. Libor Ježek",
+   "cislo": 4,
+   "poradi": 8,
+   "od": "2019-10-24",
+   "do": "2022-09-15",
+   "kluby": [
+    "ANO"
+   ],
+   "hlasovani": 1271,
+   "ucast_pct": 89.6,
+   "pro_pct": 94.8,
+   "proti_pct": 2.7,
+   "zdrzel_pct": 2.5,
+   "nehlasoval_pct": 2.1,
+   "odchylka_od_klubu_pct": 11.2,
+   "spornych": 268
+  },
+  {
+   "jmeno": "Vítězslav Kvapil",
+   "cislo": 4,
+   "poradi": 9,
+   "od": "2018-11-20",
+   "do": "2026-09-24",
+   "kluby": [
+    "ANO"
+   ],
+   "hlasovani": 2475,
+   "ucast_pct": 81.9,
+   "pro_pct": 93.6,
+   "proti_pct": 2.0,
+   "zdrzel_pct": 4.4,
+   "nehlasoval_pct": 2.4,
+   "odchylka_od_klubu_pct": 9.3,
+   "spornych": 454
+  },
+  {
+   "jmeno": "Ing. Radomil Mrklas",
+   "cislo": 4,
+   "poradi": 16,
+   "od": "2026-02-26",
+   "do": "2026-09-24",
+   "kluby": [
+    "ANO"
+   ],
+   "hlasovani": 276,
+   "ucast_pct": 100.0,
+   "pro_pct": 95.9,
+   "proti_pct": 0.7,
+   "zdrzel_pct": 3.4,
+   "nehlasoval_pct": 3.3,
+   "odchylka_od_klubu_pct": 13.3,
+   "spornych": 45
+  },
+  {
+   "jmeno": "Tibor Batthyány",
+   "cislo": 5,
+   "poradi": 1,
+   "od": "2016-01-28",
+   "do": "2018-09-27",
+   "kluby": [
+    "ANO"
+   ],
+   "hlasovani": 1312,
+   "ucast_pct": 91.7,
+   "pro_pct": 89.1,
+   "proti_pct": 4.2,
+   "zdrzel_pct": 6.8,
+   "nehlasoval_pct": 1.9,
+   "odchylka_od_klubu_pct": 4.8,
+   "spornych": 207
+  },
+  {
+   "jmeno": "Tomáš Kysela",
+   "cislo": 5,
+   "poradi": 3,
+   "od": "2016-01-28",
+   "do": "2018-09-27",
+   "kluby": [
+    "ANO"
+   ],
+   "hlasovani": 1312,
+   "ucast_pct": 100.0,
+   "pro_pct": 89.3,
+   "proti_pct": 4.2,
+   "zdrzel_pct": 6.4,
+   "nehlasoval_pct": 2.7,
+   "odchylka_od_klubu_pct": 5.9,
+   "spornych": 219
+  },
+  {
+   "jmeno": "Libuše Vítová",
+   "cislo": 5,
+   "poradi": 4,
+   "od": "2016-01-28",
+   "do": "2018-09-27",
+   "kluby": [
+    "ANO"
+   ],
+   "hlasovani": 1312,
+   "ucast_pct": 95.3,
+   "pro_pct": 88.1,
+   "proti_pct": 1.9,
+   "zdrzel_pct": 10.0,
+   "nehlasoval_pct": 3.4,
+   "odchylka_od_klubu_pct": 6.8,
+   "spornych": 207
+  },
+  {
+   "jmeno": "Mgr. Jan Hruška",
+   "cislo": 6,
+   "poradi": 1,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "Piráti"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 94.4,
+   "pro_pct": 95.4,
+   "proti_pct": 0.9,
+   "zdrzel_pct": 3.7,
+   "nehlasoval_pct": 2.9,
+   "odchylka_od_klubu_pct": 0.0,
+   "spornych": 283
+  },
+  {
+   "jmeno": "Bc. Zuzana Kocumová",
+   "cislo": 6,
+   "poradi": 2,
+   "od": "2016-01-28",
+   "do": "2026-09-24",
+   "kluby": [
+    "LOL",
+    "Změna pro Liberec"
+   ],
+   "hlasovani": 4546,
+   "ucast_pct": 86.2,
+   "pro_pct": 88.0,
+   "proti_pct": 4.7,
+   "zdrzel_pct": 7.3,
+   "nehlasoval_pct": 9.2,
+   "odchylka_od_klubu_pct": 11.4,
+   "spornych": 1036
+  },
+  {
+   "jmeno": "Mgr. Jindřich Felcman Ph.D.",
+   "cislo": 6,
+   "poradi": 3,
+   "od": "2019-05-30",
+   "do": "2026-09-24",
+   "kluby": [
+    "LOL",
+    "Změna pro Liberec"
+   ],
+   "hlasovani": 3003,
+   "ucast_pct": 94.6,
+   "pro_pct": 85.5,
+   "proti_pct": 7.5,
+   "zdrzel_pct": 7.1,
+   "nehlasoval_pct": 7.5,
+   "odchylka_od_klubu_pct": 13.7,
+   "spornych": 608
+  },
+  {
+   "jmeno": "prof. Ing. Josef Šedlbauer Ph.D.",
+   "cislo": 6,
+   "poradi": 5,
+   "od": "2016-01-28",
+   "do": "2026-09-24",
+   "kluby": [
+    "LOL",
+    "Změna pro Liberec"
+   ],
+   "hlasovani": 4546,
+   "ucast_pct": 91.6,
+   "pro_pct": 90.3,
+   "proti_pct": 4.1,
+   "zdrzel_pct": 5.6,
+   "nehlasoval_pct": 6.8,
+   "odchylka_od_klubu_pct": 8.1,
+   "spornych": 1173
+  },
+  {
+   "jmeno": "Mgr. Petr Slanina Ph.D., LL.M., MBA",
+   "cislo": 6,
+   "poradi": 7,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "Piráti"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 93.7,
+   "pro_pct": 95.3,
+   "proti_pct": 0.9,
+   "zdrzel_pct": 3.8,
+   "nehlasoval_pct": 0.5,
+   "odchylka_od_klubu_pct": 3.2,
+   "spornych": 279
+  },
+  {
+   "jmeno": "PhDr. Jaromír Baxa Ph.D.",
+   "cislo": 6,
+   "poradi": 9,
+   "od": "2016-01-28",
+   "do": "2026-09-24",
+   "kluby": [
+    "LOL",
+    "Změna pro Liberec"
+   ],
+   "hlasovani": 4546,
+   "ucast_pct": 84.1,
+   "pro_pct": 81.7,
+   "proti_pct": 8.3,
+   "zdrzel_pct": 10.0,
+   "nehlasoval_pct": 17.8,
+   "odchylka_od_klubu_pct": 11.5,
+   "spornych": 1030
+  },
+  {
+   "jmeno": "MUDr. Anna Kšírová",
+   "cislo": 6,
+   "poradi": 12,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "LOL"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 83.9,
+   "pro_pct": 87.4,
+   "proti_pct": 5.2,
+   "zdrzel_pct": 7.4,
+   "nehlasoval_pct": 7.2,
+   "odchylka_od_klubu_pct": 6.0,
+   "spornych": 248
+  },
+  {
+   "jmeno": "Jindřich Gubiš",
+   "cislo": 6,
+   "poradi": 15,
+   "od": "2020-11-26",
+   "do": "2022-09-15",
+   "kluby": [
+    "Změna pro Liberec"
+   ],
+   "hlasovani": 831,
+   "ucast_pct": 99.9,
+   "pro_pct": 89.4,
+   "proti_pct": 5.4,
+   "zdrzel_pct": 5.2,
+   "nehlasoval_pct": 2.4,
+   "odchylka_od_klubu_pct": 19.6,
+   "spornych": 204
+  },
+  {
+   "jmeno": "Ing. Jan Stárek",
+   "cislo": 6,
+   "poradi": 19,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "LOL"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 92.0,
+   "pro_pct": 88.6,
+   "proti_pct": 3.9,
+   "zdrzel_pct": 7.5,
+   "nehlasoval_pct": 5.0,
+   "odchylka_od_klubu_pct": 9.5,
+   "spornych": 253
+  },
+  {
+   "jmeno": "Mgr. Ondřej Petrovský",
+   "cislo": 6,
+   "poradi": 25,
+   "od": "2016-01-28",
+   "do": "2022-09-15",
+   "kluby": [
+    "Změna pro Liberec"
+   ],
+   "hlasovani": 2987,
+   "ucast_pct": 87.1,
+   "pro_pct": 85.3,
+   "proti_pct": 5.8,
+   "zdrzel_pct": 8.9,
+   "nehlasoval_pct": 13.9,
+   "odchylka_od_klubu_pct": 11.2,
+   "spornych": 927
+  },
+  {
+   "jmeno": "Bc. Martina Teplá",
+   "cislo": 9,
+   "poradi": 1,
+   "od": "2018-11-20",
+   "do": "2026-09-24",
+   "kluby": [
+    "ANO",
+    "bez klubu"
+   ],
+   "hlasovani": 3234,
+   "ucast_pct": 78.2,
+   "pro_pct": 93.4,
+   "proti_pct": 0.7,
+   "zdrzel_pct": 6.0,
+   "nehlasoval_pct": 7.0,
+   "odchylka_od_klubu_pct": 12.3,
+   "spornych": 512
+  },
+  {
+   "jmeno": "Lukáš Pohanka",
+   "cislo": 9,
+   "poradi": 2,
+   "od": "2018-11-20",
+   "do": "2026-09-24",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 3234,
+   "ucast_pct": 76.7,
+   "pro_pct": 95.6,
+   "proti_pct": 1.6,
+   "zdrzel_pct": 2.8,
+   "nehlasoval_pct": 3.8,
+   "odchylka_od_klubu_pct": 8.2,
+   "spornych": 523
+  },
+  {
+   "jmeno": "Ing. Martin Hoza",
+   "cislo": 9,
+   "poradi": 8,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "ODS",
+    "bez klubu"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 90.4,
+   "pro_pct": 92.4,
+   "proti_pct": 1.8,
+   "zdrzel_pct": 5.8,
+   "nehlasoval_pct": 2.9,
+   "odchylka_od_klubu_pct": 9.6,
+   "spornych": 260
+  },
+  {
+   "jmeno": "Lumír Vadovský",
+   "cislo": 10,
+   "poradi": 2,
+   "od": "2018-11-20",
+   "do": "2022-09-15",
+   "kluby": [
+    "ODS"
+   ],
+   "hlasovani": 1675,
+   "ucast_pct": 97.6,
+   "pro_pct": 91.3,
+   "proti_pct": 4.1,
+   "zdrzel_pct": 4.6,
+   "nehlasoval_pct": 1.1,
+   "odchylka_od_klubu_pct": 7.5,
+   "spornych": 400
+  },
+  {
+   "jmeno": "Petra Břeňová",
+   "cislo": 10,
+   "poradi": 3,
+   "od": "2018-11-20",
+   "do": "2026-09-24",
+   "kluby": [
+    "ODS"
+   ],
+   "hlasovani": 3234,
+   "ucast_pct": 85.8,
+   "pro_pct": 90.9,
+   "proti_pct": 2.7,
+   "zdrzel_pct": 6.4,
+   "nehlasoval_pct": 5.4,
+   "odchylka_od_klubu_pct": 4.6,
+   "spornych": 570
+  },
+  {
+   "jmeno": "Mgr. Lukáš Hájek M.A., Ph.D.",
+   "cislo": 11,
+   "poradi": 1,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 98.4,
+   "pro_pct": 95.4,
+   "proti_pct": 1.1,
+   "zdrzel_pct": 3.6,
+   "nehlasoval_pct": 0.9,
+   "odchylka_od_klubu_pct": 2.6,
+   "spornych": 302
+  },
+  {
+   "jmeno": "Ing. Jaroslav Zámečník CSc.",
+   "cislo": 11,
+   "poradi": 2,
+   "od": "2016-01-28",
+   "do": "2026-09-24",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 4546,
+   "ucast_pct": 95.6,
+   "pro_pct": 92.2,
+   "proti_pct": 3.1,
+   "zdrzel_pct": 4.8,
+   "nehlasoval_pct": 2.3,
+   "odchylka_od_klubu_pct": 12.1,
+   "spornych": 1275
+  },
+  {
+   "jmeno": "Ing. arch. Ing. Jiří Janďourek",
+   "cislo": 11,
+   "poradi": 4,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 96.0,
+   "pro_pct": 96.0,
+   "proti_pct": 1.0,
+   "zdrzel_pct": 3.0,
+   "nehlasoval_pct": 3.7,
+   "odchylka_od_klubu_pct": 5.2,
+   "spornych": 269
+  },
+  {
+   "jmeno": "doc. PhDr. David Václavík Ph.D.",
+   "cislo": 11,
+   "poradi": 5,
+   "od": "2016-01-28",
+   "do": "2018-09-27",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 1312,
+   "ucast_pct": 65.4,
+   "pro_pct": 86.0,
+   "proti_pct": 2.5,
+   "zdrzel_pct": 11.5,
+   "nehlasoval_pct": 3.3,
+   "odchylka_od_klubu_pct": 11.8,
+   "spornych": 390
+  },
+  {
+   "jmeno": "Matyáš Moc",
+   "cislo": 11,
+   "poradi": 6,
+   "od": "2022-10-18",
+   "do": "2026-09-24",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 1559,
+   "ucast_pct": 100.0,
+   "pro_pct": 95.6,
+   "proti_pct": 1.2,
+   "zdrzel_pct": 3.2,
+   "nehlasoval_pct": 0.6,
+   "odchylka_od_klubu_pct": 5.3,
+   "spornych": 300
+  },
+  {
+   "jmeno": "Ing. Jakub Vytiska",
+   "cislo": 11,
+   "poradi": 7,
+   "od": "2019-10-24",
+   "do": "2026-09-24",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 2830,
+   "ucast_pct": 91.3,
+   "pro_pct": 95.0,
+   "proti_pct": 1.7,
+   "zdrzel_pct": 3.3,
+   "nehlasoval_pct": 0.8,
+   "odchylka_od_klubu_pct": 4.6,
+   "spornych": 548
+  },
+  {
+   "jmeno": "Robert Prade",
+   "cislo": 11,
+   "poradi": 9,
+   "od": "2018-11-20",
+   "do": "2026-09-24",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 3234,
+   "ucast_pct": 95.4,
+   "pro_pct": 94.3,
+   "proti_pct": 1.1,
+   "zdrzel_pct": 4.6,
+   "nehlasoval_pct": 2.0,
+   "odchylka_od_klubu_pct": 6.2,
+   "spornych": 665
+  },
+  {
+   "jmeno": "PhDr. Mgr. Ivan Langr Ph.D.",
+   "cislo": 11,
+   "poradi": 10,
+   "od": "2016-01-28",
+   "do": "2026-09-24",
+   "kluby": [
+    "BEZ",
+    "SLK",
+    "SZ",
+    "Změna pro Liberec"
+   ],
+   "hlasovani": 4546,
+   "ucast_pct": 96.3,
+   "pro_pct": 94.9,
+   "proti_pct": 1.2,
+   "zdrzel_pct": 3.9,
+   "nehlasoval_pct": 2.8,
+   "odchylka_od_klubu_pct": 4.2,
+   "spornych": 1276
+  },
+  {
+   "jmeno": "RNDr. Michal Hron",
+   "cislo": 11,
+   "poradi": 18,
+   "od": "2016-01-28",
+   "do": "2026-09-24",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 3463,
+   "ucast_pct": 91.2,
+   "pro_pct": 88.4,
+   "proti_pct": 5.5,
+   "zdrzel_pct": 6.1,
+   "nehlasoval_pct": 4.9,
+   "odchylka_od_klubu_pct": 15.8,
+   "spornych": 1079
+  },
+  {
+   "jmeno": "Ing. Květa Vinklátová",
+   "cislo": 11,
+   "poradi": 19,
+   "od": "2016-01-28",
+   "do": "2022-09-15",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 2987,
+   "ucast_pct": 68.2,
+   "pro_pct": 89.6,
+   "proti_pct": 3.1,
+   "zdrzel_pct": 7.3,
+   "nehlasoval_pct": 3.6,
+   "odchylka_od_klubu_pct": 9.8,
+   "spornych": 731
+  },
+  {
+   "jmeno": "MVDr. David Nejedlo",
+   "cislo": 11,
+   "poradi": 22,
+   "od": "2018-11-20",
+   "do": "2022-09-15",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 1675,
+   "ucast_pct": 93.3,
+   "pro_pct": 93.8,
+   "proti_pct": 2.6,
+   "zdrzel_pct": 3.6,
+   "nehlasoval_pct": 1.6,
+   "odchylka_od_klubu_pct": 2.6,
+   "spornych": 378
+  },
+  {
+   "jmeno": "Ing. Jarmila Levko",
+   "cislo": 11,
+   "poradi": 33,
+   "od": "2018-11-20",
+   "do": "2022-09-15",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 1675,
+   "ucast_pct": 85.6,
+   "pro_pct": 93.2,
+   "proti_pct": 2.3,
+   "zdrzel_pct": 4.4,
+   "nehlasoval_pct": 2.0,
+   "odchylka_od_klubu_pct": 9.9,
+   "spornych": 344
+  },
+  {
+   "jmeno": "Mgr. Jan Berki Ph.D.",
+   "cislo": 11,
+   "poradi": 39,
+   "od": "2016-01-28",
+   "do": "2022-09-15",
+   "kluby": [
+    "SLK"
+   ],
+   "hlasovani": 2987,
+   "ucast_pct": 80.5,
+   "pro_pct": 84.7,
+   "proti_pct": 4.3,
+   "zdrzel_pct": 11.0,
+   "nehlasoval_pct": 6.0,
+   "odchylka_od_klubu_pct": 20.8,
+   "spornych": 807
+  }
+ ],
+ "kluby": {
+  "2014–2018": {
+   "kluby": [
+    "Změna pro Liberec",
+    "SLK",
+    "KSČM",
+    "ČSSD",
+    "ODS",
+    "TOP 09",
+    "BEZPP",
+    "ANO",
+    "Nezávislá"
+   ],
+   "spornych": 675,
+   "shoda": [
+    [
+     100,
+     61,
+     40,
+     51,
+     43,
+     37,
+     31,
+     86,
+     70
+    ],
+    [
+     61,
+     100,
+     50,
+     54,
+     53,
+     44,
+     39,
+     57,
+     69
+    ],
+    [
+     40,
+     50,
+     100,
+     47,
+     50,
+     43,
+     49,
+     38,
+     51
+    ],
+    [
+     51,
+     54,
+     47,
+     100,
+     55,
+     55,
+     45,
+     32,
+     74
+    ],
+    [
+     43,
+     53,
+     50,
+     55,
+     100,
+     52,
+     53,
+     49,
+     58
+    ],
+    [
+     37,
+     44,
+     43,
+     55,
+     52,
+     100,
+     49,
+     34,
+     50
+    ],
+    [
+     31,
+     39,
+     49,
+     45,
+     53,
+     49,
+     100,
+     null,
+     45
+    ],
+    [
+     86,
+     57,
+     38,
+     32,
+     49,
+     34,
+     null,
+     100,
+     null
+    ],
+    [
+     70,
+     69,
+     51,
+     74,
+     58,
+     50,
+     45,
+     null,
+     100
+    ]
+   ]
+  },
+  "2018–2022": {
+   "kluby": [
+    "ANO",
+    "SLK",
+    "ODS",
+    "Změna pro Liberec",
+    "LOL"
+   ],
+   "spornych": 412,
+   "shoda": [
+    [
+     100,
+     85,
+     79,
+     27,
+     20
+    ],
+    [
+     85,
+     100,
+     75,
+     27,
+     18
+    ],
+    [
+     79,
+     75,
+     100,
+     27,
+     20
+    ],
+    [
+     27,
+     27,
+     27,
+     100,
+     61
+    ],
+    [
+     20,
+     18,
+     20,
+     61,
+     100
+    ]
+   ]
+  },
+  "2022–2026": {
+   "kluby": [
+    "LOL",
+    "SLK",
+    "Piráti",
+    "ANO",
+    "SPD",
+    "ODS"
+   ],
+   "spornych": 300,
+   "shoda": [
+    [
+     100,
+     27,
+     35,
+     26,
+     28,
+     24
+    ],
+    [
+     27,
+     100,
+     84,
+     89,
+     58,
+     64
+    ],
+    [
+     35,
+     84,
+     100,
+     81,
+     52,
+     58
+    ],
+    [
+     26,
+     89,
+     81,
+     100,
+     61,
+     65
+    ],
+    [
+     28,
+     58,
+     52,
+     61,
+     100,
+     55
+    ],
+    [
+     24,
+     64,
+     58,
+     65,
+     55,
+     100
+    ]
+   ]
+  }
+ },
+ "metodika": "Sporné hlasování = alespoň 3 hlasy pro a alespoň 3 proti nebo zdržel se. Pozice klubu = nejčastější volba (pro / proti / zdržel se) přítomných hlasujících členů klubu. Odchylka od klubu = podíl sporných hlasování, kde zastupitel hlasoval jinak než většina jeho klubu. Účast = podíl hlasování, kdy nebyl veden jako nepřítomný.",
+ "celkem_hlasovani": 4546,
+ "spornych_celkem": 1387
+}

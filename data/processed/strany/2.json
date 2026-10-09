@@ -1,0 +1,239 @@
+{
+  "cislo": 2,
+  "nazev": "LIBERECKÁ 9",
+  "zkratka": "L9",
+  "slozeni": "KDU-ČSL + TOP 09 + nezávislí kandidáti (NK); lídr Zdeněk Chmelík (TOP 09). Obě strany v letech 2018 a 2022 kandidovaly na společné kandidátce se Starosty pro Liberecký kraj (SLK).",
+  "web": "https://libereckadevitka.cz/",
+  "program_url": "https://libereckadevitka.cz/#program",
+  "program_local": "data/raw/programy/liberecka9/program_liberecka9_2026.md",
+  "shrnuti": "Nová společná kandidátka TOP 09, KDU-ČSL a nestraníků pod heslem „Všichni jsme Liberec“, kterou vede podnikatel Zdeněk Chmelík (TOP 09). Obě strany byly osm let součástí vládnoucího uskupení Starostů pro Liberecký kraj; v dubnu 2026 TOP 09 spolupráci vypověděla a kandidují samostatně. Program má devět témat se zřetelným důrazem na parkování a dopravu, řízení městských firem, kontrolu zadlužení a velkých investic, kulturu a péči o seniory.",
+  "zamereni": ["parkování a doprava", "hospodaření a dluh města", "řízení městských firem", "kultura a divadlo", "senioři a pečující", "čtvrti a místní komise"],
+  "zkusenost_skore": 45,
+  "zkusenost_zduvodneni": "TOP 09 a KDU-ČSL mají osm let zkušeností z vládnoucího klubu SLK, ale nikdo z první pětky nebyl radním ani náměstkem. Jan Marek má 12 let v zastupitelstvu a vedl výbor pro rozvoj, Zdeněk Chmelík byl zastupitelem v letech 2018–2022; ostatní lídři komunální mandát nikdy nezastávali.",
+  "temata_pct": {
+    "doprava_parkovani": 15,
+    "bydleni": 7,
+    "rozvoj_uzemni_plan_vystavba": 6,
+    "zivotni_prostredi_zelen": 8,
+    "socialni_zdravotnictvi_seniori": 8,
+    "skolstvi_deti_rodina": 8,
+    "kultura_sport_volny_cas": 11,
+    "bezpecnost_poradek": 8,
+    "finance_hospodareni_dane": 8,
+    "sprava_transparentnost_digitalizace": 12,
+    "ekonomika_podnikani_cestovni_ruch": 1,
+    "ostatni": 8
+  },
+  "program_body": [
+    {"tema": "doprava_parkovani", "bod": "Postavit nejméně tři multifunkční parkovací domy na sídlištích (pozemek od města, hlavní investice od soukromého partnera, placené garantované místo) a parkovací domy v Pastýřské ulici (s lávkou do centra) a u vlakového nádraží", "konkretni": true},
+    {"tema": "doprava_parkovani", "bod": "Snížit nejvyšší sazbu parkovného v centru z 80 na 40 Kč za hodinu a zrevidovat parkovací zóny", "konkretni": true},
+    {"tema": "doprava_parkovani", "bod": "Zvýšit investice do oprav komunikací o polovinu a opravit nejméně 100 ulic za rok", "konkretni": true},
+    {"tema": "doprava_parkovani", "bod": "Zřídit městského koordinátora dopravních staveb a uzavírek s pravomocí napříč odbory a jednu průběžně aktualizovanou mapu uzavírek a objížděk", "konkretni": true},
+    {"tema": "doprava_parkovani", "bod": "Prosadit přímé napojení průmyslové zóny Sever na silnici I/35 a tlačit na kraj kvůli napojení zóny Jih", "konkretni": true},
+    {"tema": "doprava_parkovani", "bod": "Připravit alternativu k tramvajové trati do Rochlice, která má být levnější a šetrnější k zástavbě", "konkretni": false},
+    {"tema": "doprava_parkovani", "bod": "Místo cyklopruhů na rušných silnicích stavět oddělené cyklostezky; platbu kartou přímo ve voze MHD; propojit a zmodernizovat semafory (mimo špičku vypínat)", "konkretni": true},
+    {"tema": "doprava_parkovani", "bod": "Na sídlištích zavést rezidentní (modré) zóny až po navýšení kapacity parkování", "konkretni": true},
+    {"tema": "sprava_transparentnost_digitalizace", "bod": "Aktivně řídit městské firmy: pravidelná jednání radních s jejich vedením, každoroční zpráva zastupitelům, dlouhodobé strategie; kontrolovat investice ve vodárenské SVS", "konkretni": false},
+    {"tema": "kultura_sport_volny_cas", "bod": "Opravený městský bazén předat do správy městské společnosti; včas připravit novou koncesní smlouvu na Sport Park a hokejovou arénu", "konkretni": true},
+    {"tema": "finance_hospodareni_dane", "bod": "Zavést „test racionality“ u velkých investic (např. lanovka na Ještěd – chtějí ji, ale ne předraženou a ne jen z peněz města), kompletní inventuru a digitální pasport městského majetku a centralizované nákupy", "konkretni": true},
+    {"tema": "finance_hospodareni_dane", "bod": "Zastavit růst dluhu: úvěry jen na návratné investice nebo obhajitelnou veřejnou službu; některé plánované akce odložit či zrušit", "konkretni": false},
+    {"tema": "finance_hospodareni_dane", "bod": "Zavést Kartu Liberečáka – levnější MHD, parkování a vstupné pro lidi s trvalým pobytem, aby se víc lidí přihlásilo k pobytu (vyšší příjmy z daní)", "konkretni": true},
+    {"tema": "sprava_transparentnost_digitalizace", "bod": "Zveřejňovat smlouvy, zakázky a hlasování zastupitelů bez zbytečného začerňování; zakázky a dotace jen firmám, které zveřejňují účetní závěrky; pětileté stavební embargo po rekonstrukci ulice", "konkretni": true},
+    {"tema": "sprava_transparentnost_digitalizace", "bod": "Vytvořit lokální AI systém pro úředníky i veřejnost a investovat do vzdělávání úředníků", "konkretni": false},
+    {"tema": "kultura_sport_volny_cas", "bod": "Zachovat třísouborové Divadlo F. X. Šaldy, vyjednat vyšší podíl kraje na jeho financování a zřídit garanční rady kulturních organizací (napůl politici, napůl odborníci)", "konkretni": true},
+    {"tema": "kultura_sport_volny_cas", "bod": "Sportovní dotace pro mládež rozdělovat „na hlavu“, aby nesloužily jako skrytý sponzoring profesionálních klubů; transparentní pravidla pro velké kulturní projekty", "konkretni": true},
+    {"tema": "socialni_zdravotnictvi_seniori", "bod": "Zahájit přípravu nových domovů pro seniory a domů s pečovatelskou službou, podpořit odlehčovací služby, kluby a poradenství pro pečující a rozšíření Hospice sv. Zdislavy o dětský hospic", "konkretni": true},
+    {"tema": "skolstvi_deti_rodina", "bod": "Jednat s okolními obcemi o podílu na nákladech za jejich žáky v libereckých školách; program terénní asistence pro děti ze znevýhodněných rodin; spolupráce s TUL", "konkretni": true},
+    {"tema": "bydleni", "bod": "Zvýšit počet městských bytů (i pro učitele, zdravotníky, policisty), rozšířit Libereckou nájemní agenturu, jednat s vlastníky prázdných domů, kontrolovat ubytovny; posílit Kancelář architektury města a zrušit Radu architektů", "konkretni": false},
+    {"tema": "bezpecnost_poradek", "bod": "Obnovit služebnu městské policie na terminálu Fügnerova a posílit hlídky v problémových lokalitách; zavést místní „preventisty“ ve čtvrtích; doplnit osvětlení", "konkretni": true},
+    {"tema": "zivotni_prostredi_zelen", "bod": "Generely zeleně pro části města, péče o stávající stromy místo kácení, na každém sídlišti místo s lavičkou a stínem; dešťové zahrady a retenční opatření", "konkretni": false},
+    {"tema": "bezpecnost_poradek", "bod": "Síť krizových center pro výpadky proudu a povodně, krizové scénáře a lepší varovné systémy; podpora komunitní energetiky a záložních zdrojů", "konkretni": false},
+    {"tema": "rozvoj_uzemni_plan_vystavba", "bod": "Investice dělit mezi čtvrti nejen podle počtu obyvatel a posílit pravomoci místních komisí; o suchém poldru v Machníně nechat rozhodnout místní referendum", "konkretni": true}
+  ],
+  "hodnoceni": {
+    "silne_stranky": [
+      "Řada měřitelných slibů (100 opravených ulic ročně, 3 parkovací domy na sídlištích, parkovné max. 40 Kč/h), podle kterých lze po čtyřech letech hodnotit plnění.",
+      "Kampaň stojí na vlastní analýze dluhu města a jeho firem (cca 3 mld. Kč) a nabízí systémové nástroje: test racionality investic, inventuru majetku, aktivní řízení městských firem.",
+      "Na kandidátce jsou lidé z praxe – podnikatel, ředitel regionální kanceláře CzechInvestu, zdravotní sestra, lidé z divadla – a lídr veřejně ocenil i části práce současného vedení (místní komise, manuál veřejných prostranství).",
+      "Jasné povolební signály: před volbami výslovně vyloučili koalici s ANO."
+    ],
+    "slabe_stranky_rizika": [
+      "Sliby jdou proti sobě: snížit parkovné v centru na polovinu, zvednout výdaje na opravy ulic o 50 % a postavit pět parkovacích domů, a zároveň brzdit zadlužení. Kolik to bude stát, kampaň nevyčíslila. Parkovací domy stojí na zatím neexistujících soukromých investorech.",
+      "TOP 09 a KDU-ČSL byly v letech 2018–2026 součástí vládnoucího klubu SLK (Jan Marek byl jeho členem až do konce období), přesto dnes kritizují projekty, které tato koalice schvalovala.",
+      "Nikdo z první pětky nebyl radním ani náměstkem; tři z pěti lídrů nikdy nezastávali volenou funkci.",
+      "Část bodů je obecná (energetická bezpečnost, AI pro úředníky, komunikace s občany) a alternativa k tramvaji do Rochlice není popsána.",
+      "Údaje o dluhu a o předražení projektu EPC jsou vlastní výpočty a tvrzení kampaně, nezávisle neověřené."
+    ],
+    "kontroverze": [
+      {"text": "Kandidát č. 3 Martin Doubravský vede od roku 2022 pracovněprávní spor s Divadlem F. X. Šaldy, které spoluzřizuje město. Soudy dvou stupňů jeho výpověď zrušily, divadlo podalo dovolání. Spor podle Seznam Zpráv stál v pozadí rezignace ředitelky divadla v listopadu 2025. Doubravský tvrdí, že jde o jeho soukromou věc a že do politiky nejde kvůli odplatě.", "zdroj": "s23"},
+      {"text": "TOP 09 v dubnu 2026 vypověděla koaliční spolupráci se SLK kvůli nesouhlasu s některými projekty města (Linserka, zámek, lanovka). Radní Robert Korselt, zvolený za TOP 09, kvůli tomu ze strany odešel.", "zdroj": "s13"},
+      {"text": "Jan Marek podle kampaně tvrdí, že projekt energetických úspor (EPC) ve 23 objektech, který prosadilo ANO, je „dle všeho předražený o 250 milionů“. Jde o tvrzení kampaně bez nezávislého ověření.", "zdroj": "s3"}
+    ]
+  },
+  "povolebni_signaly": "Kandidáti Liberecké 9 2. října 2026 společně oznámili, že po volbách nevstoupí do koalice s hnutím ANO (s3). V anketě ČTK (14. 9. 2026) Zdeněk Chmelík uvedl, že nechce dělit demokratické strany na přijatelné a nepřijatelné, ale nebude spolupracovat s extremisty ani s těmi, kdo neumějí město kompetentně spravovat (s25).",
+  "kandidati": [
+    {
+      "poradi": 1,
+      "jmeno": "Zdeněk Chmelík",
+      "vek": 50,
+      "povolani_dle_listiny": "technický ředitel",
+      "prislusnost": "TOP 09 (navržen TOP 09)",
+      "shrnuti": "Liberecký podnikatel, jednatel a technický ředitel rodinné firmy METALO, s.r.o., která vyrábí vjezdové a parkovací systémy. Člen TOP 09 od roku 2009, v letech 2018–2022 zastupitel města zvolený z kandidátky SLK. Po těžkém covidu v roce 2021 politiku přerušil, od roku 2023 se vrátil jako krajský předseda TOP 09. Nyní kandiduje na primátora.",
+      "politicka_kariera": [
+        {"funkce": "člen TOP 09 (člen výkonného výboru strany)", "od": 2009, "do": null, "zdroj": "s10"},
+        {"funkce": "předseda regionální organizace TOP 09 Liberec", "od": 2019, "do": 2021, "zdroj": "s10"},
+        {"funkce": "zastupitel SML (zvolen za Starosty pro Liberecký kraj)", "od": 2018, "do": 2022, "zdroj": "volby_gov"},
+        {"funkce": "předseda výboru pro rozvoj a životní prostředí ZM Liberec", "od": 2018, "do": 2022, "zdroj": "s10"},
+        {"funkce": "předseda dozorčí rady Technických služeb města Liberec", "od": 2019, "do": null, "zdroj": "s10"},
+        {"funkce": "předseda krajské organizace TOP 09 v Libereckém kraji", "od": 2023, "do": 2024, "zdroj": "s10"},
+        {"funkce": "člen dozorčích rad společností Energie LK, s.r.o. a Energie Ralsko, s.r.o.", "od": 2024, "do": null, "zdroj": "s16"}
+      ],
+      "roky_v_politice": 4,
+      "zkusenost_skore": 45,
+      "soucasna_prace": "Civilní práce: jednatel a technický ředitel METALO, s.r.o. (Liberec-Horní Suchá) a jednatel několika dalších firem (Metalo solar, GSM CITY, NEOCLIQ, GO2TOILET). Žádnou placenou politickou funkci nezastává.",
+      "posledni_nepoliticka_prace": {"co": "technický ředitel a jednatel METALO, s.r.o.", "kdy": "souběžně dosud"},
+      "pozitivni": [
+        {"text": "Asi 30 let podniká ve výrobní firmě. Podle TOP 09 z ní vybudoval největší firmu v oboru v Libereckém kraji.", "zdroj": "s29"},
+        {"text": "Liberecký deník uvedl, že k problému terminálu Fügnerova poslal ze všech lídrů nejpodrobnější seznam opatření (strážníci přímo mezi cestujícími, úklid podle vytížení).", "zdroj": "s26"},
+        {"text": "Kriticky hodnotí zadlužení, ale veřejně ocenil i kroky současného vedení: místní komise, manuál veřejných prostranství, vyšší výdaje na opravy ulic. Slibuje, že po volbách nebude „bourat, co vymyslel někdo jiný“.", "zdroj": "s4"},
+        {"text": "V letech 2018–2022 vedl výbor zastupitelstva pro rozvoj a životní prostředí a od roku 2019 dozorčí radu Technických služeb, takže chod města zná zevnitř.", "zdroj": "s10"}
+      ],
+      "negativni": [
+        {"text": "TOP 09 byla až do dubna 2026 součástí vládnoucího klubu SLK; projekty, které Chmelík dnes kritizuje (zámek, Linserka, lanovka), vznikaly za vlády koalice, jejíž byla TOP 09 součástí.", "zdroj": "s13"},
+        {"text": "Jeho firma METALO má podle Hlídače státu v registru smluv 81 smluv s veřejnými institucemi za zhruba 14 mil. Kč (např. HZS LK, policie, Divadlo F. X. Šaldy) a sponzorovala TOP 09 a SLK celkem 18 547 Kč. Nikdo jí veřejně nevytkl pochybení, ale jako primátor by musel hlídat možný střet zájmů.", "zdroj": "s17"},
+        {"text": "V prosinci 2021 politiku přerušil a v roce 2022 mandát zastupitele neobhajoval, takže poslední čtyři roky v zastupitelstvu neseděl.", "zdroj": "s10"}
+      ],
+      "nejiste": "Nepodařilo se ověřit, zda je stále předsedou dozorčí rady TSML (web L9 to uvádí nejasně) a kým byl nominován do dozorčích rad Energie LK a Energie Ralsko (Hlídač státu uvádí jako hlavního smluvního partnera Energie LK Liberecký kraj). Infobox Wikipedie uvádí u TOP 09 roky „2009–2024“, ČSÚ ho ale v roce 2026 vede jako člena TOP 09. Hlídač státu eviduje výbory do roku 2024, což neodpovídá konci mandátu v roce 2022."
+    },
+    {
+      "poradi": 2,
+      "jmeno": "Mgr. Jan Marek",
+      "vek": 47,
+      "povolani_dle_listiny": "ředitel regionální kanceláře CzechInvestu, zastupitel města Liberce, vedoucí skautského střediska",
+      "prislusnost": "bez politické příslušnosti (NK)",
+      "shrnuti": "Ředitel liberecké regionální kanceláře státní agentury CzechInvest a zastupitel od roku 2014. Tři období byl nestraníkem v klubu Starostů pro Liberecký kraj. Ve výborech se věnoval rozvoji, financím a územnímu plánu a zasedal v dozorčích radách krajské nemocnice a teplárny. V kampani L9 se zaměřuje na hospodaření a městské firmy.",
+      "politicka_kariera": [
+        {"funkce": "kandidát KDU-ČSL do ZM Liberec (2010) a do Sněmovny (2013), kandidát Soukromníků do ZLK (2012) – nezvolen", "od": 2010, "do": 2013, "zdroj": "s18"},
+        {"funkce": "zastupitel SML (zvolen za SLK, klub SLK, BEZPP)", "od": 2014, "do": null, "zdroj": "volby_gov"},
+        {"funkce": "člen výboru pro územní plánování a dopravu ZM", "od": 2018, "do": null, "zdroj": "s18"},
+        {"funkce": "předseda výboru pro rozvoj a místopředseda finančního výboru ZM (stav 2024)", "od": 2022, "do": null, "zdroj": "s19"},
+        {"funkce": "člen dozorčí rady Krajské nemocnice Liberec, a.s. a Teplárny Liberec, a.s. (stav 2024)", "od": 2022, "do": null, "zdroj": "s19"}
+      ],
+      "roky_v_politice": 12,
+      "zkusenost_skore": 60,
+      "soucasna_prace": "Civilní práce: ředitel regionální kanceláře agentury CzechInvest v Liberci; neuvolněný zastupitel.",
+      "posledni_nepoliticka_prace": {"co": "ředitel regionální kanceláře CzechInvestu (dříve projektový manažer a specialista prodeje ve VÚTS)", "kdy": "souběžně dosud"},
+      "pozitivni": [
+        {"text": "Dvanáct let v zastupitelstvu. Vedl výbor pro rozvoj, byl místopředsedou finančního výboru a seděl v dozorčích radách krajské nemocnice a teplárny, takže zná městské finance i firmy.", "zdroj": "s19"},
+        {"text": "Profesně se zabývá podporou investic a spoluprací s veřejnou správou; v kampani předložil konkrétní čísla o dluhu města a městských firem (až 3 mld. Kč do konce 2027) a navrhuje posuzovat provozní náklady investic.", "zdroj": "s5"},
+        {"text": "Dlouhodobě vede skautské středisko a je aktivní v komunitním životě.", "zdroj": "s1"}
+      ],
+      "negativni": [
+        {"text": "Do roku 2026 seděl v klubu SLK, který byl součástí vládnoucí koalice; v kampani L9 přitom kritizuje hospodaření, které tato koalice prosazovala (např. projekt EPC).", "zdroj": "s3"},
+        {"text": "Často mění politické zázemí: kandidoval za KDU-ČSL (2010, 2013), za Soukromníky (2012), za SLK (2014–2022) a nyní za Libereckou 9.", "zdroj": "s18"}
+      ],
+      "nejiste": "Nepodařilo se zjistit, kdy přesně a proč se rozešel se SLK a zda dosud formálně sedí v jejich klubu (Novinky v dubnu 2026 psaly, že klub SLK zůstane do konce období dvanáctičlenný). Rok nástupu do CzechInvestu ani aktuální složení jeho výborů a dozorčích rad nebylo z dostupných zdrojů ověřeno, protože web liberec.cz nebyl dostupný a použita je archivní kopie z dubna 2024."
+    },
+    {
+      "poradi": 3,
+      "jmeno": "Martin Doubravský",
+      "vek": 58,
+      "povolani_dle_listiny": "dirigent",
+      "prislusnost": "TOP 09 (navržen TOP 09)",
+      "shrnuti": "Dirigent, v letech 2002–2020 šéf opery Divadla F. X. Šaldy, poté do roku 2022 šéfdirigent. Od roku 2022 vede s divadlem soudní spor o platnost výpovědi, který zatím vyhrává. V kampani se zaměřuje na kulturu a navrhuje garanční rady, které by chránily kulturní instituce před politickými zásahy.",
+      "politicka_kariera": [
+        {"funkce": "člen TOP 09; kandidát TOP 09 do ZM Liberec (2014) a ZLK (2016) – nezvolen", "od": 2014, "do": null, "zdroj": "volby_gov"}
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 15,
+      "soucasna_prace": "Dirigent. Podle jeho vyjádření z května 2025 je formálně zaměstnancem Divadla F. X. Šaldy, divadlo mu ale od srpna 2022 neumožňuje pracovat (vede to jako „překážku na straně zaměstnavatele“) a pobírá náhradu platu.",
+      "posledni_nepoliticka_prace": {"co": "dirigent / šéfdirigent opery Divadla F. X. Šaldy", "kdy": "fakticky do července 2022 (formálně pracovní poměr trvá)"},
+      "pozitivni": [
+        {"text": "Osmnáct let vedl operu DFXŠ. Podle medailonu L9 získal soubor pod jeho vedením řadu ocenění a v roce 2016 do divadla přivedl režisérku Lindu Hejlovou Keprtovou, s níž vytvořil kritikou oceňované inscenace.", "zdroj": "s21"},
+        {"text": "Okresní i krajský soud označily reorganizaci, kvůli které dostal výpověď, za „účelovou a předstíranou“ a výpověď za neplatnou.", "zdroj": "s20"},
+        {"text": "Navrhuje oddělit politiku od umělecké dramaturgie pomocí garančních rad (napůl politici, napůl odborníci).", "zdroj": "s7"}
+      ],
+      "negativni": [
+        {"text": "Jeho spor s divadlem trvá roky. Podle Seznam Zpráv napsali členové vedení divadla, že se po jeho odchodu „celému domu ulevilo“, a spor uváděli jako pozadí rezignace ředitelky Hejlové Keprtové. Předchozí ředitelka Jarmila Levko ho v roce 2020 odvolala z vedení opery kvůli selhání v komunikaci během pandemie.", "zdroj": "s23"},
+        {"text": "Ředitelka Hejlová Keprtová v roce 2022 veřejně odmítla jeho tvrzení o svém jmenování jako nepravdivá a dehonestující.", "zdroj": "s22"},
+        {"text": "Jako zastupitel by rozhodoval o divadle, se kterým se soudí; sám uvádí, že spor do politiky nepatří a nejde mu o odplatu.", "zdroj": "s7"}
+      ],
+      "nejiste": "Nepodařilo se ověřit, jak dopadlo dovolání divadla u Nejvyššího soudu a druhý spor o odvolání z funkce šéfdirigenta z února 2025. Jeho úspěchy uvádí medailon L9, nezávislý zdroj chybí. Genus a Deník ho v květnu 2026 uváděly jako nestraníka, ČSÚ i Seznam Zprávy jako člena TOP 09."
+    },
+    {
+      "poradi": 4,
+      "jmeno": "Lenka Procházková",
+      "vek": 52,
+      "povolani_dle_listiny": "instrumentářka na operačním sále - zdravotní sestra",
+      "prislusnost": "KDU-ČSL (navržena KDU-ČSL)",
+      "shrnuti": "Zdravotní sestra a instrumentářka na operačním sále Krajské nemocnice Liberec, rodačka z Liberce. Od roku 2018 opakovaně kandidovala za SLK a koalice s KDU-ČSL, zvolena nebyla. V L9 garantuje téma „Město pro všechny generace“ (senioři, pečující, školy).",
+      "politicka_kariera": [
+        {"funkce": "kandidátka do ZM Liberec (2018, 2022), ZLK (2020, 2024) a Sněmovny (2021) – nezvolena", "od": 2018, "do": 2024, "zdroj": "volby_gov"},
+        {"funkce": "členka výboru pro sociální věci a bezpečnost ZM (jako nečlenka zastupitelstva, uvedeno na kandidátní listině 2022)", "od": 2022, "do": null, "zdroj": "volby_gov"}
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 10,
+      "soucasna_prace": "Civilní práce: instrumentářka na operačním sále v Krajské nemocnici Liberec.",
+      "posledni_nepoliticka_prace": {"co": "instrumentářka / zdravotní sestra KNL", "kdy": "souběžně dosud"},
+      "pozitivni": [
+        {"text": "Praktická zkušenost ze zdravotnictví (operační sál KNL); garantuje program pro seniory, pečující rodiny a hospicovou péči.", "zdroj": "s1"}
+      ],
+      "negativni": [],
+      "nejiste": "Kromě kampaně L9 o ní nebyly nalezeny žádné mediální zmínky. Zda je ve výboru pro sociální věci a bezpečnost stále, nebylo ověřeno."
+    },
+    {
+      "poradi": 5,
+      "jmeno": "Petr Jakubov",
+      "vek": 23,
+      "povolani_dle_listiny": "student TUL, místopředseda TOPtýmu Liberecký kraj",
+      "prislusnost": "TOP 09 (navržen TOP 09)",
+      "shrnuti": "Student podnikové ekonomiky na Ekonomické fakultě TUL a místopředseda mládežnické organizace TOPtým v Libereckém kraji. Kandiduje poprvé. V kampani zastupuje téma „Nejdřív chodníky, potom lanovky“: test racionality velkých investic a zveřejňování smluv.",
+      "politicka_kariera": [
+        {"funkce": "místopředseda TOPtýmu Liberecký kraj (mládežnická organizace TOP 09)", "od": 2026, "do": null, "zdroj": "csu_2026"}
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 5,
+      "soucasna_prace": "Student Ekonomické fakulty TUL.",
+      "posledni_nepoliticka_prace": {"co": "student (pracovní zkušenosti neuvedeny)", "kdy": "neznámé"},
+      "pozitivni": [
+        {"text": "Podle medailonu L9 pravidelně sleduje registr smluv města a prosazuje rozhodování na základě dat. Lanovku na Ještěd podporuje, ale požaduje, aby se na ní finančně podílel kraj.", "zdroj": "s8"}
+      ],
+      "negativni": [],
+      "nejiste": "V historii kandidatur ČSÚ nemá žádný záznam a mimo kampaň L9 nebyly nalezeny žádné zmínky. Datum vstupu do TOPtýmu ani do TOP 09 není známo; rok 2026 u funkce odpovídá jen kandidátní listině."
+    }
+  ],
+  "zdroje": [
+    {"id": "volby_gov", "url": "https://www.volby.cz/", "nazev": "ČSÚ – historie kandidatur 2014–2025 (zpracovaný výtah)", "datum_stazeni": "2026-10-08", "local": "data/processed/historie_kandidatu.json", "obsah": "Oficiální údaje o kandidaturách a zvolení kandidátů v komunálních, krajských a sněmovních volbách."},
+    {"id": "csu_2026", "url": "https://www.volby.cz/", "nazev": "ČSÚ – kandidátní listiny KV 2026 Liberec", "datum_stazeni": "2026-10-08", "local": "data/processed/kandidati_2026.json", "obsah": "Oficiální kandidátní listina LIBERECKÁ 9 (věk, povolání, příslušnost)."},
+    {"id": "s1", "url": "https://libereckadevitka.cz/", "nazev": "Liberecká devítka – web s programem a medailony", "datum_stazeni": "2026-10-08", "local": "data/raw/programy/liberecka9/l9_web_home.html", "obsah": "Úplný volební program (9 témat) a medailony prvních devíti kandidátů; textový výtah v program_liberecka9_2026.md."},
+    {"id": "s2", "url": "https://libereckadevitka.cz/blog.html", "nazev": "Liberecká devítka – blog", "datum_stazeni": "2026-10-08", "local": "data/raw/programy/liberecka9/web_blog.html", "obsah": "Přehled kampaňových článků kandidátů."},
+    {"id": "s3", "url": "https://libereckadevitka.cz/blog-ano.html", "nazev": "Liberecká 9 vyloučila povolební spolupráci s hnutím ANO (2. 10. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/programy/liberecka9/web_blog-ano.html", "obsah": "Prohlášení kandidátů L9 o odmítnutí koalice s ANO včetně tvrzení o předražení EPC."},
+    {"id": "s4", "url": "https://libereckadevitka.cz/blog-rozhovor-zdenek-chmelik.html", "nazev": "Zdeněk Chmelík: Nejsem profesionální politik", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/l9_blog-rozhovor-zdenek-chmelik.html", "obsah": "Kampaňový rozhovor s lídrem – motivace, priority, hodnocení současného vedení."},
+    {"id": "s5", "url": "https://libereckadevitka.cz/blog-uvery-jan-marek.html", "nazev": "Jan Marek: Liberec míří k úvěrům až 3 miliardy korun", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/l9_blog-uvery-jan-marek.html", "obsah": "Text Jana Marka o zadlužení města a městských firem."},
+    {"id": "s6", "url": "https://libereckadevitka.cz/blog-dluh.html", "nazev": "Statutární město Liberec se zadlužuje rekordním tempem (L9)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/l9_blog-dluh.html", "obsah": "Analýza dluhu a kritika velkých projektů z pohledu L9."},
+    {"id": "s7", "url": "https://libereckadevitka.cz/blog-divadlo.html", "nazev": "Martin Doubravský: Divadlo jako srdce Liberce", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/l9_blog-divadlo.html", "obsah": "Doubravského motivace, zmínka o soudním sporu, návrh garanční rady."},
+    {"id": "s8", "url": "https://libereckadevitka.cz/blog-lanovka.html", "nazev": "Petr Jakubov: Nejdřív chodníky, potom lanovky", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/l9_blog-lanovka.html", "obsah": "Jakubovův názor na lanovku na Ještěd a priority investic."},
+    {"id": "s9", "url": "https://programydovoleb.cz/volby/komunalni-volby/176/strana/164153", "nazev": "Programy do voleb – LIBERECKÁ 9", "datum_stazeni": "2026-10-08", "local": "data/raw/programy/liberecka9/programydovoleb_strana_164153.html", "obsah": "Složení kandidátky, odkazy na web a program."},
+    {"id": "s10", "url": "https://cs.wikipedia.org/wiki/Zden%C4%9Bk_Chmel%C3%ADk", "nazev": "Wikipedie – Zdeněk Chmelík", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/wiki_zdenek_chmelik.html", "obsah": "Životopis, firma METALO, stranické a komunální funkce, přerušení politiky 2021."},
+    {"id": "s11", "url": "https://genus.cz/politika/v-liberci-jde-do-komunalnich-voleb-top-09-s-kdu-csl-a-nezavislymi-pod-hlavickou-liberecka-9-n734354.htm", "nazev": "Genus – V Liberci jde do voleb TOP 09 s KDU-ČSL a nezávislými pod hlavičkou Liberecká 9", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/genus_l9_kandidatka.html", "obsah": "Představení kandidátky L9 (květen 2026), citace lídra."},
+    {"id": "s12", "url": "https://liberecky.denik.cz/zpravy-region/v-liberci-jde-do-komunalnich-voleb-top-09-s-kdu-csl-a-nezavislymi/", "nazev": "Liberecký deník – V Liberci jde do komunálních voleb TOP 09 s KDU-ČSL a nezávislými", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/denik_l9_kandidatka.html", "obsah": "Zpráva ČTK o vzniku L9 a první čtveřici kandidátů."},
+    {"id": "s13", "url": "https://www.novinky.cz/clanek/volby-komunalni-predvolebni-rosady-v-liberci-top-09-kandiduje-samostatne-pirati-se-spoji-s-lol-40575223", "nazev": "Novinky – Předvolební rošády v Liberci. TOP 09 kandiduje samostatně (24. 4. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/novinky_rosady_top09_samostatne.html", "obsah": "Vypovězení spolupráce TOP 09 se SLK, odchod radního Korselta, výhrady k projektům."},
+    {"id": "s14", "url": "https://www.novinky.cz/clanek/volby-komunalni-do-cela-liberce-chce-kontroverzni-politicka-i-neznami-kandidati-40591579", "nazev": "Novinky – Do čela Liberce chce kontroverzní politička i neznámí kandidáti (6. 8. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/novinky_do_cela_liberce_2026-08-06.html", "obsah": "Přehled lídrů a nových uskupení v Liberci."},
+    {"id": "s15", "url": "https://www.hlidacstatu.cz/Osoba/Funkce/zdenek-chmelik", "nazev": "Hlídač státu – Zdeněk Chmelík, funkce", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/hlidacstatu_chmelik_funkce.html", "obsah": "Přehled kandidatur a funkcí ve výborech."},
+    {"id": "s16", "url": "https://www.hlidacstatu.cz/Osoba/Vazby/zdenek-chmelik", "nazev": "Hlídač státu – Zdeněk Chmelík, vazby na firmy", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/hlidacstatu_chmelik_vazby.html", "obsah": "Statutární a dozorčí funkce ve firmách (METALO, Energie LK, Energie Ralsko aj.)."},
+    {"id": "s17", "url": "https://www.hlidacstatu.cz/subjekt/48264199", "nazev": "Hlídač státu – METALO, s.r.o.", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/hlidacstatu_metalo_subjekt.html", "obsah": "Smlouvy firmy s veřejnými institucemi (81 smluv / 14 mil. Kč), dotace, sponzoring TOP 09 a SLK; seznam smluv v hlidacstatu_metalo_smlouvy.html."},
+    {"id": "s18", "url": "https://www.hlidacstatu.cz/Osoba/Funkce/jan-marek-66", "nazev": "Hlídač státu – Mgr. Jan Marek, funkce", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/hlidacstatu_jan_marek.html", "obsah": "Kandidatury 2010–2018 (KDU-ČSL, Soukromníci, SLK) a členství ve výboru."},
+    {"id": "s19", "url": "https://web.archive.org/web/20240417045448/https://www.liberec.cz/cz/lidi/inormace/mgr-jan-marek.html", "nazev": "liberec.cz (archiv 17. 4. 2024) – profil zastupitele Mgr. Jan Marek", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/archive_liberec_cz_jan_marek.html", "obsah": "Klub SLK, BEZPP, předseda výboru pro rozvoj, místopředseda FV, DR KNL a Teplárny."},
+    {"id": "s20", "url": "https://operaplus.cz/dirigent-martin-doubravsky-vyhral-soudni-pri-s-divadlem-f-x-saldy/", "nazev": "Opera PLUS – Dirigent Martin Doubravský vyhrál soudní při s Divadlem F. X. Šaldy (13. 10. 2024)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/operaplus_doubravsky_vyhral.html", "obsah": "Rozsudky okresního a krajského soudu o neplatnosti výpovědi."},
+    {"id": "s21", "url": "https://operaplus.cz/vyhrany-spor-mu-navrat-neprinesl-dirigent-doubravsky-se-znovu-utka-se-saldovym-divadlem-u-nejvyssiho-soudu/", "nazev": "Opera PLUS – Vyhraný spor mu návrat nepřinesl (26. 5. 2025)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/operaplus_doubravsky_nejvyssi_soud.html", "obsah": "Průběh sporu, „zmrazení“ pozice, dovolání k NS, odvolání z funkce šéfdirigenta 2025."},
+    {"id": "s22", "url": "https://operaplus.cz/reditelka-divadla-f-x-saldy-linda-hejlova-keprtova-se-vyjadrila-ke-kauze-martina-doubravskeho/", "nazev": "Opera PLUS – Ředitelka DFXŠ se vyjádřila ke kauze Martina Doubravského (1. 11. 2022)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/operaplus_keprtova_vyjadreni.html", "obsah": "Stanovisko ředitelky divadla a šéfa opery k odchodu Doubravského."},
+    {"id": "s23", "url": "https://www.seznamzpravy.cz/clanek/kultura-linda-hejlova-keprtova-liberec-rezignace-291629", "nazev": "Seznam Zprávy – Ředitelka Divadla F. X. Šaldy položila funkci (14. 11. 2025)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/seznamzpravy_keprtova_rezignace.html", "obsah": "Rezignace ředitelky v souvislosti se sporem s Doubravským; dopis vedení divadla; Doubravský člen TOP 09."},
+    {"id": "s24", "url": "https://liberec.rozhlas.cz/", "nazev": "ČRo Liberec – Komunální volby 2026, speciál z Liberce (1. 10. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/crol_special_liberec_2026.html", "obsah": "Odpovědi lídrů na otázky o uzavírkách, parkování na sídlištích a prodeji stadionu."},
+    {"id": "s25", "url": "https://liberecky.denik.cz/zpravy-region/v-liberci-chteji-volebni-lidri-investovat-do-dopravy-bytu-ci-verejneho-prostoru/", "nazev": "Liberecký deník/ČTK – V Liberci chtějí volební lídři investovat do dopravy, bytů či veřejného prostoru (14. 9. 2026)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/denik_anketa_lidri_investice.html", "obsah": "Anketa lídrů: priority, zadlužení, povolební spolupráce, parkování."},
+    {"id": "s26", "url": "https://liberecky.denik.cz/", "nazev": "Liberecký deník – seriál Starosto, vyřeš to: Fügnerova (lídři kandidátek)", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/denik_fugnerka_lidri.html", "obsah": "Návrhy lídrů k terminálu Fügnerova."},
+    {"id": "s27", "url": "https://liberecky.denik.cz/komunalni-volby/o-liberec-se-utka-11-kandidatek-podivejte-se-kdo-je-povede-do-voleb/", "nazev": "Liberecký deník – O Liberec se utká 11 kandidátek", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/denik_11_kandidatek.html", "obsah": "Přehled kandidátek a lídrů, srovnání s rokem 2022."},
+    {"id": "s28", "url": "https://cs.wikipedia.org/wiki/Zastupitelstvo_m%C4%9Bsta_Liberec", "nazev": "Wikipedie – Zastupitelstvo města Liberec", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/wiki_zastupitelstvo_liberec.html", "obsah": "Složení zastupitelstva a rady 2010–2026."},
+    {"id": "s29", "url": "https://genus.cz/politika/lidrem-top-09-pro-volby-do-poslanecke-snemovny-bude-liberecky-zastupitel-zdenek-chmelik-n672612.htm", "nazev": "Genus – Lídrem TOP 09 pro volby do Sněmovny bude Zdeněk Chmelík (2021)", "datum_stazeni": "2026-10-08", "local": "data/raw/profily/liberecka9/genus_chmelik_lidr_ps.html", "obsah": "Profesní životopis Chmelíka podle TOP 09."},
+    {"id": "s30", "url": "https://liberecky.denik.cz/volby-2022-komunalni/koalice-v-liberci-smlouvu-podepsalo-vitezne-uskupeni-s-ano-ods-a-piraty-20221014.html", "nazev": "Liberecký deník – Koaliční smlouva je podepsaná, Liberec povede čtyřkoalice (14. 10. 2022)", "datum_stazeni": "2026-10-08", "local": "data/raw/kontext/denik_koalice_2022.html", "obsah": "Koalice 2022 (SLK s TOP 09 a KDU-ČSL, ANO, Piráti, ODS) a rozdělení funkcí."}
+  ]
+}

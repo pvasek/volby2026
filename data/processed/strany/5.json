@@ -1,0 +1,630 @@
+{
+  "cislo": 5,
+  "nazev": "LIBE!",
+  "zkratka": "GEN+NK",
+  "slozeni": "Strana GEN + nezávislí kandidáti (NK). Uskupení vzniklo jako koalice GEN a Svobodných s podporou PRO; PRO z ní v květnu 2026 odešlo a na oficiální listině ČSÚ nefiguruje žádný člen Svobodných.",
+  "web": "https://volimelibe.cz/",
+  "program_url": "https://volimelibe.cz/program/",
+  "program_local": "data/raw/programy/libe/volimelibe_program.html",
+  "shrnuti": "Uskupení malé strany GEN a nezávislých vedené exprimátorem Tiborem Batthyánym, které se vymezuje proti současnému vedení města (dopravní chaos, dluh, 'ad hoc projekty'). Program klade důraz na plynulost automobilové dopravy a parkování, hospodaření a městské firmy, školství a vlajkový projekt 'Central Park' v parku Budyšínská.",
+  "zamereni": [
+    "průjezdnost a parkování",
+    "dluh a městské firmy",
+    "školství (spádovost, MŠ)",
+    "park Budyšínská",
+    "bezpečnost",
+    "podnikatelé"
+  ],
+  "zkusenost_skore": 45,
+  "zkusenost_zduvodneni": "Lídr byl čtyři roky primátorem a trojka náměstkem (2014–2018), od té doby však nikdo z vedení kandidátky v samosprávě nepůsobil; strana GEN je nová a v Liberci dosud neměla zastoupení.",
+  "temata_pct": {
+    "doprava_parkovani": 14,
+    "bydleni": 0,
+    "rozvoj_uzemni_plan_vystavba": 2,
+    "zivotni_prostredi_zelen": 9,
+    "socialni_zdravotnictvi_seniori": 7,
+    "skolstvi_deti_rodina": 12,
+    "kultura_sport_volny_cas": 12,
+    "bezpecnost_poradek": 9,
+    "finance_hospodareni_dane": 16,
+    "sprava_transparentnost_digitalizace": 12,
+    "ekonomika_podnikani_cestovni_ruch": 5,
+    "ostatni": 2
+  },
+  "program_body": [
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Svolávat plánovací schůzky s vlastníky silnic a sítí; zavést roční plán oprav a střednědobý výhled na 3–4 roky; nesouhlasit se stavbami jiných investorů, o nichž město nebylo včas informováno, a požadovat po stavebnících opravy objízdných tras.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Parkování na sídlištích řešit individuálně po lokalitách (místní šetření s policií, IZS a odbory); výhledově bezobslužné parkovací domy (karusely) na nejvytíženějších sídlištích. Proti rušení parkovacích míst kvůli úpravám veřejného prostoru.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Zatraktivnit MHD (cena, kvalita, snadné odbavení – kritizují drahé jednorázové jízdné a zadlužení DPMLJ); konkrétní opatření neuvedena.",
+      "konkretni": false
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Centrum ponechat průjezdné, prověřit projekty a začít realizovat vnitřní městský okruh; cyklisty směrovat na navazující cyklostezky místo vyhrazených pruhů v ulicích.",
+      "konkretni": true
+    },
+    {
+      "tema": "doprava_parkovani",
+      "bod": "Vrátit stanoviště taxislužby na terminál Fügnerova.",
+      "konkretni": true
+    },
+    {
+      "tema": "sprava_transparentnost_digitalizace",
+      "bod": "Obnovit pravidelné dny otevřených dveří u primátora (min. jednou měsíčně); nasadit AI asistenta pro běžnou pomoc občanům.",
+      "konkretni": true
+    },
+    {
+      "tema": "sprava_transparentnost_digitalizace",
+      "bod": "Sjednotit a zpřehlednit zveřejňování rozpočtu, dluhu a hospodaření města i jím zřízených organizací (školy, školky, technické služby).",
+      "konkretni": true
+    },
+    {
+      "tema": "finance_hospodareni_dane",
+      "bod": "Provést rozbor všech městských společností a dát jim měřitelná zadání; prověřit odbory, outsourcing a provozní náklady magistrátu.",
+      "konkretni": true
+    },
+    {
+      "tema": "finance_hospodareni_dane",
+      "bod": "Rozkrýt současný dluh města ve všech formách (dle LIBE! téměř 3 mld. Kč) a nezvyšovat zadlužení; dotace jen po analýze provozních nákladů a návratnosti.",
+      "konkretni": false
+    },
+    {
+      "tema": "finance_hospodareni_dane",
+      "bod": "Přehodnotit výši daně z nemovitosti a zrušit/změnit netransparentní požadavky na příspěvky investorů do fondu rozvoje, které podle LIBE! brzdí výstavbu.",
+      "konkretni": true
+    },
+    {
+      "tema": "socialni_zdravotnictvi_seniori",
+      "bod": "Udržet významný vliv města jako akcionáře v Krajské nemocnici Liberec.",
+      "konkretni": false
+    },
+    {
+      "tema": "skolstvi_deti_rodina",
+      "bod": "Revidovat spádovou vyhlášku pro ZŠ; zjednodušit přihlašování do MŠ (jedna elektronická přihláška, uznávání datové schránky); umožnit umístění dětí mladších tří let místo slučování MŠ.",
+      "konkretni": true
+    },
+    {
+      "tema": "skolstvi_deti_rodina",
+      "bod": "Anonymní dotazníky pro rodiče a zaměstnance škol; omezit mandát ředitele na dvě funkční období na jedné škole; přesouvat peníze z administrativy do pedagogických úvazků.",
+      "konkretni": true
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Postavit u Home Credit Arény bazén využívající odpadní teplo arény, v létě fungující jako koupaliště; rozvíjet okolí přehrady.",
+      "konkretni": true
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Prodej stadionu U Nisy Slovanu podpořit s podmínkami: peníze na malou multifunkční halu pro sálové sporty, parkoviště u stadionu přístupné veřejnosti.",
+      "konkretni": true
+    },
+    {
+      "tema": "kultura_sport_volny_cas",
+      "bod": "Podporovat mládežnický sport, alternativní/začínající kulturu, dobrovolné hasiče, spolky a seniorské aktivity; navázat na pronájem Sportovního areálu Ještěd.",
+      "konkretni": false
+    },
+    {
+      "tema": "zivotni_prostredi_zelen",
+      "bod": "Proměnit park Budyšínská v 'Central Park' (velká louka, parková kavárna bez dotací provozu, dětská zóna, klidová zóna s Wi-Fi, letní kino, vodní prvek, veřejná WC, grilovací místa, jednotné osvětlení).",
+      "konkretni": true
+    },
+    {
+      "tema": "zivotni_prostredi_zelen",
+      "bod": "Nastavit a kontrolovat harmonogramy údržby zeleně a veřejných prostranství, nepodfinancovat správu zeleně; nové parky nezakládat na úkor údržby stávajících.",
+      "konkretni": false
+    },
+    {
+      "tema": "rozvoj_uzemni_plan_vystavba",
+      "bod": "Doplnit chybějící chodníky, zejména u škol a v okrajových čtvrtích.",
+      "konkretni": false
+    },
+    {
+      "tema": "bezpecnost_poradek",
+      "bod": "Městská policie viditelná v terénu včetně okrajových lokalit (Lesní koupaliště, Tajch), užší propojení MP s odbory radnice; zapojit proškolené seniory do zajištění přechodů u škol.",
+      "konkretni": true
+    },
+    {
+      "tema": "bezpecnost_poradek",
+      "bod": "Zřídit celoroční 'stacionář' pro lidi bez domova (sprcha, polévka, sociální služby) podmíněný střízlivostí a bezkonfliktností.",
+      "konkretni": true
+    },
+    {
+      "tema": "ekonomika_podnikani_cestovni_ruch",
+      "bod": "Změnit přístup města k podnikatelům a živnostníkům (méně byrokracie a poplatků, ohled při plánování oprav); rozvíjet cestovní ruch navázáním na filmovou kancelář.",
+      "konkretni": false
+    }
+  ],
+  "hodnoceni": {
+    "silne_stranky": [
+      "Lídr i trojka mají zkušenost z vedení města (2014–2018).",
+      "Program obsahuje řadu konkrétních a ověřitelných návrhů (roční a střednědobý plán oprav, jednotná přihláška do MŠ, limit dvou období pro ředitele, bazén u arény s využitím odpadního tepla, podrobný návrh parku Budyšínská).",
+      "Silný důraz na transparentnost hospodaření města a městských firem."
+    ],
+    "slabe_stranky_rizika": [
+      "Malá a nová strana bez zastoupení v zastupitelstvu; turbulentní vznik koalice (odchod PRO, nejasná role Svobodných).",
+      "Program je místy polemický a obsahuje nezávisle neověřená tvrzení (např. 'MHD jedna z nejdražších v zemi', 'dluh téměř 3 miliardy').",
+      "Chybí vyčíslení nákladů (Central Park, bazén, parkovací domy) a některé body jsou obecné (MHD, podpora kultury a sportu).",
+      "Batthyányho období 2014–2018 provázely koaliční konflikty a pokusy o odvolání.",
+      "Kromě dvou bývalých radních má zbytek kandidátky minimum zkušeností se samosprávou."
+    ],
+    "kontroverze": [
+      {
+        "text": "Spolupráce s hnutím PRO a Lenkou Tarabovou: předseda GEN Vojtěch Ryvola ji odmítl ('s PRO rozhodně nechceme mít nic společného'), proti byli i brněnští partneři GEN a Piráti; PRO pak z koalice odešlo, Batthyány to označil za 'mediální lynč'.",
+        "zdroj": "s7"
+      },
+      {
+        "text": "Batthyány na webu LIBE! hájí původní spolupráci s PRO a píše, že program Libe! 'je i jejich programem'.",
+        "zdroj": "s5"
+      },
+      {
+        "text": "Liberecký deník v glose kritizoval, že LIBE! 'punkově' hyzdí veřejný prostor předvolebními plachtami a 'spamuje' AI obrázky v populární facebookové skupině.",
+        "zdroj": "s17"
+      },
+      {
+        "text": "Konflikty Batthyányho s koaličním partnerem Změna v letech 2016–2018 (odvolání náměstkyně Hrbkové s pomocí opozice, návrh na jeho odvolání).",
+        "zdroj": "s13"
+      }
+    ]
+  },
+  "povolebni_signaly": "Konkrétní povolební preference jsme nenašli. Batthyány deklaruje, že se 'umí bavit s každým' a že komunální politika má být 'o lidech, ne o značkách' (s5, s9); v roce 2018 označil tehdejšího partnera Změna pro Liberec za nepřípustného partnera (s15).",
+  "kandidati": [
+    {
+      "poradi": 1,
+      "jmeno": "Tibor Batthyány",
+      "vek": 48,
+      "povolani_dle_listiny": "živnostník, projektant elektro, 2014-2018 primátor města Liberec",
+      "prislusnost": "GEN (navrhla GEN); místopředseda GEN od 2025",
+      "shrnuti": "Primátor Liberce 2014–2018, zvolený za ANO; po zrušení liberecké organizace ANO v roce 2016 nestraník, poté předseda hnutí PRO2016, s nímž v roce 2018 neuspěl. Od roku 2024 člen a od ledna 2025 místopředseda strany GEN; podniká (dle Wikipedie v kalorimetrii).",
+      "politicka_kariera": [
+        {
+          "funkce": "člen hnutí ANO 2011 (mj. předseda krajské organizace)",
+          "od": 2012,
+          "do": 2016,
+          "zdroj": "s12"
+        },
+        {
+          "funkce": "zastupitel SML",
+          "od": 2014,
+          "do": 2018,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "primátor statutárního města Liberec",
+          "od": 2014,
+          "do": 2018,
+          "zdroj": "s12"
+        },
+        {
+          "funkce": "předseda hnutí PRO2016",
+          "od": 2018,
+          "do": 2020,
+          "zdroj": "s12"
+        },
+        {
+          "funkce": "člen strany GEN (od ledna 2025 místopředseda, krajský předseda)",
+          "od": 2024,
+          "do": null,
+          "zdroj": "s12"
+        }
+      ],
+      "roky_v_politice": 4,
+      "zkusenost_skore": 65,
+      "soucasna_prace": "Živnostník/podnikatel (projektant elektro, dle Wikipedie podnikání v kalorimetrii); bez veřejné funkce od roku 2018.",
+      "posledni_nepoliticka_prace": {
+        "co": "živnostník, projektant elektro / podnikání v kalorimetrii",
+        "kdy": "souběžně dosud (od 2018)"
+      },
+      "pozitivni": [
+        {
+          "text": "Jako jediný z tehdejších primátorů Liberce vydržel v čele města celé čtyřleté období (sám zdůrazňuje oproti předchůdcům).",
+          "zdroj": "s15"
+        },
+        {
+          "text": "Podle vlastní bilance jeho vedení přefinancovalo a začalo splácet dluh, vyvázalo město ze smlouvy s ELTODO, zabránilo prodeji Technických služeb, propachtovalo ztrátový areál Ještěd, založilo filmovou kancelář a proměnilo vánoční trhy (tvrzení kandidáta, nezávisle neověřeno).",
+          "zdroj": "s6"
+        },
+        {
+          "text": "Liberecký deník ho v glose označil za 'paradoxně jedinou známější tvář' mezi lídry.",
+          "zdroj": "s17"
+        },
+        {
+          "text": "V odpovědích ČRo předložil podrobný postup koordinace oprav (roční plán, střednědobý výhled, spoluúčast stavebníků na opravách objížděk).",
+          "zdroj": "s18"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "V prosinci 2016 s pomocí opozice prosadil odvolání koaliční náměstkyně Karolíny Hrbkové (Změna), čímž rozbil koalici; Změna mu vytýkala porušení koaliční smlouvy.",
+          "zdroj": "s13"
+        },
+        {
+          "text": "Předsednictvo ANO v prosinci 2016 zrušilo libereckou organizaci (zdůvodnění: porušování stanov, poškozování jména hnutí, spory), čímž mu zaniklo členství; krajská předsedkyně ANO Volfová to v roce 2026 spojila s 'chováním tehdejšího primátora'.",
+          "zdroj": "s14"
+        },
+        {
+          "text": "V roce 2018 navrhovala Změna jeho odvolání a jeho chování na radě označila za 'otřesné'; Batthyány to odmítl a obvinil náměstka Korytáře z 'posedlosti mocí'.",
+          "zdroj": "s16"
+        },
+        {
+          "text": "Ve volbách 2018 s PRO2016 získal 3,59 % a jako první liberecký primátor se nedostal do zastupitelstva.",
+          "zdroj": "s12"
+        },
+        {
+          "text": "V roce 2026 sestavil koalici s podporou PRO Jindřicha Rajchla a jeho lídryně Lenky Tarabové; vedení jeho vlastní strany GEN spolupráci s PRO zakázalo, PRO pak z koalice odešlo.",
+          "zdroj": "s7"
+        },
+        {
+          "text": "Podle Wikipedie po roce 2019 sympatizoval s Trikolorou a finančně ji podpořil.",
+          "zdroj": "s12"
+        }
+      ],
+      "nejiste": "Hlídač státu u jeho jména eviduje angažmá v orgánech firem (mj. KNL Catering, NEMPRA, NELI servis – patrně z doby, kdy zastupoval město), období a kontext neověřeny; vlastní bilance období 2014–2018 nebyla nezávisle ověřena."
+    },
+    {
+      "poradi": 2,
+      "jmeno": "Klára Holomková",
+      "vek": 53,
+      "povolani_dle_listiny": "podnikatelka, ekonomka a jednatelka společnosti",
+      "prislusnost": "GEN (navrhla GEN)",
+      "shrnuti": "Podnikatelka a ekonomka, členka GEN. Podle dat ČSÚ v letech 2014–2025 nekandidovala; politická nováčka.",
+      "politicka_kariera": [
+        {
+          "funkce": "členka strany GEN",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_2026"
+        }
+      ],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 10,
+      "soucasna_prace": "Podnikatelka, jednatelka společnosti.",
+      "posledni_nepoliticka_prace": {
+        "co": "podnikatelka, jednatelka společnosti",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [
+        {
+          "text": "Podnikatelská a ekonomická praxe; na webu LIBE! se profiluje tématem podmínek pro podnikání.",
+          "zdroj": "s4"
+        }
+      ],
+      "negativni": [],
+      "nejiste": "Hlídač státu u osoby stejného jména (*1972) eviduje angažmá ve firmách L I K T O, s.r.o. a VAL K+R servis, s.r.o. – shodu osoby jsme neověřili v obchodním rejstříku; rok vstupu do GEN neznámý."
+    },
+    {
+      "poradi": 3,
+      "jmeno": "Tomáš Kysela",
+      "vek": 70,
+      "povolani_dle_listiny": "manažer obchodu, důchodce",
+      "prislusnost": "GEN (navrhla GEN); dříve ANO",
+      "shrnuti": "Náměstek primátora v Batthyányho radě 2014–2018 (za ANO) pro technickou správu majetku a sportovní infrastrukturu. Nyní člen GEN, uvádí se jako manažer obchodu a důchodce.",
+      "politicka_kariera": [
+        {
+          "funkce": "zastupitel SML (ANO)",
+          "od": 2014,
+          "do": 2018,
+          "zdroj": "volby_gov"
+        },
+        {
+          "funkce": "náměstek primátora pro technickou správu majetku a sportovní infrastrukturu (ANO)",
+          "od": 2014,
+          "do": 2018,
+          "zdroj": "s19"
+        },
+        {
+          "funkce": "člen strany GEN",
+          "od": null,
+          "do": null,
+          "zdroj": "csu_2026"
+        }
+      ],
+      "roky_v_politice": 4,
+      "zkusenost_skore": 50,
+      "soucasna_prace": "Důchodce, manažer obchodu.",
+      "posledni_nepoliticka_prace": {
+        "co": "OSVČ v oblasti energetiky a stavebnictví / manažer obchodu",
+        "kdy": "před 2014 a po 2018; přesně neznámé"
+      },
+      "pozitivni": [
+        {
+          "text": "Má čtyřletou zkušenost s vedením městské správy majetku a sportovní infrastruktury.",
+          "zdroj": "s19"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "Byl součástí vedení města v období koaličních sporů 2016–2018 (rozpad koalice ANO a Změny).",
+          "zdroj": "s13"
+        }
+      ],
+      "nejiste": "Zda zůstal náměstkem po celé období 2014–2018 a jak skončilo jeho členství v ANO; o konkrétních výsledcích jeho resortu jsme nenašli nezávislé zdroje."
+    },
+    {
+      "poradi": 4,
+      "jmeno": "Libuše Vítová",
+      "vek": 67,
+      "povolani_dle_listiny": "pedagog, předsedkyně spolku Societas Amicum",
+      "prislusnost": "BEZPP (navrhla GEN)",
+      "shrnuti": "Učitelka ZŠ, zastupitelka Liberce 2014–2018 za ANO. Poté kandidovala za PRO2016 (2018) a Soukromníky a Svobodné (2020, kraj); předsedá spolku Societas Amicum.",
+      "politicka_kariera": [
+        {
+          "funkce": "zastupitelka SML (ANO)",
+          "od": 2014,
+          "do": 2018,
+          "zdroj": "volby_gov"
+        }
+      ],
+      "roky_v_politice": 4,
+      "zkusenost_skore": 30,
+      "soucasna_prace": "Pedagožka, předsedkyně spolku Societas Amicum.",
+      "posledni_nepoliticka_prace": {
+        "co": "učitelka na ZŠ",
+        "kdy": "souběžně (uváděno 2014–2020)"
+      },
+      "pozitivni": [
+        {
+          "text": "Dlouholetá učitelská praxe; v LIBE! se profiluje tématem moderního školství.",
+          "zdroj": "s4"
+        }
+      ],
+      "negativni": [],
+      "nejiste": "Hlídač státu u osoby stejného jména (*1959) eviduje navázanou organizaci s 27 dotacemi (cca 0,9 mil. Kč) – pravděpodobně spolek, neověřeno."
+    },
+    {
+      "poradi": 5,
+      "jmeno": "Petr Brabec",
+      "vek": 55,
+      "povolani_dle_listiny": "podnikatel v oblasti IT",
+      "prislusnost": "BEZPP (navržen jako nezávislý kandidát)",
+      "shrnuti": "IT podnikatel a předseda sportovního klubu. V letech 2022 a 2024 kandidoval za Trikoloru a Soukromníky (Liberec) a za SPD a Trikolora (kraj), zvolen nebyl.",
+      "politicka_kariera": [],
+      "roky_v_politice": 0,
+      "zkusenost_skore": 5,
+      "soucasna_prace": "Podnikatel v oblasti IT.",
+      "posledni_nepoliticka_prace": {
+        "co": "podnikatel v IT / správce IT",
+        "kdy": "souběžně dosud"
+      },
+      "pozitivni": [
+        {
+          "text": "Technické zázemí v IT, které LIBE! může využít u slibované digitalizace úřadu.",
+          "zdroj": "csu_2026"
+        }
+      ],
+      "negativni": [
+        {
+          "text": "V krajských volbách 2024 kandidoval na společné kandidátce SPD a Trikolora, v roce 2022 za Trikoloru a Soukromníky – pro část voličů relevantní politické zařazení.",
+          "zdroj": "volby_gov"
+        }
+      ],
+      "nejiste": "Název firmy a sportovního klubu neověřen; v Hlídači státu je více osob stejného jména."
+    }
+  ],
+  "zdroje": [
+    {
+      "id": "volby_gov",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – historie kandidatur 2014–2025 (komunální Liberec/obvody, krajské LK, sněmovní LK)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/historie_kandidatu.json",
+      "obsah": "Oficiální data ČSÚ o dřívějších kandidaturách a zvolení kandidátů (bez výkonných funkcí)."
+    },
+    {
+      "id": "csu_2026",
+      "url": "https://www.volby.cz/",
+      "nazev": "ČSÚ – kandidátní listiny pro volby do Zastupitelstva města Liberec 2026",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/processed/kandidati_2026.json",
+      "obsah": "Oficiální kandidátní listiny 2026: věk, povolání, navrhující strana, politická příslušnost."
+    },
+    {
+      "id": "s1",
+      "url": "https://volimelibe.cz/program/",
+      "nazev": "LIBE! – Program uskupení (8 kapitol)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/libe/volimelibe_program.html",
+      "obsah": "Kompletní volební program: doprava, partnerství s občany, ekonomika, školství, atraktivita, dotace, veřejný prostor, bezpečnost."
+    },
+    {
+      "id": "s2",
+      "url": "https://volimelibe.cz/desatero/",
+      "nazev": "LIBE! – Desatero přikázání",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/libe/volimelibe_desatero.html",
+      "obsah": "Deset programových zásad (doprava, parkování, byrokracie, školy, dluh, bezpečnost, transparentnost)."
+    },
+    {
+      "id": "s3",
+      "url": "https://volimelibe.cz/centralpark/",
+      "nazev": "LIBE! – Central Park Liberec (park Budyšínská)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/libe/volimelibe_centralpark.html",
+      "obsah": "Návrh proměny parku Budyšínská (louka, kavárna, dětská zóna, letní kino, WC, grilovací místa)."
+    },
+    {
+      "id": "s4",
+      "url": "https://volimelibe.cz/kandidati/",
+      "nazev": "LIBE! – Kandidáti",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/libe/volimelibe_kandidati.html",
+      "obsah": "Kandidátní listina s krátkými mottem; příslušnost dle webu."
+    },
+    {
+      "id": "s5",
+      "url": "https://volimelibe.cz/aktuality/musi-byt-pro-pro-komunalni-politiku-nutne-zlo-nemyslim-si-presto-pro-konci-v-uskupeni-libe/",
+      "nazev": "LIBE! (Batthyány): Musí být PRO pro komunální politiku nutně zlo? … PRO končí v uskupení Libe!",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/libe/volimelibe_aktuality_musi-byt-pro-pro-komunalni-politiku-nutne-zlo-nemy.html",
+      "obsah": "Batthyányho popis vzniku koalice (GEN, Svobodní, PRO), sporu kolem PRO a odchodu PRO 18. 5. 2026."
+    },
+    {
+      "id": "s6",
+      "url": "https://volimelibe.cz/aktuality/a-co-jste-udelali-vy/",
+      "nazev": "LIBE! (Batthyány): „A co jste udělali vy?“",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/programy/libe/volimelibe_aktuality_a-co-jste-udelali-vy.html",
+      "obsah": "Batthyányho vlastní bilance období 2014–2018 (dluh, ELTODO, TSML, Ještěd, filmová kancelář aj.)."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.novinky.cz/clanek/domaci-zpravy-liberecky-kraj-strana-byvaleho-politika-ano-zatrhla-svym-clenum-v-liberci-spolupraci-s-rajchlovci-40577695",
+      "nazev": "Novinky.cz: Strana bývalého politika ANO zatrhla svým členům v Liberci spolupráci s Rajchlovci (12. 5. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/novinky_gen_zatrhla_rajchlovce.html",
+      "obsah": "Předseda GEN Ryvola odmítl koalici s PRO; reakce Batthyányho a brněnských partnerů GEN."
+    },
+    {
+      "id": "s8",
+      "url": "https://www.novinky.cz/clanek/volby-komunalni-do-cela-liberce-chce-kontroverzni-politicka-i-neznami-kandidati-40591579",
+      "nazev": "Novinky.cz: Do čela Liberce chce kontroverzní politička i neznámí kandidáti (6. 8. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/novinky_do_cela_liberce_kontroverzni.html",
+      "obsah": "LIBE! jako koalice GEN a Svobodných; PRO původně podporovalo, GEN se postavil proti."
+    },
+    {
+      "id": "s9",
+      "url": "https://www.iliberecko.cz/v-liberci-vzniklo-nove-volebni-uskupeni-libe-slibuje-jiny-styl-rizeni-mesta",
+      "nazev": "iLIBERECKO: V Liberci vzniklo nové volební uskupení Libe! (květen 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/iliberecko_vzniklo_libe.html",
+      "obsah": "Vznik koalice GEN a Svobodných s podporou PRO, slogan „Žijeme Libercem“, programové okruhy."
+    },
+    {
+      "id": "s10",
+      "url": "https://svobodni.cz/kraje/liberecky-kraj/svobodni-a-gen-jdou-v-liberci-spolecne-do-voleb-v-novem-uskupeni-libe/",
+      "nazev": "Svobodní: Svobodní a GEN jdou v Liberci společně do voleb v uskupení Libe!",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/svobodni_gen_libe.html",
+      "obsah": "Tisková zpráva Svobodných o koalici s GEN."
+    },
+    {
+      "id": "s11",
+      "url": "https://liberecka.drbna.cz/politika/42517-exprimator-batthyany-chce-zpet-do-politiky-do-voleb-pujde-se-svobodnymi-a-pro.html",
+      "nazev": "Liberecká Drbna: Exprimátor Batthyány chce zpět do politiky (6. 5. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/drbna_batthyany_navrat_2026.html",
+      "obsah": "Návrat Batthyányho, koalice GEN, Svobodní s podporou PRO; kontext kolem Lenky Tarabové."
+    },
+    {
+      "id": "s12",
+      "url": "https://cs.wikipedia.org/wiki/Tibor_Batthy%C3%A1ny",
+      "nazev": "Wikipedie: Tibor Batthyány",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/wiki_batthyany.html",
+      "obsah": "Životopis a politická kariéra (ANO, PRO2016, GEN, primátor 2014–2018)."
+    },
+    {
+      "id": "s13",
+      "url": "https://ct24.ceskatelevize.cz/clanek/regiony/liberecka-koalice-se-rozpada-primator-prosadil-odvolani-sve-namestkyne-104054",
+      "nazev": "ČT24: Liberecká koalice se rozpadá, primátor prosadil odvolání své náměstkyně (15. 12. 2016)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/ct24_koalice_rozpada_odvolani_hrbkove_2016.html",
+      "obsah": "Batthyány s pomocí opozice odvolal náměstkyni Hrbkovou (Změna); kritika Změny."
+    },
+    {
+      "id": "s14",
+      "url": "https://www.echo24.cz/a/iBEp7/rozklad-pokracuje-ano-zrusilo-sve-organizace-ve-frydlantu-a-liberci",
+      "nazev": "Echo24: ANO zrušilo své organizace ve Frýdlantu a Liberci (20. 12. 2016)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/echo24_ano_zrusilo_organizace.html",
+      "obsah": "Předsednictvo ANO zrušilo libereckou organizaci, Batthyánymu zaniklo členství; zdůvodnění vedení ANO."
+    },
+    {
+      "id": "s15",
+      "url": "https://www.seznamzpravy.cz/clanek/primy-prenos-jake-vztahy-ma-liberecky-primator-vyhozeny-z-ano-s-andrejem-babisem-56950",
+      "nazev": "Seznam Zprávy: rozhovor s primátorem Batthyánym (1. 10. 2018)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/seznamzpravy_primator_vyhozeny_z_ano.html",
+      "obsah": "Batthyány o odchodu z ANO, koalici se Změnou a svém období."
+    },
+    {
+      "id": "s16",
+      "url": "https://liberecky.denik.cz/zpravy-region/zmena-chce-aby-primator-batthyany-skoncil-ten-se-odvolani-neboji/",
+      "nazev": "Liberecký deník: Změna chce, aby primátor Batthyány skončil (6. 2. 2018)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_zmena_chce_odvolat_batthyanyho.html",
+      "obsah": "Spor v radě, Změna navrhla odvolání primátora; Batthyány výtky odmítl."
+    },
+    {
+      "id": "s17",
+      "url": "https://liberecky.denik.cz/komunalni-volby/glosa-kdo-bude-ridit-liberec-hledejte-muze-v-tricku-a-s-rukama-v-kapsach/",
+      "nazev": "Liberecký deník: Glosa – Kdo bude řídit Liberec?",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_glosa_kampan.html",
+      "obsah": "Komentář ke kampani; o Batthyánym a o plachtách a AI obrázcích LIBE!."
+    },
+    {
+      "id": "s18",
+      "url": "https://liberec.rozhlas.cz/komunalni-volby-2026-special-z-liberce-9646377",
+      "nazev": "ČRo Liberec: Komunální volby 2026 – speciál z Liberce (1. 10. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/crol_special_liberec_2026.html",
+      "obsah": "Odpovědi Batthyányho k uzavírkám, parkování a prodeji stadionu."
+    },
+    {
+      "id": "s19",
+      "url": "https://cs.wikipedia.org/wiki/Zastupitelstvo_m%C4%9Bsta_Liberec",
+      "nazev": "Wikipedie: Zastupitelstvo města Liberec",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/wiki_zastupitelstvo_liberec.html",
+      "obsah": "Složení rady Tibora Batthyányho 2014–2018 (Kysela náměstkem), seznam zastupitelů."
+    },
+    {
+      "id": "s20",
+      "url": "https://www.hlidacstatu.cz/osoba/tibor-batthyany",
+      "nazev": "Hlídač státu: Tibor Batthyány (*1978)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/hlidacstatu_tibor-batthyany.html",
+      "obsah": "Evidované funkce a angažmá v orgánech firem."
+    },
+    {
+      "id": "s21",
+      "url": "https://www.hlidacstatu.cz/osoba/klara-holomkova",
+      "nazev": "Hlídač státu: Klára Holomková (*1972)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/hlidacstatu_klara-holomkova.html",
+      "obsah": "Angažmá ve firmách L I K T O, s.r.o. a VAL K+R servis, s.r.o."
+    },
+    {
+      "id": "s22",
+      "url": "https://www.hlidacstatu.cz/osoba/libuse-vitova-1",
+      "nazev": "Hlídač státu: Libuše Vítová (*1959)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/profily/libe/hlidacstatu_libuse-vitova-1.html",
+      "obsah": "Navázaná organizace s dotacemi."
+    },
+    {
+      "id": "s23",
+      "url": "https://liberecky.denik.cz/komunalni-volby/kdo-chce-vladnout-liberci-ostrileni-matadori-i-kuriozity-zname-jmena/",
+      "nazev": "Liberecký deník: Kdo chce vládnout Liberci",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_kdo_chce_vladnout.html",
+      "obsah": "Batthyány se pokouší o návrat; na kandidátce i druhý nositel jména o 20 let starší."
+    },
+    {
+      "id": "s24",
+      "url": "https://nasliberec.cz/2026/06/10/volby-26-zemetreseni-v-libereckem-ano-skupina-kolem-neznameho-zastupitele-ovladla-kandidatku/",
+      "nazev": "Náš Liberec: Zemětřesení v libereckém ANO (10. 6. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/nasliberec_zemetreseni_ano.html",
+      "obsah": "Krajská předsedkyně ANO Volfová: buňka rozpuštěna 2016 kvůli chování tehdejšího primátora Batthyányho."
+    },
+    {
+      "id": "s25",
+      "url": "https://liberecky.denik.cz/komunalni-volby/o-liberec-se-utka-11-kandidatek-podivejte-se-kdo-je-povede-do-voleb/",
+      "nazev": "Liberecký deník/ČTK: O Liberec se utká 11 kandidátek (21. 8. 2026)",
+      "datum_stazeni": "2026-10-08",
+      "local": "data/raw/kontext/denik_11_kandidatek.html",
+      "obsah": "LIBE! jako společná kandidátka GEN a Svobodných s lídrem Batthyánym."
+    }
+  ]
+}
